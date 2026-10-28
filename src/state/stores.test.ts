@@ -1,15 +1,14 @@
 import { memoryDriver } from '../db/nodeDriver';
 import { migrate } from '../db/migrate';
 import { USER_MIGRATIONS } from '../db/user/migrations';
-import { clock, setDatabases } from './runtime';
+import { clock, getUserRepo, setDatabases } from './runtime';
 import { useLessonStore } from './lessonStore';
 import { useReviewStore } from './reviewStore';
 import { useSettingsStore } from './settingsStore';
-import { getUserRepo } from './runtime';
 import type { Question } from '../db/content/types';
+import { track } from '../analytics';
 
 jest.mock('../analytics', () => ({ track: jest.fn() }));
-import { track } from '../analytics';
 
 const q = (id: string, answer: number): Question => ({ id, answer_index: answer }) as Question;
 

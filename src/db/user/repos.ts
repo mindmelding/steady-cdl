@@ -41,6 +41,13 @@ export class UserRepo {
       [a.questionId, a.correct ? 1 : 0, a.chosenIndex, a.ts, a.mode],
     );
   }
+  /** Whether the most recent attempt at each question was correct (for readiness). */
+  async latestAttempts(): Promise<Map<string, boolean>> {
+    const rows = await this.db.all<{ question_id: string; correct: number }>(
+      'SELECT question_id, correct FROM attempts WHERE id IN (SELECT MAX(id) FROM attempts GROUP BY question_id)',
+    );
+    return new Map(rows.map((r) => [r.question_id, r.correct === 1]));
+  }
   async listAttempts(questionId: string): Promise<Attempt[]> {
     const rows = await this.db.all('SELECT * FROM attempts WHERE question_id = ? ORDER BY id', [
       questionId,

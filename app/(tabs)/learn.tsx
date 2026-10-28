@@ -1,5 +1,3 @@
-import { Text } from 'react-native';
+import { LearnScreen } from '../../src/screens/LearnScreen';
 
-export default function Learn() {
-  return <Text>Learn</Text>;
-}
+export default LearnScreen;
