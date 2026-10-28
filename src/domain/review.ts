@@ -1,17 +1,15 @@
 // Review scheduling, CLAUDE.md §4.3 [DECIDED 5].
 // A missed question comes back after 1 day, then 2, then 4; it leaves Review once it has been
-// answered right twice in a row. A miss anywhere resets it to the 1-day box.
+// answered right three times in a row (Sean, 2026-10-28: two in a row never reached the 4-day box).
+// A miss anywhere resets it to the 1-day box.
 //   Box 1 -> due +1 day, box 2 -> +2, box 3 -> +4.
-//   Correct: move up a box (max 3) and streak_correct += 1; at streak_correct == 2 remove it.
+//   Correct: move up a box (max 3) and streak_correct += 1; at streak_correct == 3 remove it.
 //   Wrong:   box 1, streak_correct = 0, due +1 day.
-// Note for the reviewer: taken literally, a question that starts in box 1 is removed on its second
-// correct answer, so box 3 (+4 days) is reachable only if REQUIRED_STREAK is raised. The brief
-// defines it this way; see the M1 report.
 import { addDays } from './dates';
 
 export type Box = 1 | 2 | 3;
 export const BOX_INTERVAL_DAYS: Record<Box, number> = { 1: 1, 2: 2, 3: 4 };
-export const REQUIRED_STREAK = 2;
+export const REQUIRED_STREAK = 3;
 
 export interface ReviewItem {
   questionId: string;

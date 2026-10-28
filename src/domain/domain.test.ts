@@ -51,12 +51,36 @@ describe('review scheduling (§4.3)', () => {
     });
   });
 
-  it('second correct in a row removes it', () => {
+  it('second correct in a row moves to box 3 (+4 days), streak 2', () => {
     const second = onCorrect(
       { questionId: 'q1', box: 2, dueDate: '2026-10-31', streakCorrect: 1 },
       '2026-10-31',
     );
-    expect(second).toEqual({ kind: 'remove' });
+    expect(second).toEqual({
+      kind: 'upsert',
+      item: { questionId: 'q1', box: 3, dueDate: '2026-11-04', streakCorrect: 2 },
+    });
+  });
+
+  it('third correct in a row removes it', () => {
+    const third = onCorrect(
+      { questionId: 'q1', box: 3, dueDate: '2026-11-04', streakCorrect: 2 },
+      '2026-11-04',
+    );
+    expect(third).toEqual({ kind: 'remove' });
+  });
+
+  it('a miss walks 1, 2, then 4 days before leaving', () => {
+    let item = onMiss('q', '2026-10-28');
+    const dues = [item.dueDate];
+    let c = onCorrect(item, '2026-10-29');
+    item = (c as { item: ReviewItem }).item;
+    dues.push(item.dueDate);
+    c = onCorrect(item, '2026-10-31');
+    item = (c as { item: ReviewItem }).item;
+    dues.push(item.dueDate);
+    expect(dues).toEqual(['2026-10-29', '2026-10-31', '2026-11-04']);
+    expect(onCorrect(item, '2026-11-04')).toEqual({ kind: 'remove' });
   });
 
   it('a miss anywhere resets to box 1 with streak 0', () => {
@@ -67,7 +91,7 @@ describe('review scheduling (§4.3)', () => {
     });
   });
 
-  it('wrong between rights breaks the streak (needs two in a row again)', () => {
+  it('wrong between rights breaks the streak (needs three in a row again)', () => {
     let item = onMiss('q', today);
     const c1 = applyAnswer('q', item, true, '2026-10-29');
     expect(c1.kind).toBe('upsert');
@@ -77,7 +101,9 @@ describe('review scheduling (§4.3)', () => {
     expect(item).toMatchObject({ box: 1, streakCorrect: 0 });
     const c2 = applyAnswer('q', item, true, '2026-11-01');
     expect(c2.kind).toBe('upsert');
-    expect(applyAnswer('q', (c2 as { item: ReviewItem }).item, true, '2026-11-03')).toEqual({
+    const c3 = applyAnswer('q', (c2 as { item: ReviewItem }).item, true, '2026-11-03');
+    expect(c3.kind).toBe('upsert');
+    expect(applyAnswer('q', (c3 as { item: ReviewItem }).item, true, '2026-11-07')).toEqual({
       kind: 'remove',
     });
   });

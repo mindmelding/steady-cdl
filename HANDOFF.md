@@ -27,7 +27,7 @@
 2. The **5 SEO seed pages ship in days 22–25**, not at launch (`docs/research/data/seo/seo-seed-pages.csv`).
 3. **Free tier = the first lesson of every unit + one practice test per section**, with full proof sheets, sources and audio. Paywall copy: "Your free lesson and practice test in every unit stay free."
 4. The **2-minute placement check ships at launch**.
-5. **Review intervals: 1, 2, then 4 days, until answered right twice in a row.**
+5. **Review intervals: 1, 2, then 4 days, until answered right three times in a row.** (Was twice; changed by Sean Oct 28, 2026.)
 6. **A lawyer's trademark clearance of "Steady CDL" is a pre-launch gate.** Sean handles it; you only keep the name in one `APP_NAME` constant.
 
 ## 5. What the research found (numbers, and where to read more)

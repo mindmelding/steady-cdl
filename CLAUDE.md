@@ -220,9 +220,9 @@ interface WatchedSource { id: string; kind: 'ecfr_part'|'fed_register_query'|'ma
 `attempts(question_id, correct, chosen_index, ts, mode)`, `lesson_progress(lesson_id, step_index, done, score, seconds)`, `review_queue(question_id, box, due_date, streak_correct)`, `sims(id, unit_id, score, passed, ts)`, `entitlements(cache)`, `pending_reports`, `test_date`, `settings(text_size, sun_mode, haptics, voice, speed, daily_minutes_goal?)`.
 
 ### 4.3 Review scheduling [CHANGED] [DECIDED 5]
-Spec v2 used 5 Leitner boxes (1/2/4/7/14 days). The v2 design uses a simpler, honest rule: **a missed question comes back after 1 day, then 2, then 4; it leaves Review after it's answered right twice in a row.** A miss anywhere resets it to the 1-day box.
-- Box 1 → due +1 day; box 2 → +2 days; box 3 → +4 days. Correct moves up a box and increments `streak_correct`; when `streak_correct == 2`, remove it. Wrong → box 1, `streak_correct = 0`.
-- "Due today" = `due_date <= today` (device local date). Show the copy line: "Each one comes back at 1, 2, then 4 days until you get it right twice."
+Spec v2 used 5 Leitner boxes (1/2/4/7/14 days). The v2 design uses a simpler, honest rule: **a missed question comes back after 1 day, then 2, then 4; it leaves Review after it's answered right three times in a row.** (Changed from twice by Sean, Oct 28, 2026: with two, the 4-day box was never reached.) A miss anywhere resets it to the 1-day box.
+- Box 1 → due +1 day; box 2 → +2 days; box 3 → +4 days. Correct moves up a box and increments `streak_correct`; when `streak_correct == 3`, remove it. Wrong → box 1, `streak_correct = 0`.
+- "Due today" = `due_date <= today` (device local date). Show the copy line: "Each one comes back at 1, 2, then 4 days until you get it right 3 times in a row."
 - Misses from lessons, unit checks and simulators all enter the queue automatically.
 
 ### 4.4 Readiness (unchanged formula)
@@ -441,7 +441,7 @@ Approved by Sean on Wed Oct 28, 2026 (PT). These are requirements now, not quest
 2. **[DECIDED 2] The 5 SEO seed pages ship in days 22–25, not at launch.** Pages: `/hazmat-practice-test`, `/texas-cdl-practice-test`, `/cdl-air-brakes-practice-test`, `/texas-commercial-rules-test`, `/tanker-endorsement-practice-test`, built from the content DB (Astro on Cloudflare Pages). Don't build them before submission.
 3. **[DECIDED 3] Free tier = the first lesson of every unit + one practice test per section**, with full Proof sheets, citations, audio and Review of their misses. Everything else is behind the matching product. Paywall trigger and copy per S9: context "You finished the free {Unit} lesson." and "Your free lesson and practice test in every unit stay free." (The earlier mock line "Free lessons stay free." is retired.)
 4. **[DECIDED 4] The 2-minute placement check ships at launch** (S1, days 4–6). It is in the "never cut" list.
-5. **[DECIDED 5] Review intervals: 1, 2, then 4 days, until answered right twice in a row** (§4.3). This replaces spec v2's 1/2/4/7/14 Leitner boxes.
+5. **[DECIDED 5] Review intervals: 1, 2, then 4 days, until answered right three times in a row** (§4.3; was "twice", changed by Sean Oct 28, 2026 so the 4-day step is reachable). This replaces spec v2's 1/2/4/7/14 Leitner boxes.
 6. **[DECIDED 6] Lawyer trademark clearance of "Steady CDL" is a pre-launch gate.** Sean handles it outside the build; Claude Code does nothing for it except leave the name in one config constant (`APP_NAME`) so a rename is a one-line change. The quick check (Oct 28) found no "Steady CDL" app or mark, but several live "STEADY" marks and ~40 "Steady" apps exist; domains steadycdl.com, getsteadycdl.com and steadycdl.app were unregistered.
 
 ### 12.1 Pre-launch checklist (all must be green before submission)
