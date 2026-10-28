@@ -4,7 +4,9 @@
   "private": true,
   "main": "expo-router/entry",
   "scripts": {
+    "prestart": "npm run build:content",
     "start": "expo start",
+    "prestart:web": "npm run build:content",
     "web": "expo start --web",
     "build:content": "tsx content/build.ts",
     "typecheck": "tsc --noEmit",
@@ -13,7 +15,7 @@
     "test": "jest",
     "lint:content": "tsx scripts/lint-content.ts",
     "lint:copy": "tsx scripts/lint-copy.ts",
-    "check": "npm run typecheck && npm run lint && npm run test && npm run lint:content && npm run lint:copy"
+    "check": "npm run build:content && npm run typecheck && npm run lint && npm run test && npm run lint:content && npm run lint:copy"
   },
   "dependencies": {
     "@expo-google-fonts/atkinson-hyperlegible": "^0.4.1",

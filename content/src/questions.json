@@ -1,0 +1,197 @@
+[
+  {
+    "id": "AB-LOWAIR-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L01",
+    "topic": "Low air warning point",
+    "question": "A truck has air brakes. Its governor cut-out pressure is 125 psi. The low air warning must come on before pressure in the service reservoir falls below:",
+    "options": ["40 psi", "60 psi", "80 psi", "100 psi"],
+    "answer_index": 1,
+    "explanation": "The rule is 60 psi, or half the governor cut-out pressure if that is lower. Half of 125 psi is 62.5 psi, so 60 psi is the lower number.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.51",
+    "cfr_sections": ["49/393/51"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.51",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.51"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the low air pressure warning must come on before service reservoir pressure falls below 60 psi, or half the governor cut-out pressure if that is lower.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.51",
+    "last_checked": "2026-10-28",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["service reservoir", "governor cut-out pressure"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] eCFR could not be fetched when this was written; wording follows the build brief. Confirm psi values and paragraph against 49 CFR 393.51."
+  },
+  {
+    "id": "AB-LOWAIR-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L01",
+    "topic": "Low air warning point",
+    "question": "The governor cut-out pressure is 100 psi. The low air warning must come on before service reservoir pressure falls below:",
+    "options": ["40 psi", "50 psi", "60 psi", "100 psi"],
+    "answer_index": 1,
+    "explanation": "Half of 100 psi is 50 psi. That is lower than 60 psi, so the warning must come on before pressure falls below 50 psi.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.51",
+    "cfr_sections": ["49/393/51"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.51",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.51"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the low air pressure warning must come on before service reservoir pressure falls below 60 psi, or half the governor cut-out pressure if that is lower.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.51",
+    "last_checked": "2026-10-28",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["service reservoir", "governor cut-out pressure"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] eCFR could not be fetched when this was written; wording follows the build brief. Confirm psi values and paragraph against 49 CFR 393.51."
+  },
+  {
+    "id": "AB-LOWAIR-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L01",
+    "topic": "Which number applies",
+    "question": "The warning point is 60 psi or half the governor cut-out pressure. Which one do you use?",
+    "options": ["The lower number", "The higher number", "Always 60 psi"],
+    "answer_index": 0,
+    "explanation": "The rule says whichever is less. So you use the lower of the two numbers.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.51",
+    "cfr_sections": ["49/393/51"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.51",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.51"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the low air pressure warning must come on before service reservoir pressure falls below 60 psi, or half the governor cut-out pressure if that is lower.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.51",
+    "last_checked": "2026-10-28",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["governor cut-out pressure"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] eCFR could not be fetched when this was written; wording follows the build brief. Confirm psi values and paragraph against 49 CFR 393.51."
+  },
+  {
+    "id": "AB-LOWAIR-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L01",
+    "topic": "Low air warning point",
+    "question": "The governor cut-out pressure is 140 psi. The low air warning must come on before service reservoir pressure falls below:",
+    "options": ["70 psi", "140 psi", "60 psi", "35 psi"],
+    "answer_index": 2,
+    "explanation": "Half of 140 psi is 70 psi. That is higher than 60 psi, so 60 psi is the lower number and the warning point.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.51",
+    "cfr_sections": ["49/393/51"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.51",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.51"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the low air pressure warning must come on before service reservoir pressure falls below 60 psi, or half the governor cut-out pressure if that is lower.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.51",
+    "last_checked": "2026-10-28",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["service reservoir", "governor cut-out pressure"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] eCFR could not be fetched when this was written; wording follows the build brief. Confirm psi values and paragraph against 49 CFR 393.51."
+  },
+  {
+    "id": "AB-LOWAIR-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L01",
+    "topic": "Low air warning point",
+    "question": "The governor cut-out pressure is 90 psi. The low air warning must come on before service reservoir pressure falls below:",
+    "options": ["30 psi", "60 psi", "90 psi", "45 psi"],
+    "answer_index": 3,
+    "explanation": "Half of 90 psi is 45 psi. That is lower than 60 psi, so the warning must come on before pressure falls below 45 psi.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.51",
+    "cfr_sections": ["49/393/51"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.51",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.51"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the low air pressure warning must come on before service reservoir pressure falls below 60 psi, or half the governor cut-out pressure if that is lower.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.51",
+    "last_checked": "2026-10-28",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["service reservoir", "governor cut-out pressure"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] eCFR could not be fetched when this was written; wording follows the build brief. Confirm psi values and paragraph against 49 CFR 393.51."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "term": "service reservoir",
+    "plain": "An air tank that holds the air used by the service brakes."
+  },
+  {
+    "term": "governor cut-out pressure",
+    "plain": "The pressure at which the air governor stops the compressor from adding more air."
+  }
+]
