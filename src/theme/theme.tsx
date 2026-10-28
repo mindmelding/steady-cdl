@@ -1,3 +1,4 @@
+import { PixelRatio } from 'react-native';
 import { createContext, useContext, useMemo, type ReactNode } from 'react';
 import { color, font, size, space, radius, type, type TypeStyle, type TypeVariant } from './tokens';
 
@@ -89,4 +90,14 @@ export function ThemeProvider({
 
 export function useTheme(): Theme {
   return useContext(ThemeContext);
+}
+
+/**
+ * Scale for non-text glyphs (icons, letter keys) so they keep pace with large text:
+ * OS font scale (native) x dev font scale (web), never below 1 and capped at 2 so a glyph
+ * never outgrows its row.
+ */
+export function useGlyphScale(): number {
+  const { devFontScale } = useTheme();
+  return Math.min(2, Math.max(1, PixelRatio.getFontScale() * devFontScale));
 }

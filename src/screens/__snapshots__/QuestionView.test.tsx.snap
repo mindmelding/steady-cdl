@@ -192,6 +192,7 @@ exports[`QuestionView at default text size matches the snapshot after a wrong an
             "flex": 1,
             "flexDirection": "row",
             "gap": 4,
+            "minWidth": 80,
           }
         }
       >
@@ -257,7 +258,9 @@ exports[`QuestionView at default text size matches the snapshot after a wrong an
             {
               "color": "#5F5F5F",
             },
-            undefined,
+            {
+              "flexShrink": 0,
+            },
           ]
         }
       >
@@ -391,6 +394,7 @@ exports[`QuestionView at default text size matches the snapshot after a wrong an
               style={
                 {
                   "alignItems": "center",
+                  "flexShrink": 0,
                   "height": 32,
                   "justifyContent": "center",
                   "width": 32,
@@ -586,6 +590,7 @@ exports[`QuestionView at default text size matches the snapshot after a wrong an
               style={
                 {
                   "alignItems": "center",
+                  "flexShrink": 0,
                   "height": 32,
                   "justifyContent": "center",
                   "width": 32,
@@ -762,6 +767,7 @@ exports[`QuestionView at default text size matches the snapshot after a wrong an
               style={
                 {
                   "alignItems": "center",
+                  "flexShrink": 0,
                   "height": 32,
                   "justifyContent": "center",
                   "width": 32,
@@ -882,6 +888,7 @@ exports[`QuestionView at default text size matches the snapshot after a wrong an
               style={
                 {
                   "alignItems": "center",
+                  "flexShrink": 0,
                   "height": 32,
                   "justifyContent": "center",
                   "width": 32,
@@ -1000,7 +1007,13 @@ exports[`QuestionView at default text size matches the snapshot after a wrong an
               }
             }
           >
-            <View>
+            <View
+              style={
+                {
+                  "flexShrink": 0,
+                }
+              }
+            >
               <RNSVGSvgView
                 accessibilityElementsHidden={true}
                 align="xMidYMid"
@@ -1160,7 +1173,13 @@ exports[`QuestionView at default text size matches the snapshot after a wrong an
               }
             }
           >
-            <View>
+            <View
+              style={
+                {
+                  "flexShrink": 0,
+                }
+              }
+            >
               <RNSVGSvgView
                 accessibilityElementsHidden={true}
                 align="xMidYMid"
@@ -1682,6 +1701,7 @@ exports[`QuestionView at default text size matches the snapshot before Check 1`]
             "flex": 1,
             "flexDirection": "row",
             "gap": 4,
+            "minWidth": 80,
           }
         }
       >
@@ -1747,7 +1767,9 @@ exports[`QuestionView at default text size matches the snapshot before Check 1`]
             {
               "color": "#5F5F5F",
             },
-            undefined,
+            {
+              "flexShrink": 0,
+            },
           ]
         }
       >
@@ -1881,6 +1903,7 @@ exports[`QuestionView at default text size matches the snapshot before Check 1`]
               style={
                 {
                   "alignItems": "center",
+                  "flexShrink": 0,
                   "height": 32,
                   "justifyContent": "center",
                   "width": 32,
@@ -2001,6 +2024,7 @@ exports[`QuestionView at default text size matches the snapshot before Check 1`]
               style={
                 {
                   "alignItems": "center",
+                  "flexShrink": 0,
                   "height": 32,
                   "justifyContent": "center",
                   "width": 32,
@@ -2121,6 +2145,7 @@ exports[`QuestionView at default text size matches the snapshot before Check 1`]
               style={
                 {
                   "alignItems": "center",
+                  "flexShrink": 0,
                   "height": 32,
                   "justifyContent": "center",
                   "width": 32,
@@ -2241,6 +2266,7 @@ exports[`QuestionView at default text size matches the snapshot before Check 1`]
               style={
                 {
                   "alignItems": "center",
+                  "flexShrink": 0,
                   "height": 32,
                   "justifyContent": "center",
                   "width": 32,
@@ -2359,7 +2385,13 @@ exports[`QuestionView at default text size matches the snapshot before Check 1`]
               }
             }
           >
-            <View>
+            <View
+              style={
+                {
+                  "flexShrink": 0,
+                }
+              }
+            >
               <RNSVGSvgView
                 accessibilityElementsHidden={true}
                 align="xMidYMid"
@@ -2519,7 +2551,13 @@ exports[`QuestionView at default text size matches the snapshot before Check 1`]
               }
             }
           >
-            <View>
+            <View
+              style={
+                {
+                  "flexShrink": 0,
+                }
+              }
+            >
               <RNSVGSvgView
                 accessibilityElementsHidden={true}
                 align="xMidYMid"
@@ -2789,10 +2827,10 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
         <RNSVGSvgView
           accessibilityElementsHidden={true}
           align="xMidYMid"
-          bbHeight={26}
-          bbWidth={26}
+          bbHeight={52}
+          bbWidth={52}
           focusable={false}
-          height={26}
+          height={52}
           importantForAccessibility="no-hide-descendants"
           meetOrSlice={0}
           minX={0}
@@ -2805,14 +2843,14 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               },
               {
                 "flex": 0,
-                "height": 26,
-                "width": 26,
+                "height": 52,
+                "width": 52,
               },
             ]
           }
           vbHeight={24}
           vbWidth={24}
-          width={26}
+          width={52}
         >
           <RNSVGGroup
             fill={
@@ -2896,6 +2934,7 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
             "flex": 1,
             "flexDirection": "row",
             "gap": 4,
+            "minWidth": 80,
           }
         }
       >
@@ -2961,7 +3000,9 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
             {
               "color": "#5F5F5F",
             },
-            undefined,
+            {
+              "flexShrink": 0,
+            },
           ]
         }
       >
@@ -3095,19 +3136,20 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               style={
                 {
                   "alignItems": "center",
-                  "height": 32,
+                  "flexShrink": 0,
+                  "height": 64,
                   "justifyContent": "center",
-                  "width": 32,
+                  "width": 64,
                 }
               }
             >
               <RNSVGSvgView
                 accessibilityElementsHidden={true}
                 align="xMidYMid"
-                bbHeight={26}
-                bbWidth={26}
+                bbHeight={52}
+                bbWidth={52}
                 focusable={false}
-                height={26}
+                height={52}
                 importantForAccessibility="no-hide-descendants"
                 meetOrSlice={0}
                 minX={0}
@@ -3120,14 +3162,14 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                     },
                     {
                       "flex": 0,
-                      "height": 26,
-                      "width": 26,
+                      "height": 52,
+                      "width": 52,
                     },
                   ]
                 }
                 vbHeight={24}
                 vbWidth={24}
-                width={26}
+                width={52}
               >
                 <RNSVGGroup
                   fill={
@@ -3290,9 +3332,10 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               style={
                 {
                   "alignItems": "center",
-                  "height": 32,
+                  "flexShrink": 0,
+                  "height": 64,
                   "justifyContent": "center",
-                  "width": 32,
+                  "width": 64,
                 }
               }
             >
@@ -3301,20 +3344,20 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                   {
                     "alignItems": "center",
                     "backgroundColor": "#000000",
-                    "borderRadius": 16,
-                    "height": 32,
+                    "borderRadius": 32,
+                    "height": 64,
                     "justifyContent": "center",
-                    "width": 32,
+                    "width": 64,
                   }
                 }
               >
                 <RNSVGSvgView
                   accessibilityElementsHidden={true}
                   align="xMidYMid"
-                  bbHeight={20}
-                  bbWidth={20}
+                  bbHeight={40}
+                  bbWidth={40}
                   focusable={false}
-                  height={20}
+                  height={40}
                   importantForAccessibility="no-hide-descendants"
                   meetOrSlice={0}
                   minX={0}
@@ -3327,14 +3370,14 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                       },
                       {
                         "flex": 0,
-                        "height": 20,
-                        "width": 20,
+                        "height": 40,
+                        "width": 40,
                       },
                     ]
                   }
                   vbHeight={24}
                   vbWidth={24}
-                  width={20}
+                  width={40}
                 >
                   <RNSVGGroup
                     fill={
@@ -3466,9 +3509,10 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               style={
                 {
                   "alignItems": "center",
-                  "height": 32,
+                  "flexShrink": 0,
+                  "height": 64,
                   "justifyContent": "center",
-                  "width": 32,
+                  "width": 64,
                 }
               }
             >
@@ -3478,11 +3522,11 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                     "alignItems": "center",
                     "backgroundColor": "#FFFFFF",
                     "borderColor": "#000000",
-                    "borderRadius": 16,
+                    "borderRadius": 32,
                     "borderWidth": 1.5,
-                    "height": 32,
+                    "height": 64,
                     "justifyContent": "center",
-                    "width": 32,
+                    "width": 64,
                   }
                 }
               >
@@ -3500,8 +3544,8 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                       },
                       {
                         "fontFamily": "AtkinsonHyperlegible_700Bold",
-                        "fontSize": 15,
-                        "lineHeight": 20,
+                        "fontSize": 30,
+                        "lineHeight": 40,
                       },
                     ]
                   }
@@ -3586,9 +3630,10 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               style={
                 {
                   "alignItems": "center",
-                  "height": 32,
+                  "flexShrink": 0,
+                  "height": 64,
                   "justifyContent": "center",
-                  "width": 32,
+                  "width": 64,
                 }
               }
             >
@@ -3598,11 +3643,11 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                     "alignItems": "center",
                     "backgroundColor": "#FFFFFF",
                     "borderColor": "#000000",
-                    "borderRadius": 16,
+                    "borderRadius": 32,
                     "borderWidth": 1.5,
-                    "height": 32,
+                    "height": 64,
                     "justifyContent": "center",
-                    "width": 32,
+                    "width": 64,
                   }
                 }
               >
@@ -3620,8 +3665,8 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                       },
                       {
                         "fontFamily": "AtkinsonHyperlegible_700Bold",
-                        "fontSize": 15,
-                        "lineHeight": 20,
+                        "fontSize": 30,
+                        "lineHeight": 40,
                       },
                     ]
                   }
@@ -3704,14 +3749,20 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               }
             }
           >
-            <View>
+            <View
+              style={
+                {
+                  "flexShrink": 0,
+                }
+              }
+            >
               <RNSVGSvgView
                 accessibilityElementsHidden={true}
                 align="xMidYMid"
-                bbHeight={24}
-                bbWidth={24}
+                bbHeight={48}
+                bbWidth={48}
                 focusable={false}
-                height={24}
+                height={48}
                 importantForAccessibility="no-hide-descendants"
                 meetOrSlice={0}
                 minX={0}
@@ -3724,14 +3775,14 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                     },
                     {
                       "flex": 0,
-                      "height": 24,
-                      "width": 24,
+                      "height": 48,
+                      "width": 48,
                     },
                   ]
                 }
                 vbHeight={24}
                 vbWidth={24}
-                width={24}
+                width={48}
               >
                 <RNSVGGroup
                   fill={
@@ -3864,14 +3915,20 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               }
             }
           >
-            <View>
+            <View
+              style={
+                {
+                  "flexShrink": 0,
+                }
+              }
+            >
               <RNSVGSvgView
                 accessibilityElementsHidden={true}
                 align="xMidYMid"
-                bbHeight={24}
-                bbWidth={24}
+                bbHeight={48}
+                bbWidth={48}
                 focusable={false}
-                height={24}
+                height={48}
                 importantForAccessibility="no-hide-descendants"
                 meetOrSlice={0}
                 minX={0}
@@ -3884,14 +3941,14 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                     },
                     {
                       "flex": 0,
-                      "height": 24,
-                      "width": 24,
+                      "height": 48,
+                      "width": 48,
                     },
                   ]
                 }
                 vbHeight={24}
                 vbWidth={24}
-                width={24}
+                width={48}
               >
                 <RNSVGGroup
                   fill={
@@ -3988,10 +4045,10 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
           <RNSVGSvgView
             accessibilityElementsHidden={true}
             align="xMidYMid"
-            bbHeight={32}
-            bbWidth={32}
+            bbHeight={64}
+            bbWidth={64}
             focusable={false}
-            height={32}
+            height={64}
             importantForAccessibility="no-hide-descendants"
             meetOrSlice={0}
             minX={0}
@@ -4004,14 +4061,14 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                 },
                 {
                   "flex": 0,
-                  "height": 32,
-                  "width": 32,
+                  "height": 64,
+                  "width": 64,
                 },
               ]
             }
             vbHeight={24}
             vbWidth={24}
-            width={32}
+            width={64}
           >
             <RNSVGGroup
               fill={
@@ -4279,10 +4336,10 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
         <RNSVGSvgView
           accessibilityElementsHidden={true}
           align="xMidYMid"
-          bbHeight={26}
-          bbWidth={26}
+          bbHeight={52}
+          bbWidth={52}
           focusable={false}
-          height={26}
+          height={52}
           importantForAccessibility="no-hide-descendants"
           meetOrSlice={0}
           minX={0}
@@ -4295,14 +4352,14 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               },
               {
                 "flex": 0,
-                "height": 26,
-                "width": 26,
+                "height": 52,
+                "width": 52,
               },
             ]
           }
           vbHeight={24}
           vbWidth={24}
-          width={26}
+          width={52}
         >
           <RNSVGGroup
             fill={
@@ -4386,6 +4443,7 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
             "flex": 1,
             "flexDirection": "row",
             "gap": 4,
+            "minWidth": 80,
           }
         }
       >
@@ -4451,7 +4509,9 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
             {
               "color": "#5F5F5F",
             },
-            undefined,
+            {
+              "flexShrink": 0,
+            },
           ]
         }
       >
@@ -4585,9 +4645,10 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               style={
                 {
                   "alignItems": "center",
-                  "height": 32,
+                  "flexShrink": 0,
+                  "height": 64,
                   "justifyContent": "center",
-                  "width": 32,
+                  "width": 64,
                 }
               }
             >
@@ -4597,11 +4658,11 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                     "alignItems": "center",
                     "backgroundColor": "#000000",
                     "borderColor": "#000000",
-                    "borderRadius": 16,
+                    "borderRadius": 32,
                     "borderWidth": 1.5,
-                    "height": 32,
+                    "height": 64,
                     "justifyContent": "center",
-                    "width": 32,
+                    "width": 64,
                   }
                 }
               >
@@ -4619,8 +4680,8 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                       },
                       {
                         "fontFamily": "AtkinsonHyperlegible_700Bold",
-                        "fontSize": 15,
-                        "lineHeight": 20,
+                        "fontSize": 30,
+                        "lineHeight": 40,
                       },
                     ]
                   }
@@ -4705,9 +4766,10 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               style={
                 {
                   "alignItems": "center",
-                  "height": 32,
+                  "flexShrink": 0,
+                  "height": 64,
                   "justifyContent": "center",
-                  "width": 32,
+                  "width": 64,
                 }
               }
             >
@@ -4717,11 +4779,11 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                     "alignItems": "center",
                     "backgroundColor": "#FFFFFF",
                     "borderColor": "#000000",
-                    "borderRadius": 16,
+                    "borderRadius": 32,
                     "borderWidth": 1.5,
-                    "height": 32,
+                    "height": 64,
                     "justifyContent": "center",
-                    "width": 32,
+                    "width": 64,
                   }
                 }
               >
@@ -4739,8 +4801,8 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                       },
                       {
                         "fontFamily": "AtkinsonHyperlegible_700Bold",
-                        "fontSize": 15,
-                        "lineHeight": 20,
+                        "fontSize": 30,
+                        "lineHeight": 40,
                       },
                     ]
                   }
@@ -4825,9 +4887,10 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               style={
                 {
                   "alignItems": "center",
-                  "height": 32,
+                  "flexShrink": 0,
+                  "height": 64,
                   "justifyContent": "center",
-                  "width": 32,
+                  "width": 64,
                 }
               }
             >
@@ -4837,11 +4900,11 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                     "alignItems": "center",
                     "backgroundColor": "#FFFFFF",
                     "borderColor": "#000000",
-                    "borderRadius": 16,
+                    "borderRadius": 32,
                     "borderWidth": 1.5,
-                    "height": 32,
+                    "height": 64,
                     "justifyContent": "center",
-                    "width": 32,
+                    "width": 64,
                   }
                 }
               >
@@ -4859,8 +4922,8 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                       },
                       {
                         "fontFamily": "AtkinsonHyperlegible_700Bold",
-                        "fontSize": 15,
-                        "lineHeight": 20,
+                        "fontSize": 30,
+                        "lineHeight": 40,
                       },
                     ]
                   }
@@ -4945,9 +5008,10 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               style={
                 {
                   "alignItems": "center",
-                  "height": 32,
+                  "flexShrink": 0,
+                  "height": 64,
                   "justifyContent": "center",
-                  "width": 32,
+                  "width": 64,
                 }
               }
             >
@@ -4957,11 +5021,11 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                     "alignItems": "center",
                     "backgroundColor": "#FFFFFF",
                     "borderColor": "#000000",
-                    "borderRadius": 16,
+                    "borderRadius": 32,
                     "borderWidth": 1.5,
-                    "height": 32,
+                    "height": 64,
                     "justifyContent": "center",
-                    "width": 32,
+                    "width": 64,
                   }
                 }
               >
@@ -4979,8 +5043,8 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                       },
                       {
                         "fontFamily": "AtkinsonHyperlegible_700Bold",
-                        "fontSize": 15,
-                        "lineHeight": 20,
+                        "fontSize": 30,
+                        "lineHeight": 40,
                       },
                     ]
                   }
@@ -5063,14 +5127,20 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               }
             }
           >
-            <View>
+            <View
+              style={
+                {
+                  "flexShrink": 0,
+                }
+              }
+            >
               <RNSVGSvgView
                 accessibilityElementsHidden={true}
                 align="xMidYMid"
-                bbHeight={24}
-                bbWidth={24}
+                bbHeight={48}
+                bbWidth={48}
                 focusable={false}
-                height={24}
+                height={48}
                 importantForAccessibility="no-hide-descendants"
                 meetOrSlice={0}
                 minX={0}
@@ -5083,14 +5153,14 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                     },
                     {
                       "flex": 0,
-                      "height": 24,
-                      "width": 24,
+                      "height": 48,
+                      "width": 48,
                     },
                   ]
                 }
                 vbHeight={24}
                 vbWidth={24}
-                width={24}
+                width={48}
               >
                 <RNSVGGroup
                   fill={
@@ -5223,14 +5293,20 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
               }
             }
           >
-            <View>
+            <View
+              style={
+                {
+                  "flexShrink": 0,
+                }
+              }
+            >
               <RNSVGSvgView
                 accessibilityElementsHidden={true}
                 align="xMidYMid"
-                bbHeight={24}
-                bbWidth={24}
+                bbHeight={48}
+                bbWidth={48}
                 focusable={false}
-                height={24}
+                height={48}
                 importantForAccessibility="no-hide-descendants"
                 meetOrSlice={0}
                 minX={0}
@@ -5243,14 +5319,14 @@ exports[`QuestionView at largest accessibility text size (3.1x) matches the snap
                     },
                     {
                       "flex": 0,
-                      "height": 24,
-                      "width": 24,
+                      "height": 48,
+                      "width": 48,
                     },
                   ]
                 }
                 vbHeight={24}
                 vbWidth={24}
-                width={24}
+                width={48}
               >
                 <RNSVGGroup
                   fill={

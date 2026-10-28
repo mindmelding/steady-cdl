@@ -25,7 +25,10 @@ export function allText(tree: Json): string[] {
   const rec = (t: Json) => {
     if (!t) return;
     if (Array.isArray(t)) return t.forEach(rec);
-    for (const c of t.children ?? []) typeof c === 'string' ? out.push(c) : rec(c);
+    for (const c of t.children ?? []) {
+      if (typeof c === 'string') out.push(c);
+      else rec(c);
+    }
   };
   rec(tree);
   return out;

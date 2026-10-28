@@ -12,6 +12,9 @@ import { useReviewStore } from '../src/state/reviewStore';
 
 void SplashScreen.preventAutoHideAsync();
 
+// Read once: router navigation drops the ?fontScale query, but the dev scale must stay put.
+const DEV_FONT_SCALE = getDevFontScale();
+
 export default function RootLayout() {
   const [fontsLoaded, fontError] = useFonts(fontAssets);
   const [ready, setReady] = useState(false);
@@ -41,7 +44,7 @@ export default function RootLayout() {
 
   return (
     <SafeAreaProvider>
-      <ThemeProvider sun={sun} devFontScale={getDevFontScale()}>
+      <ThemeProvider sun={sun} devFontScale={DEV_FONT_SCALE}>
         <Stack
           screenOptions={{ headerShown: false, contentStyle: { backgroundColor: '#FFFFFF' } }}
         />

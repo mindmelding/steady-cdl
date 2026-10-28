@@ -1,5 +1,5 @@
 import { Pressable, View } from 'react-native';
-import { useTheme } from '../theme/theme';
+import { useGlyphScale, useTheme } from '../theme/theme';
 import { AppText } from './AppText';
 import { CheckIcon, CrossIcon } from './icons';
 import { copy } from '../copy';
@@ -13,7 +13,7 @@ import { copy } from '../copy';
  */
 export type OptionState = 'idle' | 'selected' | 'correct' | 'wrong';
 
-const KEY = 32;
+const BASE_KEY = 32;
 
 export function OptionRow({
   letter,
@@ -29,6 +29,8 @@ export function OptionRow({
   disabled?: boolean;
 }) {
   const theme = useTheme();
+  const k = useGlyphScale();
+  const KEY = BASE_KEY * k;
   const { ink, bg, soft, line } = theme.color;
   const strong = state === 'selected' || state === 'correct';
   const wrong = state === 'wrong';
@@ -69,7 +71,15 @@ export function OptionRow({
         rowGap: 6,
       }}
     >
-      <View style={{ width: KEY, height: KEY, alignItems: 'center', justifyContent: 'center' }}>
+      <View
+        style={{
+          width: KEY,
+          height: KEY,
+          flexShrink: 0,
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
         {wrong ? (
           <CrossIcon size={26} strokeWidth={3} />
         ) : state === 'correct' ? (
@@ -103,7 +113,11 @@ export function OptionRow({
               variant="meta"
               allowFontScaling={false}
               color={state === 'selected' ? bg : ink}
-              style={{ fontFamily: theme.text.question.fontFamily, fontSize: 15, lineHeight: 20 }}
+              style={{
+                fontFamily: theme.text.question.fontFamily,
+                fontSize: 15 * k,
+                lineHeight: 20 * k,
+              }}
             >
               {letter}
             </AppText>

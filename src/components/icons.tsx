@@ -1,5 +1,5 @@
 import Svg, { Circle, Line, Path, Polyline, Rect } from 'react-native-svg';
-import { useTheme } from '../theme/theme';
+import { useGlyphScale, useTheme } from '../theme/theme';
 
 interface IconProps {
   size?: number;
@@ -9,7 +9,8 @@ interface IconProps {
 
 function useIcon({ size = 24, color, strokeWidth = 2.5 }: IconProps) {
   const theme = useTheme();
-  return { size, color: color ?? theme.color.ink, strokeWidth };
+  const k = useGlyphScale();
+  return { size: size * k, color: color ?? theme.color.ink, strokeWidth };
 }
 
 // Decorative: every icon is always paired with a word, so the icons themselves are hidden from

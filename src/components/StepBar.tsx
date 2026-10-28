@@ -11,7 +11,7 @@ export function StepBar({ total, current }: { total: number; current: number }) 
       accessibilityRole="progressbar"
       accessibilityLabel={copy.question.stepLabel(current + 1, total)}
       accessibilityValue={{ min: 1, max: total, now: current + 1 }}
-      style={{ flex: 1, flexDirection: 'row', gap: 4, alignItems: 'center' }}
+      style={{ flex: 1, minWidth: 80, flexDirection: 'row', gap: 4, alignItems: 'center' }}
     >
       {Array.from({ length: total }, (_, i) => (
         <View

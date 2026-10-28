@@ -71,7 +71,7 @@ export function LinkButton({
         paddingVertical: 8,
       }}
     >
-      <View>{icon}</View>
+      <View style={{ flexShrink: 0 }}>{icon}</View>
       <AppText variant="body" color={theme.color.sub}>
         {label}
       </AppText>

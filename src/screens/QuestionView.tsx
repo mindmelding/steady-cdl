@@ -77,7 +77,7 @@ export function QuestionView(p: QuestionViewProps) {
           <CloseIcon size={26} strokeWidth={3} />
         </Pressable>
         <StepBar total={p.total} current={p.stepIndex} />
-        <AppText variant="meta" color={theme.color.sub}>
+        <AppText variant="meta" color={theme.color.sub} style={{ flexShrink: 0 }}>
           {copy.question.stepOf(p.stepIndex + 1, p.total)}
         </AppText>
       </View>
