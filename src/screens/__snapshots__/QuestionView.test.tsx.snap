@@ -1,0 +1,5409 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`QuestionView at default text size matches the snapshot after a wrong answer 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNCSafeAreaView
+    edges={
+      {
+        "bottom": "additive",
+        "left": "additive",
+        "right": "additive",
+        "top": "additive",
+      }
+    }
+    style={
+      {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 14,
+          "paddingBottom": 12,
+          "paddingHorizontal": 20,
+          "paddingTop": 8,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="Close lesson"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={4}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "flex-start",
+            "height": 44,
+            "justifyContent": "center",
+            "width": 44,
+          }
+        }
+      >
+        <RNSVGSvgView
+          accessibilityElementsHidden={true}
+          align="xMidYMid"
+          bbHeight={26}
+          bbWidth={26}
+          focusable={false}
+          height={26}
+          importantForAccessibility="no-hide-descendants"
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "flex": 0,
+                "height": 26,
+                "width": 26,
+              },
+            ]
+          }
+          vbHeight={24}
+          vbWidth={24}
+          width={26}
+        >
+          <RNSVGGroup
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+          >
+            <RNSVGLine
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              propList={
+                [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              strokeLinecap={1}
+              strokeWidth={3}
+              x1="5.5"
+              x2="18.5"
+              y1="5.5"
+              y2="18.5"
+            />
+            <RNSVGLine
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              propList={
+                [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              strokeLinecap={1}
+              strokeWidth={3}
+              x1="18.5"
+              x2="5.5"
+              y1="5.5"
+              y2="18.5"
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <View
+        accessibilityLabel="Question 3 of 5"
+        accessibilityRole="progressbar"
+        accessibilityValue={
+          {
+            "max": 5,
+            "min": 1,
+            "now": 3,
+          }
+        }
+        accessible={true}
+        style={
+          {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "gap": 4,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#000000",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#000000",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#000000",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#E5E5E5",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#E5E5E5",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "AtkinsonHyperlegible_400Regular",
+              "fontSize": 15,
+              "lineHeight": 21,
+            },
+            {
+              "color": "#5F5F5F",
+            },
+            undefined,
+          ]
+        }
+      >
+        3 of 5
+      </Text>
+    </View>
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "gap": 14,
+          "paddingBottom": 16,
+          "paddingHorizontal": 20,
+        }
+      }
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          accessibilityLabel="Federal rule · all states"
+          accessible={true}
+          style={
+            {
+              "alignSelf": "flex-start",
+              "borderColor": "#E5E5E5",
+              "borderRadius": 999,
+              "borderWidth": 1.5,
+              "paddingHorizontal": 16,
+              "paddingVertical": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "AtkinsonHyperlegible_400Regular",
+                  "fontSize": 15,
+                  "lineHeight": 21,
+                },
+                {
+                  "color": "#000000",
+                },
+                undefined,
+              ]
+            }
+          >
+            Federal rule · all states
+          </Text>
+        </View>
+        <Text
+          accessibilityRole="header"
+          style={
+            [
+              {
+                "fontFamily": "AtkinsonHyperlegible_700Bold",
+                "fontSize": 22,
+                "lineHeight": 30,
+              },
+              {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          A truck has air brakes. Its governor cut-out pressure is 125 psi. The low air warning must come on before pressure in the service reservoir falls below:
+        </Text>
+        <View
+          accessibilityRole="radiogroup"
+          style={
+            {
+              "gap": 10,
+            }
+          }
+        >
+          <View
+            accessibilityLabel="Option A: 40 psi. Your answer"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#000000",
+                "borderRadius": 14,
+                "borderStyle": "dashed",
+                "borderWidth": 2,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <RNSVGSvgView
+                accessibilityElementsHidden={true}
+                align="xMidYMid"
+                bbHeight={26}
+                bbWidth={26}
+                focusable={false}
+                height={26}
+                importantForAccessibility="no-hide-descendants"
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": 26,
+                      "width": 26,
+                    },
+                  ]
+                }
+                vbHeight={24}
+                vbWidth={24}
+                width={26}
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGLine
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    propList={
+                      [
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={3}
+                    x1="5.5"
+                    x2="18.5"
+                    y1="5.5"
+                    y2="18.5"
+                  />
+                  <RNSVGLine
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    propList={
+                      [
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={3}
+                    x1="18.5"
+                    x2="5.5"
+                    y1="5.5"
+                    y2="18.5"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 19,
+                    "lineHeight": 26,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              40 psi
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 18,
+                    "lineHeight": 25,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "marginLeft": "auto",
+                  },
+                ]
+              }
+            >
+              Your answer
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Option B: 60 psi, or half of the governor cut-out pressure when that number is lower than 60 psi. Correct answer"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#F4F4F4",
+                "borderColor": "#000000",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 2.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#000000",
+                    "borderRadius": 16,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  accessibilityElementsHidden={true}
+                  align="xMidYMid"
+                  bbHeight={20}
+                  bbWidth={20}
+                  focusable={false}
+                  height={20}
+                  importantForAccessibility="no-hide-descendants"
+                  meetOrSlice={0}
+                  minX={0}
+                  minY={0}
+                  style={
+                    [
+                      {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      {
+                        "flex": 0,
+                        "height": 20,
+                        "width": 20,
+                      },
+                    ]
+                  }
+                  vbHeight={24}
+                  vbWidth={24}
+                  width={20}
+                >
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                  >
+                    <RNSVGPath
+                      d="M4.5 12.5 10 18 19.5 6.5"
+                      fill={null}
+                      propList={
+                        [
+                          "fill",
+                          "stroke",
+                          "strokeWidth",
+                          "strokeLinecap",
+                          "strokeLinejoin",
+                        ]
+                      }
+                      stroke={
+                        {
+                          "payload": 4294967295,
+                          "type": 0,
+                        }
+                      }
+                      strokeLinecap={1}
+                      strokeLinejoin={1}
+                      strokeWidth={3}
+                    />
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 19,
+                    "lineHeight": 26,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              60 psi, or half of the governor cut-out pressure when that number is lower than 60 psi
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 18,
+                    "lineHeight": 25,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_700Bold",
+                    "marginLeft": "auto",
+                  },
+                ]
+              }
+            >
+              Correct answer
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Option C: 80 psi"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#E5E5E5",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 1.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#000000",
+                    "borderRadius": 16,
+                    "borderWidth": 1.5,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    [
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_400Regular",
+                        "fontSize": 15,
+                        "lineHeight": 21,
+                      },
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_700Bold",
+                        "fontSize": 15,
+                        "lineHeight": 20,
+                      },
+                    ]
+                  }
+                >
+                  C
+                </Text>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 19,
+                    "lineHeight": 26,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              80 psi
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Option D: 100 psi"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#E5E5E5",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 1.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#000000",
+                    "borderRadius": 16,
+                    "borderWidth": 1.5,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    [
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_400Regular",
+                        "fontSize": 15,
+                        "lineHeight": 21,
+                      },
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_700Bold",
+                        "fontSize": 15,
+                        "lineHeight": 20,
+                      },
+                    ]
+                  }
+                >
+                  D
+                </Text>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 19,
+                    "lineHeight": 26,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              100 psi
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "columnGap": 28,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="Read aloud"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 10,
+                "minHeight": 48,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <View>
+              <RNSVGSvgView
+                accessibilityElementsHidden={true}
+                align="xMidYMid"
+                bbHeight={24}
+                bbWidth={24}
+                focusable={false}
+                height={24}
+                importantForAccessibility="no-hide-descendants"
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": 24,
+                      "width": 24,
+                    },
+                  ]
+                }
+                vbHeight={24}
+                vbWidth={24}
+                width={24}
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGPath
+                    d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinejoin",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinejoin={1}
+                    strokeWidth={2}
+                  />
+                  <RNSVGPath
+                    d="M15.5 9a4 4 0 0 1 0 6"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={2}
+                  />
+                  <RNSVGPath
+                    d="M18 6.5a7.5 7.5 0 0 1 0 11"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={2}
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 18,
+                    "lineHeight": 25,
+                  },
+                  {
+                    "color": "#5F5F5F",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Read aloud
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Flag"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 10,
+                "minHeight": 48,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <View>
+              <RNSVGSvgView
+                accessibilityElementsHidden={true}
+                align="xMidYMid"
+                bbHeight={24}
+                bbWidth={24}
+                focusable={false}
+                height={24}
+                importantForAccessibility="no-hide-descendants"
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": 24,
+                      "width": 24,
+                    },
+                  ]
+                }
+                vbHeight={24}
+                vbWidth={24}
+                width={24}
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGLine
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    propList={
+                      [
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={2}
+                    x1="6"
+                    x2="6"
+                    y1="3.5"
+                    y2="21"
+                  />
+                  <RNSVGPath
+                    d="M6 4.5h12l-2.5 4 2.5 4H6"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinejoin",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinejoin={1}
+                    strokeWidth={2}
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 18,
+                    "lineHeight": 25,
+                  },
+                  {
+                    "color": "#5F5F5F",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Flag
+            </Text>
+          </View>
+        </View>
+        <View
+          accessibilityLabel="Not quite."
+          accessibilityLiveRegion="polite"
+          accessible={true}
+          style={
+            {
+              "alignItems": "center",
+              "columnGap": 12,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "paddingTop": 4,
+              "rowGap": 4,
+            }
+          }
+        >
+          <RNSVGSvgView
+            accessibilityElementsHidden={true}
+            align="xMidYMid"
+            bbHeight={32}
+            bbWidth={32}
+            focusable={false}
+            height={32}
+            importantForAccessibility="no-hide-descendants"
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              [
+                {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                {
+                  "flex": 0,
+                  "height": 32,
+                  "width": 32,
+                },
+              ]
+            }
+            vbHeight={24}
+            vbWidth={24}
+            width={32}
+          >
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+            >
+              <RNSVGLine
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                propList={
+                  [
+                    "stroke",
+                    "strokeWidth",
+                    "strokeLinecap",
+                  ]
+                }
+                stroke={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                strokeLinecap={1}
+                strokeWidth={3}
+                x1="5.5"
+                x2="18.5"
+                y1="5.5"
+                y2="18.5"
+              />
+              <RNSVGLine
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                propList={
+                  [
+                    "stroke",
+                    "strokeWidth",
+                    "strokeLinecap",
+                  ]
+                }
+                stroke={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                strokeLinecap={1}
+                strokeWidth={3}
+                x1="18.5"
+                x2="5.5"
+                y1="5.5"
+                y2="18.5"
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "Inter_600SemiBold",
+                  "fontSize": 22,
+                  "letterSpacing": -0.44,
+                  "lineHeight": 28,
+                },
+                {
+                  "color": "#000000",
+                },
+                undefined,
+              ]
+            }
+          >
+            Not quite.
+          </Text>
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "AtkinsonHyperlegible_400Regular",
+                  "fontSize": 18,
+                  "lineHeight": 25,
+                },
+                {
+                  "color": "#5F5F5F",
+                },
+                {
+                  "marginLeft": "auto",
+                },
+              ]
+            }
+          >
+            Added to Review
+          </Text>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        {
+          "paddingBottom": 12,
+          "paddingHorizontal": 20,
+          "paddingTop": 8,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="Continue"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#000000",
+            "borderRadius": 14,
+            "justifyContent": "center",
+            "minHeight": 56,
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "Inter_600SemiBold",
+                "fontSize": 18,
+              },
+              {
+                "color": "#FFFFFF",
+              },
+              {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Continue
+        </Text>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</RNCSafeAreaProvider>
+`;
+
+exports[`QuestionView at default text size matches the snapshot before Check 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNCSafeAreaView
+    edges={
+      {
+        "bottom": "additive",
+        "left": "additive",
+        "right": "additive",
+        "top": "additive",
+      }
+    }
+    style={
+      {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 14,
+          "paddingBottom": 12,
+          "paddingHorizontal": 20,
+          "paddingTop": 8,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="Close lesson"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={4}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "flex-start",
+            "height": 44,
+            "justifyContent": "center",
+            "width": 44,
+          }
+        }
+      >
+        <RNSVGSvgView
+          accessibilityElementsHidden={true}
+          align="xMidYMid"
+          bbHeight={26}
+          bbWidth={26}
+          focusable={false}
+          height={26}
+          importantForAccessibility="no-hide-descendants"
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "flex": 0,
+                "height": 26,
+                "width": 26,
+              },
+            ]
+          }
+          vbHeight={24}
+          vbWidth={24}
+          width={26}
+        >
+          <RNSVGGroup
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+          >
+            <RNSVGLine
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              propList={
+                [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              strokeLinecap={1}
+              strokeWidth={3}
+              x1="5.5"
+              x2="18.5"
+              y1="5.5"
+              y2="18.5"
+            />
+            <RNSVGLine
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              propList={
+                [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              strokeLinecap={1}
+              strokeWidth={3}
+              x1="18.5"
+              x2="5.5"
+              y1="5.5"
+              y2="18.5"
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <View
+        accessibilityLabel="Question 3 of 5"
+        accessibilityRole="progressbar"
+        accessibilityValue={
+          {
+            "max": 5,
+            "min": 1,
+            "now": 3,
+          }
+        }
+        accessible={true}
+        style={
+          {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "gap": 4,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#000000",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#000000",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#000000",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#E5E5E5",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#E5E5E5",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "AtkinsonHyperlegible_400Regular",
+              "fontSize": 15,
+              "lineHeight": 21,
+            },
+            {
+              "color": "#5F5F5F",
+            },
+            undefined,
+          ]
+        }
+      >
+        3 of 5
+      </Text>
+    </View>
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "gap": 14,
+          "paddingBottom": 16,
+          "paddingHorizontal": 20,
+        }
+      }
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          accessibilityLabel="Federal rule · all states"
+          accessible={true}
+          style={
+            {
+              "alignSelf": "flex-start",
+              "borderColor": "#E5E5E5",
+              "borderRadius": 999,
+              "borderWidth": 1.5,
+              "paddingHorizontal": 16,
+              "paddingVertical": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "AtkinsonHyperlegible_400Regular",
+                  "fontSize": 15,
+                  "lineHeight": 21,
+                },
+                {
+                  "color": "#000000",
+                },
+                undefined,
+              ]
+            }
+          >
+            Federal rule · all states
+          </Text>
+        </View>
+        <Text
+          accessibilityRole="header"
+          style={
+            [
+              {
+                "fontFamily": "AtkinsonHyperlegible_700Bold",
+                "fontSize": 22,
+                "lineHeight": 30,
+              },
+              {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          A truck has air brakes. Its governor cut-out pressure is 125 psi. The low air warning must come on before pressure in the service reservoir falls below:
+        </Text>
+        <View
+          accessibilityRole="radiogroup"
+          style={
+            {
+              "gap": 10,
+            }
+          }
+        >
+          <View
+            accessibilityLabel="Option A: 40 psi"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": true,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#000000",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 2.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#000000",
+                    "borderColor": "#000000",
+                    "borderRadius": 16,
+                    "borderWidth": 1.5,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    [
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_400Regular",
+                        "fontSize": 15,
+                        "lineHeight": 21,
+                      },
+                      {
+                        "color": "#FFFFFF",
+                      },
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_700Bold",
+                        "fontSize": 15,
+                        "lineHeight": 20,
+                      },
+                    ]
+                  }
+                >
+                  A
+                </Text>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 19,
+                    "lineHeight": 26,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              40 psi
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Option B: 60 psi, or half of the governor cut-out pressure when that number is lower than 60 psi"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#E5E5E5",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 1.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#000000",
+                    "borderRadius": 16,
+                    "borderWidth": 1.5,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    [
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_400Regular",
+                        "fontSize": 15,
+                        "lineHeight": 21,
+                      },
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_700Bold",
+                        "fontSize": 15,
+                        "lineHeight": 20,
+                      },
+                    ]
+                  }
+                >
+                  B
+                </Text>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 19,
+                    "lineHeight": 26,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              60 psi, or half of the governor cut-out pressure when that number is lower than 60 psi
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Option C: 80 psi"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#E5E5E5",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 1.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#000000",
+                    "borderRadius": 16,
+                    "borderWidth": 1.5,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    [
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_400Regular",
+                        "fontSize": 15,
+                        "lineHeight": 21,
+                      },
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_700Bold",
+                        "fontSize": 15,
+                        "lineHeight": 20,
+                      },
+                    ]
+                  }
+                >
+                  C
+                </Text>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 19,
+                    "lineHeight": 26,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              80 psi
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Option D: 100 psi"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#E5E5E5",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 1.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#000000",
+                    "borderRadius": 16,
+                    "borderWidth": 1.5,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    [
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_400Regular",
+                        "fontSize": 15,
+                        "lineHeight": 21,
+                      },
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_700Bold",
+                        "fontSize": 15,
+                        "lineHeight": 20,
+                      },
+                    ]
+                  }
+                >
+                  D
+                </Text>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 19,
+                    "lineHeight": 26,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              100 psi
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "columnGap": 28,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="Read aloud"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 10,
+                "minHeight": 48,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <View>
+              <RNSVGSvgView
+                accessibilityElementsHidden={true}
+                align="xMidYMid"
+                bbHeight={24}
+                bbWidth={24}
+                focusable={false}
+                height={24}
+                importantForAccessibility="no-hide-descendants"
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": 24,
+                      "width": 24,
+                    },
+                  ]
+                }
+                vbHeight={24}
+                vbWidth={24}
+                width={24}
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGPath
+                    d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinejoin",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinejoin={1}
+                    strokeWidth={2}
+                  />
+                  <RNSVGPath
+                    d="M15.5 9a4 4 0 0 1 0 6"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={2}
+                  />
+                  <RNSVGPath
+                    d="M18 6.5a7.5 7.5 0 0 1 0 11"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={2}
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 18,
+                    "lineHeight": 25,
+                  },
+                  {
+                    "color": "#5F5F5F",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Read aloud
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Flag"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 10,
+                "minHeight": 48,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <View>
+              <RNSVGSvgView
+                accessibilityElementsHidden={true}
+                align="xMidYMid"
+                bbHeight={24}
+                bbWidth={24}
+                focusable={false}
+                height={24}
+                importantForAccessibility="no-hide-descendants"
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": 24,
+                      "width": 24,
+                    },
+                  ]
+                }
+                vbHeight={24}
+                vbWidth={24}
+                width={24}
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGLine
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    propList={
+                      [
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={2}
+                    x1="6"
+                    x2="6"
+                    y1="3.5"
+                    y2="21"
+                  />
+                  <RNSVGPath
+                    d="M6 4.5h12l-2.5 4 2.5 4H6"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinejoin",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinejoin={1}
+                    strokeWidth={2}
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 18,
+                    "lineHeight": 25,
+                  },
+                  {
+                    "color": "#5F5F5F",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Flag
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        {
+          "paddingBottom": 12,
+          "paddingHorizontal": 20,
+          "paddingTop": 8,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="Check"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#000000",
+            "borderRadius": 14,
+            "justifyContent": "center",
+            "minHeight": 56,
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "Inter_600SemiBold",
+                "fontSize": 18,
+              },
+              {
+                "color": "#FFFFFF",
+              },
+              {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Check
+        </Text>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</RNCSafeAreaProvider>
+`;
+
+exports[`QuestionView at largest accessibility text size (3.1x) matches the snapshot after a wrong answer 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNCSafeAreaView
+    edges={
+      {
+        "bottom": "additive",
+        "left": "additive",
+        "right": "additive",
+        "top": "additive",
+      }
+    }
+    style={
+      {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 14,
+          "paddingBottom": 12,
+          "paddingHorizontal": 20,
+          "paddingTop": 8,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="Close lesson"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={4}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "flex-start",
+            "height": 44,
+            "justifyContent": "center",
+            "width": 44,
+          }
+        }
+      >
+        <RNSVGSvgView
+          accessibilityElementsHidden={true}
+          align="xMidYMid"
+          bbHeight={26}
+          bbWidth={26}
+          focusable={false}
+          height={26}
+          importantForAccessibility="no-hide-descendants"
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "flex": 0,
+                "height": 26,
+                "width": 26,
+              },
+            ]
+          }
+          vbHeight={24}
+          vbWidth={24}
+          width={26}
+        >
+          <RNSVGGroup
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+          >
+            <RNSVGLine
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              propList={
+                [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              strokeLinecap={1}
+              strokeWidth={3}
+              x1="5.5"
+              x2="18.5"
+              y1="5.5"
+              y2="18.5"
+            />
+            <RNSVGLine
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              propList={
+                [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              strokeLinecap={1}
+              strokeWidth={3}
+              x1="18.5"
+              x2="5.5"
+              y1="5.5"
+              y2="18.5"
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <View
+        accessibilityLabel="Question 3 of 5"
+        accessibilityRole="progressbar"
+        accessibilityValue={
+          {
+            "max": 5,
+            "min": 1,
+            "now": 3,
+          }
+        }
+        accessible={true}
+        style={
+          {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "gap": 4,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#000000",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#000000",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#000000",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#E5E5E5",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#E5E5E5",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "AtkinsonHyperlegible_400Regular",
+              "fontSize": 46.5,
+              "lineHeight": 65.10000000000001,
+            },
+            {
+              "color": "#5F5F5F",
+            },
+            undefined,
+          ]
+        }
+      >
+        3 of 5
+      </Text>
+    </View>
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "gap": 14,
+          "paddingBottom": 16,
+          "paddingHorizontal": 20,
+        }
+      }
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          accessibilityLabel="Federal rule · all states"
+          accessible={true}
+          style={
+            {
+              "alignSelf": "flex-start",
+              "borderColor": "#E5E5E5",
+              "borderRadius": 999,
+              "borderWidth": 1.5,
+              "paddingHorizontal": 16,
+              "paddingVertical": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "AtkinsonHyperlegible_400Regular",
+                  "fontSize": 46.5,
+                  "lineHeight": 65.10000000000001,
+                },
+                {
+                  "color": "#000000",
+                },
+                undefined,
+              ]
+            }
+          >
+            Federal rule · all states
+          </Text>
+        </View>
+        <Text
+          accessibilityRole="header"
+          style={
+            [
+              {
+                "fontFamily": "AtkinsonHyperlegible_700Bold",
+                "fontSize": 68.2,
+                "lineHeight": 93,
+              },
+              {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          A truck has air brakes. Its governor cut-out pressure is 125 psi. The low air warning must come on before pressure in the service reservoir falls below:
+        </Text>
+        <View
+          accessibilityRole="radiogroup"
+          style={
+            {
+              "gap": 10,
+            }
+          }
+        >
+          <View
+            accessibilityLabel="Option A: 40 psi. Your answer"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#000000",
+                "borderRadius": 14,
+                "borderStyle": "dashed",
+                "borderWidth": 2,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <RNSVGSvgView
+                accessibilityElementsHidden={true}
+                align="xMidYMid"
+                bbHeight={26}
+                bbWidth={26}
+                focusable={false}
+                height={26}
+                importantForAccessibility="no-hide-descendants"
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": 26,
+                      "width": 26,
+                    },
+                  ]
+                }
+                vbHeight={24}
+                vbWidth={24}
+                width={26}
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGLine
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    propList={
+                      [
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={3}
+                    x1="5.5"
+                    x2="18.5"
+                    y1="5.5"
+                    y2="18.5"
+                  />
+                  <RNSVGLine
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    propList={
+                      [
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={3}
+                    x1="18.5"
+                    x2="5.5"
+                    y1="5.5"
+                    y2="18.5"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 58.9,
+                    "lineHeight": 80.60000000000001,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              40 psi
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 55.800000000000004,
+                    "lineHeight": 77.5,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "marginLeft": "auto",
+                  },
+                ]
+              }
+            >
+              Your answer
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Option B: 60 psi, or half of the governor cut-out pressure when that number is lower than 60 psi. Correct answer"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#F4F4F4",
+                "borderColor": "#000000",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 2.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#000000",
+                    "borderRadius": 16,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  accessibilityElementsHidden={true}
+                  align="xMidYMid"
+                  bbHeight={20}
+                  bbWidth={20}
+                  focusable={false}
+                  height={20}
+                  importantForAccessibility="no-hide-descendants"
+                  meetOrSlice={0}
+                  minX={0}
+                  minY={0}
+                  style={
+                    [
+                      {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      {
+                        "flex": 0,
+                        "height": 20,
+                        "width": 20,
+                      },
+                    ]
+                  }
+                  vbHeight={24}
+                  vbWidth={24}
+                  width={20}
+                >
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                  >
+                    <RNSVGPath
+                      d="M4.5 12.5 10 18 19.5 6.5"
+                      fill={null}
+                      propList={
+                        [
+                          "fill",
+                          "stroke",
+                          "strokeWidth",
+                          "strokeLinecap",
+                          "strokeLinejoin",
+                        ]
+                      }
+                      stroke={
+                        {
+                          "payload": 4294967295,
+                          "type": 0,
+                        }
+                      }
+                      strokeLinecap={1}
+                      strokeLinejoin={1}
+                      strokeWidth={3}
+                    />
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 58.9,
+                    "lineHeight": 80.60000000000001,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              60 psi, or half of the governor cut-out pressure when that number is lower than 60 psi
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 55.800000000000004,
+                    "lineHeight": 77.5,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_700Bold",
+                    "marginLeft": "auto",
+                  },
+                ]
+              }
+            >
+              Correct answer
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Option C: 80 psi"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#E5E5E5",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 1.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#000000",
+                    "borderRadius": 16,
+                    "borderWidth": 1.5,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    [
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_400Regular",
+                        "fontSize": 46.5,
+                        "lineHeight": 65.10000000000001,
+                      },
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_700Bold",
+                        "fontSize": 15,
+                        "lineHeight": 20,
+                      },
+                    ]
+                  }
+                >
+                  C
+                </Text>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 58.9,
+                    "lineHeight": 80.60000000000001,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              80 psi
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Option D: 100 psi"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#E5E5E5",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 1.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#000000",
+                    "borderRadius": 16,
+                    "borderWidth": 1.5,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    [
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_400Regular",
+                        "fontSize": 46.5,
+                        "lineHeight": 65.10000000000001,
+                      },
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_700Bold",
+                        "fontSize": 15,
+                        "lineHeight": 20,
+                      },
+                    ]
+                  }
+                >
+                  D
+                </Text>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 58.9,
+                    "lineHeight": 80.60000000000001,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              100 psi
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "columnGap": 28,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="Read aloud"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 10,
+                "minHeight": 48,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <View>
+              <RNSVGSvgView
+                accessibilityElementsHidden={true}
+                align="xMidYMid"
+                bbHeight={24}
+                bbWidth={24}
+                focusable={false}
+                height={24}
+                importantForAccessibility="no-hide-descendants"
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": 24,
+                      "width": 24,
+                    },
+                  ]
+                }
+                vbHeight={24}
+                vbWidth={24}
+                width={24}
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGPath
+                    d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinejoin",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinejoin={1}
+                    strokeWidth={2}
+                  />
+                  <RNSVGPath
+                    d="M15.5 9a4 4 0 0 1 0 6"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={2}
+                  />
+                  <RNSVGPath
+                    d="M18 6.5a7.5 7.5 0 0 1 0 11"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={2}
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 55.800000000000004,
+                    "lineHeight": 77.5,
+                  },
+                  {
+                    "color": "#5F5F5F",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Read aloud
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Flag"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 10,
+                "minHeight": 48,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <View>
+              <RNSVGSvgView
+                accessibilityElementsHidden={true}
+                align="xMidYMid"
+                bbHeight={24}
+                bbWidth={24}
+                focusable={false}
+                height={24}
+                importantForAccessibility="no-hide-descendants"
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": 24,
+                      "width": 24,
+                    },
+                  ]
+                }
+                vbHeight={24}
+                vbWidth={24}
+                width={24}
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGLine
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    propList={
+                      [
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={2}
+                    x1="6"
+                    x2="6"
+                    y1="3.5"
+                    y2="21"
+                  />
+                  <RNSVGPath
+                    d="M6 4.5h12l-2.5 4 2.5 4H6"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinejoin",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinejoin={1}
+                    strokeWidth={2}
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 55.800000000000004,
+                    "lineHeight": 77.5,
+                  },
+                  {
+                    "color": "#5F5F5F",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Flag
+            </Text>
+          </View>
+        </View>
+        <View
+          accessibilityLabel="Not quite."
+          accessibilityLiveRegion="polite"
+          accessible={true}
+          style={
+            {
+              "alignItems": "center",
+              "columnGap": 12,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "paddingTop": 4,
+              "rowGap": 4,
+            }
+          }
+        >
+          <RNSVGSvgView
+            accessibilityElementsHidden={true}
+            align="xMidYMid"
+            bbHeight={32}
+            bbWidth={32}
+            focusable={false}
+            height={32}
+            importantForAccessibility="no-hide-descendants"
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              [
+                {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                {
+                  "flex": 0,
+                  "height": 32,
+                  "width": 32,
+                },
+              ]
+            }
+            vbHeight={24}
+            vbWidth={24}
+            width={32}
+          >
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+            >
+              <RNSVGLine
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                propList={
+                  [
+                    "stroke",
+                    "strokeWidth",
+                    "strokeLinecap",
+                  ]
+                }
+                stroke={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                strokeLinecap={1}
+                strokeWidth={3}
+                x1="5.5"
+                x2="18.5"
+                y1="5.5"
+                y2="18.5"
+              />
+              <RNSVGLine
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                propList={
+                  [
+                    "stroke",
+                    "strokeWidth",
+                    "strokeLinecap",
+                  ]
+                }
+                stroke={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                strokeLinecap={1}
+                strokeWidth={3}
+                x1="18.5"
+                x2="5.5"
+                y1="5.5"
+                y2="18.5"
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "Inter_600SemiBold",
+                  "fontSize": 68.2,
+                  "letterSpacing": -1.364,
+                  "lineHeight": 86.8,
+                },
+                {
+                  "color": "#000000",
+                },
+                undefined,
+              ]
+            }
+          >
+            Not quite.
+          </Text>
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "AtkinsonHyperlegible_400Regular",
+                  "fontSize": 55.800000000000004,
+                  "lineHeight": 77.5,
+                },
+                {
+                  "color": "#5F5F5F",
+                },
+                {
+                  "marginLeft": "auto",
+                },
+              ]
+            }
+          >
+            Added to Review
+          </Text>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        {
+          "paddingBottom": 12,
+          "paddingHorizontal": 20,
+          "paddingTop": 8,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="Continue"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#000000",
+            "borderRadius": 14,
+            "justifyContent": "center",
+            "minHeight": 56,
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "Inter_600SemiBold",
+                "fontSize": 55.800000000000004,
+              },
+              {
+                "color": "#FFFFFF",
+              },
+              {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Continue
+        </Text>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</RNCSafeAreaProvider>
+`;
+
+exports[`QuestionView at largest accessibility text size (3.1x) matches the snapshot before Check 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNCSafeAreaView
+    edges={
+      {
+        "bottom": "additive",
+        "left": "additive",
+        "right": "additive",
+        "top": "additive",
+      }
+    }
+    style={
+      {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 14,
+          "paddingBottom": 12,
+          "paddingHorizontal": 20,
+          "paddingTop": 8,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="Close lesson"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={4}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "flex-start",
+            "height": 44,
+            "justifyContent": "center",
+            "width": 44,
+          }
+        }
+      >
+        <RNSVGSvgView
+          accessibilityElementsHidden={true}
+          align="xMidYMid"
+          bbHeight={26}
+          bbWidth={26}
+          focusable={false}
+          height={26}
+          importantForAccessibility="no-hide-descendants"
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "flex": 0,
+                "height": 26,
+                "width": 26,
+              },
+            ]
+          }
+          vbHeight={24}
+          vbWidth={24}
+          width={26}
+        >
+          <RNSVGGroup
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+          >
+            <RNSVGLine
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              propList={
+                [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              strokeLinecap={1}
+              strokeWidth={3}
+              x1="5.5"
+              x2="18.5"
+              y1="5.5"
+              y2="18.5"
+            />
+            <RNSVGLine
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              propList={
+                [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              strokeLinecap={1}
+              strokeWidth={3}
+              x1="18.5"
+              x2="5.5"
+              y1="5.5"
+              y2="18.5"
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <View
+        accessibilityLabel="Question 3 of 5"
+        accessibilityRole="progressbar"
+        accessibilityValue={
+          {
+            "max": 5,
+            "min": 1,
+            "now": 3,
+          }
+        }
+        accessible={true}
+        style={
+          {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "gap": 4,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#000000",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#000000",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#000000",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#E5E5E5",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#E5E5E5",
+              "borderRadius": 3,
+              "flex": 1,
+              "height": 6,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "AtkinsonHyperlegible_400Regular",
+              "fontSize": 46.5,
+              "lineHeight": 65.10000000000001,
+            },
+            {
+              "color": "#5F5F5F",
+            },
+            undefined,
+          ]
+        }
+      >
+        3 of 5
+      </Text>
+    </View>
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "gap": 14,
+          "paddingBottom": 16,
+          "paddingHorizontal": 20,
+        }
+      }
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          accessibilityLabel="Federal rule · all states"
+          accessible={true}
+          style={
+            {
+              "alignSelf": "flex-start",
+              "borderColor": "#E5E5E5",
+              "borderRadius": 999,
+              "borderWidth": 1.5,
+              "paddingHorizontal": 16,
+              "paddingVertical": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "AtkinsonHyperlegible_400Regular",
+                  "fontSize": 46.5,
+                  "lineHeight": 65.10000000000001,
+                },
+                {
+                  "color": "#000000",
+                },
+                undefined,
+              ]
+            }
+          >
+            Federal rule · all states
+          </Text>
+        </View>
+        <Text
+          accessibilityRole="header"
+          style={
+            [
+              {
+                "fontFamily": "AtkinsonHyperlegible_700Bold",
+                "fontSize": 68.2,
+                "lineHeight": 93,
+              },
+              {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          A truck has air brakes. Its governor cut-out pressure is 125 psi. The low air warning must come on before pressure in the service reservoir falls below:
+        </Text>
+        <View
+          accessibilityRole="radiogroup"
+          style={
+            {
+              "gap": 10,
+            }
+          }
+        >
+          <View
+            accessibilityLabel="Option A: 40 psi"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": true,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#000000",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 2.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#000000",
+                    "borderColor": "#000000",
+                    "borderRadius": 16,
+                    "borderWidth": 1.5,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    [
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_400Regular",
+                        "fontSize": 46.5,
+                        "lineHeight": 65.10000000000001,
+                      },
+                      {
+                        "color": "#FFFFFF",
+                      },
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_700Bold",
+                        "fontSize": 15,
+                        "lineHeight": 20,
+                      },
+                    ]
+                  }
+                >
+                  A
+                </Text>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 58.9,
+                    "lineHeight": 80.60000000000001,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              40 psi
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Option B: 60 psi, or half of the governor cut-out pressure when that number is lower than 60 psi"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#E5E5E5",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 1.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#000000",
+                    "borderRadius": 16,
+                    "borderWidth": 1.5,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    [
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_400Regular",
+                        "fontSize": 46.5,
+                        "lineHeight": 65.10000000000001,
+                      },
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_700Bold",
+                        "fontSize": 15,
+                        "lineHeight": 20,
+                      },
+                    ]
+                  }
+                >
+                  B
+                </Text>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 58.9,
+                    "lineHeight": 80.60000000000001,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              60 psi, or half of the governor cut-out pressure when that number is lower than 60 psi
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Option C: 80 psi"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#E5E5E5",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 1.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#000000",
+                    "borderRadius": 16,
+                    "borderWidth": 1.5,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    [
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_400Regular",
+                        "fontSize": 46.5,
+                        "lineHeight": 65.10000000000001,
+                      },
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_700Bold",
+                        "fontSize": 15,
+                        "lineHeight": 20,
+                      },
+                    ]
+                  }
+                >
+                  C
+                </Text>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 58.9,
+                    "lineHeight": 80.60000000000001,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              80 psi
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Option D: 100 psi"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#E5E5E5",
+                "borderRadius": 14,
+                "borderStyle": "solid",
+                "borderWidth": 1.5,
+                "columnGap": 14,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "minHeight": 64,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "rowGap": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#000000",
+                    "borderRadius": 16,
+                    "borderWidth": 1.5,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 32,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    [
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_400Regular",
+                        "fontSize": 46.5,
+                        "lineHeight": 65.10000000000001,
+                      },
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "AtkinsonHyperlegible_700Bold",
+                        "fontSize": 15,
+                        "lineHeight": 20,
+                      },
+                    ]
+                  }
+                >
+                  D
+                </Text>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 58.9,
+                    "lineHeight": 80.60000000000001,
+                  },
+                  {
+                    "color": "#000000",
+                  },
+                  {
+                    "flexBasis": 120,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              100 psi
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "columnGap": 28,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="Read aloud"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 10,
+                "minHeight": 48,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <View>
+              <RNSVGSvgView
+                accessibilityElementsHidden={true}
+                align="xMidYMid"
+                bbHeight={24}
+                bbWidth={24}
+                focusable={false}
+                height={24}
+                importantForAccessibility="no-hide-descendants"
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": 24,
+                      "width": 24,
+                    },
+                  ]
+                }
+                vbHeight={24}
+                vbWidth={24}
+                width={24}
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGPath
+                    d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinejoin",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinejoin={1}
+                    strokeWidth={2}
+                  />
+                  <RNSVGPath
+                    d="M15.5 9a4 4 0 0 1 0 6"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={2}
+                  />
+                  <RNSVGPath
+                    d="M18 6.5a7.5 7.5 0 0 1 0 11"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={2}
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 55.800000000000004,
+                    "lineHeight": 77.5,
+                  },
+                  {
+                    "color": "#5F5F5F",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Read aloud
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Flag"
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": false,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 10,
+                "minHeight": 48,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <View>
+              <RNSVGSvgView
+                accessibilityElementsHidden={true}
+                align="xMidYMid"
+                bbHeight={24}
+                bbWidth={24}
+                focusable={false}
+                height={24}
+                importantForAccessibility="no-hide-descendants"
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": 24,
+                      "width": 24,
+                    },
+                  ]
+                }
+                vbHeight={24}
+                vbWidth={24}
+                width={24}
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGLine
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    propList={
+                      [
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinecap",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinecap={1}
+                    strokeWidth={2}
+                    x1="6"
+                    x2="6"
+                    y1="3.5"
+                    y2="21"
+                  />
+                  <RNSVGPath
+                    d="M6 4.5h12l-2.5 4 2.5 4H6"
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeLinejoin",
+                      ]
+                    }
+                    stroke={
+                      {
+                        "payload": 4284440415,
+                        "type": 0,
+                      }
+                    }
+                    strokeLinejoin={1}
+                    strokeWidth={2}
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "AtkinsonHyperlegible_400Regular",
+                    "fontSize": 55.800000000000004,
+                    "lineHeight": 77.5,
+                  },
+                  {
+                    "color": "#5F5F5F",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Flag
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        {
+          "paddingBottom": 12,
+          "paddingHorizontal": 20,
+          "paddingTop": 8,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="Check"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#000000",
+            "borderRadius": 14,
+            "justifyContent": "center",
+            "minHeight": 56,
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "Inter_600SemiBold",
+                "fontSize": 55.800000000000004,
+              },
+              {
+                "color": "#FFFFFF",
+              },
+              {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Check
+        </Text>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</RNCSafeAreaProvider>
+`;

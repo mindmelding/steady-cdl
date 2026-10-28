@@ -1,0 +1,341 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Ring and SteadyMark at the largest text size Ring at default size matches the snapshot 1`] = `
+<View
+  accessibilityRole="image"
+  accessible={false}
+  style={
+    {
+      "alignItems": "center",
+      "height": 44,
+      "justifyContent": "center",
+      "width": 44,
+    }
+  }
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={44}
+    bbWidth={44}
+    focusable={false}
+    height={44}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {
+          "position": "absolute",
+        },
+        {
+          "flex": 0,
+          "height": 44,
+          "width": 44,
+        },
+      ]
+    }
+    vbHeight={44}
+    vbWidth={44}
+    width={44}
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGCircle
+        cx={22}
+        cy={22}
+        fill={null}
+        propList={
+          [
+            "fill",
+            "stroke",
+            "strokeWidth",
+          ]
+        }
+        r={20}
+        stroke={
+          {
+            "payload": 4293256677,
+            "type": 0,
+          }
+        }
+        strokeWidth={4}
+      />
+      <RNSVGPath
+        d="M22 2A20 20 0 0 1 28.18 41.021"
+        fill={null}
+        propList={
+          [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeLinecap",
+          ]
+        }
+        stroke={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+        strokeLinecap={1}
+        strokeWidth={4}
+      />
+      <RNSVGCircle
+        cx={23.2823051352668}
+        cy={41.95885000545042}
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+        propList={
+          [
+            "fill",
+          ]
+        }
+        r={2}
+        testID="ring-dot"
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`Ring and SteadyMark at the largest text size Ring keeps its centre label un-truncated and matches the snapshot 1`] = `
+<View
+  accessibilityLabel="Readiness 78 out of 100. Pass mark 80."
+  accessibilityRole="image"
+  accessible={true}
+  style={
+    {
+      "alignItems": "center",
+      "height": 120,
+      "justifyContent": "center",
+      "width": 120,
+    }
+  }
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={120}
+    bbWidth={120}
+    focusable={false}
+    height={120}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {
+          "position": "absolute",
+        },
+        {
+          "flex": 0,
+          "height": 120,
+          "width": 120,
+        },
+      ]
+    }
+    vbHeight={120}
+    vbWidth={120}
+    width={120}
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGCircle
+        cx={60}
+        cy={60}
+        fill={null}
+        propList={
+          [
+            "fill",
+            "stroke",
+            "strokeWidth",
+          ]
+        }
+        r={54}
+        stroke={
+          {
+            "payload": 4293256677,
+            "type": 0,
+          }
+        }
+        strokeWidth={12}
+      />
+      <RNSVGPath
+        d="M60 6A54 54 0 1 1 6.956 49.881"
+        fill={null}
+        propList={
+          [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeLinecap",
+          ]
+        }
+        stroke={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+        strokeLinecap={1}
+        strokeWidth={12}
+      />
+      <RNSVGLine
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+        propList={
+          [
+            "stroke",
+            "strokeWidth",
+          ]
+        }
+        stroke={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+        strokeWidth={2.5}
+        testID="ring-tick"
+        x1={16.251400250422932}
+        x2={1.0344959897004742}
+        y1={45.78521825875243}
+        y2={40.84094634875327}
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_600SemiBold",
+          "fontSize": 93,
+          "letterSpacing": -2.325,
+          "lineHeight": 105.4,
+        },
+        {
+          "color": "#000000",
+        },
+        undefined,
+      ]
+    }
+  >
+    78
+  </Text>
+</View>
+`;
+
+exports[`Ring and SteadyMark at the largest text size SteadyMark is fixed geometry: unaffected by font scale, snapshot at both 1`] = `
+<View
+  accessibilityLabel="Steady CDL mark"
+  accessibilityRole="image"
+  accessible={true}
+  style={
+    {
+      "height": 120,
+      "width": 120,
+    }
+  }
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={120}
+    bbWidth={120}
+    focusable={false}
+    height={120}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {
+          "flex": 0,
+          "height": 120,
+          "width": 120,
+        },
+      ]
+    }
+    vbHeight={120}
+    vbWidth={120}
+    width={120}
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGPath
+        d="M110.697 52.725A51.216 51.216 0 1 1 51.253 9.536"
+        fill={null}
+        propList={
+          [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeLinecap",
+          ]
+        }
+        stroke={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+        strokeLinecap={1}
+        strokeWidth={17.58}
+      />
+      <RNSVGCircle
+        cx={98.10323755568706}
+        cy={25.776879981876583}
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+        propList={
+          [
+            "fill",
+          ]
+        }
+        r={8.784}
+        testID="mark-dot"
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
