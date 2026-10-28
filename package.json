@@ -6,7 +6,7 @@
   "scripts": {
     "prestart": "npm run build:content",
     "start": "expo start",
-    "prestart:web": "npm run build:content",
+    "preweb": "npm run build:content",
     "web": "expo start --web",
     "build:content": "tsx content/build.ts",
     "typecheck": "tsc --noEmit",
