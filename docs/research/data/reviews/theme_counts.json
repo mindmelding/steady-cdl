@@ -1,0 +1,315 @@
+{
+ "n_total": 3981,
+ "n_recent": 2064,
+ "n_recent_low": 581,
+ "n_recent_high": 1483,
+ "hate_low_recent": {
+  "H_paywall_price": [
+   115,
+   19.8
+  ],
+  "H_ads": [
+   95,
+   16.4
+  ],
+  "H_cant_cancel_billing": [
+   75,
+   12.9
+  ],
+  "H_endorsement_gap": [
+   57,
+   9.8
+  ],
+  "H_wrong_answers": [
+   45,
+   7.7
+  ],
+  "H_free_trial_bait": [
+   41,
+   7.1
+  ],
+  "H_state_gap": [
+   31,
+   5.3
+  ],
+  "H_not_on_real_test": [
+   30,
+   5.2
+  ],
+  "H_bugs_crash": [
+   26,
+   4.5
+  ],
+  "H_repetitive": [
+   25,
+   4.3
+  ],
+  "H_confusing_wording": [
+   23,
+   4.0
+  ],
+  "H_eldt_certificate": [
+   9,
+   1.5
+  ],
+  "H_no_study_material": [
+   7,
+   1.2
+  ],
+  "H_restore_lifetime": [
+   7,
+   1.2
+  ],
+  "H_ads_block_results": [
+   6,
+   1.0
+  ],
+  "H_spanish_language": [
+   5,
+   0.9
+  ],
+  "H_review_nag": [
+   4,
+   0.7
+  ],
+  "H_pretrip_skills": [
+   2,
+   0.3
+  ],
+  "H_audio": [
+   2,
+   0.3
+  ]
+ },
+ "love_high_recent": {
+  "L_passed": [
+   418,
+   28.2
+  ],
+  "L_endorsements": [
+   203,
+   13.7
+  ],
+  "L_matches_real_test": [
+   156,
+   10.5
+  ],
+  "L_first_try": [
+   119,
+   8.0
+  ],
+  "L_easy": [
+   105,
+   7.1
+  ],
+  "L_flashcards_modes": [
+   70,
+   4.7
+  ],
+  "L_explanations": [
+   62,
+   4.2
+  ],
+  "L_free": [
+   52,
+   3.5
+  ],
+  "L_fast": [
+   47,
+   3.2
+  ],
+  "L_worth_paying": [
+   35,
+   2.4
+  ]
+ },
+ "per_app": {
+  "Best Fun Games": {
+   "recent_low": 281,
+   "recent_high": 424,
+   "top": [
+    [
+     "H_paywall_price",
+     74
+    ],
+    [
+     "H_cant_cancel_billing",
+     47
+    ],
+    [
+     "H_wrong_answers",
+     24
+    ],
+    [
+     "H_free_trial_bait",
+     22
+    ],
+    [
+     "H_bugs_crash",
+     18
+    ]
+   ]
+  },
+  "BrainSoft/Genioworks": {
+   "recent_low": 14,
+   "recent_high": 23,
+   "top": [
+    [
+     "H_cant_cancel_billing",
+     5
+    ],
+    [
+     "H_paywall_price",
+     3
+    ],
+    [
+     "H_ads",
+     1
+    ]
+   ]
+  },
+  "DMV Genie": {
+   "recent_low": 30,
+   "recent_high": 218,
+   "top": [
+    [
+     "H_paywall_price",
+     8
+    ],
+    [
+     "H_cant_cancel_billing",
+     6
+    ],
+    [
+     "H_eldt_certificate",
+     6
+    ],
+    [
+     "H_free_trial_bait",
+     5
+    ],
+    [
+     "H_restore_lifetime",
+     5
+    ]
+   ]
+  },
+  "HLT Official CDL": {
+   "recent_low": 11,
+   "recent_high": 15,
+   "top": [
+    [
+     "H_paywall_price",
+     3
+    ],
+    [
+     "H_endorsement_gap",
+     2
+    ],
+    [
+     "H_state_gap",
+     2
+    ],
+    [
+     "H_not_on_real_test",
+     1
+    ]
+   ]
+  },
+  "Iteration Mobile": {
+   "recent_low": 2,
+   "recent_high": 5,
+   "top": [
+    [
+     "H_ads",
+     1
+    ]
+   ]
+  },
+  "Jeffrey Diaz CDL Prep": {
+   "recent_low": 171,
+   "recent_high": 736,
+   "top": [
+    [
+     "H_ads",
+     73
+    ],
+    [
+     "H_endorsement_gap",
+     32
+    ],
+    [
+     "H_wrong_answers",
+     17
+    ],
+    [
+     "H_not_on_real_test",
+     17
+    ],
+    [
+     "H_state_gap",
+     10
+    ]
+   ]
+  },
+  "Khai Vuong": {
+   "recent_low": 63,
+   "recent_high": 40,
+   "top": [
+    [
+     "H_paywall_price",
+     20
+    ],
+    [
+     "H_cant_cancel_billing",
+     15
+    ],
+    [
+     "H_repetitive",
+     11
+    ],
+    [
+     "H_free_trial_bait",
+     10
+    ],
+    [
+     "H_ads",
+     5
+    ]
+   ]
+  },
+  "Solvely PassFast": {
+   "recent_low": 9,
+   "recent_high": 22,
+   "top": [
+    [
+     "H_paywall_price",
+     3
+    ],
+    [
+     "H_cant_cancel_billing",
+     2
+    ],
+    [
+     "H_not_on_real_test",
+     2
+    ],
+    [
+     "H_free_trial_bait",
+     2
+    ],
+    [
+     "H_repetitive",
+     1
+    ]
+   ]
+  }
+ },
+ "star_all": {
+  "1": 755,
+  "5": 2477,
+  "2": 207,
+  "3": 298,
+  "4": 244
+ }
+}

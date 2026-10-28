@@ -1,0 +1,65 @@
+{
+ "Khai Vuong": {
+  "installs": "100,000+",
+  "score": 3.28,
+  "ratings": 249,
+  "reviews": 115,
+  "price_text": "$8.99 - $74.99 per item",
+  "released": "Jan 13, 2023",
+  "containsAds": false
+ },
+ "Best Fun Games": {
+  "installs": "100,000+",
+  "score": 4.6217303,
+  "ratings": 14861,
+  "reviews": 4764,
+  "price_text": "$24.99 - $89.99 per item",
+  "released": "Mar 13, 2024",
+  "containsAds": false
+ },
+ "BrainSoft/Genioworks": {
+  "installs": "10,000+",
+  "score": 4.6792455,
+  "ratings": 507,
+  "reviews": 38,
+  "price_text": "$2.49 - $34.99 per item",
+  "released": "Jun 16, 2026",
+  "containsAds": true
+ },
+ "Jeffrey Diaz CDL Prep": {
+  "installs": "1,000,000+",
+  "score": 4.5731225,
+  "ratings": 5747,
+  "reviews": 2781,
+  "price_text": null,
+  "released": "Jun 11, 2014",
+  "containsAds": true
+ },
+ "DMV Genie": {
+  "installs": "100,000+",
+  "score": 4.7940197,
+  "ratings": 3084,
+  "reviews": 661,
+  "price_text": "$19.99 - $219.99 per item",
+  "released": "Dec 24, 2020",
+  "containsAds": true
+ },
+ "Iteration Mobile": {
+  "installs": "500,000+",
+  "score": 4.492,
+  "ratings": 2617,
+  "reviews": 936,
+  "price_text": "$4.99 per item",
+  "released": "Jun 7, 2016",
+  "containsAds": true
+ },
+ "HLT Official CDL": {
+  "installs": "10,000+",
+  "score": 4.64,
+  "ratings": 483,
+  "reviews": 33,
+  "price_text": "$6.99 - $23.99 per item",
+  "released": "Jun 3, 2021",
+  "containsAds": false
+ }
+}
