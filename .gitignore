@@ -17,3 +17,6 @@ GoogleService-Info.plist
 credentials.json
 __pycache__/
 .DS_Store
+assets/content.db
+expo-env.d.ts
+*.tsbuildinfo
