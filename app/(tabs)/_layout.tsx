@@ -1,4 +1,5 @@
 import { Tabs } from 'expo-router';
+import { View } from 'react-native';
 import { AppText } from '../../src/components/AppText';
 import { CalendarIcon, CrossIcon, SpeakerIcon } from '../../src/components/icons';
 import { Ring } from '../../src/components/Ring';
@@ -10,9 +11,16 @@ import { useTheme } from '../../src/theme/theme';
 function TabLabel({ text, focused }: { text: string; focused: boolean }) {
   const theme = useTheme();
   return (
-    <AppText variant="tab" color={focused ? theme.color.ink : theme.color.sub}>
-      {text}
-    </AppText>
+    // Wraps and centres instead of running into the next tab at large text sizes.
+    <View style={{ alignSelf: 'stretch', alignItems: 'center' }}>
+      <AppText
+        variant="tab"
+        color={focused ? theme.color.ink : theme.color.sub}
+        style={{ textAlign: 'center' }}
+      >
+        {text}
+      </AppText>
+    </View>
   );
 }
 
@@ -31,7 +39,7 @@ export default function TabsLayout() {
           borderTopColor: theme.color.line,
           minHeight: theme.size.tabH,
         },
-        tabBarItemStyle: { paddingTop: 6 },
+        tabBarItemStyle: { paddingTop: 6, minWidth: 0 },
       }}
     >
       <Tabs.Screen

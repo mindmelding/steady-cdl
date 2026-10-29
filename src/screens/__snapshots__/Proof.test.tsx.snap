@@ -1138,6 +1138,7 @@ exports[`S5 Proof sheet at default text size matches the snapshot (right answer)
                   "alignItems": "center",
                   "flexDirection": "row",
                   "gap": 10,
+                  "maxWidth": "100%",
                   "minHeight": 48,
                   "paddingVertical": 8,
                 }
@@ -1260,7 +1261,9 @@ exports[`S5 Proof sheet at default text size matches the snapshot (right answer)
                     {
                       "color": "#5F5F5F",
                     },
-                    undefined,
+                    {
+                      "flexShrink": 1,
+                    },
                   ]
                 }
               >
@@ -1304,6 +1307,7 @@ exports[`S5 Proof sheet at default text size matches the snapshot (right answer)
                   "alignItems": "center",
                   "flexDirection": "row",
                   "gap": 10,
+                  "maxWidth": "100%",
                   "minHeight": 48,
                   "paddingVertical": 8,
                 }
@@ -1413,7 +1417,9 @@ exports[`S5 Proof sheet at default text size matches the snapshot (right answer)
                     {
                       "color": "#5F5F5F",
                     },
-                    undefined,
+                    {
+                      "flexShrink": 1,
+                    },
                   ]
                 }
               >
@@ -2765,6 +2771,7 @@ exports[`S5 Proof sheet at default text size matches the snapshot (wrong answer,
                   "alignItems": "center",
                   "flexDirection": "row",
                   "gap": 10,
+                  "maxWidth": "100%",
                   "minHeight": 48,
                   "paddingVertical": 8,
                 }
@@ -2887,7 +2894,9 @@ exports[`S5 Proof sheet at default text size matches the snapshot (wrong answer,
                     {
                       "color": "#5F5F5F",
                     },
-                    undefined,
+                    {
+                      "flexShrink": 1,
+                    },
                   ]
                 }
               >
@@ -2931,6 +2940,7 @@ exports[`S5 Proof sheet at default text size matches the snapshot (wrong answer,
                   "alignItems": "center",
                   "flexDirection": "row",
                   "gap": 10,
+                  "maxWidth": "100%",
                   "minHeight": 48,
                   "paddingVertical": 8,
                 }
@@ -3040,7 +3050,9 @@ exports[`S5 Proof sheet at default text size matches the snapshot (wrong answer,
                     {
                       "color": "#5F5F5F",
                     },
-                    undefined,
+                    {
+                      "flexShrink": 1,
+                    },
                   ]
                 }
               >
@@ -4266,6 +4278,7 @@ exports[`S5 Proof sheet at largest accessibility text size (3.1x) matches the sn
                   "alignItems": "center",
                   "flexDirection": "row",
                   "gap": 10,
+                  "maxWidth": "100%",
                   "minHeight": 48,
                   "paddingVertical": 8,
                 }
@@ -4388,7 +4401,9 @@ exports[`S5 Proof sheet at largest accessibility text size (3.1x) matches the sn
                     {
                       "color": "#5F5F5F",
                     },
-                    undefined,
+                    {
+                      "flexShrink": 1,
+                    },
                   ]
                 }
               >
@@ -4432,6 +4447,7 @@ exports[`S5 Proof sheet at largest accessibility text size (3.1x) matches the sn
                   "alignItems": "center",
                   "flexDirection": "row",
                   "gap": 10,
+                  "maxWidth": "100%",
                   "minHeight": 48,
                   "paddingVertical": 8,
                 }
@@ -4541,7 +4557,9 @@ exports[`S5 Proof sheet at largest accessibility text size (3.1x) matches the sn
                     {
                       "color": "#5F5F5F",
                     },
-                    undefined,
+                    {
+                      "flexShrink": 1,
+                    },
                   ]
                 }
               >
@@ -5893,6 +5911,7 @@ exports[`S5 Proof sheet at largest accessibility text size (3.1x) matches the sn
                   "alignItems": "center",
                   "flexDirection": "row",
                   "gap": 10,
+                  "maxWidth": "100%",
                   "minHeight": 48,
                   "paddingVertical": 8,
                 }
@@ -6015,7 +6034,9 @@ exports[`S5 Proof sheet at largest accessibility text size (3.1x) matches the sn
                     {
                       "color": "#5F5F5F",
                     },
-                    undefined,
+                    {
+                      "flexShrink": 1,
+                    },
                   ]
                 }
               >
@@ -6059,6 +6080,7 @@ exports[`S5 Proof sheet at largest accessibility text size (3.1x) matches the sn
                   "alignItems": "center",
                   "flexDirection": "row",
                   "gap": 10,
+                  "maxWidth": "100%",
                   "minHeight": 48,
                   "paddingVertical": 8,
                 }
@@ -6168,7 +6190,9 @@ exports[`S5 Proof sheet at largest accessibility text size (3.1x) matches the sn
                     {
                       "color": "#5F5F5F",
                     },
-                    undefined,
+                    {
+                      "flexShrink": 1,
+                    },
                   ]
                 }
               >

@@ -68,9 +68,14 @@ export function PaywallView(p: PaywallViewProps) {
 
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', columnGap: 18, rowGap: 6 }}>
           {[copy.paywall.noAds, copy.paywall.noAutoRenew, copy.paywall.noTrial].map((t) => (
-            <View key={t} style={{ flexDirection: 'row', alignItems: 'center', columnGap: 6 }}>
+            <View
+              key={t}
+              style={{ flexDirection: 'row', alignItems: 'center', columnGap: 6, maxWidth: '100%' }}
+            >
               <CheckIcon size={22} strokeWidth={3} />
-              <AppText variant="body">{t}</AppText>
+              <AppText variant="body" style={{ flexShrink: 1 }}>
+                {t}
+              </AppText>
             </View>
           ))}
         </View>

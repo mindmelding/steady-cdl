@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
+import { goHome } from '../nav';
 import { AccessibilityInfo, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { AppText } from '../components/AppText';
@@ -60,7 +61,7 @@ export function QuestionScreen({ lessonId, step }: { lessonId: string; step: num
   const close = useCallback(() => {
     stopSpeaking();
     if (router.canGoBack()) router.back();
-    else router.replace('/learn');
+    else goHome(router);
   }, [router]);
 
   if (data === 'missing') {

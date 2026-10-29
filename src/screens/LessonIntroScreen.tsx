@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { goHome } from '../nav';
 import { useRouter } from 'expo-router';
 import { copy, stateName } from '../copy';
 import type { Lesson, StateFormat, Unit } from '../db/content/types';
@@ -65,7 +66,7 @@ export function LessonIntroScreen({ lessonId }: { lessonId: string }) {
   const locked = data && data !== 'missing' ? !lessonOpen(data.unit, data.index, owned) : false;
   useEffect(() => {
     if (locked) {
-      if (!openPaywall(router.replace, { source: 'locked_item' })) router.replace('/learn');
+      if (!openPaywall(router.replace, { source: 'locked_item' })) goHome(router);
     }
   }, [locked, router]);
 
@@ -78,7 +79,7 @@ export function LessonIntroScreen({ lessonId }: { lessonId: string }) {
   const close = () => {
     stopSpeaking();
     if (router.canGoBack()) router.back();
-    else router.replace('/learn');
+    else goHome(router);
   };
 
   return (

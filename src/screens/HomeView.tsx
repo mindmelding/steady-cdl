@@ -43,7 +43,7 @@ function Num({ children, color }: { children: string | number; color?: string })
 /** S2 Home: lesson path (design/png/02-home-lesson-path.png). Presentational. */
 export function HomeView(p: HomeViewProps) {
   const theme = useTheme();
-  const k = Math.min(useGlyphScale(), 1.5);
+  const k = Math.min(useGlyphScale(), 1.2);
   const col = (CURRENT_NODE + 4) * k;
   const ringLabel =
     p.readiness.tick === undefined
@@ -255,7 +255,7 @@ function PathRow({
   onLocked: () => void;
 }) {
   const theme = useTheme();
-  const k = Math.min(useGlyphScale(), 1.5);
+  const k = Math.min(useGlyphScale(), 1.2);
   const isCurrent = node.kind === 'lesson' && node.status === 'current';
   const locked = node.kind === 'lesson' ? node.status === 'locked' : node.locked;
   const faded = node.kind === 'lesson' && (node.status === 'upcoming' || node.status === 'locked');
@@ -419,9 +419,12 @@ function NodeShape({
       );
     case 'current':
       return (
-        <Ring progress={node.fraction} size={size} stroke={6} dot>
-          <Num>{node.number}</Num>
-        </Ring>
+        // A bg disc so the path line does not run through the ring.
+        <View style={{ width: size, height: size, borderRadius: size / 2, backgroundColor: bg }}>
+          <Ring progress={node.fraction} size={size} stroke={6} dot>
+            <Num>{node.number}</Num>
+          </Ring>
+        </View>
       );
     case 'locked':
       return (

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { goHome } from '../nav';
 import { View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { AppText } from '../components/AppText';
@@ -73,7 +74,7 @@ export function RunScreen({ runId }: { runId: number }) {
         }}
       >
         <AppText variant="body">{copy.test.noQuestions}</AppText>
-        <Button label={copy.test.back} onPress={() => router.replace('/learn')} />
+        <Button label={copy.test.back} onPress={() => goHome(router)} />
       </View>
     );
   }
@@ -127,7 +128,7 @@ export function RunScreen({ runId }: { runId: number }) {
       onClose={() => {
         audio.stop();
         if (router.canGoBack()) router.back();
-        else router.replace('/learn');
+        else goHome(router);
       }}
       onReadAloud={() => audio.toggle(readAloudText(q, false))}
       onFlag={() => setFlagged((f) => !f)}

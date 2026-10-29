@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { goHome } from '../nav';
 import { Pressable, ScrollView, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
@@ -99,7 +100,7 @@ export function SettingsScreen() {
         <Pressable
           accessibilityRole="button"
           accessibilityLabel={copy.settings.back}
-          onPress={() => (router.canGoBack() ? router.back() : router.replace('/learn'))}
+          onPress={() => (router.canGoBack() ? router.back() : goHome(router))}
           style={{
             minHeight: theme.size.minTap,
             flexDirection: 'row',

@@ -116,7 +116,7 @@ export const copy = {
     nextLesson: (title: string, min: number) => `Next: ${title} · ${min} min`,
     nextLocked: (title: string) => `Next: ${title} · locked`,
     unitDone: 'Lessons done. Next: the practice test.',
-    unitProgress: (k: number, n: number) => `${k} of ${n} lessons done`,
+    unitProgress: (k: number, n: number) => `${k} of ${n} ${n === 1 ? 'lesson' : 'lessons'} done`,
     continue: 'Continue',
     stop: 'Stop for today',
   },
@@ -185,7 +185,7 @@ export const copy = {
       hazmat_renewal: 'HazMat renewal',
     } as Record<string, string>,
     unitOf: (n: number, m: number) => `Unit ${n} of ${m}`,
-    lessonsDone: (k: number, n: number) => `${k} of ${n} lessons`,
+    lessonsDone: (k: number, n: number) => `${k} of ${n} ${n === 1 ? 'lesson' : 'lessons'}`,
     formatReal: (state: string, n: number, pct: number) =>
       `${state} test: ${n} questions · ${pct}% to pass`,
     formatUnverified: 'Test format still being confirmed',
@@ -201,7 +201,8 @@ export const copy = {
     fullCheck: 'Full unit check',
     resume: 'Resume',
     otherUnits: 'Other units',
-    unitRow: (title: string, k: number, n: number) => `${title} · ${k} of ${n} lessons`,
+    unitRow: (title: string, k: number, n: number) =>
+      `${title} · ${k} of ${n} ${n === 1 ? 'lesson' : 'lessons'}`,
     emptyBody: 'Lessons for this goal are not here yet.',
     lessonLabel: (n: number, title: string, meta: string) => `Lesson ${n}, ${title}. ${meta}`,
     readinessRing: (n: number) => `Readiness ${n} out of 100`,

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { goHome } from '../nav';
 import { View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { AppText } from '../components/AppText';
@@ -80,7 +81,7 @@ export function LessonCompleteScreen({ lessonId }: { lessonId: string }) {
         }}
       >
         <AppText variant="body">{copy.question.notFound}</AppText>
-        <Button label={copy.complete.back} onPress={() => router.replace('/learn')} />
+        <Button label={copy.complete.back} onPress={() => goHome(router)} />
       </View>
     );
   }
@@ -89,14 +90,14 @@ export function LessonCompleteScreen({ lessonId }: { lessonId: string }) {
   return (
     <LessonCompleteView
       {...data.view}
-      onStop={() => router.replace('/learn')}
+      onStop={() => goHome(router)}
       onContinue={() => {
         const next = data.next;
-        if (!next) return router.replace('/learn');
+        if (!next) return goHome(router);
         if (next.open) return router.replace(`/lesson/${next.lessonId}/intro`);
         // The free lesson is done and the next one is behind the unlock: the unit boundary.
         // The guard still applies (this screen is not a lesson, so it opens).
-        router.replace('/learn');
+        goHome(router);
         openPaywall(router.push, { source: 'unit_boundary', unit: data.unitTitle });
       }}
     />

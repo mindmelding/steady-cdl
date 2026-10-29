@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { goHome } from '../nav';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { copy } from '../copy';
 import { canOpenPaywall } from '../domain/access';
@@ -22,7 +23,7 @@ export function PaywallScreen() {
   useEffect(() => {
     if (!allowed) {
       if (router.canGoBack()) router.back();
-      else router.replace('/learn');
+      else goHome(router);
       return;
     }
     trackPaywallViewed(params.source ?? 'locked_item');
@@ -32,7 +33,7 @@ export function PaywallScreen() {
 
   if (!allowed) return null;
 
-  const close = () => (router.canGoBack() ? router.back() : router.replace('/learn'));
+  const close = () => (router.canGoBack() ? router.back() : goHome(router));
   return (
     <PaywallView
       context={

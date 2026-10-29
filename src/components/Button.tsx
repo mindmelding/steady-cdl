@@ -74,10 +74,11 @@ export function LinkButton({
         alignItems: 'center',
         gap: 10,
         paddingVertical: 8,
+        maxWidth: '100%',
       }}
     >
       <View style={{ flexShrink: 0 }}>{icon}</View>
-      <AppText variant="body" color={theme.color.sub}>
+      <AppText variant="body" color={theme.color.sub} style={{ flexShrink: 1 }}>
         {label}
       </AppText>
     </Pressable>
