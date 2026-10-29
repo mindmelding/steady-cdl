@@ -1,0 +1,38 @@
+# Onboarding no-loop test (CLAUDE.md S1, section 12.1). NOT RUN in the cloud build (no emulator).
+# Run on each of the four sizes the checklist names: iPhone SE, iPhone Pro Max, a small Android
+# phone and a large Android phone:
+#   maestro test maestro/onboarding-no-loop.yaml
+# Passes when: the three onboarding screens go forward once each, Back returns one screen, the
+# state picker is shown exactly once on the way forward, and after relaunch the app opens on Learn
+# (onboarding never repeats).
+appId: dev.mindmelding.steadycdl
+---
+- launchApp:
+    clearState: true
+- assertVisible: 'Where are you testing?'
+- assertVisible: '1 of 3'
+- tapOn: 'Texas'
+- tapOn: 'Continue'
+- assertVisible: 'What are you studying?'
+- assertVisible: '2 of 3'
+# Back goes one screen, not to the start, and forward again shows the same choice.
+- tapOn: 'Back'
+- assertVisible: 'Where are you testing?'
+- tapOn: 'Continue'
+- assertVisible: 'What are you studying?'
+- tapOn: 'Getting my permit (CLP)'
+- tapOn: 'Continue'
+- assertVisible: 'What is free'
+- assertVisible: '3 of 3'
+- tapOn: 'Start learning'
+- assertVisible: 'Learn'
+- assertNotVisible: 'Where are you testing?'
+# Relaunch without clearing state: straight to Learn, no onboarding.
+- launchApp
+- assertVisible: 'Learn'
+- assertNotVisible: 'Where are you testing?'
+- assertNotVisible: 'What are you studying?'
+# The Android back button must not return into onboarding either.
+- back
+- launchApp
+- assertNotVisible: 'Where are you testing?'

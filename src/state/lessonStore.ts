@@ -1,10 +1,20 @@
 import { create } from 'zustand';
 import type { Question } from '../db/content/types';
 import type { LessonProgress } from '../db/user/repos';
-import { applyAnswer } from '../domain/review';
+import { recordAnswer } from './answers';
 import { track } from '../analytics';
 import { clock, getUserRepo } from './runtime';
 import { useReviewStore } from './reviewStore';
+
+// Time on a lesson: seconds between taps, each gap capped so a backgrounded app is not counted.
+const MAX_GAP_SECONDS = 120;
+let lastTs = 0;
+function addSeconds(current: number): number {
+  const now = clock.now();
+  const gap = lastTs > 0 ? Math.min(MAX_GAP_SECONDS, Math.max(0, (now - lastTs) / 1000)) : 0;
+  lastTs = now;
+  return current + Math.round(gap);
+}
 
 const fresh = (lessonId: string): LessonProgress => ({
   lessonId,
@@ -57,24 +67,15 @@ export const useLessonStore = create<LessonState>((set, get) => ({
     if (!p || p.checked || p.pendingPick === null) throw new Error('Nothing to check');
     const repo = getUserRepo();
     const correct = p.pendingPick === question.answer_index;
-    const next: LessonProgress = { ...p, checked: true, score: p.score + (correct ? 1 : 0) };
+    const next: LessonProgress = {
+      ...p,
+      checked: true,
+      score: p.score + (correct ? 1 : 0),
+      seconds: addSeconds(p.seconds),
+    };
     set({ progress: next });
     await repo.transaction(async () => {
-      await repo.recordAttempt({
-        questionId: question.id,
-        correct,
-        chosenIndex: p.pendingPick!,
-        ts: clock.now(),
-        mode,
-      });
-      const change = applyAnswer(
-        question.id,
-        await repo.getReviewItem(question.id),
-        correct,
-        clock.today(),
-      );
-      if (change.kind === 'upsert') await repo.upsertReviewItem(change.item);
-      if (change.kind === 'remove') await repo.removeReviewItem(question.id);
+      await recordAnswer(repo, question, p.pendingPick!, mode);
       await repo.saveProgress(next, clock.now());
     });
     await useReviewStore.getState().refresh();
@@ -92,16 +93,24 @@ export const useLessonStore = create<LessonState>((set, get) => ({
       pendingPick: null,
       checked: false,
       done: stepIndex >= total,
+      seconds: addSeconds(p.seconds),
     };
     set({ progress: next });
-    await getUserRepo().saveProgress(next, clock.now());
-    if (next.done) track('lesson_completed', { lesson_id: p.lessonId, score: p.score });
+    const repo = getUserRepo();
+    await repo.saveProgress(next, clock.now());
+    if (next.done) {
+      // Remembered even if the lesson is replayed later (a replay resets progress, not this).
+      await repo.markLessonDone(p.lessonId, 'completed', clock.now());
+      track('lesson_completed', { lesson_id: p.lessonId, score: p.score });
+    }
   },
 
   restart: async (lessonId) => {
+    lastTs = clock.now();
     const p = fresh(lessonId);
     await getUserRepo().saveProgress(p, clock.now());
     set({ progress: p });
+    track('lesson_started', { lesson_id: lessonId });
     return p;
   },
 }));

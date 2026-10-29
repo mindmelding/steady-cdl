@@ -1,18 +1,29 @@
 import { Tabs } from 'expo-router';
+import { View } from 'react-native';
 import { AppText } from '../../src/components/AppText';
 import { CalendarIcon, CrossIcon, SpeakerIcon } from '../../src/components/icons';
 import { Ring } from '../../src/components/Ring';
 import { copy } from '../../src/copy';
 import { useReviewStore } from '../../src/state/reviewStore';
-import { useTheme } from '../../src/theme/theme';
+import { TAB_MAX_SCALE, useTheme } from '../../src/theme/theme';
 
 // Every tab label is icon + word (CLAUDE.md §3.1).
 function TabLabel({ text, focused }: { text: string; focused: boolean }) {
   const theme = useTheme();
   return (
-    <AppText variant="tab" color={focused ? theme.color.ink : theme.color.sub}>
-      {text}
-    </AppText>
+    // Wraps and centres instead of running into the next tab at large text sizes.
+    <View style={{ alignSelf: 'stretch', alignItems: 'center' }}>
+      <AppText
+        variant="tab"
+        // Tab labels are chrome, not reading text: capped like the system tab bar.
+        // eslint-disable-next-line no-restricted-syntax
+        maxFontSizeMultiplier={TAB_MAX_SCALE}
+        color={focused ? theme.color.ink : theme.color.sub}
+        style={{ textAlign: 'center' }}
+      >
+        {text}
+      </AppText>
+    </View>
   );
 }
 
@@ -31,7 +42,7 @@ export default function TabsLayout() {
           borderTopColor: theme.color.line,
           minHeight: theme.size.tabH,
         },
-        tabBarItemStyle: { paddingTop: 6 },
+        tabBarItemStyle: { paddingTop: 6, minWidth: 0 },
       }}
     >
       <Tabs.Screen

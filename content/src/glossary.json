@@ -6,5 +6,189 @@
   {
     "term": "governor cut-out pressure",
     "plain": "The pressure at which the air governor stops the compressor from adding more air."
+  },
+  {
+    "term": "ABS",
+    "plain": "Antilock braking system, which helps keep the wheels from locking up in hard braking."
+  },
+  {
+    "term": "GVWR",
+    "plain": "Gross vehicle weight rating, the most weight a vehicle is built to carry, set by the maker."
+  },
+  {
+    "term": "attended",
+    "plain": "Watched by a person who is on the vehicle awake, or close by with a clear view."
+  },
+  {
+    "term": "automatic brake adjuster",
+    "plain": "A part that keeps the brakes adjusted on its own as the linings wear."
+  },
+  {
+    "term": "breakaway",
+    "plain": "When a trailer comes loose from the vehicle towing it."
+  },
+  {
+    "term": "bulk packaging",
+    "plain": "A large container, such as a cargo tank, that holds hazmat without smaller inner packages."
+  },
+  {
+    "term": "commercial learner's permit (CLP)",
+    "plain": "A permit that lets you practice driving a commercial vehicle on public roads with a CDL holder beside you."
+  },
+  {
+    "term": "conspicuity",
+    "plain": "Reflective tape or reflectors that help other drivers see a trailer at night."
+  },
+  {
+    "term": "coupling device",
+    "plain": "The hardware that joins a truck and a trailer, such as a fifth wheel or pintle hook."
+  },
+  {
+    "term": "disqualification",
+    "plain": "A period when you lose the right to drive a commercial vehicle."
+  },
+  {
+    "term": "emergency brake",
+    "plain": "A brake system that can stop the vehicle if the service brakes fail."
+  },
+  {
+    "term": "emergency response information",
+    "plain": "Information that tells responders the hazards of a material and what to do in a spill, fire or leak."
+  },
+  {
+    "term": "endorsement",
+    "plain": "An added permission on a CDL that lets you drive a certain kind of vehicle or load."
+  },
+  {
+    "term": "fatigue",
+    "plain": "Being so tired that your alertness and reaction time are lower."
+  },
+  {
+    "term": "fifth wheel",
+    "plain": "The coupling plate on a tractor that holds the trailer's kingpin."
+  },
+  {
+    "term": "fire extinguisher rating",
+    "plain": "A code, such as 10 B:C, that shows how much fire an extinguisher can fight."
+  },
+  {
+    "term": "hand-held phone",
+    "plain": "A phone you hold in your hand to talk. Federal rules ban using one while driving a CMV."
+  },
+  {
+    "term": "hazard flashers",
+    "plain": "The four-way flashing lights that warn other drivers your vehicle is stopped."
+  },
+  {
+    "term": "hazardous materials",
+    "plain": "Materials that can hurt people or property if they are not handled safely, such as fuel, gases and chemicals."
+  },
+  {
+    "term": "hours of service",
+    "plain": "Federal limits on how long a driver may drive and work."
+  },
+  {
+    "term": "major offense",
+    "plain": "A serious violation, such as leaving the scene of an accident, that brings a long disqualification."
+  },
+  {
+    "term": "motor carrier",
+    "plain": "A company that moves goods or people by commercial vehicle."
+  },
+  {
+    "term": "non-bulk",
+    "plain": "Smaller packages such as boxes, drums and cylinders."
+  },
+  {
+    "term": "on duty",
+    "plain": "All the time you are working or ready to work for a carrier, not just time spent driving."
+  },
+  {
+    "term": "out of service",
+    "plain": "An order that stops you from driving until a problem is fixed or a set time has passed."
+  },
+  {
+    "term": "packing group",
+    "plain": "A Roman numeral (I, II or III) that shows how dangerous a hazardous material is."
+  },
+  {
+    "term": "parking brake",
+    "plain": "The brake that holds the vehicle still when parked."
+  },
+  {
+    "term": "periodic inspection",
+    "plain": "A full inspection of a commercial vehicle that must be done at least once every 12 months."
+  },
+  {
+    "term": "pintle hook",
+    "plain": "A hook coupling used to pull a full trailer or dolly."
+  },
+  {
+    "term": "placard",
+    "plain": "A diamond-shaped sign on a vehicle that shows the hazard class of the load."
+  },
+  {
+    "term": "ply",
+    "plain": "A layer of cord fabric inside a tire."
+  },
+  {
+    "term": "proper shipping name",
+    "plain": "The official name of a hazardous material, shown on the shipping paper."
+  },
+  {
+    "term": "pushrod",
+    "plain": "The rod that moves out of the brake chamber to apply the brake."
+  },
+  {
+    "term": "rear impact guard",
+    "plain": "A bar across the rear of a trailer that helps stop a car from sliding underneath."
+  },
+  {
+    "term": "reservoir",
+    "plain": "An air tank that stores air for the brakes."
+  },
+  {
+    "term": "securement",
+    "plain": "The straps, chains and other gear that hold cargo in place."
+  },
+  {
+    "term": "segregation",
+    "plain": "Keeping hazardous materials apart so they cannot react with each other."
+  },
+  {
+    "term": "serious traffic violation",
+    "plain": "A violation such as speeding 15 mph or more over the limit that brings a disqualification if it happens more than once in 3 years."
+  },
+  {
+    "term": "service brakes",
+    "plain": "The brakes you use to slow and stop the vehicle while driving."
+  },
+  {
+    "term": "steering axle",
+    "plain": "The front axle that turns the vehicle."
+  },
+  {
+    "term": "supply reservoir",
+    "plain": "The air tank that feeds air to the brakes on a trailer."
+  },
+  {
+    "term": "surge brakes",
+    "plain": "Trailer brakes that apply on their own when the towing vehicle slows."
+  },
+  {
+    "term": "texting",
+    "plain": "Typing or reading text on a phone or other device."
+  },
+  {
+    "term": "tractor protection valve",
+    "plain": "A valve that closes to keep the truck's air if the trailer's air line breaks or leaks."
+  },
+  {
+    "term": "vehicle inspection report",
+    "plain": "A written report of defects the driver found or was told about on a vehicle."
+  },
+  {
+    "term": "warning devices",
+    "plain": "Reflective triangles or flares you place on the road to warn traffic about a stopped vehicle."
   }
 ]

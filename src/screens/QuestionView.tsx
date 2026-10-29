@@ -4,8 +4,9 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { AppText } from '../components/AppText';
 import { Badge } from '../components/Badge';
 import { Button, LinkButton } from '../components/Button';
-import { CheckIcon, CloseIcon, CrossIcon, FlagIcon, SpeakerIcon } from '../components/icons';
+import { CloseIcon, FlagIcon, SpeakerIcon } from '../components/icons';
 import { OptionRow, type OptionState } from '../components/OptionRow';
+import { ProofSheet, type ProofInfo } from '../components/ProofSheet';
 import { StepBar } from '../components/StepBar';
 import { copy } from '../copy';
 import { useTheme } from '../theme/theme';
@@ -28,21 +29,34 @@ export interface QuestionViewProps {
   onClose: () => void;
   onReadAloud: () => void;
   onFlag: () => void;
+  /**
+   * false = unit checks and the placement check: no Check button, no Proof sheet, the option stays
+   * "selected" and the footer button just moves on. Default true (lessons, Review replays).
+   */
+  feedback?: boolean;
+  /** The Proof sheet content shown after Check (S5). */
+  proof?: ProofInfo;
+  /** Report a mistake (S12). Omit to hide the link. */
+  onReport?: (reason: string, note: string) => void | Promise<void>;
+  /** Footer labels when feedback is false. */
+  labels?: { next: string; finish: string; close: string };
 }
 
 /** S4 Question (design/png/04-question.png). Presentational: all state comes in as props. */
 export function QuestionView(p: QuestionViewProps) {
   const theme = useTheme();
   const scroll = useRef<ScrollViewInstance>(null);
-  const correct = p.checked && p.pick === p.answerIndex;
+  const feedback = p.feedback !== false;
+  const shown = feedback && p.checked;
+  const correct = shown && p.pick === p.answerIndex;
 
   useEffect(() => {
     // Bring the result row into view after Check, at any text size.
-    if (p.checked) setTimeout(() => scroll.current?.scrollToEnd({ animated: true }), 50);
-  }, [p.checked]);
+    if (shown) setTimeout(() => scroll.current?.scrollToEnd({ animated: true }), 50);
+  }, [shown]);
 
   const stateOf = (i: number): OptionState => {
-    if (p.checked) {
+    if (shown) {
       if (i === p.answerIndex) return 'correct';
       if (i === p.pick) return 'wrong';
       return 'idle';
@@ -64,7 +78,7 @@ export function QuestionView(p: QuestionViewProps) {
       >
         <Pressable
           accessibilityRole="button"
-          accessibilityLabel={copy.question.close}
+          accessibilityLabel={p.labels?.close ?? copy.question.close}
           onPress={p.onClose}
           hitSlop={4}
           style={{
@@ -102,60 +116,49 @@ export function QuestionView(p: QuestionViewProps) {
               letter={String.fromCharCode(65 + i)}
               text={text}
               state={stateOf(i)}
-              disabled={p.checked}
+              disabled={shown}
               onPress={() => p.onSelect(i)}
             />
           ))}
         </View>
-        <View style={{ flexDirection: 'row', flexWrap: 'wrap', columnGap: 28 }}>
-          <LinkButton
-            label={p.speaking ? copy.question.stopReading : copy.question.readAloud}
-            icon={<SpeakerIcon size={24} color={theme.color.sub} />}
-            onPress={p.onReadAloud}
+        {shown ? (
+          <ProofSheet
+            correct={correct}
+            info={p.proof}
+            speaking={p.speaking}
+            onReadAloud={p.onReadAloud}
+            onReport={p.onReport}
           />
-          <LinkButton
-            label={p.flagged ? copy.question.flagged : copy.question.flag}
-            icon={<FlagIcon size={24} color={theme.color.sub} filled={p.flagged} />}
-            selected={p.flagged}
-            onPress={p.onFlag}
-          />
-        </View>
-
-        {p.checked && (
-          <View
-            accessible
-            accessibilityLiveRegion="polite"
-            accessibilityLabel={correct ? copy.question.correct : copy.question.notQuite}
-            style={{
-              flexDirection: 'row',
-              flexWrap: 'wrap',
-              alignItems: 'center',
-              columnGap: 12,
-              rowGap: 4,
-              paddingTop: 4,
-            }}
-          >
-            {correct ? (
-              <CheckIcon size={32} strokeWidth={3} />
-            ) : (
-              <CrossIcon size={32} strokeWidth={3} />
-            )}
-            <AppText variant="h2">
-              {correct ? copy.question.correct : copy.question.notQuite}
-            </AppText>
-            {!correct && (
-              <AppText variant="body" color={theme.color.sub} style={{ marginLeft: 'auto' }}>
-                {copy.question.addedToReview}
-              </AppText>
-            )}
+        ) : (
+          <View style={{ flexDirection: 'row', flexWrap: 'wrap', columnGap: 28 }}>
+            <LinkButton
+              label={p.speaking ? copy.question.stopReading : copy.question.readAloud}
+              icon={<SpeakerIcon size={24} color={theme.color.sub} />}
+              onPress={p.onReadAloud}
+            />
+            <LinkButton
+              label={p.flagged ? copy.question.flagged : copy.question.flag}
+              icon={<FlagIcon size={24} color={theme.color.sub} filled={p.flagged} />}
+              selected={p.flagged}
+              onPress={p.onFlag}
+            />
           </View>
         )}
       </ScrollView>
 
       <View style={{ paddingHorizontal: theme.space.page, paddingBottom: 12, paddingTop: 8 }}>
-        {p.checked ? (
+        {!feedback ? (
           <Button
-            label={p.isLast ? copy.question.finish : copy.question.continue}
+            label={
+              p.isLast ? (p.labels?.finish ?? copy.test.finish) : (p.labels?.next ?? copy.test.next)
+            }
+            disabled={p.pick === null}
+            accessibilityHint={copy.question.checkHint}
+            onPress={p.onContinue}
+          />
+        ) : p.checked ? (
+          <Button
+            label={p.isLast ? (p.labels?.finish ?? copy.question.finish) : copy.question.continue}
             onPress={p.onContinue}
           />
         ) : (

@@ -8,15 +8,19 @@ export function Button({
   onPress,
   disabled = false,
   accessibilityHint,
+  variant = 'primary',
 }: {
   label: string;
   onPress: () => void;
   disabled?: boolean;
   accessibilityHint?: string;
+  /** secondary = outlined, same size and weight (e.g. "Stop for today" beside "Continue"). */
+  variant?: 'primary' | 'secondary';
 }) {
   const theme = useTheme();
-  const bg = disabled ? theme.color.disabledBg : theme.color.ink;
-  const fg = disabled ? theme.color.disabledInk : theme.color.bg;
+  const secondary = variant === 'secondary' && !disabled;
+  const bg = disabled ? theme.color.disabledBg : secondary ? theme.color.bg : theme.color.ink;
+  const fg = disabled ? theme.color.disabledInk : secondary ? theme.color.ink : theme.color.bg;
   return (
     <Pressable
       accessibilityRole="button"
@@ -29,6 +33,7 @@ export function Button({
         minHeight: theme.size.buttonH,
         borderRadius: theme.radius.button,
         backgroundColor: bg,
+        ...(secondary ? { borderWidth: theme.border.strong, borderColor: theme.color.ink } : {}),
         alignItems: 'center',
         justifyContent: 'center',
         paddingHorizontal: 20,
@@ -69,10 +74,11 @@ export function LinkButton({
         alignItems: 'center',
         gap: 10,
         paddingVertical: 8,
+        maxWidth: '100%',
       }}
     >
       <View style={{ flexShrink: 0 }}>{icon}</View>
-      <AppText variant="body" color={theme.color.sub}>
+      <AppText variant="body" color={theme.color.sub} style={{ flexShrink: 1 }}>
         {label}
       </AppText>
     </Pressable>

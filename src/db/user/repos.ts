@@ -1,6 +1,7 @@
 import type { SqlDriver } from '../driver';
 import { withTransaction } from '../driver';
 import type { ReviewItem, Box } from '../../domain/review';
+import type { Goal } from '../../domain/track';
 
 export interface Attempt {
   questionId: string;
@@ -27,7 +28,27 @@ export interface Settings {
   voice: string | null;
   speed: number;
   dailyMinutesGoal: number | null;
+  /** The jurisdiction the user picked in onboarding (any of the 51 plus NAT). */
+  trackState: string | null;
+  goal: Goal | null;
+  /** True once onboarding finished. The app opens onboarding only while this is false. */
+  onboarded: boolean;
 }
+
+export type RunKind = 'unit_check' | 'practice' | 'placement';
+export interface TestRun {
+  id: number;
+  kind: RunKind;
+  unitId: string | null;
+  questionIds: string[];
+  answers: (number | null)[];
+  step: number;
+  finished: boolean;
+  passPct: number | null;
+  startedTs: number;
+  finishedTs: number | null;
+}
+export type DoneHow = 'completed' | 'tested_out';
 
 type Row = Record<string, unknown>;
 
@@ -152,13 +173,118 @@ export class UserRepo {
       voice: (r.voice as string | null) ?? null,
       speed: r.speed as number,
       dailyMinutesGoal: (r.daily_minutes_goal as number | null) ?? null,
+      trackState: (r.track_state as string | null) ?? null,
+      goal: ((r.goal as string | null) ?? null) as Goal | null,
+      onboarded: r.onboarded === 1,
     };
   }
   async saveSettings(s: Settings): Promise<void> {
     await this.db.run(
-      'UPDATE settings SET text_size=?, sun_mode=?, haptics=?, voice=?, speed=?, daily_minutes_goal=? WHERE id=1',
-      [s.textSize, s.sunMode ? 1 : 0, s.haptics ? 1 : 0, s.voice, s.speed, s.dailyMinutesGoal],
+      `UPDATE settings SET text_size=?, sun_mode=?, haptics=?, voice=?, speed=?, daily_minutes_goal=?,
+         track_state=?, goal=?, onboarded=? WHERE id=1`,
+      [
+        s.textSize,
+        s.sunMode ? 1 : 0,
+        s.haptics ? 1 : 0,
+        s.voice,
+        s.speed,
+        s.dailyMinutesGoal,
+        s.trackState,
+        s.goal,
+        s.onboarded ? 1 : 0,
+      ],
     );
+  }
+
+  // lessons done / tested out (never cleared by a replay)
+  async markLessonDone(lessonId: string, how: DoneHow, ts: number): Promise<void> {
+    // A real completion wins over a tested-out mark; a tested-out mark never downgrades a completion.
+    await this.db.run(
+      `INSERT INTO lesson_done (lesson_id, how, ts) VALUES (?,?,?)
+       ON CONFLICT(lesson_id) DO UPDATE SET how = CASE WHEN lesson_done.how = 'completed' THEN 'completed' ELSE excluded.how END`,
+      [lessonId, how, ts],
+    );
+  }
+  async listDoneLessons(): Promise<Map<string, DoneHow>> {
+    const rows = await this.db.all<{ lesson_id: string; how: DoneHow }>(
+      'SELECT lesson_id, how FROM lesson_done',
+    );
+    return new Map(rows.map((r) => [r.lesson_id, r.how]));
+  }
+
+  // test runs (unit check, practice test, placement check)
+  private toRun(r: Row): TestRun {
+    return {
+      id: r.id as number,
+      kind: r.kind as RunKind,
+      unitId: (r.unit_id as string | null) ?? null,
+      questionIds: JSON.parse(r.question_ids as string) as string[],
+      answers: JSON.parse(r.answers as string) as (number | null)[],
+      step: r.step as number,
+      finished: r.finished === 1,
+      passPct: (r.pass_pct as number | null) ?? null,
+      startedTs: r.started_ts as number,
+      finishedTs: (r.finished_ts as number | null) ?? null,
+    };
+  }
+  async createRun(
+    kind: RunKind,
+    unitId: string | null,
+    questionIds: string[],
+    passPct: number | null,
+    ts: number,
+  ): Promise<number> {
+    await this.db.run(
+      'INSERT INTO test_runs (kind, unit_id, question_ids, answers, pass_pct, started_ts) VALUES (?,?,?,?,?,?)',
+      [
+        kind,
+        unitId,
+        JSON.stringify(questionIds),
+        JSON.stringify(questionIds.map(() => null)),
+        passPct,
+        ts,
+      ],
+    );
+    const r = await this.db.get<{ id: number }>('SELECT last_insert_rowid() AS id');
+    return r!.id;
+  }
+  async getRun(id: number): Promise<TestRun | null> {
+    const r = await this.db.get<Row>('SELECT * FROM test_runs WHERE id = ?', [id]);
+    return r ? this.toRun(r) : null;
+  }
+  /** The unfinished run of this kind (and unit), newest first, so a killed app resumes it. */
+  async getActiveRun(kind: RunKind, unitId: string | null): Promise<TestRun | null> {
+    const r = await this.db.get<Row>(
+      `SELECT * FROM test_runs WHERE kind = ? AND finished = 0 AND COALESCE(unit_id,'') = ?
+       ORDER BY id DESC LIMIT 1`,
+      [kind, unitId ?? ''],
+    );
+    return r ? this.toRun(r) : null;
+  }
+  /** Autosave one answer and the step the user is on. */
+  async saveRunAnswer(id: number, index: number, pick: number, step: number): Promise<void> {
+    const run = await this.getRun(id);
+    if (!run || run.finished) return;
+    const answers = [...run.answers];
+    answers[index] = pick;
+    await this.db.run('UPDATE test_runs SET answers = ?, step = ? WHERE id = ?', [
+      JSON.stringify(answers),
+      step,
+      id,
+    ]);
+  }
+  async setRunStep(id: number, step: number): Promise<void> {
+    await this.db.run('UPDATE test_runs SET step = ? WHERE id = ? AND finished = 0', [step, id]);
+  }
+  /** Closes any unfinished runs of this kind without results (a fresh run replaces them). */
+  async discardActiveRuns(kind: RunKind, unitId: string | null): Promise<void> {
+    await this.db.run(
+      "UPDATE test_runs SET finished = 1 WHERE kind = ? AND finished = 0 AND COALESCE(unit_id,'') = ? AND finished_ts IS NULL",
+      [kind, unitId ?? ''],
+    );
+  }
+  async finishRun(id: number, ts: number): Promise<void> {
+    await this.db.run('UPDATE test_runs SET finished = 1, finished_ts = ? WHERE id = ?', [ts, id]);
   }
 
   // sims
