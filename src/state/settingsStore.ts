@@ -9,6 +9,9 @@ export const DEFAULT_SETTINGS: Settings = {
   voice: null,
   speed: 1,
   dailyMinutesGoal: null,
+  trackState: null,
+  goal: null,
+  onboarded: false,
 };
 
 interface SettingsState {

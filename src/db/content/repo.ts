@@ -106,6 +106,13 @@ export function isSimulatorEligible(f: StateFormat | null | undefined): f is Sta
   return !!f && f.verified === true && f.verified_by.trim() !== '';
 }
 
+export interface QuestionRef {
+  id: string;
+  lessonId: string | null;
+  freeTier: boolean;
+  topic: string;
+}
+
 /** Typed, read-only queries over content.db. Nothing here writes. */
 export class ContentRepo {
   constructor(private db: SqlDriver) {}
@@ -156,6 +163,43 @@ export class ContentRepo {
     );
     const byId = new Map(rows.map((r) => [r.id as string, rowToQuestion(r)]));
     return lesson.step_ids.map((id) => byId.get(id)).filter((q): q is Question => !!q);
+  }
+
+  /** Questions by id, in the order asked for. Unknown ids are skipped. */
+  async getQuestions(ids: string[]): Promise<Question[]> {
+    if (ids.length === 0) return [];
+    const rows = await this.db.all(
+      `SELECT * FROM questions WHERE id IN (${ids.map(() => '?').join(',')})`,
+      ids,
+    );
+    const byId = new Map(rows.map((r) => [r.id as string, rowToQuestion(r)]));
+    return ids.map((id) => byId.get(id)).filter((q): q is Question => !!q);
+  }
+
+  /** Light rows for counting and pooling: skips retired and flagged questions. */
+  async unitQuestionRefs(unitId: string): Promise<QuestionRef[]> {
+    const rows = await this.db.all<{
+      id: string;
+      lesson_id: string | null;
+      free_tier: number;
+      topic: string;
+    }>(
+      `SELECT id, lesson_id, free_tier, topic FROM questions
+       WHERE unit_id = ? AND review_status NOT IN ('retired','flagged') ORDER BY id`,
+      [unitId],
+    );
+    return rows.map((r) => ({
+      id: r.id,
+      lessonId: r.lesson_id,
+      freeTier: r.free_tier === 1,
+      topic: r.topic,
+    }));
+  }
+
+  /** Jurisdictions that have their own units (everything else uses NAT content). */
+  async statesWithUnits(): Promise<Set<string>> {
+    const rows = await this.db.all<{ state: string }>('SELECT DISTINCT state FROM units');
+    return new Set(rows.map((r) => r.state));
   }
 
   async getStateFormat(state: Jurisdiction, section: Section): Promise<StateFormat | null> {
