@@ -5,7 +5,7 @@ import { CalendarIcon, CrossIcon, SpeakerIcon } from '../../src/components/icons
 import { Ring } from '../../src/components/Ring';
 import { copy } from '../../src/copy';
 import { useReviewStore } from '../../src/state/reviewStore';
-import { useTheme } from '../../src/theme/theme';
+import { TAB_MAX_SCALE, useTheme } from '../../src/theme/theme';
 
 // Every tab label is icon + word (CLAUDE.md §3.1).
 function TabLabel({ text, focused }: { text: string; focused: boolean }) {
@@ -15,6 +15,9 @@ function TabLabel({ text, focused }: { text: string; focused: boolean }) {
     <View style={{ alignSelf: 'stretch', alignItems: 'center' }}>
       <AppText
         variant="tab"
+        // Tab labels are chrome, not reading text: capped like the system tab bar.
+        // eslint-disable-next-line no-restricted-syntax
+        maxFontSizeMultiplier={TAB_MAX_SCALE}
         color={focused ? theme.color.ink : theme.color.sub}
         style={{ textAlign: 'center' }}
       >

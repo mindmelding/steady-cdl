@@ -9,7 +9,8 @@ interface Props extends TextProps {
 
 /**
  * The only text primitive. Scales with the OS font setting (allowFontScaling is left at its
- * default, true) and never truncates: do not pass numberOfLines or maxFontSizeMultiplier.
+ * default, true) and never truncates: do not pass numberOfLines or maxFontSizeMultiplier (only exception: tab bar
+ * labels, which are capped at TAB_MAX_SCALE like the system tab bar).
  */
 export function AppText({ variant = 'body', color, style, ...rest }: Props) {
   const theme = useTheme();

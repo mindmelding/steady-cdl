@@ -38,6 +38,9 @@ export interface Theme {
   text: Record<TypeVariant, ResolvedType>;
 }
 
+/** Largest growth for tab bar labels (UI chrome, not reading text). */
+export const TAB_MAX_SCALE = 1.5;
+
 export function resolveType(
   t: TypeStyle,
   sun: boolean,
@@ -45,6 +48,9 @@ export function resolveType(
   variant: string,
 ): ResolvedType {
   const bump = sun && variant !== 'tab' ? SUN_TYPE_STEPS * TYPE_STEP_PT : 0;
+  // Tab labels are system chrome: like iOS tab bars they stop growing at TAB_MAX_SCALE so the
+  // four labels never collide. Every reading variant scales without limit.
+  if (variant === 'tab') scale = Math.min(scale, TAB_MAX_SCALE);
   const fontSize = (t.size + bump) * scale;
   const out: ResolvedType = { fontFamily: font[t.f], fontSize };
   if (t.lh !== undefined) out.lineHeight = (t.lh + bump) * scale;
