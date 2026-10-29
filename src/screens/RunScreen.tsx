@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { goHome } from '../nav';
 import { View } from 'react-native';
 import { useRouter } from 'expo-router';
@@ -38,6 +38,7 @@ export function RunScreen({ runId }: { runId: number }) {
     | null
   >(null);
   const [flagged, setFlagged] = useState(false);
+  const saving = useRef<Promise<unknown>>(Promise.resolve());
 
   useEffect(() => {
     let live = true;
@@ -89,7 +90,9 @@ export function RunScreen({ runId }: { runId: number }) {
     ? { next: copy.placement.next, finish: copy.placement.finish, close: copy.test.close }
     : { next: copy.test.next, finish: copy.test.finish, close: copy.test.close };
 
-  const setRun = (next: Partial<TestRun>) => setState({ run: { ...run, ...next }, items });
+  // Functional update so a fast Next never overwrites an answer picked in the same frame.
+  const setRun = (next: Partial<TestRun>) =>
+    setState((s) => (s && s !== 'missing' ? { ...s, run: { ...s.run, ...next } } : s));
 
   return (
     <QuestionView
@@ -108,15 +111,22 @@ export function RunScreen({ runId }: { runId: number }) {
       labels={labels}
       onSelect={(i) => {
         void lightTap(haptics);
-        const answers = [...run.answers];
-        answers[answerIndex] = i;
-        setRun({ answers });
-        void getUserRepo().saveRunAnswer(runId, answerIndex, i, step);
+        setState((s) => {
+          if (!s || s === 'missing') return s;
+          const answers = [...s.run.answers];
+          answers[answerIndex] = i;
+          return { ...s, run: { ...s.run, answers } };
+        });
+        // Chain writes so Next waits for the pick to be saved (no overlapping DB writes).
+        saving.current = saving.current
+          .catch(() => undefined)
+          .then(() => getUserRepo().saveRunAnswer(runId, answerIndex, i, step));
       }}
       onCheck={() => undefined}
       onContinue={async () => {
         audio.stop();
         setFlagged(false);
+        await saving.current.catch(() => undefined);
         if (step < items.length - 1) {
           await getUserRepo().setRunStep(runId, step + 1);
           setRun({ step: step + 1 });
