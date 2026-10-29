@@ -1,0 +1,9 @@
+CDL p1k=0.12  base m12=67.1% m18=81.3% | pess m12=61.4% m18=77.5%
+CDL p1k=0.15  base m12=67.3% m18=81.4% | pess m12=61.6% m18=77.6%
+CDL p1k=0.18  base m12=67.5% m18=81.5% | pess m12=61.9% m18=77.7%
+CDL p1k=0.22  base m12=67.9% m18=81.6% | pess m12=62.2% m18=77.9%
+CDL p1k=0.30  base m12=68.5% m18=81.9% | pess m12=63.0% m18=78.2%
+== single-app CDL monthly net profit at maturity (lognormal s=2.2, decay .985^1, no leader boost)
+p1k=0.12: median $74/mo  P>$1k 11.8%  P>$3k 4.6%  p25 $17 p75 $324 p90 $1,240
+p1k=0.18: median $131/mo  P>$1k 17.8%  P>$3k 7.8%  p25 $30 p75 $575 p90 $2,188
+p1k=0.22: median $178/mo  P>$1k 21.6%  P>$3k 10.0%  p25 $40 p75 $785 p90 $2,988

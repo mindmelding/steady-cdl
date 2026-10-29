@@ -1,0 +1,12 @@
+[
+  {
+    "id": "NAT-AIR_BRAKES",
+    "section": "AIR_BRAKES",
+    "state": "NAT",
+    "title": "Air Brakes",
+    "order": 1,
+    "lesson_ids": ["AB-L01"],
+    "unit_check_count": 25,
+    "entitlement": "permit"
+  }
+]

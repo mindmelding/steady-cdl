@@ -1,0 +1,14 @@
+state,section,fact,status,source_named_in_research
+TX,TX_COMMERCIAL_RULES,"20 questions, 80% to pass, taken first (before GK)",VERIFY (one third-party site says 25 Q),TX DPS apply page; 5-Star CLP packet; 37 TAC §16.27 (cdl-moat §2)
+TX,ALL,"Order: Commercial Rules -> GK -> Combination -> Air Brake -> endorsements",VERIFY,TX DPS (cdl-moat §2)
+TX,ALL,"Knowledge tests English-only since Jun 1, 2026; no interpreters; Spanish discontinued",sourced,https://www.dps.texas.gov/news/dps-announces-changes-cdl-knowledge-testing
+FL,ALL,"English-only for all license exams incl. CDL since Feb 6, 2026",sourced (secondary),CDLLife 2026 (cdl-moat §2)
+UT,ALL,"English-only from Jan 20, 2026",sourced (secondary),cdl-differentiation §5
+CA,GK,"50 questions, 10 misses allowed",VERIFY,CA DMV CDL knowledge test evaluation (cdl-moat §2)
+NY,ALL,"Three answer choices; separate test per endorsement; HazMat state + TSA check",VERIFY (Gate 1 row),NY CDL-10 manual §1.4.1
+IA,GK,"50 questions, pass 40; three answer choices",VERIFY (Gate 1 row),Iowa DOT; driving-tests.org
+OR,ALL,"AAMVA modernized manual/tests from Oct 1, 2025 (old test to Jun 1, 2026)",VERIFY,AAMVA; Oregon DMV bulletin
+AL,SKILLS,"Modernized skills test from Jul 1, 2025",VERIFY,ALEA
+ME,ALL,"Modernized inspection Nov 1, 2026; full Sep 1, 2027",VERIFY,Maine SOS
+NAT,ALL,"Federal: states write their own tests (>=30 items, 80% pass)",sourced,FMCSA States page (49 CFR 383 Subpart G/H)
+NAT,DEFAULTS,"Simulator defaults: GK 50 / Air Brakes 25 / Combination 20 / HazMat 30 / Tanker, Doubles, Passenger, School Bus 20 each; 80%",VERIFY each state,cdl-build-spec-v2 §6

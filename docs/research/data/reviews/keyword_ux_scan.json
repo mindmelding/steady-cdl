@@ -1,0 +1,70 @@
+{
+ "neg_total": 1627,
+ "pos_total": 4485,
+ "counts": {
+  "dark mode / night": [
+   1,
+   0
+  ],
+  "text size / hard to read / cut off": [
+   23,
+   1
+  ],
+  "navigation / confusing UI": [
+   5,
+   18
+  ],
+  "search": [
+   1,
+   0
+  ],
+  "progress tracking / lost progress": [
+   10,
+   16
+  ],
+  "crash / freeze / won't load": [
+   48,
+   7
+  ],
+  "review wrong answers / see mistakes": [
+   5,
+   2
+  ],
+  "instant feedback": [
+   1,
+   2
+  ],
+  "explanation": [
+   25,
+   118
+  ],
+  "audio / read aloud / listen": [
+   13,
+   12
+  ],
+  "offline / internet": [
+   2,
+   1
+  ],
+  "account / login / sign in": [
+   38,
+   8
+  ],
+  "notifications": [
+   6,
+   2
+  ],
+  "rating prompt / review nag": [
+   4,
+   8
+  ],
+  "spanish / language": [
+   20,
+   14
+  ],
+  "design praise (easy to use / user friendly / clean)": [
+   12,
+   158
+  ]
+ }
+}

@@ -1,0 +1,800 @@
+[
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app subscription",
+"postTitle": "Hiring Timeline Questions",
+"body": "I got my CDL Permit! Do you have an exam scheduled yet? I highly recommend the CDL Prep Practice Test 2024 app on the Google Play Store (I assume it's on the Apple store as well), I ended up paying for a month subscription to get unlimited tests.\n\nI basically just took practice tests every day for the Air Brakes, Passenger Vehicle and the main CDL test leading up to my actual test at the DMV. I found that covered the material adequately and I was able to pass them all on my first try.\n\nI ended up scheduling my test so I was done with everything the day I had my physical/drug screen and I was able to bring the DOT paper to the DMV that same afternoon and pay for my CDL Permit. After I sent all that into TriMet it took about 3 weeks for them to get back to me with a formal job offer.",
+"score": 1,
+"url": "https://www.reddit.com/r/TriMet/comments/1gdlkka/hiring_timeline_questions/m0clfhv/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app subscription",
+"postTitle": "The CDL Prep App I built is now LIVE on Android too! (Giving away 1-Month Free Premium codes inside)",
+"body": "Incredible, you found it! However, if you're\u00a0*still*\u00a0locked out after all that, there is unfortunately nothing wrong with the app itself\u2014your phone's local Google Play Billing service is out of sync with Google's main servers regarding this specific $0 promo transaction.\n\nAs a final check to prove this: Open the Play Store App -> Tap Profile -> Payments & Subscriptions ->\u00a0**Subscriptions**. If you see\u00a0*CDL Prep Ultimate*\u00a0listed there as \"Active\", the code worked perfectly. You just literally have to wait for Google to sync that status to your device (which sometimes takes hours for promo codes to clear their anti-fraud checks).\n\nOnce Google syncs it, the app will unlock immediately upon opening. I really appreciate your patience through all this Android billing madness!",
+"score": 1,
+"url": "https://www.reddit.com/r/cdldriver/comments/1rryq9x/the_cdl_prep_app_i_built_is_now_live_on_android/oaog34u/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl app paywall",
+"postTitle": "Anyone feel everything has changed over the last two weeks?",
+"body": "I, an uneducated truck driver, was able to build and audit a CDL (license to drive dump trucks, busses, tractor trailer etc) practice test because I am sick of all the slop coded inaccurate paywalled and ad riddle practice test apps out there.\n\nIt's rough, only on GitHub pages for now, but it works. \u00af\u2060\\\\\u2060\\_\u2060(\u2060\u30c4\u2060)\u2060\\_\u2060/\u2060\u00af\n\nI also built a complicated AI memory system with personality evolution, [RAPTOR](https://arxiv.org/html/2401.18059v1) hierarchical memory, and relationship tracking. Probably mostly ass and magic numbers. But it also kind-of works.\n\nThese things are what had me thinking similarly to how you are feeling, OP, things are going to change by a lot. Quickly.",
+"score": 3,
+"url": "https://www.reddit.com/r/ClaudeAI/comments/1r2zjgl/anyone_feel_everything_has_changed_over_the_last/o52ni8s/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl practice app wrong answers",
+"postTitle": "CDL B Study",
+"body": "Not a dumb question at all. Honestly, it's one of the smartest things you can ask before you walk into the DMV. Plenty of guys show up thinking they're ready just because they've driven big vehicles, and they fail on the written part or the pre-trip because the test is a different animal.\n\nSince you already have seat time in a truck that size, the driving skills part probably isn't what'll trip you up. The real hurdle is the knowledge test for the Class B and the air brake endorsement. You need to study the commercial manual like you've never seen a truck before.\n\nThe air brake section is where people get lazy. If your old job's trucks were under 26,001 lbs and didn't have air brakes, you might not have dealt with air system cuts, compressor cycles, or low-pressure warnings. Even if you drove an air brake truck under 26k, the test is about the book's language, not just real-world feel. Know the exact numbers: what pressure the warning light comes on, at what psi the brakes fully apply, how often the compressor cuts in and out. Write them on a flashcard. I can't tell you how many students I've had who could drive circles around me but failed the air brakes written test because they guessed on a number.\n\nFor the general knowledge and air brakes, I always tell people not to just read the manual. That puts you to sleep. Get a CDL prep app or use a practice test site that adapts. I built a site called [cdlstudybuddy.com](https://cdlstudybuddy.com/) that has state-specific tests and breaks things down without the textbook monotony\u2014you see the same questions that'll be on your actual exam, and it explains the wrong answers so you actually learn them. There's no sense reading page 42 of the manual five times and still not knowing what a dual air brake system looks like on paper.\n\nSince you're going for a Class B, you also fall under the ELDT rule if this is your first CDL. That means you need to complete FMCSA-approved theory training before you can test. It's not optional. We run free ELDT theory courses at [cdlstudybuddy.com/ELDT-Driver-Training](https://cdlstudybuddy.com/ELDT-Driver-Training/) that you can knock out online. Saves you a headache with the school or the DMV later. You just go through the modules, get your certificate, and you're legal to go take the skills test.\n\nNow, how do you know you're actually ready? Simple test: can you pass five random practice exams in a row with at least an 85% without looking up any answers? If yes, you've got the written part. For the driving test\u2014since you already drive that truck\u2014you'd think you're golden, but the examiner is watching for textbook stuff, not smooth driving. Can you do a full pre-trip inspection and name every component on the checklist without skipping something? If you can't recite the air brake leak test steps (applied pressure, hold, one-minute drop), you're not ready. That test isn't about whether you can drive. It's whether you can talk through the inspection and drive exactly the way the manual says when they're scoring points.\n\nSo your plan should be: grind the air brake practice tests until you're sick of them, do the general knowledge, complete your ELDT theory hours, then walk through that pre-trip a dozen times out loud. When you can explain why a slack adjuster at 2 inches is out of adjustment without thinking, you're ready. You'll feel it. It's like muscle memory for your brain. That's the signal to book the test.\n\nAnd congrats on making the jump to get the full endorsement. It opens up a lot more work. You're already ahead because you know the vehicle physically. Just don't underestimate the paperwork side of the test.",
+"score": 2,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1te90f3/cdl_b_study/omu11l9/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl practice app wrong answers",
+"postTitle": "CDL Permit Knowledge Test Multiple Days",
+"body": "abso! so my process was literally this:\n\ndownload cdl prep app- on ios is a blue background white steering wheel.\n\ngo to exam mode.\n\ndo 1 section at a time- take respective section over and over again. in exam mode the question bank is not as extensive as practice mode. so i'll maybe get 50-60 questions and then they'll start repeating. took my time and actually read the questions and tried to answer using common sense. on the questions i got wrong i screen shot to have a reference for the next go round. kept doing this over and over- yes its time consuming- but i passed every section with no missed or wrong questions.\n\nin ohio the exam mode on cdl prep literally word for word matched the state exam at bmv. i think on total it took me like 3 days to master each section, where i raised my average to over a 90%- and put in roughly 6-8 hrs per section. the app keeps track of these metrics for u.\n\nrinse and repeat for each section. i then got a 10$ hazmat course off tiktok and also used cdl prep for that.\n\nmy process mite not be the best. but it worked for me and was very logical. i used to be a machine operator so after i got it setup id \"get paid\" to study for my temps. it took me 3 weeks in total to get everything. obvi not hazmat as that cant come until after bc i missed the 60 day window wen i was ready.\n\nedit: i also read the bmv manual cover to cover. highlighted the answers as reference points. both from cdl prep questions and the review questions in the manual.",
+"score": 3,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1pgmwrs/cdl_permit_knowledge_test_multiple_days/nstroa1/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl practice app wrong answers",
+"postTitle": "Just finished online classes. Best app or way to study for permit test? How was your experience?",
+"body": "Congrats on finishing your classes! For the CDL permit, what helps most is doing practice tests section by section, general knowledge first, then air brakes and combination vehicles if you\u2019re going for Class A, until you\u2019re getting most of them right. Actually read why you got something wrong instead of just clicking next. Air brakes is where a lot of people trip up, so learn the air brake check as a sequence rather than memorizing random numbers. On test day just take your time and read every answer before picking one. Most people find the real thing easier than they expected once they\u2019ve practiced. Good luck!\n\n*(I work at Zutobi, we make a CDL test prep app with practice tests across the whole CDL handbook and an explanation on every question.)*",
+"score": 1,
+"url": "https://www.reddit.com/r/Truckers/comments/1ww7lx0/just_finished_online_classes_best_app_or_way_to/19rh7caml36si/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl practice app wrong answers",
+"postTitle": "Taking the dive",
+"body": "take it one step at a time. worry about getting your cdl first. Download the test prep apps and learn the answers, take it non stop till you 100% it easily. This goes for the endorsements as well. Learn the answers still you can easily 100% and you\u2019ll have your endorsements easy.\n\nPre-trip: Learn the pre trip that they give you that is specific to your state. don\u2019t watch videos online about pretrip for tips n tricks n shit. You don\u2019t want to learn the wrong thing.\n\nManeuvers: Listen and take every opportunity to get in the truck. These are adults in these classes and the teachers most likely won\u2019t baby you guys and force you to participate as much as you should. This is a benefit for you to have more chances at driving when the others will try and lay low. Lean on others in your class who are picking it up faster and see how they are understanding it, they may help you understand it as well. If you\u2019re still struggling, this is where you can watch videos online and see other perspectives on how to do it.\n\nDriving portion: Start paying attention to road signs, bridges n shit. my driving tester asked \u201cdid you see that bridge height, what is it.\u201d all the time. get in the practice of noticing them, do it in your personal vehicle. Also go wide, if you need the space take it. it\u2019s better to take too much than to need it half way into a turn. my dad always said \u201cHow much space do you need to take to make a turn\u2026 as much as you can!\u201d.\n\nBefriend other people who are go getters and picking things up. When i went though my cdl program we had burnouts who the state were paying weekly to be there and people who actually put in work. these are the people to befriend because as soon as your out of school, they all will be out finding jobs as well, and the good jobs are usually found through word of mouth and who you know. our group chat had everyone posting opportunities and how their jobs were and if they could recommend them n shit, was nice to have others experiencing the same thing and looking out for each other.",
+"score": 2,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1ujsbsf/taking_the_dive/ouq5cii/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl practice app wrong answers",
+"postTitle": "Aspiring Driver",
+"body": "Just download the app and do the practice mode on General Knowledge Air Brakes and Combinations and if your in Texas do Special Requirements study each section until you get every question right here\u2019s a hint when you go take the test you do general knowledge, then air brakes and then combinations so study your general knowledge until you have it all the way down pack and you can go and pay and take the test to take just that part and pass it come back study your air brake study all of that take the practice exam until you can make 100 on it at least three or four times and go take your air brakes come back study your combination. You can do all of that. It\u2019s so simple. You will have your CDL P and no time I\u2019ve told all my friends that\u2019s how I managed to get my CDLP and with that repetition I learned a lot and when you make one wrong, they tell you the right answer so if you\u2019re like me, I wrote down the ones that I got wrong and studied those and then went back and kept repetitiously doing it over and over again and you\u2019ll get your CDLP and once you get that you can go to any driving school with your CDLP you can even go to a company and they will pay you to go to school to get your license",
+"score": 1,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1swq8o6/aspiring_driver/oimn1av/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl practice app wrong answers",
+"postTitle": "Advice needed ",
+"body": "I am also based in the state of NY and just got my CDL two weeks ago. CDL Prep App is gonna be the best summary of what you need to pass General Knowledge, Air Brakes and Combination for your permit. Repetition is key. There\u2019s a drop down for many categories except Metal Coil endorsement. There\u2019s a practice and exam mode. Practice mode is dope. It tells you when you answered wrong and below it\u2019ll give you the correct answer for your memory. Run through one category at a time and make sure you memorize and understand what you\u2019re answering. That should get you your permit. As far as schools, you have many right in NYC. I think you even have grants you can get that\u2019ll pay for it in full. Whichever route you take, shoot for a school that has manual transmission. You don\u2019t want any restrictions on your CDL and an automatic restriction will lessen your \u201cmarket value\u201d in the industry. GO UNRESTRICTED. That\u2019s all I have for you. The school you choose should walk you through everything else, much of which you can learn on YT with the exception of live behind the wheel execution. Best wishes. You got this! Don\u2019t allow your nerves to get the best of you on road test day. Blessings.",
+"score": 5,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1huo1z5/advice_needed/m5mrftl/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl practice app wrong answers",
+"postTitle": "Has anyone else had tbis problem with the Dmv?",
+"body": "1.  Get some sleep, especially before test day\n    \n2.  CDL prep apps. I found CDLwizard practice tests really helpful. $4 for the paid version is worth it considering the costs of failing repeatedly. Take all of the practice tests.\n    \n3.  During the test, read the question and answers at least three times before answering. Do not rush it.\n    \n4.  Always choose the option that is the \u201csafest\u201d or most detailed correct answer. Some questions have multiple answers that are technically true.\n    \n5.  For the questions you see where you immediately know that you don\u2019t know the answer, SKIP the question. You only get so many you can get wrong, so try your best to answer all of the ones you DO know first.\n    \n\nSometimes all of the toughest ones are at the beginning of the test and it is possible to fail without even getting a chance to answer the rest of the questions.",
+"score": 1,
+"url": "https://www.reddit.com/r/Truckers/comments/1drrzqj/has_anyone_else_had_tbis_problem_with_the_dmv/lazv8tv/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl practice app wrong answers",
+"postTitle": "Different kind of question regarding becoming an O/O without experience.",
+"body": "> Is it easy to figure out using an ELD, and entering the necessary information for weigh station inspections?\n\nI would think using an ELD would be pretty intuitive. They're all different but there's a button titled 'status', you use that to change your status. There's a button titled 'trailer', you use that to put in your trailer number, there's a button titled 'shipment', you use that to put in the shipment number...\n\nNot really sure what you mean about putting info in for inspections. The most you do is show the DOT officer the instructions if they ask, send your logs to them via an email or web service(there's a button for it).\n\n> When picking up/dropping off loads, how the hell do you know where to go once you\u2019re in the loading area? What is the system? I worked in a beer distribution warehouse when I was in high school over 20 years ago, and, from what I remember, it seemed quite hectic. Drivers coming in and out, some waiting in line, etc., but then I see posts here where drivers aren\u2019t allowed inside.\n\nUsually there are signs that tell you what to do. Sometimes someone will yell at you for doing what the signs say. Eventually you'll speak with someone in an office with a sign that says 'shipping/receiving' or 'check in here' and they'll tell you where to go, or where to wait. You might give them your phone number and they'll call you, or they might give you a buzzer. Sometimes there are no signs and no indication of what you should do, so you try to park somewhere out of the way, look around like a meercat for someone about to yell at you, and try to find someone to ask for instructions.\n\n> Regarding the previous question\u2026 are there some courtesies/etiquette involved that I\u2019m unaware of and need to know? I want to fly under the radar and not draw too much unwanted friction if I can avoid it.\n\nDon't park in front of stuff people might need to get to. Docks, dumpsters, driveways, doors. Don't park in front of anything starting with a D I guess. If you're heading into a shipper/consignee and you see trucks lined up, it's a good possibility you need to get in that line. I usually get in line and then go ask the next driver what the line is for. Usually it's where you're supposed to be. Skipping the line could put you in a situation where you have to do some crazy backing to get out, or result in some angry trucker trying to fight you.\n\n> Apps like TruckerPath are good tools for laying out routes for truckers with weigh stations, etc., and I understand it is good to have a backup. Are there times where these apps have gotten something wrong and you\u2019ve missed a station? There was a post here not too long ago where this became an issue and driver should have driven hours out of the way to reach one. Are there other consequences besides bridge weights/improper clearance that could arise?\n\nIf I'm reading this right, you may be confused about how weigh stations work. You aren't required to take a route that goes to them(usually). If there is one in your route, you may have to go in. You aren't going to need truckerpath to find them because they usually have plenty of signs a few miles leading up to them. Sometimes they're even flashing. If the station is closed, you don't have to go in. Some of them have roadside signs that may tell you to bypass based on your weight as registered by scales on the highway, or they can set them to tell all trucks to bypass if the weight station person needs to poop or something.\n\nA truck GPS, or app like truckerpath will usually route you with respect to your height/weight. Most interstates and US highways are fine for a standard sized truck. If you're going to a shipper/receiver in a big city, you'll want to get directions from the shipper. Technology is least reliable in cities.\n\n> Are there any other things outside of the business and financial areas that you experienced drivers and owner-operators can shed light on that would be helpful to someone considering this route? Are there things you wished you did differently, or things you should have paid more attention to in hindsight?\n\nYou can never be good enough at backing I guess. It's tempting to call it good when you can do the basics. But then one day you need to blindside back down a 9' wide alley in NYC in rush hour and you're really gonna wish you didn't go for those pull through spots instead of taking the opportunity to practice getting between two dropped trailers.\n\n> I understand it is a hustle at first, I\u2019m expected to get paid minimally the first 6 months, and I need to have my ass covered and enough reserves in the bank for quite some time before things ease up. I\u2019ve done the due diligence and calculated all fixed and variable operating costs and everything else under the sun. I\u2019m not as concerned about that side of things. But the shit that has me nervous about are those little things I mentioned, as well as things I don\u2019t know due to lack of experience, but hoping you can fill me in on. I know the answer to some of these questions is to get hired on as a company driver, which I\u2019m considering, but I don\u2019t want to get locked into a long ass contract or burn a bridge I wouldn\u2019t want to by going out on my own once I feel I have the hang of it. Already got the CDL, just trying to decide my next move. Any help would be appreciated!\n\nIf you're an owner operator you won't really get paid minimally. Some brokers won't work with you with so little experience, but you'll still find loads that pay well. How much you make will come down to how you manage your time/expenses.\n\nThere's no long ass contract if you already have your CDL. For most of the industry you just get hired, go through orientation/driver training, and then get a truck and work. There might be an agreement that you owe the company X amount if you don't work for them for 6 months or whatever, because they paid to train you. But we're talking like hundreds of dollars.\n\nAnd you're not going to burn any bridges. The industry average turnover is like 90% or something. If you do a year with a carrier and decide you're ready to get your own truck, they'll be like \"aight turn the truck in here, good luck\". If you've performed well they might try to get you to stay, or lease your truck on with them.\n\n> I\u2019ve done the due diligence and calculated all fixed and variable operating costs and everything else under the sun.\n\nGood luck, but I doubt it.\n\nI listen to this podcast by a company called Blue Ribbon Logistical Solutions. They started running their fleet through Landstar, but at this point they mostly operate other people's trucks and hire drivers who want to be owner operators. They pay them well and show them the ropes, how they run a successful business, etc. Someone asked in one of their livestreams if they would ever consider taking a driver with no experience, who had just bought a truck. The answer was basically that if their truck was paid off, and they had $50,000 in reserves, they would consider it. Something to think about.",
+"score": 2,
+"url": "https://www.reddit.com/r/Truckers/comments/10w0gdg/different_kind_of_question_regarding_becoming_an/j7mmoza/"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "Want to be a Hazmat trucker",
+"body": "Btw u don\u2019t have to pay 200 bucks for a hazmat class to get ur eldt, I paid 20 bucks for an online course I found through the dmv directory which lists the legit online courses u can take to pass it, takes like 45 minutes, then study on a CDL testing app for a few hours, take the dmv test and ur good",
+"score": 3,
+"url": "https://www.reddit.com/r/Truckers/comments/1xdwzep/want_to_be_a_hazmat_trucker/19rloua4nil8g/"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "Looking to join prime",
+"body": "If you\u2019re planning on going to the oilfield I would try to get in the tanker division at Prime as soon as you\u2019re able to qualify for it. You may spend a while working your way to get there. I got all my endorsements the day I got my CDL. DMV Genie is a great app that you can study all the test you need for your CLP. It\u2019s word for word on all the questions that could be on your Test. I think it\u2019s ~$15 a month but you can learn all your tests and then cancel your subscription once you know you can pass it. In the oilfield you\u2019re gonna need Hazmat and Tanker, also probably a TWIC card H2S cert, OSHA cert, and PEC cert. You may consider going to a school that you can test in a manual truck so you don\u2019t have that restriction. At prime you will likely have an automatic restriction on your license but you can always get it removed later on. Good luck to you stay safe out there",
+"score": 5,
+"url": "https://www.reddit.com/r/Truckers/comments/1wlqbvd/looking_to_join_prime/pb2575t/"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "Elysium",
+"body": "-   Heartstarter, body coped and resists heart attacks, organ damage and internal bleeding. Fatal amount of organ damage for normal person is serious ER visit for him\n    \n-   Fairweather T-500, ably wear even the most bulkiest armor without physical impairment (SCP-914). Increased likelihood of being hit in armor instead of exposed parts. Higher damage resistance as if wearing chainmail vest at all times\n    \n-   Advanced Race Theory, almost scientific level knowledge on eery species and race. Know every racial stereotypes, slur, strength, weakness, everything a race could have. Updates.\n    \n\nParry and counter their rhetoric. Flood the zone. Sturdy, swift and smart. In a meta sense this grouping lets him enjoy each Jump. Improved food and engineering aesthetics. Simply know. Break em without using slurs.\n\nCoupris Kineema, patrol car. Rear mounted V12 engine and can go over 60 miles less than 10 seconds. -\n\nNew whip\n\n3000/~\n\n5\\. 1600/~\n\nHella reasonable\n\nNow For Real, Jump 2 [Pluribus](https://drive.google.com/file/d/1Ow-ftVd9fZyeA5g1T1fHfHm0swVxmxAi/view)\n\nBefore Signal arrival.\n\nBali\n\nThe Fourteenth\n\n-   Slippin' Jimmy, knowledge and lawyer skills equal to Saul Goodman. Updating knowledge.\n    \n-   I Am The Danger, knowledge and chemistry skills of chemist equal to Heisenberg. Updating knowledge.\n    \n-   Stealthy Insertion, when appearing somewhere whether beginning of jump or due to some use of power/teleportation he gets short lived SEP field that makes people ignore him and grants grace period. Mastered stealth (Savoir Faire), move around almost completely silent even in plate armor. Sixth sense where people pay attention and their field of vision.\n    \n-   Hidden Power, hijack any information gathering abilities, know when they are being used on him and alter the gathered information at will. Alter what mind reader reads and fake power levels. At will can be invisible to technological and supernatural forms of surveillance like security cameras and magic wards\n    \n-   Virologist, no one understands viruses better than him. Complete understanding of all mundane viruses, updates when visiting new world. How to cure, alter and make them. Recreate and improve supernatural viruses\n    \n-   Psychic Link Hijacking, create technological and magical devices to hijack and control any psychic or mental link between two or more individuals. Scales with number.\n    \n-   Great Partner, extremely good at platonic and romantic and sexual parts of any relationship he is a part of. Help people deal with any trauma they might have and help em be better version. So good at it that a break up is only possible either through direct desire to end relationship\n    \n-   Decoder, extremely good at decoding and unlocking things while receiving a hunch what it might do before he does it\n    \n-   Radio Science, top of line education in electromagnetic radiation and radio waves. Know both science and practical engineering skills to make use of it. Figure out specific frequencies to mess with hiveminds and mental manipulators\n    \n-   Plot Armor, luck in spades. Life is a lot easier for him.\n    \n-   Writing Skill, good writing skills in one genre (Sci-Fi) and average in a couple of more (Romance & Action). Make career as writer\n    \n-   Give Them What They Want, instinctively know what any specific group in the would would like. Interact with them for intricate understanding of how to cater to them more and more. Combined with Writing Skills as he is a bestselling author and synonymous with Science Fiction.\n    \n-   \u2605\u2605\u2605 Not Gonna Change \u2605\u2605\u2605, completely immune to any and all viruses, any attempt to take over his mind and body.\n    \n-   Are You People Insane?!, ability to get through those who are brainwashed/mind controlled. Through natural or supernatural means. Takes time, and effective. Really good at communication. Easily spot lies. Notice and deconstruct nad explain fallacies. When he want and is telling truth, people know\n    \n\nBusted shii. Does the artwork as well.\n\nGrenade (24), M67 grenade. Get new one an hour after it's used. - El Camino (Coupris Kineema), perfect condition. Unlimited gas and battery, can toggle how loud all the sounds it makes from nonexistent to 5x normal. The quieter the less attention it attracts. Eyes slide off it and attracting attention like nothing else when roaring full power - Science Lab (Profession, I Am The Danger & Virologist), scientists wet dream. Full to brim with all sort of equipment. Produce unlimited amount of any non supernatural materials that can be used for testing inside the lab. Create pseudo living NPCs he can perform experiments guilt free. Research here is 5x faster and produce more comprehensive results - Hazmat Suit (Improvised Armor), top of the line military body armor and hazmat suit. Kevlar comparable durability. Extremely comfy and tear resistant. Doesn't block vision, infinite air supply, recycles any waste he produce. Automatically cleans his body, both water and space proof. Protects him from most severe environments. Adaptive camo comparable to cuttlefish. - The Bunker (Regular Old Ikea), airtight with all needed amenities like food variety and drinks, water, air and waste recycling plant. Extensive entertainment like library, theater, computer club, pool, etc. Indefinetely supports a group up to a hundred. Nigh indestructible and radiation proof. Survives 100 megaton thermonuke on top without scratch. Folks inside dont feel single shake. Under a building he owns. - Money Maker, Movies & TV show (Drama) that constantly produces him large sum of money placing him to top 1% richest people in the world (Light Bending Mega Rich Guy). Produce copyrighted mateiral like series of Books & famous video games. - Communication Helper, infinite battery and storage space smartphone with perfect translation app. Any language to another, perfectly preserve original meaning while providing cultural context clues to idioms and local memes. Zero latency & text to speech function. Anti peeping function, undetectable frequency. Can alter what they hear -  \nA-Bomb, perfectly hidden and completely undetected underground missile silo containing intercontinental ballistic missile with unlimited range and scalable payload from 1 to 100 megaton yield. Choose when nuclear or not. Replenish year after getting used -\n\nUpdated whip. An amazing trap setup. Got the silent -naire thing set up nicely.\n\n3000/12\n\n800/~\n\n+Extended Stay\n\n5\\. 1800/~\n\nJump 3 [Chappie](https://drive.google.com/file/d/1w8ypRSA3pg31sYIdEk1hRoC-XYJ33hAb/view)\n\nEgghead, R&D of weapons and tools. Reliable autonomous androids.\n\nBody\n\nRobot (Universal Consistency), Tetravaal creation. Greater than human acapabilities, no need for sustenance and endless tamina. Inbuilt radio, gps and internet connection. Improved model. 50% more physically capable and durable than police model, possess programs and subroutines to help operate in combat like aim assist and tactical maps (The Map) as well as emp shielding, self-recharging battery. Experimental model being tested on new software\n\nSpawn more staff.\n\n-   Gun Handling, tough and know how to handle a piece, firearm training, gun license and permitted to open carry anywhere\n    \n-   Perfect Memory, photographic memory with unlimited storage, instant recall and protection from tempering, be head trauma, someone trying to alter his memory banks or other supernatural interference. Forget anything he wants\n    \n-   Accelerated Learning, fast. Like a fully functional adult capable of painting, programming and advanced weapon handling in 5 days from scratch fast\n    \n-   Ai Detection, instantly recognize when something is artificial and fake\n    \n-   Clink Clank Clan, expert in fighting robots, golems, automatons and other artificial beings, easily spot their weak points and do triple damage to them than usual\n    \n-   Reverse-Engineering, master of figuring how things work. Get his hands on something, take it apart, study it for a bit (Science Lab) and find out how it works. Recreate it, improve it (Silent Gun) and how to make weapons designed to destroy it\n    \n-   Reverse Stockholm Syndrome, when he gets kidnapped they treat him nice, may even become friends.\n    \n-   Convincing, instinctive feeling of what to say for people to give him the green light\n    \n-   Engineering (Profession), combined skill and knowledge of Deon Wilson and Vincent Moore. Great robotics and weapons development talent, produce bleeding edge tech\n    \n-   Software Development (Interfacing), genuine code wizard on par with Deon, AI focused. From smart simple home AIs to advanced combat warfare to creating fully conscious one. Any sufficiently advanced one he creates can have soul in whichever form encountered\n    \n-   Behind a Metal Shield, great at keeping his insides on the inside. Dodging, weaving, rolling and taking cover naturally. Barricades, shields, items and being (Staff) he hide behind becomes a couple of times tougher\n    \n-   Cooperation, a tactical and strategical genius capable of leading his men to take on foes that are more poweful and numerous. Men hear and understand his orders perfect regardless the distance or inability to hear.\n    \n-   Piloting, from bicycles to bikes, cars to boats, helicopters to planes, horses to giant combat robots there is nothing he cannot pilot. When behind the wheel he controls anything like he's done it for centuries\n    \n-   Born To Kill (Profession), natural born soldier, freakish murder blender capable of turning innocent items to implement of death (Weapons). On actual weapons they better start running. Numbers mean nothing against him, when he can kill any of them 1 on 1 he can kill them as a group.\n    \n-   Illest Gangsta on the Block, substitute a bit of skill in anything by acting cool\n    \n-   More Than You Asked (Sleight of Hand), always a bit more luckier (Plot Armor) when robbing people, find more and rarer stuff than supposed to. Treasure sense\n    \n-   Saved (2.), 1-up. Can use on others too\n    \n\nSimply amazing. Tinkered some tings. Good courtesy, for their safety as well. That's an amazing privilege. Mobile cover. Neural interfaces too.",
+"score": 1,
+"url": "https://www.reddit.com/r/JumpChain/comments/1s5zzgd/elysium/papnabd/"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "Hazmat ops exam - fail options?",
+"body": "Hey just finished 472.\n\nI will say that HazMat ops was almost unbelievably easy where I took it in Alberta. The IFSAC apps are great study tools! There are tons of practice questions and it only runs like $10-$20 to purchase the question set - very worthwhile IMO.\n\nFeel free to shoot me a message and I can send you the app I\u2019m talking about if you can\u2019t find it.",
+"score": 3,
+"url": "https://www.reddit.com/r/Firefighting/comments/1v34w0x/hazmat_ops_exam_fail_options/oz0hsds/"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "Well, I'm thinking about joining at age 36",
+"body": "Download the CDL Prep app. It\u2019s blue with a white steering wheel. Study general knowledge, combinations and air brakes. Keep practicing until you get a 100. Go to DMV, schedule CDL test. Pass it. Get a DOT physical at your local urgent care or do your googles.\n\nGo to a training company like Prime, Wilson, etc and do your year. On off time I would recommend getting tankers and hazmat\u2026.",
+"score": 3,
+"url": "https://www.reddit.com/r/Truckers/comments/1ukyev5/well_im_thinking_about_joining_at_age_36/ov26v8g/"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "i\u2019m getting near my year mark. looking to switch to tanker because there\u2019s good opportunities in my area. what\u2019s a good school or job that i can get my tanker through? thanks in advance. safety",
+"body": "Just use CDL prep test. I just got my last endorsement, hazmat, last week. How easy the questions were is an understatement, especially if you study the stuff in that app.\n\nAlso for hazmat you need to do the online course. It\u2019s like $25. This must be done before going in and trying to take the test. I\u2019d also go ahead and get doubles/triples if I were you. All these test are really not that difficult. The tanker one I passed after less than a day of studying cause I was going in to take my T endorsement and said fuck it how hard can tanker be.",
+"score": 2,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1u5mh6m/im_getting_near_my_year_mark_looking_to_switch_to/ormds5h/"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "i\u2019m getting near my year mark. looking to switch to tanker because there\u2019s good opportunities in my area. what\u2019s a good school or job that i can get my tanker through? thanks in advance. safety",
+"body": "Get your tanker and doubles/triples, super easy. U can just study the dmv cdl handbook and practice on the blue cdl prep app. I studied both those for only about two days each and passed first try, really easy. Hazmat is a bit more challenging and u cant just walk in the dmv and get that. U have to take an ELDT course before u can test. I paid about $80 for a weeks worth of studying at drivingtests.org, completely online.",
+"score": 1,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1u5mh6m/im_getting_near_my_year_mark_looking_to_switch_to/orm5tuc/"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "Hazmat and Tanker Endorsement",
+"body": "Get the endorsements. Study study study, get to know your ERG book beforehand.\u00a0 It's a nifty little book anyways. There's an app for that these days, so that's handy.\u00a0 I included a decent website for the practice tests.\u00a0\u00a0\n\nYou will, have to go get your finger prints done.\u00a0 For where I live, everytime I have to renew my license, I renew my hazmat and prints.\u00a0 It's like 210$ total, these days.\u00a0 I can claim that cost against my state taxes. Not a big whoop, but still. The fingerprint office will need all your proof of citizenship, all paperwork must be official with a raised seal on it. If your name has changed at all, the documentation showing that, ie marriage license or something, must have a seal on it. Every time I go to get my prints done, I watch at least one person get turned away because their paperwork isn't right. Its a pain in the ass, so here's your Wish I Had Known This Before. The office is called IndentiGo, where I live.\u00a0\n\n[https://truckercountry.com/cdl-practice-tests/hazardous-materials/](https://truckercountry.com/cdl-practice-tests/hazardous-materials/)",
+"score": 3,
+"url": "https://www.reddit.com/r/Truckers/comments/1t5onap/hazmat_and_tanker_endorsement/okcd2d8/"
+},
+{
+"dataType": "comment",
+"searchTerm": "best app cdl permit test",
+"postTitle": "Need helping finding a new job",
+"body": "Truck driving is wide open. Flatbed truck driving pays 65k first year. You will not be home much but it is a steady paycheck. Cypress trucking, Maverick trucking, TMC trucking, Melton trucking are all flatbed truck driving companies. Google the company name and add recruiter phone number and call any of them. 21 or older, completely drug free the last 5-6 months and completely drug free every day after you get hired and have a good driving record. Companies usually pay 500 weekly before taxes to go to cdl a school and put you in hotel with roommate and free breakfast. They transport you to and from the training facility. After you have your cdl a you will get load securement training and drive with a trainer for a few weeks to learn how to tarp and secure loads properly. Live in the truck after you get your cdl a and go home during home time. Should bump to 70-75k second year. It is 11-14 hour days 6 days a week. You need to get a DOT physical and study for and pass the Commercial Learners Permit test at DMV. Download CDL PREP app to study for exam and go by DMV and ask for a commercial vehicle manual to read from a paper manual. You need to sutdy General knowledge, Air Brakes and combination to pass the test. Also take as many practice tests daily as you can along with the practice tests on the cdl prep app. Good luck. Wide open as long as good record and no drugs. It is one of the lowest barrier to entry jobs in the USA that pays 65k first year. Over The Road dry van starts at 55k. It is a way to make good money when nobody is hiring. The training phase/pay is not the best but after it is done the pay levels out. You need the dot physical to get a medical card and that has to be done just before you take your CLP test at dmv. Again. Good luck.",
+"score": 1,
+"url": "https://www.reddit.com/r/jobhunting/comments/1xc8sil/need_helping_finding_a_new_job/19rpjm7ozcbok/"
+},
+{
+"dataType": "comment",
+"searchTerm": "best app cdl permit test",
+"postTitle": "I worked so hard to get out of a bad situation, only to end up in an even worse one. I\u2019m exhausted and running out of options.",
+"body": "If you are drug free and have a clean driving record you could be a truck driver, live in the truck and not pay rent. This will allow you to put a massive amount of money in the bank in a short period of time. Trucking is not glamorous. It is hard work in hours per day. You have to eat healthy and stay hydrated. You can jog and do pushups and situps in the truck stop area where you park at night and then request your shower before you start your workout. That way you can shower right after workout. Trucking is lonely. That is the part I like because I like peace and quiet. You have to be good with money and not spend it on really stupid stuff. It is a way not to be homeless and put a lot of money in the bank. It is really a way where someone without any skill set and working a dead end low income job and also uneducated can be making 45-55k yearly with extremely low barrier to entry for the position. The right person that is motivated and willing to work can have enough to buy a house in 6-8 years. That is life changing. Some love it. Some hate it. It is a vehicle to create a good life without spending 150k on a college education, or 15k into a HVAC education. Companies like Schneider National will hire you and pay you 600$ weekly until you have your cdl a and have completed your mentor/live load Over the Road training. Then you get bumped to about 900-1100$ weekly. Download CDL PREP app to study for the test at dmv.\n\nFirst thing go to dmv and get a commercial driver manual and start reading. Print this pre trip inspection. [https://cdlcollege.com/sites/default/files/pdfs/Pre-Trip-Inspection-manual.pdf](https://cdlcollege.com/sites/default/files/pdfs/Pre-Trip-Inspection-manual.pdf)\u00a0 You have to do this on a truck every single day. You will do this in school. You will do this for the person that scores your driving exam from the dmv. You need to know it well. You will learn it better after you start cdl school because you can see the truck parts and touch them. Memorize it. Google CDL A practice tests and take the practice tests every day while studying the manual. Highlight everything in the manual that is on the practice tests. The practice tests are easy compared to the real test at dmv. You will need to take the CDL A permit test and pass it for cdl school. It is best to have the cdl permit in your hands before you get to school. I do not know the cost.\n\nYou are also going to have to do a d.o.t. physical to get a medical card. The cost is 100-200$ Save your receipt as the carrier may reimburse you for it. Your blood pressure needs to be below 140/90 and your resting heart rate needs to be below 100 beats per minute. Eye test for color blind and reading the chart on the wall. Bring your glasses if you have them and you will need them in the truck by law if you use them on the physical or at the dmv. You might do a balance check where you squat and balance on one leg at a time. \u00a0They will pee test you for kidney disease. The drug test comes when you go to a carrier like Schneider National so you can be paid while going to cdl school. They pay about 600 weekly. You will sign a 9 month contract with them. If you leave before you are done with school or you break your contract you owe them money so do not do that. The drug test is usually on the first day of school/training. Do not think you can carry around a piss bag and be all good. They will catch you. They also do random drug tests.\u00a0 I WILL PUT THIS IN ALL CAPS. IF YOU ARE NOT DRUG FREE A MINIMUM OF 3-4 MONTHS BEFORE YOU GET DRUG TESTED BY THE CARRIER YOU WILL BE IMMEDIATELY SENT HOME AND IT WILL SHOW UP ON YOUR DAC REPORT ON YOUR CDL PERMIT AND NOBODY WILL HIRE YOU.\u00a0 I WILL SAY IT AGAIN. ZERO DRUG TOLLERANCE. SOME DO PEE SAMPLES. THEY DO HAIR SAMPLES AND YOU NEED THE DRUGS OUT OF YOUR SYSTEM MINIMUM 90-120 DAYS BEFORE THE HAIR SAMPLE IS DONE. ZERO. ZERO. So if you are a dope head just stay away. You will never make it and you will waste a bunch of money and time and frustration only to be hacked by drugs the first 3 days of the program and will end up owing the trucking company money which is the opposite of what you want.\n\nWhen you get your med card place it right beside your driver license in your wallet/purse or however you carry your stuff. You need the medical card in your wallet when you take your cdl permit exam at dmv to get the permit. You will always carry the med card. New med card required every 2 years unless you are on heart medication then one year for that. You need your med card and cdl permit(CLP) before you start school if going to a carrier for training programs.\n\nThe carrier usually pays for your transportation from home to the hotel and a van to get you from the hotel to school and back again daily. If you are late to the van for transport from the hotel there will be hell to pay. Be early for the van. The hotels they use have breakfast. Make sure you know what time breakfast is open and when the Van arrives. Some carriers also pay for lunch. I have never seen dinner paid for but maybe some do. This information will help you along your journey.\n\nAs a truck driver you will not be home very often and you will not go home before you have tested for your cdl A License. After training you will be trained/mentored by a pro driver/trainer for a few weeks or until they believe you can drive solo. The requirements for that change over time and from company to company. Plan on being out a month and going home for 2-3 days after you are solo. Trucking is a lonely life. Some companies allow riders in the truck or have a pet policy. Depends on the company. Good luck and may the force be with you. My goal is to help people understand what to expect based on MY EXPERIENCE and the fact that drugs are zero tolerance and you will not beat that system.",
+"score": 1,
+"url": "https://www.reddit.com/r/almosthomeless/comments/1x7lrza/i_worked_so_hard_to_get_out_of_a_bad_situation/phkdc70/"
+},
+{
+"dataType": "comment",
+"searchTerm": "best app cdl permit test",
+"postTitle": "Clp myself",
+"body": "In Michigan I used this to study and I passed my test the questions were exact as the test so best one to study.\n\nAlso it doesn\u2019t hurt to just go and take the test. You can take it as many times as you want. [https://apps.apple.com/us/app/cdl-permit-practice-test-2026/id1566343337](https://apps.apple.com/us/app/cdl-permit-practice-test-2026/id1566343337)",
+"score": 1,
+"url": "https://www.reddit.com/r/CDL/comments/1rlpfy5/clp_myself/o92jtag/"
+},
+{
+"dataType": "comment",
+"searchTerm": "best app cdl permit test",
+"postTitle": "NJ Advice",
+"body": "Many places are desperate for drivers right now, and will pay to train and license you. To do so, you will have to sign an agreement to work X amount of time, or you will have to back pay them Y amount of money. But that is the route I would recommend taking as it's a pretty process and expensive to go through a training company. That said, here's what you can expect:\n\n1.  Medical Exam: You will need this to get your learners permit from the MVC. It's easy to set up with any place certified to do the CDL medical examination, and your place of potential hire will probably have a recommendation. Make sure you keep a copy of the paperwork yourself.\n    \n2.  Fingerprints/Background Check: You will most likely go through a group called Identgo to get your fingerprinting done. They require an employer code, which your prospective employer should provide you. It can take upwards of a few weeks for these to clear, so it's good to get them done early along with the medical exam.\n    \n3.  Multiple Choice Tests at MVC: There are 3 of them, possibly 4, that you will need to take to get a learners permit. General Knowledge, Passenger (P), Schoolbus (S), and in some cases, Airbrakes (L). MVC recommends reading the manual to study, but there are also number off apps or online resources to train you up on what kind of questions they'll ask. It's all multiple choice so it's not too bad, and you are allowed to retake them as many times as you want (keeping in mind that you have to pay a fee to take the exams and will have to wait a set amount of time before retaking them).\n    \n4.  Getting Your Learners Permit: Once you've completed the three steps above, you should be able to bring in your 6 points of ID along with the other required paperwork (med cert, fingerprint doc, self-certifier form) to get your learners permit. Yay! This allows you to drive a bus WITH a certified trainer on board.\n    \n\n\\*5) Pre-employment Screening/Board Approval: This is sort of a TBD step because you may not experience it everywhere. But most official school districts will require drug screening and board approval before you start in-person training.\n\n6) In-Person Training: You will go with your respective trainer to learn the ins and outs of the pretrip as well as driving the bus. For some people, this takes 2-3 weeks. For others, this can take 2-3 months. Really depends on how confident you and your trainer are.\n\n7) In-Person Exam: The big day. You take the bus out with your trainer to the MVC. The trainer will excuse themself and you will perform a pretrip, bus maneuvers, and road test for an inspector. So long as you stay cool and do it all according to the books, you'll leave with your license!\n\nSide note, one of our office admins/dispatchers was out on extended leave this last year and I helped fill in. Got to see a lot of this firsthand for other drivers. The application process is sort of bloated and intimidating, especially if you've been out of the game long enough. The people who had the easiest time were the ones who called the office periodically to check in during their application process, whereas I can't tell you how many people came to grab the application folder and were never heard from again.\n\nMy best advice is to be picky when choosing your potential employer - you will probably glean a lot from working with them to get a CDL, and can use that as a bit of a vetting process. It's a great gig if you can find the right place - good luck!",
+"score": 4,
+"url": "https://www.reddit.com/r/SchoolBusDrivers/comments/1v598sf/nj_advice/ozhruc7/"
+},
+{
+"dataType": "comment",
+"searchTerm": "best app cdl permit test",
+"postTitle": "Trucking school",
+"body": "I completed 160 hours on Saturday. Here is a breakout of my hours.\n\n40 Hours ELDT classroom\n\nCDL-A Learner's Permit\n\nPhysical/DOT\n\n120 Hours Pre Trip, In Cab / Air Brakes, Skills, Driving\n\nNov 1st @ DMV with my examiner.\n\nMy best advice is to visit each location you're considering. Meet with the school rep and observe a class in session. Mostly likely it will be a Zoom lecture, etc with a full curriculum (ELDT) you'll need to complete. Visit the yard where the training takes place. A lot of variables to mention but for starters, you'll want to see how they conduct the skills and how organized they are in comparison to the layout at DMV where you'll be doing your Skills test.\n\n. . . . and most importantly how they manage and separate \"front end\" & \"back end\" of students.\n\nI made an attempt last year and didn't research too well and made the mistake of going with the cheapest so called trucking school. What that got me was a mobile app to study (ELDT) and a dirt lot for skills maneuvering and everyone all meshed in with students teaching students LOL.",
+"score": 1,
+"url": "https://www.reddit.com/r/Truckers/comments/177z2kj/trucking_school/k50fq5g/"
+},
+{
+"dataType": "comment",
+"searchTerm": "best app cdl permit test",
+"postTitle": "CDL school. How the heck do y\u2019all do it??",
+"body": "I just finished up school and got my CDL A last Thursday.. I went to school WITH my Permit already. I studied the CDL PREP app and DMV Book for a week before I went and tested, passed, got my cdlp, and headed off to school. 3 weeks of driving/maneuvering later I tested and PASSED! 0points on the offset/90/straight backing & 4pts On the road test! If I can do it, I KNOW DAMN GOOD AND WELL YOU CAN TOO!!! Stay focused, disciplined & stay determined then watch how you succeed! Best of Luck!!",
+"score": 14,
+"url": "https://www.reddit.com/r/Truckers/comments/12q72hl/cdl_school_how_the_heck_do_yall_do_it/jgph6yn/"
+},
+{
+"dataType": "comment",
+"searchTerm": "best app cdl permit test",
+"postTitle": "NJ CDL permit advice\u2026.",
+"body": "I\u2019m not sure if you guys have but do not pay for classes for your permit, especially if their is a fee for you to take the test. Here\u2019s the game kid What you need to get that golden cdl.\n\n1.  Take pass written test: Only fee you should pay here is dmv/ bmv/sos or whatever use apps like CDL prep 2 Get your Eldt $20-28 MAX 3 ROAD AND RANGE: Now you want someone who you understand and is patient preferably they give you the test as well best advice 1-3 student per instructor you pay weekly around $1200-2500/week. 4 Test: PRE TRIP (easiest to fail) range, and road. 5 Get License: Pretty obv, you get it.",
+"score": 2,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1qevr65/nj_cdl_permit_advice/o0rs1v2/"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl prep app subscription",
+"communityName": "r/CDL",
+"title": "CDL prep all you need? Thoughts?",
+"body": "So I recently got into trucking school and one the things they told me whilst reading is take the CDL prep app and study that as well religiously. I\u2019ve done that and I\u2019m at the point where I get 100% every single time on the practice exams. But I did some digging and I\u2019ve watched some videos on DMV advantage with almost pretty much the same but reworded differently and some questions I\u2019ve never seen before. But others say they used only used the CDL prep app and passed on their first try. I don\u2019t know what do you guys think and your experiences on passing the exams. ",
+"score": 6,
+"createdAt": "2026-03-17T18:27:07.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl prep app subscription",
+"communityName": "r/CDL",
+"title": "Can I use the CDL Prep (app) to get my CLP?",
+"body": "I live in Tulsa.   \nI\u2019m trying to skip the 4-week class and the price tag that comes with it. I want to study on my own, take my CLP test, and then attend a school for about half the price.  \nI\u2019m just wondering if the CDL Prep app is sufficient to prepare me for the CLP test.",
+"score": 4,
+"createdAt": "2026-08-11T01:06:12.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl prep app subscription",
+"communityName": "r/Truckers",
+"title": "Is the CDL Test Prep app reliable today?",
+"body": "What\u2019s up everyone. Currently takin my CDL classes today and heard the CDL test prep app is pretty accurate for prepping for the permit test. I\u2019m guessing the permit test involves brakes, pre trip, and general knowledge? (Correct me if I\u2019m wrong)\n\nThanks y\u2019all, drive safe. ",
+"score": 2,
+"createdAt": "2026-04-06T21:38:46.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl prep app subscription",
+"communityName": "r/CDLTruckDrivers",
+"title": "Should you pay for CDL prep to study?",
+"body": "",
+"score": 4,
+"createdAt": "2026-06-24T03:13:47.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl prep app subscription",
+"communityName": "r/CDLTruckDrivers",
+"title": "CDL Prep",
+"body": "Anyone know of any free apps that I can use to study with and any advice when it comes to taking the permit test at the DMV? because i suck at taking tests when it comes to taking a test on screen or in paper form i just cant remember anything easily ive always been like that since high school and im 36 now, and tips, pointers or tricks wouold be greatly appreciated. I live in Texas btw.",
+"score": 3,
+"createdAt": "2026-08-28T11:58:38.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl prep app subscription",
+"communityName": "r/CDLTruckDrivers",
+"title": "New to trucking\u2014best company-paid CDL programs and advice for a beginner?",
+"body": "I\u2019m 21 and based in Texas, looking to get my Class A CDL. I\u2019m starting with almost no knowledge, but I\u2019m willing to learn and put in the work.\n\nWHAT I\u2019M LOOKING FOR:  \n\u2022 Company-paid CDL school.  \n\u2022 Actual pay during school, before earning my CDL\u2014not just a repayable loan.  \n\u2022 Decent pay while training with a driver afterward.  \n\u2022 Travel, lodging, and meals covered if I need to go out of state.  \nI\u2019m open to traveling and driving OTR. Frequent home time isn\u2019t a priority. I realize one program might not offer everything, so which companies come closest?\n\nDRUG TESTING:  \nI\u2019m looking for current information on programs that use urine-only testing rather than hair testing (I was smoking weed carts for about 3 months but I\u2019ve been a month and half clean and can pass a piss test). If you recently attended, what tests did the school and company require?\n\nCOMPANIES I\u2019M CONSIDERING:  \nPrime, PAM, Millis, Wilson Logistics, and R. E. West.  \nAny firsthand experiences with those? Are there better options, or any you would avoid?\n\nBEGINNER ADVICE:  \nWhat should I know about getting my permit, choosing a school, training contracts, pay, and living with a trainer?  \nWhat companies are good for a first job? What red flags should I watch for, and what do you wish someone had told you before starting?  \nAny honest advice is appreciated. I\u2019m trying to build a career and make an informed decision.",
+"score": 6,
+"createdAt": "2026-09-30T02:08:20.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl prep app subscription",
+"communityName": "r/cdldriver",
+"title": "I built a CDL Prep app by myself with NO Ads. Giving away 500 FREE Premium codes to get some honest feedback.",
+"body": "Hey drivers, I'm an indie developer and I just released a new app called CDL Prep Ultimate. It has 2,900+ questions, covers all endorsements (HazMat, Air Brakes, Combinations, etc.), and includes a \"Sudden Death\" practice mode to really test your knowledge.\n\nSince I don't have a giant marketing budget like the big companies, I'm trying to get the word out directly to the community.\n\nI generated a Promo Code that gives you 1 Month of Full Premium Access for exactly $0. Inside the App Store (Redeem section) or right inside the app, use the code: CDLFREE\n\nApp Store Link: https://apps.apple.com/us/app/cdl-prep-ultimate/id6758960653\n\nAll I ask in return is that you try it out, and if you like it, please leave me an honest 5-star review on the App Store. It helps me out more than you know. Be safe out there!",
+"score": 0,
+"createdAt": "2026-03-04T19:55:04.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl practice app wrong answers",
+"communityName": "r/CDLTruckDrivers",
+"title": "Are the questions in this test practice app the same questions on the actual test?",
+"body": "",
+"score": 6,
+"createdAt": "2026-02-24T01:23:36.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl practice app wrong answers",
+"communityName": "r/TheCapitalLink",
+"title": "Answers for the CDL learners, study and download some apps to help, thank me later\ud83e\udd1d\ud83c\udffe",
+"body": "",
+"score": 109,
+"createdAt": "2026-01-27T18:11:54.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl practice app wrong answers",
+"communityName": "r/CDLTruckDrivers",
+"title": "Best way to practice for CDL test?",
+"body": "I downloaded the CDL test prep app which seems helpful. My real question is: do I read the manual back and forth and do practice tests? Or maybe just keep doing practice tests and memorize like that? Silly question I\u2019m sure but I have about a month or so before I get into school and plan on studying everyday until then. Flash cards maybe? Any knowledge or wisdom is greatly appreciated. ",
+"score": 2,
+"createdAt": "2026-08-08T15:38:34.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl practice app wrong answers",
+"communityName": "r/Truckers",
+"title": "Anyone know where to find updated questions and answers for 2026 hazmat endorsement test?",
+"body": "Was using CDL prep app for a week lead up to my test today, and the questions have been updated from the last time I used it which was earlier last year, so that app is now pretty much obsolete. Does anyone know of a different app/cheat sheet or study guide?",
+"score": 5,
+"createdAt": "2026-07-10T18:08:37.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl practice app wrong answers",
+"communityName": "r/CDLTruckDrivers",
+"title": "CDL Written tests, best APP to study with??",
+"body": "What\u2019s the best app to use for Air Brakes & Knowledge Tests??",
+"score": 2,
+"createdAt": "2026-07-07T23:23:53.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "hazmat app study",
+"communityName": "r/Truckers",
+"title": "Hazmat endorsement study advice",
+"body": "I have to get the hazmat recertification soon. It\u2019s been so long, what apps or website have y\u2019all used that are similar to the questions on the dmv test (Va). There\u2019s so many, just seeing if I can narrow this down instead of downloading all these practice tests. Thanks ",
+"score": 1,
+"createdAt": "2025-11-04T05:59:51.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "hazmat app study",
+"communityName": "r/Truckers",
+"title": "Study for hazmat test",
+"body": "What do you guys use to study the hazmat test, by study I mean can I pay money to memorize the test questions? I don\u2019t actually use my hazmat for my current employment but I keep it just in case. ",
+"score": 1,
+"createdAt": "2026-04-22T19:59:08.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "hazmat app study",
+"communityName": "r/Firefighting",
+"title": "Hazmat Ops & Awareness prep test apps",
+"body": "Hey there, I just finished my Hazmat Ops & Awareness classes, and I need some help finding some reliable apps to study on test questions. any help is appreciated.",
+"score": 1,
+"createdAt": "2025-11-01T21:57:29.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "hazmat app study",
+"communityName": "r/Neet_india",
+"title": "Study app perfect for ppl who do online/self study",
+"body": "the title speaks for itself, also not paid ad, i found it useful and i believe others will like it too  \nThe app : Chaos prep  \nALSO: if any of you do start using the app add me as peer, UD5VTE, \\[ i need more neetards in my circle\\]",
+"score": 4,
+"createdAt": "2026-05-28T09:40:26.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "hazmat app study",
+"communityName": "r/SafetyProfessionals",
+"title": "Hazmat Operations Exam",
+"body": "I just took my first of three tries for hazmat ops. Missed by one question. Any insight on taking it my second time? Studied very well and none of the questions I had envisioned or information I really dove into were not on the exam. A lot of goofy unnecessary questions like what percent of your body weight do you lose after donning PPE. Help. Need advice from others who have taken the ops exam more than once. Want to narrow down my studying for my second try but not sure if that is even possible!",
+"score": 1,
+"createdAt": "2026-08-14T21:15:38.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "hazmat app study",
+"communityName": "r/Firefighting",
+"title": "HAZMAT Awareness/Operations",
+"body": "I\u2019m taking HAZMAT awareness in my academy tomorrow. I\u2019ve got a quizlet that is pretty comprehensive, the questions are very similar if not exactly to what\u2019s been on the J&B chapter tests. For chapters 29-30 on HAZMAT awareness I\u2019ve scored high on the quizlets, as well as on the J&B chapter tests, all of which are 50-70 questions long. We will also be able to use the ERG for Awareness and Ops, my question is, am I set for my cert exams? Given I\u2019m doing well on my practice tests, I\u2019m confident with the ERG, should I be worried about failing these two?\n\nEdit: so the HAZMAT awareness cert had almost nothing to do with the ERG, there were a few answers in there, but really it was about paperwork, BOL, Consist, Airbill and Waybill, but I passed so it\u2019s good to go",
+"score": 1,
+"createdAt": "2025-11-19T02:56:32.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "hazmat app study",
+"communityName": "r/Firefighting",
+"title": "HAZMAT Ops Written Test Study Help",
+"body": "Is there any advice out there for those struggling (me included) on the hazmat Operations written test??? ",
+"score": 2,
+"createdAt": "2026-07-21T17:12:13.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl app paywall",
+"communityName": "r/CDLTruckDrivers",
+"title": "any way to get Your CDL for free im from cali and need to do a change M34",
+"body": "",
+"score": 2,
+"createdAt": "2026-09-17T03:12:31.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl app paywall",
+"communityName": "r/Truckers",
+"title": "How to get Trucker Path for $2/month with iPhone workaround",
+"body": "",
+"score": 22,
+"createdAt": "2026-09-23T02:34:09.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl app paywall",
+"communityName": "r/CDLTruckDrivers",
+"title": "I want to get my CDL, but there aren\u2019t many paid training options it seems. I need to pay bills as well. Any tips?",
+"body": "",
+"score": 8,
+"createdAt": "2026-08-20T13:49:16.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl app paywall",
+"communityName": "r/DSNY",
+"title": "What app is good to use to study for the NYS CDL permit ?",
+"body": "Also what permit do you guys recommend for going for the A or B permit section? Any new guys can you please recommend the app or apps you used to pass..? ",
+"score": 2,
+"createdAt": "2026-08-06T02:14:02.000Z"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "Studying for Permit tips?",
+"body": "Crist CDL. Free study app. Never fails with hazmat renewal in.",
+"score": 4,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1qpj7xm/studying_for_permit_tips/o29mja4/"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "CDL Written tests, best APP to study with??",
+"body": "Strictly using crists practice tests helped me pass, I told the school I attended that their reading from the study guide was a waste of time which I could do at home haha. I still went through the states study guide on my time once, but hammering those tests daily on the site/app you'll learn the knowledge really well and most likely miss very little. The only benefit I got out of the school was getting a ton of drive time due to having a super small class and the hours we have to have from it. Passed all the tests to get the cdl license and tanker/doubles,triples/hazmat using cristcdl.",
+"score": 1,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1uqbmvm/cdl_written_tests_best_app_to_study_with/owabjky/"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "Getting my CDL. Need help with this question. Plz help.",
+"body": "I recommend you use the CDL Test Genie the yellow app which you can find on App Store for CDL practice tests and gives questions and the answers. Also it goes state by state, so depending on the state you live in, you could use it to study . I recently did the hazmat endorsement test in California and the questions and answers were the actual same on the dmv knowledge real test which I was shocked about .",
+"score": 1,
+"url": "https://www.reddit.com/r/Truckers/comments/1totvb5/getting_my_cdl_need_help_with_this_question_plz/oo3u0xf/"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "Seattle drill school",
+"body": "It\u2019s just IFSAC FF1 & 2 , hazmat awareness and ops. And a SFD basic skill manual. All tests are multiple choice. If you read the chapters a few times the weekend before the test you\u2019ll probably be fine. The IFSAC study app helps a lot",
+"score": 2,
+"url": "https://www.reddit.com/r/firefighter/comments/1qqcjhl/seattle_drill_school/o2i69ve/"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "Illinois- failed Hazmat exam 3 times\u2026",
+"body": "Idk if it's too late but i just took mine a month ago and past the first time. I'm not saying that to broast, saying that so your partner knows it's possible. What worked for me and what I would suggest is. 1) Read the book/take notes. 2) Get the IFSTA Hazmat First Responder 6 app (pay for the practice tests, it's worth it). 3) If you have access to the IFSTA website, go through those practice tests too. Go through the practice tests on both the app and website (if possible) over and over and over and over, until you consistently get 95% or better on every one every time. Then go back to the book, study the broader topics more in depth. Make flash cards for tanker types, protective clothing types, ICS structure (every major officer position), and radioactive container types to name a few. I hope this helps. If you have a way to reach out to me privately, I also have a study guide PDF that I can share.\n\nEdit: I am in CO, so I don't know how the hazmat test I took compares to the one your partner is taking. The one I took is through IFSAC.",
+"score": 1,
+"url": "https://www.reddit.com/r/Firefighting/comments/1qy1x4z/illinois_failed_hazmat_exam_3_times/oanjrsd/"
+},
+{
+"dataType": "comment",
+"searchTerm": "hazmat app study",
+"postTitle": "Can I get a CDL permit before school? CALIFORNIA",
+"body": "You should be able to but it's usually integrated into the school, fees and all. I would just study ahead and go along with the school.\n\nWhat you're asking to do will just give you slightly annoying bragging rights to other CDL students and you can sit out one afternoon when they are taking their test at the dot. It's also not a big deal at all. The permit tests are super easy if you study (there's an app with all the questions they can ask).\n\nAlso, try to find a school that just sets you up to get to the first year company that will pay most of the school fees, but without signing some contract longer than a year.\n\nThat first year sucks for all truckers (companies abuse you because only a few companies can afford to insure first year drivers). After that, you can make real money.\n\nThat first year focus on getting more experience and try to learn extra things like hazmat, tanker and/or flatbed. Get away from the low paying dry van/reefer BS asap",
+"score": 1,
+"url": "https://www.reddit.com/r/Truckers/comments/1rhbdgy/can_i_get_a_cdl_permit_before_school_california/o814fe8/"
+},
+{
+"dataType": "comment",
+"searchTerm": "best app cdl permit test",
+"postTitle": "Process to become feeder?",
+"body": "The actual process is simple, just sign the bid sheet and they\u2019ll call you if you get it. You have to do a ride along before class (you get paid for this) and you have to recite the 10 and 5 before class. You\u2019ll need to get your cdl permit before class too. But they\u2019re only good for a year I believe, and you can only renew it once. So don\u2019t get that before you know you\u2019re actually locked in for the class. You can download an app to take practice tests on (all the permit tests are multiple choice on a computer).\n\nBefore you even sign up though, drive like a granny with a full gravy boat and a pitcher of tea in the back seat. They want no moving violations in the past 3 years. Definitely no dui. If you have even one beer you\u2019re not driving, better safe than sorry.\n\nI\u2019ve seen guys squeak in at 6 months recently just because everyone else either turned it down, had tickets, or couldn\u2019t pass the tests before class.\n\nStart memorizing the 10 point commentary and 5 seeing habits now. If you know them by word before class it frees up so much more time to practice your backing with the trainer or even maybe getting some more on road time.\n\nPractice your backing any way you can. Best is if you can find a driver willing to work with you for a couple of hours on a Saturday. As silly as it sounds I downloaded American truck simulator and just sat in the beginning parking lot practicing backing for like 20 hours before my class.",
+"score": 8,
+"url": "https://www.reddit.com/r/UPSers/comments/16iutru/process_to_become_feeder/k0m8h4y/"
+},
+{
+"dataType": "comment",
+"searchTerm": "best app cdl permit test",
+"postTitle": "ouch",
+"body": "Best way to pass the permit tests at DMV is download the CDL prep app and do the practice section over and over again until you memorize the questions and answers. Took me about 4 days with 2 hours a day Practice. It's literally the same questions and answers word for word. And talking about haz and tanker and just got mine done 2 weeks ago. Also get the doubles/triples while your at it thats what I did when I did my permit tests and now it came in handy so im getting doubles experience.",
+"score": 2,
+"url": "https://www.reddit.com/r/Fedexers/comments/13rv35h/ouch/jlon4zt/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "I keep failing my Air breaks exam test at dmv, is crist the best to study?",
+"body": "CDL Prep, blue box with white steering wheel outline.\n\nIt has ads but it\u2019s free, I\u2019ve used it to get everything but hazmat so far, have to wait for background is why on hazmat.\n\nIt\u2019s all I used, the local BMV didn\u2019t even give me a CDL manual they just said use this app.",
+"score": 5,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1u7r2ij/i_keep_failing_my_air_breaks_exam_test_at_dmv_is/os2kmpl/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "Should you pay for CDL prep to study?",
+"body": "No. CDL prep app is free. Ads only in practice mode. No ads in test mode. Verbatim from DMV version",
+"score": 2,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1ue1yna/should_you_pay_for_cdl_prep_to_study/othe80a/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "I built a CDL Prep app by myself with NO Ads. Giving away 500 FREE Premium codes to get some honest feedback.",
+"body": "**Hey! Being completely transparent with you: currently, the app does not have a dedicated 'Metal Coil' (M Endorsement) practice section. Since it's a state-specific requirement (like in NY) rather than a federal one, I focused the first version of the app on conquering the big federal ones (General Knowledge, Air Brakes, Combination, HazMat, Tankers, etc.).**\n\n**However, adding state-specific endorsements like Metal Coil is literally exactly what I want to do next now that the core app is built!**\n\n**If you format a DM to me, I\u2019d still love to give you a free month premium promo code. You can use it to ace your core CDL B General Knowledge and Air Brakes tests (if you need them) without dealing with any ads. And if you happen to know anyone else studying for their standard A or B, I'd be incredibly grateful if you spread the word. I'm just an indie dev trying to build the most honest tool out there.**\n\n**Let me know, and good luck with the Metal Coil prep!**",
+"score": 1,
+"url": "https://www.reddit.com/r/cdldriver/comments/1rkvoh5/i_built_a_cdl_prep_app_by_myself_with_no_ads/o9cmrok/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "Which app is the best",
+"body": "CDL Prep app is the best app(the ads suck tho). Most questions you will see on the actual test. It doesn\u2019t have special requirements questions though. I used [https://m.cristcdl.com/](https://m.cristcdl.com/) for that.",
+"score": 2,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1oc2y3a/which_app_is_the_best/nklugkd/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "Any app better than CDL Prep?",
+"body": "I'm pretty sure the CDL prep app that has the gray wheel icon doesn't have ads, but the other one that pops up first does. If you ever go for your hazmat, use both CDL prep and cristcdl as there are questions on both you would miss otherwise",
+"score": 1,
+"url": "https://www.reddit.com/r/Truckers/comments/1kevxh5/any_app_better_than_cdl_prep/mqsmqju/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "App to study for hazmat",
+"body": "CDL prep. Icon is a blue background with a white/grey steering wheel. Developers name is Jeffery Diaz. The questions are accurate and there aren\u2019t any ads or in app purchase junk.",
+"score": 2,
+"url": "https://www.reddit.com/r/Truckers/comments/1g9oe3h/app_to_study_for_hazmat/ltb529k/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "First day of school tomorrow. Any pointers?",
+"body": "If you need help with the exams use CDL prep test by coco. It\u2019s on the iOS App Store and I paid them the money to remove ads because of how good it is. If you run through it a few times you\u2019ll pass, guaranteed",
+"score": 1,
+"url": "https://www.reddit.com/r/Truckers/comments/1evmb1x/first_day_of_school_tomorrow_any_pointers/liwkqxc/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "How to study for school bus test? Illinois preferred ",
+"body": "I used an app that\u2019s now called \u2018CDL prep 2024 by ABC\u2019 and the developer is called \u2018Pass CDL Permit test with us!\u2019\n\nIt lets you choose your state and which specific endorsement you want to study for which is nice. The only downside is that it has occasional popup ads which can be mildly annoying.",
+"score": 2,
+"url": "https://www.reddit.com/r/SchoolBusDrivers/comments/1d02new/how_to_study_for_school_bus_test_illinois/l5mj1m6/"
+},
+{
+"dataType": "post",
+"searchTerm": "best app cdl permit test",
+"communityName": "r/CDL",
+"title": "Taking cdl A permit test in 2 days",
+"body": "I\u2019ve been mainly using cdl prep app and getting 96-100% on the exams and more preparation or tips I could use?",
+"score": 8,
+"createdAt": "2026-07-29T13:42:47.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "best app cdl permit test",
+"communityName": "r/Truckers",
+"title": "Just finished online classes. Best app or way to study for permit test? How was your experience?",
+"body": "Any advice or tips will help. Also How was your experience testing ?",
+"score": 8,
+"createdAt": "2026-10-02T22:50:57.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "best app cdl permit test",
+"communityName": "r/CDL",
+"title": "CDL/Permit test review",
+"body": "Best cdl apps that I can read for my permit test I\u2019m in Kansas ",
+"score": 1,
+"createdAt": "2026-08-04T00:23:13.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "best app cdl permit test",
+"communityName": "r/CDL",
+"title": "How long did y\u2019all study for the permit test for general knowledge, air brakes and combinations?",
+"body": "What\u2019s the best app/ website to use as-well?\n\nI\u2019ve heard Christ Cdl is good \n\nThanks ",
+"score": 0,
+"createdAt": "2026-07-21T04:06:29.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl prep app ads",
+"communityName": "r/CDLTruckDrivers",
+"title": "I built a CDL Prep app by myself with NO Ads. Giving away 500 FREE Premium codes to get some honest feedback.",
+"body": "Hey drivers, I'm an indie developer and I just released a new app called\u00a0**CDL Prep Ultimate**. It has 2,900+ questions, covers all endorsements (HazMat, Air Brakes, Combinations, etc.), and includes a \"Sudden Death\" practice mode to really test your knowledge.\n\nSince I don't have a giant marketing budget like the big companies, I'm trying to get the word out directly to the community.\n\nI generated a Promo Code that gives you\u00a0**1 Month of Full Premium Access for exactly $0**. Inside the App Store (Redeem section) or right inside the app, use the code:\u00a0**CDLFREE**\n\n**App Store Link:**\u00a0[https://apps.apple.com/us/app/cdl-prep-ultimate/id6758960653](https://apps.apple.com/us/app/cdl-prep-ultimate/id6758960653)\n\nAll I ask in return is that you try it out, and if you like it, please leave me an honest 5-star review on the App Store. It helps me out more than you know. Be safe out there!",
+"score": 4,
+"createdAt": "2026-03-04T20:56:25.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl prep app ads",
+"communityName": "r/cdldriver",
+"title": "The CDL Prep App I built is now LIVE on Android too! (Giving away 1-Month Free Premium codes inside)",
+"body": "Hey drivers and future truckers! \ud83d\ude9b\n\nA couple of weeks ago, I shared an iOS CDL prep app I built, and a lot of you asked for an Android version. It took fighting with Google\u2019s review bots, but I\u2019m super excited to announce that\u00a0**CDL Prep Ultimate is officially live on the Google Play Store!**\n\nWhether you need help with Air Brakes, HazMat, Combinations, or General Knowledge, it has over 2,600+ up-to-date questions directly from the 2026 DMV manuals. Plus, the entire app is fully bilingual (English & Spanish).\n\n**To celebrate the Android launch, I\u2019m giving away 1-Month of Full Premium access for FREE to this community!**\n\nHere is how to get your free month:\n\n\ud83d\udcf1\u00a0**Android Users (Google Play):**\n\n1. Download App:\u00a0[Play Store Link](https://play.google.com/store/apps/details?id=com.cdlprep.ultimate)\n2. Open the app and go to the Subscription screen. Tap the\u00a0**1-Month Plan**.\n3. In the Google Play payment dialog, click your payment method and select\u00a0**\"Redeem code\"**.\n4. Enter code:\u00a0**CDLFREE**\n\n\ud83c\udf4f\u00a0**iOS Users (App Store):**\n\n1. Instantly Redeem Code here:\u00a0[App Store Redeem Link](https://apps.apple.com/redeem?ctx=offercodes&id=6758960653&code=CDLFREE)\n\nPlease let me know what you think of the app. Your feedback actually helps me build a better tool for everyone studying for their CDL. Drive safe out there!",
+"score": 0,
+"createdAt": "2026-03-12T18:23:52.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl prep app ads",
+"communityName": "r/Truckers",
+"title": "What trucker specific apps do you have?",
+"body": "How many apps that are exclusively trucker related do you have on your phone? \n\nI have eight:\n\n- company app\n\n- PFJ fuel\n\n- two customer check-in apps\n\n- lumper pay app\n\n- CAT scale\n\n- intermodal check-in\n\n- permitsLink ",
+"score": 3,
+"createdAt": "2026-08-16T18:13:17.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl prep app subscription",
+"communityName": "r/findapath",
+"title": "The CDL Prep App I built is now LIVE on Android too! (Giving away 1-Month Free Premium codes inside)",
+"body": "Hey drivers and future truckers! \ud83d\ude9b\n\nA couple of weeks ago, I shared an iOS CDL prep app I built, and a lot of you asked for an Android version. It took fighting with Google\u2019s review bots, but I\u2019m super excited to announce that\u00a0**CDL Prep Ultimate is officially live on the Google Play Store!**\n\nWhether you need help with Air Brakes, HazMat, Combinations, or General Knowledge, it has over 2,600+ up-to-date questions directly from the 2026 DMV manuals. Plus, the entire app is fully bilingual (English & Spanish).\n\n**To celebrate the Android launch, I\u2019m giving away 1-Month of Full Premium access for FREE to this community!**\n\nHere is how to get your free month:\n\n\ud83d\udcf1\u00a0**Android Users (Google Play):**\n\n1. Download App:\u00a0[Play Store Link](https://play.google.com/store/apps/details?id=com.cdlprep.ultimate)\n2. Open the app and go to the Subscription screen. Tap the\u00a0**1-Month Plan**.\n3. In the Google Play payment dialog, click your payment method and select\u00a0**\"Redeem code\"**.\n4. Enter code:\u00a0**CDLFREE**\n\n\ud83c\udf4f\u00a0**iOS Users (App Store):**\n\n1. Instantly Redeem Code here:\u00a0[App Store Redeem Link](https://apps.apple.com/redeem?ctx=offercodes&id=6758960653&code=CDLFREE)\n\nPlease let me know what you think of the app. Your feedback actually helps me build a better tool for everyone studying for their CDL. Drive safe out there!",
+"score": 1,
+"createdAt": "2026-03-10T12:56:18.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl app paywall",
+"communityName": "r/CDL",
+"title": "Anyone know which app is up to date for 2026?",
+"body": "Some are the same questions but there\u2019s a lot of different questions on the red one. I\u2019m in Michigan if that helps any",
+"score": 7,
+"createdAt": "2026-06-10T20:10:24.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl app paywall",
+"communityName": "r/Piracy",
+"title": "Bypass every app subscription paywall ? (Android)",
+"body": "I often come across interesting apps, but they're in very specific niches, and they're freemium, but the \"free\" part is useless. \n\nI know you can patch some Android apps (with Morphe or Revance Manager), but a developer has to have done the work. I want to know if there's a general way to bypass any paywall that uses a subscription.\n\nFor example, I wanted the \"TOZ\" app to start debates with my friends during the holidays, but I don't want to pay \u20ac6 a week for the premium version, especially since the basic version is repetitive.\n\n Thanks a lot!",
+"score": 0,
+"createdAt": "2026-07-20T02:49:03.000Z"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "For my fuel haulers. How do you like it?",
+"body": "I can\u2019t confirm how easy or hard it is to get hired fuel hauling. But I can tell you getting the endorsements added on is relatively straightforward. My CDL school brought us up there for a weekend and we covered all the material for tanker and hazmat. Used the CDL prep app to review the questions before I went in and took the test.",
+"score": 3,
+"url": "https://www.reddit.com/r/CDL/comments/1u6zqiw/for_my_fuel_haulers_how_do_you_like_it/orwni8x/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "Studying for my permit",
+"body": "Use the CDL prep App.. I used it to get my CDL B now got my permit for CDL A just added Tanker going friday for Hazmat, you got this\u203c\ufe0f I wanna see everybody win bc I know im due for one\ud83d\udcaf",
+"score": 2,
+"url": "https://www.reddit.com/r/CDL/comments/1t53io8/studying_for_my_permit/okr5y92/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "Posting for acountability",
+"body": "Whole foods were a key part.\n\nCutting out most of the heavily processed foods was a big one.\n\nStopped eating most products with added sugar. It's empty calories with no nutrients.\n\nStopped drinking calories, mostly. A few glasses of milk a week still. But i get the 1% or fat free. I don't restrict drinking protein shakes. But I'm not adding much other calories to it. Not adding juice or bananas. Not adding peanut butter or nut butter. Maybe I'll add blueberries or strawberries \ud83c\udf53.\n\nI'm not afraid of fat or carbs. But I am mindful of them. I want my food choices to be the higher protein option of then.\n\nSo I've been getting leaner protein. Not many ribeye. More ny stripe and cutting of the big fat that wraps it. 97% ground beef. Or ground turkey. Not 70-30 or some fat loaded wagu.\n\nI don't eat much frozen breaded protein as they add way too many calories in the breading. Occasionally get the healthier lightly breaded frozen chicken for salads or wraps.\n\nLettuce wraps save 110 calories even when using low carb health conscious tortillas.\n\nAdding some egg whites to recipes that ask for egg. Maybe 50-50.\n\nPeeling the skin off my $5 rotisserie chicken.\n\nGetting no fat geek yogurt.\n\nNo bars that aren't at least 40% protein. Easy way to calculate that is put a 0 behind the protein grams and if it's the same as the calories then it's 40%. If it's 150% of the calories after adding the zero then it's 60%. If it's double then it's 80%.\n\nI take electrolytes regularly. Make them myself. Easily and it's cheap. 3g sodium and 2g potassium mixed into a gallon of water I'll add 2-3 table spoons of allulose for sweetness or monk fruit to taste. Then a single big squirt of water flavoring to give it a flavor profile.\n\nI try to take a few basic vitamins daily. 2x daily multivitamins, 300mg magnesium (glycinate is OK, i prefer threonate) don't take citrate it's a big laxative and has poor absorption in the body. I also take 10k-15k IU vitamin D3, 10g boron and 50mg zinc. I was taking omega-3 and a nitric oxide booster. I miss both of those these last few months need to get those back into the mix.\n\nI'll take a 4-6 week break from my nicotine pouches also same for caffeine break. Do that 2 or 3 times a year. But I'm not able to do both at the same time. I tried and lasted 5 days. Added caffeine back in.\n\nLast year i set a goal of 1hr of dedicated activity daily. Minimum 1hr of walking (dedicated specifically as some exercise) kept a note list in my phone in an app called G tasks.\n\nGoal for 2026 is 0 fast food. I was pretty often getting fast food. I was still mostly trying to make better choices like taco bell power bowl x3 no rice instead of 3 burritos and 3 tacos. I'm a long haul 48 States truck driver so it's not easy to get into a grocery store to do shopping or Easily make healthy yummy meals in a Semi-truck.\n\nBut I'm going to change that this year. I've got to up my cooking and meal prepping skills.\n\nBuying and using an air fryer was a huge help. No longer eating fried foods other than maybe at the county fair one day a year. I love me a funnel cake.\n\nBut I'm not eating most bakery goods. Almost none. I'll have some cake at a birthday party but I'm not buying cookies and cakes like i would a few years ago.\n\nExercise has been key. I'd like to do V02 Max training 2 maybe 3x a week. It only takes 15 minutes. But it's hard and I'm working on consistency with that. Maybe 1 time a week.\n\nI spent $600 on a decent bicycle as only running and walking for cardio can greatly increase chances of energy if not mixing up modes of cardio.\n\nI got an l.a. gym membership and go 2-3 times a week on average when there's one in the state I'm driving through or stopping at.\n\nWhen no gym nearby i spent $400 on a set of 90 lb adjustable dumbells. Lots of parking lot or rest area workouts.\n\nI was too dumb to know what to do to keep the weight off after my first fast in 2018 of 30 days. Lost 30 lbs. Kept it off for over a whole year with loose keto. But covid fucked up alot of my routine and habits. Gained the weight back. Insulin resistance set in and gained another 44 lbs.\n\nBlood pressure was getting to hypertension levels and i was going to not be able to use my CDL if I couldn't get it down to pass my next CDL physical. So in 2022 i did 71 day fast. Lost 60 lbs even after not weighing for the first 2 weeks after the fast. Idc about the weight I wanted to fix my health and pass my physical. Aced it with amazing blood pressure. Got the full 2 year physical.\n\nBut changed nothing as i was too dumb to know how bad my lifestyle was. Did all the same old diet and sedentary lifestyle. Gained the 60 lbs back in 14 months. So at the end of January 2024 i decided to fast the weight off again but at my leisure. All while reading (audio books) with thousands of hours of health, fitness, biochemistry, weightlifting, bodybuilding and power lifting podcasts. I ended up reading over 24 audio books in 2024. Went from 44% body fat (top 3 percentile fattest of the population) 340 to 188 lbs 11% body fat (1% least fattest body fat percentile of the population)\n\nDidn't like being small and weak at 188 6ft m 35. Did maintenance for a month. Stopped fasting. Started eating clean whole foods lots of carbs and lean protein. Lean Steaks, salads with 0 calorie dressing, skinless rotisserie chicken, berries for a treat and white rice were staples.\n\nSet limit to stop bulk when I hit 24% bf. Got to 235 24%. Did maintenance for about 6 months as my personal life got crazy and my priorities in other places.\n\nLast 2 months I've slowly been transitioning into cutting. I want to get go 10% bf by mid of the year. Started at 241 23% bf. Currently on a day 7 of an extended water fast. Going to water fast as I please down to 15 ish body fat. Then transition into a few weeks of [r/psmf](/r/psmf/) to get to 12-13%. Then I'll do calories in calories out simple calorie deficit focusing on high protein. Might do keto or carnivore at that time too, idk yet. That shoul likely end around 200-205 10% body fat. We'll see \ud83d\udc40.\n\n!remindme 6 months how did I do?\n\nAfter that I'm not sure what I'll do. Minium I'll do maintenance and stay around that weight and body fat for 3-6 months to see how I like and handle being that weight and that lean.\n\nThis is the type of original answer I'd have like to give you originally but life gets busy and time gets cut short.\n\nSharing my story to help others is another one of my goals so here I am putting in that work to help those who can use it to do better than I did.",
+"score": 1,
+"url": "https://www.reddit.com/r/WaterFasting/comments/1phxeme/posting_for_acountability/nyd3py2/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "Am I just getting dumber? (CDL manual)",
+"body": "CDL prep app. There is a bunch of them but the one I used was completely free. Occasionally has an ad pop up but they are short like 5 seconds or less. I put in like 8 hours on the app for the endorsements I needed for my job, general, air brakes, combo, tanker, and I passed them all on the first try. Barely squeaked by on air brakes but the other ones I aced. But I still got my permit. I would say 80+% of the questions on the real test were word for word the same on the app. Just keep doing the app until you are getting 100% and read the questions, when I did miss some, it was usually because I didn't read the question right. I didn't even have the handbook, I only used the app. If you do have the handbook look at the turning picture stuff that was one I missed.",
+"score": 1,
+"url": "https://www.reddit.com/r/Truckers/comments/1mcjjl1/am_i_just_getting_dumber_cdl_manual/n5web7j/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "I have my cdl thinking of getting my hazmat ",
+"body": "Hey there, from what we've heard, as long as you study up, it will be a common sense, and the pay bump for running HazMat does make it worth your while!  \nAs Gullible-Ad mentioned, prepping with the CDL Prep app is a good way to fortify your knowledge as well.  \nBest of luck!",
+"score": 1,
+"url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1fynsw4/i_have_my_cdl_thinking_of_getting_my_hazmat/lr3idrj/"
+},
+{
+"dataType": "comment",
+"searchTerm": "cdl prep app ads",
+"postTitle": "Still R.I.P. Emmit\ud83d\udd4a\ufe0f (PSO)",
+"body": "Watch the videos I will link. There is also an app you can download that helps you study for the computer test you will have to pass at the DMV or DDS. Will update this comment with more videos that will help and will get the info for the app.\n\n[https://youtu.be/LlNYrKhDPzE?si=NLWf\\_A35bsA6triR](https://youtu.be/LlNYrKhDPzE?si=NLWf_A35bsA6triR)\n\n[https://youtu.be/dtTGZaXXU14?si=KxlxLPevNJbx\\_mP3](https://youtu.be/dtTGZaXXU14?si=KxlxLPevNJbx_mP3)\n\n[https://youtu.be/EfW615ZnELE?si=LIP7vnnSGO7Xrr-4](https://youtu.be/EfW615ZnELE?si=LIP7vnnSGO7Xrr-4)\n\n[https://youtu.be/gbLy3mF44AA?si=AWoy10Ey50jObupj](https://youtu.be/gbLy3mF44AA?si=AWoy10Ey50jObupj)\n\n[https://youtu.be/7JS00FR1Ma8?si=ySOLMHOBA08Obh7F](https://youtu.be/7JS00FR1Ma8?si=ySOLMHOBA08Obh7F)\n\n[https://youtu.be/ApoMCPDed90?si=XHUfbI82Nbxf8sD2](https://youtu.be/ApoMCPDed90?si=XHUfbI82Nbxf8sD2)\n\n[https://youtu.be/eP\\_kbtcH\\_gk?si=XwsuOp2MmHLKoH68](https://youtu.be/eP_kbtcH_gk?si=XwsuOp2MmHLKoH68)\n\n[https://youtu.be/5-dH6qfA9K4?si=lcsSrA\\_fU43oZxMZ](https://youtu.be/5-dH6qfA9K4?si=lcsSrA_fU43oZxMZ)\n\n[https://youtu.be/7NKSiXd1LRY?si=G2ZmZTZsQWCiK\\_Kp](https://youtu.be/7NKSiXd1LRY?si=G2ZmZTZsQWCiK_Kp)\n\n[https://youtu.be/LdO6rWzqMbA?si=peZp3xp4LC24zpXx](https://youtu.be/LdO6rWzqMbA?si=peZp3xp4LC24zpXx)\n\n[https://youtu.be/7xhp6EZKOVI?si=ue5TQxJod1IbOBt-](https://youtu.be/7xhp6EZKOVI?si=ue5TQxJod1IbOBt-)\n\n[https://youtu.be/msBYh-NOC3U?si=-pEZJJK4T\\_vRf8iX](https://youtu.be/msBYh-NOC3U?si=-pEZJJK4T_vRf8iX)\n\n[https://youtu.be/kw7QsPn7Ze0?si=eMs\\_tJ9ABtdt\\_Yju](https://youtu.be/kw7QsPn7Ze0?si=eMs_tJ9ABtdt_Yju)\n\n[https://youtu.be/3xWTJO0HSDk?si=s9BIZv\\_hJIa7-hAi](https://youtu.be/3xWTJO0HSDk?si=s9BIZv_hJIa7-hAi)\n\n[https://youtu.be/UKxJc8B2QH0?si=zYM2KO7gLKF3XSMJ](https://youtu.be/UKxJc8B2QH0?si=zYM2KO7gLKF3XSMJ)\n\n[https://youtu.be/V6SdZAvuPJY?si=AdT\\_-yZW9qS4Yu8Q](https://youtu.be/V6SdZAvuPJY?si=AdT_-yZW9qS4Yu8Q)\n\n[https://youtu.be/CE-i\\_RWSJLw?si=PjdSyr-kgWLj\\_W7o](https://youtu.be/CE-i_RWSJLw?si=PjdSyr-kgWLj_W7o)\n\n[https://youtu.be/A\\_I04nPDJ8I?si=pwSM4aYbapIlK7Hk](https://youtu.be/A_I04nPDJ8I?si=pwSM4aYbapIlK7Hk)\n\n[https://youtu.be/YMUGs1g-Y\\_o?si=onAqVxChrOqdGhJD](https://youtu.be/YMUGs1g-Y_o?si=onAqVxChrOqdGhJD)\n\n[https://youtu.be/Qn-v6NzFWWI?si=9ApfPMu0NNiJMei3](https://youtu.be/Qn-v6NzFWWI?si=9ApfPMu0NNiJMei3)\n\n[https://youtu.be/FADuaBOTK08?si=zR6pT-U\\_3QkRNkXC](https://youtu.be/FADuaBOTK08?si=zR6pT-U_3QkRNkXC)\n\n[https://youtu.be/EqhfytkminA?si=ehvEm16yT2s-KR8-](https://youtu.be/EqhfytkminA?si=ehvEm16yT2s-KR8-)\n\n[https://youtube.com/shorts/2WaaIUVwYZg?si=Q3IUKWeqYWUOkNjO](https://youtube.com/shorts/2WaaIUVwYZg?si=Q3IUKWeqYWUOkNjO)\n\n[https://youtu.be/-wVobD4Juhc?si=V8GtJcZEl47LlSdV](https://youtu.be/-wVobD4Juhc?si=V8GtJcZEl47LlSdV)\n\n[https://youtu.be/6r6nhv-bt1g?si=S7uCKvcrj1WCHnL5](https://youtu.be/6r6nhv-bt1g?si=S7uCKvcrj1WCHnL5)\n\n[https://youtu.be/zXAPYSdLIqw?si=FbfZImmLX3T6h25q](https://youtu.be/zXAPYSdLIqw?si=FbfZImmLX3T6h25q)\n\n[https://youtu.be/fAHSMqjNqhU?si=pVgIXSFALbjbn3Wk](https://youtu.be/fAHSMqjNqhU?si=pVgIXSFALbjbn3Wk)\n\n[https://youtu.be/O8I0OwRHzUQ?si=rL1qmqRcUl74UE0D](https://youtu.be/O8I0OwRHzUQ?si=rL1qmqRcUl74UE0D)\n\n[https://youtu.be/fAHSMqjNqhU?si=pVgIXSFALbjbn3Wk](https://youtu.be/fAHSMqjNqhU?si=pVgIXSFALbjbn3Wk)\n\n[https://youtu.be/zXAPYSdLIqw?si=FbfZImmLX3T6h25q](https://youtu.be/zXAPYSdLIqw?si=FbfZImmLX3T6h25q)\n\n[https://youtu.be/6r6nhv-bt1g?si=S7uCKvcrj1WCHnL5](https://youtu.be/6r6nhv-bt1g?si=S7uCKvcrj1WCHnL5)\n\n[https://youtu.be/-wVobD4Juhc?si=V8GtJcZEl47LlSdV](https://youtu.be/-wVobD4Juhc?si=V8GtJcZEl47LlSdV)\n\n[https://youtu.be/EqhfytkminA?si=ehvEm16yT2s-KR8-](https://youtu.be/EqhfytkminA?si=ehvEm16yT2s-KR8-)\n\n[https://youtu.be/QCty20WTik8?si=r6\\_0\\_5SkdTmAS92B](https://youtu.be/QCty20WTik8?si=r6_0_5SkdTmAS92B)\n\n[https://youtu.be/9noPefaV6uc?si=YCAHI9yXiqB1VPI](https://youtu.be/9noPefaV6uc?si=YCAHI9yXiqB1VPI)\\_\n\n[https://youtu.be/8a3OcN4OQUo?si=dzTbVxO-OQWKXsUu](https://youtu.be/8a3OcN4OQUo?si=dzTbVxO-OQWKXsUu)\n\n[https://youtu.be/brUd99CGkLQ?si=\\_3DM1cewzG3kc7ZE](https://youtu.be/brUd99CGkLQ?si=_3DM1cewzG3kc7ZE)\n\n[https://youtu.be/DLVQeOYlSg8?si=X9QaN-0rYGcg64sW](https://youtu.be/DLVQeOYlSg8?si=X9QaN-0rYGcg64sW)\n\n[https://youtu.be/ZZ\\_KXqaywgQ?si=TdqmjuVfhFy0huQA](https://youtu.be/ZZ_KXqaywgQ?si=TdqmjuVfhFy0huQA)\n\n[https://youtu.be/6zRFCbQOGk4?si=09JGE4IIR00r4s0k](https://youtu.be/6zRFCbQOGk4?si=09JGE4IIR00r4s0k)\n\n[https://youtu.be/Oj751QQJWuk?si=nbmUZ1yVj\\_5gzWpC](https://youtu.be/Oj751QQJWuk?si=nbmUZ1yVj_5gzWpC)\n\n[https://youtu.be/0eFaZvqGYgo?si=mp0CihGnXDllwxAw](https://youtu.be/0eFaZvqGYgo?si=mp0CihGnXDllwxAw)\n\n[https://youtu.be/MTrcnHAevbA?si=AKbcxJmZ5tYgtO-e](https://youtu.be/MTrcnHAevbA?si=AKbcxJmZ5tYgtO-e)\n\n[https://play.google.com/store/apps/details?id=com.vialsoft.cdlusafreemium](https://play.google.com/store/apps/details?id=com.vialsoft.cdlusafreemium)\n\n[https://play.google.com/store/apps/details?id=dto.ee.dmv.genius](https://play.google.com/store/apps/details?id=dto.ee.dmv.genius)\n\nThe practice app may have issue, I read a review that a guy said the app changed his answers, but most reviews says the app works great. When I got my cdl in 2014 I had no idea about using a cdl prep app.",
+"score": 3,
+"url": "https://www.reddit.com/r/Memphis10/comments/15uqcb7/still_rip_emmit_pso/jxl95zp/"
+},
+{
+"dataType": "post",
+"searchTerm": "best app cdl permit test",
+"communityName": "r/CDL",
+"title": "Permit Test",
+"body": "I need to take and pass the Permit test within the next 18 days max. I\u2019m not good at test taking although I consider myself a bright person. I just feel like I sick at retaining info immediately and I\u2019m probably my harshest critic. I say all that to say anybody got tips for someone like me to be able to take and pass the test? Also what apps are best to use? \n\nThanks!",
+"score": 8,
+"createdAt": "2026-09-26T12:48:04.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "best app cdl permit test",
+"communityName": "r/CDLTruckDrivers",
+"title": "Taking cdl A permit test in 2 days",
+"body": "I\u2019ve been mainly using cdl prep app and getting 96-100% on the exams and more preparation or tips I could use? ",
+"score": 2,
+"createdAt": "2026-07-29T13:33:25.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "best app cdl permit test",
+"communityName": "r/CDLTruckDrivers",
+"title": "Study tips for CDL class A Permit test.",
+"body": "I\u2019ve been looking into getting my CDL and wanted to reach out to see what has helped others pass their permit test.",
+"score": 1,
+"createdAt": "2026-08-18T18:37:29.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "best app cdl permit test",
+"communityName": "r/CDL",
+"title": "I\u2019m taking my CDL permit test tomorrow in Florida. Advice needed",
+"body": "I\u2019m pretty nervous about it honestly. Whatever advice you can give will be much appreciated. Thanks.",
+"score": 1,
+"createdAt": "2026-10-06T06:08:14.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "hazmat app study",
+"communityName": "r/studytips",
+"title": "Looking for good study websites/apps",
+"body": "Does anyone know any good study website/apps that are **free** (or some that are **cheap** but **excellent**) where I can study and do questions they make based on the material a lot. I usually use **Thea** but the features it has are gonna be limited/under premium in some time; and the questions they make for me are repetitive and don't always cover the whole topic Im trying to learn (even though i put in extra instructions). so I wanna switch to something else. I usually put in a pdf on my subject's lesson plan, but one time i tried using Turbo AI and it had a feature where you could tell it what you want to learn and it would make it for you (I asked it to do logical fallacies) and then after about 10 minutes a paywall popped up so I just stopped using that one.",
+"score": 7,
+"createdAt": "2026-09-27T08:43:39.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "hazmat app study",
+"communityName": "r/studytips",
+"title": "Any apps you\u2019d recommend for studying?",
+"body": "Currently studying for my Medical Assistant certification and have a ton of modules and chapters to go through. A week in and I am already forgetting a lot of what I learned in the previous chapters which makes my worried I\u2019m going to forget a lot more down the road before I gotta take the exam itself. In the past when I studied for my GED there were apps that helped me out a bit in studying and reviewing things, so I\u2019m hoping there is a similar kind of app that can help me review my previous chapters when I want to test myself. ",
+"score": 6,
+"createdAt": "2026-10-12T17:36:41.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "hazmat app study",
+"communityName": "r/GetStudying",
+"title": "What are the best focus/study apps you guys are using these days?",
+"body": "Forest is what I normally used to use but I hate that they locked basic features behind a paywall and it\u2019s just not doing it for me anymore.\n\nOpen to suggestions but something similar would be great <3",
+"score": 58,
+"createdAt": "2026-08-24T10:26:03.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "hazmat app study",
+"communityName": "r/CDL",
+"title": "Just pass my Hazmat, 27 out of 30",
+"body": "Shout out to cdl prep and cristcdl, study my ass off morning and night. I got passenger, tanker and now Hazmat. Thinking of getting double and triple just for fun before I do my road test. I\u2019m in nyc and I hae to go to NJ to make it official on my license ",
+"score": 29,
+"createdAt": "2026-03-02T18:09:28.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "hazmat app study",
+"communityName": "r/Firefighting",
+"title": "IFSTA Hazmat Study Help - what\u2019s worked for y\u2019all?",
+"body": "IFSTA hazmat is a rough read for me. FireFighter 1 and everything else is fun because I\u2019m interested, but I\u2019m nervous about the hazmat side.\n\nWhat\u2019s helped y\u2019all that\u2019ve had similar issues with studying the hazmat side of things? I have the IFSTA Hazmat 6 app, and am tryna read the book along with the audio to keep track, and will use the flash cards to see what I need to brush up on per chapter, but I\u2019m on a time crunch bc medical is coming up and my attention is going to be even more divided moving forward.\n\nTIA",
+"score": 1,
+"createdAt": "2026-02-28T22:18:33.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl practice app wrong answers",
+"communityName": "r/CDLTruckDrivers",
+"title": "I have been practicing on the CDL Prep app for my CDL general knowledge do we have to know the whole 239 questions to be able to pass the 50 question test",
+"body": "",
+"score": 0,
+"createdAt": "2026-03-26T19:45:12.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl practice app wrong answers",
+"communityName": "r/CDL",
+"title": "CDL A Exam Failed, what\u2019s next?",
+"body": "So here\u2019s a quickie. I finished school, recently tested and failed my skills test. That\u2019s a whole other story. The thing is, I went to a smaller school and retesting cost $400.  I have the money but if I goof up again, I\u2019m totally screwed!  I have no job, no income. What\u2019s a good option if the only thing stopping you from your cdl retest, is paying?   \nI\u2019d have to go back to school \u201ccompany sponsored\u201d just to get my cdl.",
+"score": 9,
+"createdAt": "2026-07-22T11:18:54.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl practice app wrong answers",
+"communityName": "r/CDLTruckDrivers",
+"title": "Failed my CDL exam",
+"body": "Just wanted to come on here and vent. I failed my CDL exam but I forgot to turn my engine off during my leak test. \n\nI completely had a brain fart moment and didn\u2019t realized until it was too late but I\u2019m not worried because I\u2019m pretty confident on the other parts of the test. Just wish I was more relaxed and making attention instead of being nervous. ",
+"score": 26,
+"createdAt": "2026-10-11T18:48:19.000Z"
+},
+{
+"dataType": "post",
+"searchTerm": "cdl practice app wrong answers",
+"communityName": "r/CDLTruckDrivers",
+"title": "Just failed my cdl test",
+"body": "So i passed both outside and inside pre trip, passed the maneuvers but when i got to the road i failed on that\n\nEDIT: I passed!!",
+"score": 20,
+"createdAt": "2026-07-31T22:08:55.000Z"
+}
+]

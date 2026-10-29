@@ -1,0 +1,1620 @@
+[
+ {
+  "state": "NAT",
+  "section": "GK",
+  "required_for": [
+   "A",
+   "B",
+   "C"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": null,
+  "languages": null,
+  "manual_edition": "AAMVA Model CDL Driver Manual (2005 base; modernized modules 11M/12M cover vehicle inspection and basic control SKILLS only)",
+  "manual_model": "legacy",
+  "source_url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "NAT is a study default, not a legal test. Federal rule sets only the 80% pass mark; states set their own item counts. The '>=30 items' floor in the seed CSV was NOT found in 383.133/383.135/383.111 text. Default counts (GK50/AB25/Comb20/HM30/others20) stay [VERIFY] design defaults.",
+  "confirmed_fields": [
+   "pass_pct"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "test_language",
+   "order",
+   "manual_edition(exact)"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+    "note": "49 CFR 383.135(a)(1): applicant must answer at least 80 percent correctly to pass each knowledge test (read via Cornell LII mirror; ecfr.gov blocked from this environment; re-check on ecfr.gov)."
+   },
+   "question_count": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.133",
+    "note": "383.133(b)(2)(iv): each state test has a fixed total of questions with set numbers per knowledge area, but the total is not given; no federal minimum found."
+   },
+   "manual_model": {
+    "url": "https://aamva.org/topics/commercial-driver-license-testing",
+    "note": "AAMVA: modernized rewrite covers VI and BCS skills tests; no mandate to adopt; no state adoption list published there."
+   }
+  }
+ },
+ {
+  "state": "NAT",
+  "section": "AIR_BRAKES",
+  "required_for": [
+   "A",
+   "B",
+   "C"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": null,
+  "languages": null,
+  "manual_edition": "AAMVA Model CDL Driver Manual (2005 base; modernized modules 11M/12M cover vehicle inspection and basic control SKILLS only)",
+  "manual_model": "legacy",
+  "source_url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "NAT is a study default, not a legal test. Federal rule sets only the 80% pass mark; states set their own item counts. The '>=30 items' floor in the seed CSV was NOT found in 383.133/383.135/383.111 text. Default counts (GK50/AB25/Comb20/HM30/others20) stay [VERIFY] design defaults.",
+  "confirmed_fields": [
+   "pass_pct"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "test_language",
+   "order",
+   "manual_edition(exact)"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+    "note": "49 CFR 383.135(a)(1): applicant must answer at least 80 percent correctly to pass each knowledge test (read via Cornell LII mirror; ecfr.gov blocked from this environment; re-check on ecfr.gov)."
+   },
+   "question_count": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.133",
+    "note": "383.133(b)(2)(iv): each state test has a fixed total of questions with set numbers per knowledge area, but the total is not given; no federal minimum found."
+   },
+   "manual_model": {
+    "url": "https://aamva.org/topics/commercial-driver-license-testing",
+    "note": "AAMVA: modernized rewrite covers VI and BCS skills tests; no mandate to adopt; no state adoption list published there."
+   }
+  }
+ },
+ {
+  "state": "NAT",
+  "section": "COMBINATION",
+  "required_for": [
+   "A"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": null,
+  "languages": null,
+  "manual_edition": "AAMVA Model CDL Driver Manual (2005 base; modernized modules 11M/12M cover vehicle inspection and basic control SKILLS only)",
+  "manual_model": "legacy",
+  "source_url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "NAT is a study default, not a legal test. Federal rule sets only the 80% pass mark; states set their own item counts. The '>=30 items' floor in the seed CSV was NOT found in 383.133/383.135/383.111 text. Default counts (GK50/AB25/Comb20/HM30/others20) stay [VERIFY] design defaults.",
+  "confirmed_fields": [
+   "pass_pct"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "test_language",
+   "order",
+   "manual_edition(exact)"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+    "note": "49 CFR 383.135(a)(1): applicant must answer at least 80 percent correctly to pass each knowledge test (read via Cornell LII mirror; ecfr.gov blocked from this environment; re-check on ecfr.gov)."
+   },
+   "question_count": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.133",
+    "note": "383.133(b)(2)(iv): each state test has a fixed total of questions with set numbers per knowledge area, but the total is not given; no federal minimum found."
+   },
+   "manual_model": {
+    "url": "https://aamva.org/topics/commercial-driver-license-testing",
+    "note": "AAMVA: modernized rewrite covers VI and BCS skills tests; no mandate to adopt; no state adoption list published there."
+   }
+  }
+ },
+ {
+  "state": "NAT",
+  "section": "HAZMAT",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": null,
+  "languages": null,
+  "manual_edition": "AAMVA Model CDL Driver Manual (2005 base; modernized modules 11M/12M cover vehicle inspection and basic control SKILLS only)",
+  "manual_model": "legacy",
+  "source_url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "NAT is a study default, not a legal test. Federal rule sets only the 80% pass mark; states set their own item counts. The '>=30 items' floor in the seed CSV was NOT found in 383.133/383.135/383.111 text. Default counts (GK50/AB25/Comb20/HM30/others20) stay [VERIFY] design defaults.",
+  "confirmed_fields": [
+   "pass_pct"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "test_language",
+   "order",
+   "manual_edition(exact)"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+    "note": "49 CFR 383.135(a)(1): applicant must answer at least 80 percent correctly to pass each knowledge test (read via Cornell LII mirror; ecfr.gov blocked from this environment; re-check on ecfr.gov)."
+   },
+   "question_count": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.133",
+    "note": "383.133(b)(2)(iv): each state test has a fixed total of questions with set numbers per knowledge area, but the total is not given; no federal minimum found."
+   },
+   "manual_model": {
+    "url": "https://aamva.org/topics/commercial-driver-license-testing",
+    "note": "AAMVA: modernized rewrite covers VI and BCS skills tests; no mandate to adopt; no state adoption list published there."
+   }
+  }
+ },
+ {
+  "state": "NAT",
+  "section": "TANKER",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": null,
+  "languages": null,
+  "manual_edition": "AAMVA Model CDL Driver Manual (2005 base; modernized modules 11M/12M cover vehicle inspection and basic control SKILLS only)",
+  "manual_model": "legacy",
+  "source_url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "NAT is a study default, not a legal test. Federal rule sets only the 80% pass mark; states set their own item counts. The '>=30 items' floor in the seed CSV was NOT found in 383.133/383.135/383.111 text. Default counts (GK50/AB25/Comb20/HM30/others20) stay [VERIFY] design defaults.",
+  "confirmed_fields": [
+   "pass_pct"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "test_language",
+   "order",
+   "manual_edition(exact)"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+    "note": "49 CFR 383.135(a)(1): applicant must answer at least 80 percent correctly to pass each knowledge test (read via Cornell LII mirror; ecfr.gov blocked from this environment; re-check on ecfr.gov)."
+   },
+   "question_count": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.133",
+    "note": "383.133(b)(2)(iv): each state test has a fixed total of questions with set numbers per knowledge area, but the total is not given; no federal minimum found."
+   },
+   "manual_model": {
+    "url": "https://aamva.org/topics/commercial-driver-license-testing",
+    "note": "AAMVA: modernized rewrite covers VI and BCS skills tests; no mandate to adopt; no state adoption list published there."
+   }
+  }
+ },
+ {
+  "state": "NAT",
+  "section": "DOUBLES_TRIPLES",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": null,
+  "languages": null,
+  "manual_edition": "AAMVA Model CDL Driver Manual (2005 base; modernized modules 11M/12M cover vehicle inspection and basic control SKILLS only)",
+  "manual_model": "legacy",
+  "source_url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "NAT is a study default, not a legal test. Federal rule sets only the 80% pass mark; states set their own item counts. The '>=30 items' floor in the seed CSV was NOT found in 383.133/383.135/383.111 text. Default counts (GK50/AB25/Comb20/HM30/others20) stay [VERIFY] design defaults.",
+  "confirmed_fields": [
+   "pass_pct"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "test_language",
+   "order",
+   "manual_edition(exact)"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+    "note": "49 CFR 383.135(a)(1): applicant must answer at least 80 percent correctly to pass each knowledge test (read via Cornell LII mirror; ecfr.gov blocked from this environment; re-check on ecfr.gov)."
+   },
+   "question_count": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.133",
+    "note": "383.133(b)(2)(iv): each state test has a fixed total of questions with set numbers per knowledge area, but the total is not given; no federal minimum found."
+   },
+   "manual_model": {
+    "url": "https://aamva.org/topics/commercial-driver-license-testing",
+    "note": "AAMVA: modernized rewrite covers VI and BCS skills tests; no mandate to adopt; no state adoption list published there."
+   }
+  }
+ },
+ {
+  "state": "NAT",
+  "section": "PASSENGER",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": null,
+  "languages": null,
+  "manual_edition": "AAMVA Model CDL Driver Manual (2005 base; modernized modules 11M/12M cover vehicle inspection and basic control SKILLS only)",
+  "manual_model": "legacy",
+  "source_url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "NAT is a study default, not a legal test. Federal rule sets only the 80% pass mark; states set their own item counts. The '>=30 items' floor in the seed CSV was NOT found in 383.133/383.135/383.111 text. Default counts (GK50/AB25/Comb20/HM30/others20) stay [VERIFY] design defaults.",
+  "confirmed_fields": [
+   "pass_pct"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "test_language",
+   "order",
+   "manual_edition(exact)"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+    "note": "49 CFR 383.135(a)(1): applicant must answer at least 80 percent correctly to pass each knowledge test (read via Cornell LII mirror; ecfr.gov blocked from this environment; re-check on ecfr.gov)."
+   },
+   "question_count": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.133",
+    "note": "383.133(b)(2)(iv): each state test has a fixed total of questions with set numbers per knowledge area, but the total is not given; no federal minimum found."
+   },
+   "manual_model": {
+    "url": "https://aamva.org/topics/commercial-driver-license-testing",
+    "note": "AAMVA: modernized rewrite covers VI and BCS skills tests; no mandate to adopt; no state adoption list published there."
+   }
+  }
+ },
+ {
+  "state": "NAT",
+  "section": "SCHOOL_BUS",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": null,
+  "languages": null,
+  "manual_edition": "AAMVA Model CDL Driver Manual (2005 base; modernized modules 11M/12M cover vehicle inspection and basic control SKILLS only)",
+  "manual_model": "legacy",
+  "source_url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "NAT is a study default, not a legal test. Federal rule sets only the 80% pass mark; states set their own item counts. The '>=30 items' floor in the seed CSV was NOT found in 383.133/383.135/383.111 text. Default counts (GK50/AB25/Comb20/HM30/others20) stay [VERIFY] design defaults.",
+  "confirmed_fields": [
+   "pass_pct"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "test_language",
+   "order",
+   "manual_edition(exact)"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.135",
+    "note": "49 CFR 383.135(a)(1): applicant must answer at least 80 percent correctly to pass each knowledge test (read via Cornell LII mirror; ecfr.gov blocked from this environment; re-check on ecfr.gov)."
+   },
+   "question_count": {
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.133",
+    "note": "383.133(b)(2)(iv): each state test has a fixed total of questions with set numbers per knowledge area, but the total is not given; no federal minimum found."
+   },
+   "manual_model": {
+    "url": "https://aamva.org/topics/commercial-driver-license-testing",
+    "note": "AAMVA: modernized rewrite covers VI and BCS skills tests; no mandate to adopt; no state adoption list published there."
+   }
+  }
+ },
+ {
+  "state": "TX",
+  "section": "TX_COMMERCIAL_RULES",
+  "required_for": [
+   "A",
+   "B"
+  ],
+  "order": 1,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Texas Commercial Driver Handbook (DL-7C), Rev. Mar 2026",
+  "manual_model": "unknown",
+  "source_url": "https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "CONFLICT UNRESOLVED: 20 (seed, source not found) vs 25 (cdlpracticetest.com FAQ, no source cited). No DPS page, DL-60a, DL-7C (unreadable here), 37 TAC 16.26/16.27 or the Jun 1 2026 release gives a count. Needs DPS CDL unit or an in-person test; do not ship either number. Exam existence for Class A/B CLP is confirmed (DL-60a). 'Taken first' is NOT confirmed by any primary source found. 37 TAC 15.52 (Cornell copy) still says English and Spanish, which is stale vs the Jun 2026 policy. English-only effective 2026-06-01. Manual model unknown: DPS only says the CDL Driver's Manual was updated for skills-test modernization (2024).",
+  "confirmed_fields": [
+   "pass_pct",
+   "test_language",
+   "manual_edition",
+   "source_url",
+   "required_for"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/regulations/texas/37-Tex-Admin-Code-SS-16-27",
+    "note": "37 TAC 16.27: CDL tests need at least 80% correct (Class A/B/C non-commercial and sign tests are 70%). Cornell mirror; confirm on Texas SOS TAC."
+   },
+   "test_language": {
+    "url": "https://www.dps.texas.gov/node/6315",
+    "note": "DPS release HQ 2026-055 (Jun 1, 2026): all CDL and CLP knowledge exams English-only for applicants scheduled on or after Jun 1, 2026; interpreters not allowed."
+   },
+   "manual_edition": {
+    "url": "https://www.dps.texas.gov/InternetForms/Home/Details/310",
+    "note": "DPS forms page: 'Commercial Driver Handbook', form DL-7C, Rev. Mar 26. PDF: https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf (could not open the PDF)."
+   },
+   "required_for": {
+    "url": "https://www.dps.texas.gov/internetforms/Forms/DL-60a.pdf",
+    "note": "DL-60a (CDL info sheet, date not verified): Class A CLP needs Texas Commercial Rules, General Knowledge, Combination, Air Brakes (if applicable) plus endorsement tests; Class B same without Combination. Gives no counts."
+   }
+  }
+ },
+ {
+  "state": "TX",
+  "section": "GK",
+  "required_for": [
+   "A",
+   "B",
+   "C"
+  ],
+  "order": 2,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Texas Commercial Driver Handbook (DL-7C), Rev. Mar 2026",
+  "manual_model": "unknown",
+  "source_url": "https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "Order is a [VERIFY] proposal from the seed/cdl-moat; DL-60a lists Commercial Rules first but does not state an order. Per-test question counts not stated by DPS pages, DL-60a, 37 TAC 16.26/16.27. English-only effective 2026-06-01. Manual model unknown: DPS only says the CDL Driver's Manual was updated for skills-test modernization (2024).",
+  "confirmed_fields": [
+   "pass_pct",
+   "test_language",
+   "manual_edition",
+   "source_url"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/regulations/texas/37-Tex-Admin-Code-SS-16-27",
+    "note": "37 TAC 16.27: CDL tests need at least 80% correct (Class A/B/C non-commercial and sign tests are 70%). Cornell mirror; confirm on Texas SOS TAC."
+   },
+   "test_language": {
+    "url": "https://www.dps.texas.gov/node/6315",
+    "note": "DPS release HQ 2026-055 (Jun 1, 2026): all CDL and CLP knowledge exams English-only for applicants scheduled on or after Jun 1, 2026; interpreters not allowed."
+   },
+   "manual_edition": {
+    "url": "https://www.dps.texas.gov/InternetForms/Home/Details/310",
+    "note": "DPS forms page: 'Commercial Driver Handbook', form DL-7C, Rev. Mar 26. PDF: https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf (could not open the PDF)."
+   }
+  }
+ },
+ {
+  "state": "TX",
+  "section": "AIR_BRAKES",
+  "required_for": [
+   "A",
+   "B",
+   "C"
+  ],
+  "order": 4,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Texas Commercial Driver Handbook (DL-7C), Rev. Mar 2026",
+  "manual_model": "unknown",
+  "source_url": "https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "Order is a [VERIFY] proposal from the seed/cdl-moat; DL-60a lists Commercial Rules first but does not state an order. Per-test question counts not stated by DPS pages, DL-60a, 37 TAC 16.26/16.27. English-only effective 2026-06-01. Manual model unknown: DPS only says the CDL Driver's Manual was updated for skills-test modernization (2024).",
+  "confirmed_fields": [
+   "pass_pct",
+   "test_language",
+   "manual_edition",
+   "source_url"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/regulations/texas/37-Tex-Admin-Code-SS-16-27",
+    "note": "37 TAC 16.27: CDL tests need at least 80% correct (Class A/B/C non-commercial and sign tests are 70%). Cornell mirror; confirm on Texas SOS TAC."
+   },
+   "test_language": {
+    "url": "https://www.dps.texas.gov/node/6315",
+    "note": "DPS release HQ 2026-055 (Jun 1, 2026): all CDL and CLP knowledge exams English-only for applicants scheduled on or after Jun 1, 2026; interpreters not allowed."
+   },
+   "manual_edition": {
+    "url": "https://www.dps.texas.gov/InternetForms/Home/Details/310",
+    "note": "DPS forms page: 'Commercial Driver Handbook', form DL-7C, Rev. Mar 26. PDF: https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf (could not open the PDF)."
+   }
+  }
+ },
+ {
+  "state": "TX",
+  "section": "COMBINATION",
+  "required_for": [
+   "A"
+  ],
+  "order": 3,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Texas Commercial Driver Handbook (DL-7C), Rev. Mar 2026",
+  "manual_model": "unknown",
+  "source_url": "https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "Order is a [VERIFY] proposal from the seed/cdl-moat; DL-60a lists Commercial Rules first but does not state an order. Per-test question counts not stated by DPS pages, DL-60a, 37 TAC 16.26/16.27. English-only effective 2026-06-01. Manual model unknown: DPS only says the CDL Driver's Manual was updated for skills-test modernization (2024).",
+  "confirmed_fields": [
+   "pass_pct",
+   "test_language",
+   "manual_edition",
+   "source_url"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/regulations/texas/37-Tex-Admin-Code-SS-16-27",
+    "note": "37 TAC 16.27: CDL tests need at least 80% correct (Class A/B/C non-commercial and sign tests are 70%). Cornell mirror; confirm on Texas SOS TAC."
+   },
+   "test_language": {
+    "url": "https://www.dps.texas.gov/node/6315",
+    "note": "DPS release HQ 2026-055 (Jun 1, 2026): all CDL and CLP knowledge exams English-only for applicants scheduled on or after Jun 1, 2026; interpreters not allowed."
+   },
+   "manual_edition": {
+    "url": "https://www.dps.texas.gov/InternetForms/Home/Details/310",
+    "note": "DPS forms page: 'Commercial Driver Handbook', form DL-7C, Rev. Mar 26. PDF: https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf (could not open the PDF)."
+   }
+  }
+ },
+ {
+  "state": "TX",
+  "section": "HAZMAT",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": 5,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Texas Commercial Driver Handbook (DL-7C), Rev. Mar 2026",
+  "manual_model": "unknown",
+  "source_url": "https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "Order is a [VERIFY] proposal from the seed/cdl-moat; DL-60a lists Commercial Rules first but does not state an order. Per-test question counts not stated by DPS pages, DL-60a, 37 TAC 16.26/16.27. English-only effective 2026-06-01. Manual model unknown: DPS only says the CDL Driver's Manual was updated for skills-test modernization (2024).",
+  "confirmed_fields": [
+   "pass_pct",
+   "test_language",
+   "manual_edition",
+   "source_url"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/regulations/texas/37-Tex-Admin-Code-SS-16-27",
+    "note": "37 TAC 16.27: CDL tests need at least 80% correct (Class A/B/C non-commercial and sign tests are 70%). Cornell mirror; confirm on Texas SOS TAC."
+   },
+   "test_language": {
+    "url": "https://www.dps.texas.gov/node/6315",
+    "note": "DPS release HQ 2026-055 (Jun 1, 2026): all CDL and CLP knowledge exams English-only for applicants scheduled on or after Jun 1, 2026; interpreters not allowed."
+   },
+   "manual_edition": {
+    "url": "https://www.dps.texas.gov/InternetForms/Home/Details/310",
+    "note": "DPS forms page: 'Commercial Driver Handbook', form DL-7C, Rev. Mar 26. PDF: https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf (could not open the PDF)."
+   }
+  }
+ },
+ {
+  "state": "TX",
+  "section": "TANKER",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": 5,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Texas Commercial Driver Handbook (DL-7C), Rev. Mar 2026",
+  "manual_model": "unknown",
+  "source_url": "https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "Order is a [VERIFY] proposal from the seed/cdl-moat; DL-60a lists Commercial Rules first but does not state an order. Per-test question counts not stated by DPS pages, DL-60a, 37 TAC 16.26/16.27. English-only effective 2026-06-01. Manual model unknown: DPS only says the CDL Driver's Manual was updated for skills-test modernization (2024).",
+  "confirmed_fields": [
+   "pass_pct",
+   "test_language",
+   "manual_edition",
+   "source_url"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/regulations/texas/37-Tex-Admin-Code-SS-16-27",
+    "note": "37 TAC 16.27: CDL tests need at least 80% correct (Class A/B/C non-commercial and sign tests are 70%). Cornell mirror; confirm on Texas SOS TAC."
+   },
+   "test_language": {
+    "url": "https://www.dps.texas.gov/node/6315",
+    "note": "DPS release HQ 2026-055 (Jun 1, 2026): all CDL and CLP knowledge exams English-only for applicants scheduled on or after Jun 1, 2026; interpreters not allowed."
+   },
+   "manual_edition": {
+    "url": "https://www.dps.texas.gov/InternetForms/Home/Details/310",
+    "note": "DPS forms page: 'Commercial Driver Handbook', form DL-7C, Rev. Mar 26. PDF: https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf (could not open the PDF)."
+   }
+  }
+ },
+ {
+  "state": "TX",
+  "section": "DOUBLES_TRIPLES",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": 5,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Texas Commercial Driver Handbook (DL-7C), Rev. Mar 2026",
+  "manual_model": "unknown",
+  "source_url": "https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "Order is a [VERIFY] proposal from the seed/cdl-moat; DL-60a lists Commercial Rules first but does not state an order. Per-test question counts not stated by DPS pages, DL-60a, 37 TAC 16.26/16.27. English-only effective 2026-06-01. Manual model unknown: DPS only says the CDL Driver's Manual was updated for skills-test modernization (2024).",
+  "confirmed_fields": [
+   "pass_pct",
+   "test_language",
+   "manual_edition",
+   "source_url"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/regulations/texas/37-Tex-Admin-Code-SS-16-27",
+    "note": "37 TAC 16.27: CDL tests need at least 80% correct (Class A/B/C non-commercial and sign tests are 70%). Cornell mirror; confirm on Texas SOS TAC."
+   },
+   "test_language": {
+    "url": "https://www.dps.texas.gov/node/6315",
+    "note": "DPS release HQ 2026-055 (Jun 1, 2026): all CDL and CLP knowledge exams English-only for applicants scheduled on or after Jun 1, 2026; interpreters not allowed."
+   },
+   "manual_edition": {
+    "url": "https://www.dps.texas.gov/InternetForms/Home/Details/310",
+    "note": "DPS forms page: 'Commercial Driver Handbook', form DL-7C, Rev. Mar 26. PDF: https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf (could not open the PDF)."
+   }
+  }
+ },
+ {
+  "state": "TX",
+  "section": "PASSENGER",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": 5,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Texas Commercial Driver Handbook (DL-7C), Rev. Mar 2026",
+  "manual_model": "unknown",
+  "source_url": "https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "Order is a [VERIFY] proposal from the seed/cdl-moat; DL-60a lists Commercial Rules first but does not state an order. Per-test question counts not stated by DPS pages, DL-60a, 37 TAC 16.26/16.27. English-only effective 2026-06-01. Manual model unknown: DPS only says the CDL Driver's Manual was updated for skills-test modernization (2024).",
+  "confirmed_fields": [
+   "pass_pct",
+   "test_language",
+   "manual_edition",
+   "source_url"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/regulations/texas/37-Tex-Admin-Code-SS-16-27",
+    "note": "37 TAC 16.27: CDL tests need at least 80% correct (Class A/B/C non-commercial and sign tests are 70%). Cornell mirror; confirm on Texas SOS TAC."
+   },
+   "test_language": {
+    "url": "https://www.dps.texas.gov/node/6315",
+    "note": "DPS release HQ 2026-055 (Jun 1, 2026): all CDL and CLP knowledge exams English-only for applicants scheduled on or after Jun 1, 2026; interpreters not allowed."
+   },
+   "manual_edition": {
+    "url": "https://www.dps.texas.gov/InternetForms/Home/Details/310",
+    "note": "DPS forms page: 'Commercial Driver Handbook', form DL-7C, Rev. Mar 26. PDF: https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf (could not open the PDF)."
+   }
+  }
+ },
+ {
+  "state": "TX",
+  "section": "SCHOOL_BUS",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": 5,
+  "question_count": null,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Texas Commercial Driver Handbook (DL-7C), Rev. Mar 2026",
+  "manual_model": "unknown",
+  "source_url": "https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "Order is a [VERIFY] proposal from the seed/cdl-moat; DL-60a lists Commercial Rules first but does not state an order. Per-test question counts not stated by DPS pages, DL-60a, 37 TAC 16.26/16.27. English-only effective 2026-06-01. Manual model unknown: DPS only says the CDL Driver's Manual was updated for skills-test modernization (2024).",
+  "confirmed_fields": [
+   "pass_pct",
+   "test_language",
+   "manual_edition",
+   "source_url"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model"
+  ],
+  "evidence": {
+   "pass_pct": {
+    "url": "https://www.law.cornell.edu/regulations/texas/37-Tex-Admin-Code-SS-16-27",
+    "note": "37 TAC 16.27: CDL tests need at least 80% correct (Class A/B/C non-commercial and sign tests are 70%). Cornell mirror; confirm on Texas SOS TAC."
+   },
+   "test_language": {
+    "url": "https://www.dps.texas.gov/node/6315",
+    "note": "DPS release HQ 2026-055 (Jun 1, 2026): all CDL and CLP knowledge exams English-only for applicants scheduled on or after Jun 1, 2026; interpreters not allowed."
+   },
+   "manual_edition": {
+    "url": "https://www.dps.texas.gov/InternetForms/Home/Details/310",
+    "note": "DPS forms page: 'Commercial Driver Handbook', form DL-7C, Rev. Mar 26. PDF: https://www.dps.texas.gov/internetforms/Forms/DL-7C.pdf (could not open the PDF)."
+   }
+  }
+ },
+ {
+  "state": "CA",
+  "section": "GK",
+  "required_for": [
+   "A",
+   "B",
+   "C"
+  ],
+  "order": null,
+  "question_count": 50,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_plus",
+  "languages": [
+   "en",
+   "ar",
+   "zh",
+   "pa",
+   "ru",
+   "es"
+  ],
+  "manual_edition": "Driver Handbook: Commercial California, 2019-2021 (check for newer)",
+  "manual_model": "unknown",
+  "source_url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "50 Q / 10 errors allowed from a 2008 DMV report; stale risk. Pass % is derived. Handbook lists the tests but states no order, count or pass mark (allow 2-3 h for all). The seed's 'CA GK 50 Q / 10 misses' matches the 2008 report only. 3 attempts per application (handbook).",
+  "confirmed_fields": [
+   "manual_edition",
+   "test_language",
+   "source_url",
+   "question_count(2008 source)",
+   "pass_pct(derived from errors allowed)"
+  ],
+  "unconfirmed_fields": [
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model",
+   "question_count(current)"
+  ],
+  "evidence": {
+   "manual_edition": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Driver Handbook: Commercial California, 2019-2021 edition (copyright line). A newer edition may exist at https://www.dmv.ca.gov/portal/file/california-commercial-driver-handbook-pdf/ (page shows no edition date)."
+   },
+   "test_language": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Section 1.1.1: commercial knowledge tests available in English, Arabic, Chinese, Punjabi, Russian, Spanish. Not re-checked for a 2026 change; skills tests are English-only."
+   },
+   "question_count": {
+    "url": "https://www.dmv.ca.gov/portal/file/statewideevaluationofcommercialdriverslicensewrittenknowledgetests/",
+    "note": "CA DMV Research report RSS-08-225 (Mar 2008), Table 1: 50 questions, 10 errors allowed. 2008 data; current spec not confirmed."
+   }
+  }
+ },
+ {
+  "state": "CA",
+  "section": "AIR_BRAKES",
+  "required_for": [
+   "A",
+   "B",
+   "C"
+  ],
+  "order": null,
+  "question_count": 20,
+  "pass_pct": 85,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_plus",
+  "languages": [
+   "en",
+   "ar",
+   "zh",
+   "pa",
+   "ru",
+   "es"
+  ],
+  "manual_edition": "Driver Handbook: Commercial California, 2019-2021 (check for newer)",
+  "manual_model": "unknown",
+  "source_url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "20 Q / 3 errors allowed from a 2008 DMV report; stale risk. Pass % is derived. Same report is internally inconsistent: Table 1 says 3 errors allowed, text p.24 says 4 (16/20 = 80%). Handbook lists the tests but states no order, count or pass mark (allow 2-3 h for all). The seed's 'CA GK 50 Q / 10 misses' matches the 2008 report only. 3 attempts per application (handbook).",
+  "confirmed_fields": [
+   "manual_edition",
+   "test_language",
+   "source_url",
+   "question_count(2008 source)",
+   "pass_pct(derived from errors allowed)"
+  ],
+  "unconfirmed_fields": [
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model",
+   "question_count(current)"
+  ],
+  "evidence": {
+   "manual_edition": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Driver Handbook: Commercial California, 2019-2021 edition (copyright line). A newer edition may exist at https://www.dmv.ca.gov/portal/file/california-commercial-driver-handbook-pdf/ (page shows no edition date)."
+   },
+   "test_language": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Section 1.1.1: commercial knowledge tests available in English, Arabic, Chinese, Punjabi, Russian, Spanish. Not re-checked for a 2026 change; skills tests are English-only."
+   },
+   "question_count": {
+    "url": "https://www.dmv.ca.gov/portal/file/statewideevaluationofcommercialdriverslicensewrittenknowledgetests/",
+    "note": "CA DMV Research report RSS-08-225 (Mar 2008), Table 1: 20 questions, 3 errors allowed. 2008 data; current spec not confirmed."
+   }
+  }
+ },
+ {
+  "state": "CA",
+  "section": "COMBINATION",
+  "required_for": [
+   "A"
+  ],
+  "order": null,
+  "question_count": 15,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_plus",
+  "languages": [
+   "en",
+   "ar",
+   "zh",
+   "pa",
+   "ru",
+   "es"
+  ],
+  "manual_edition": "Driver Handbook: Commercial California, 2019-2021 (check for newer)",
+  "manual_model": "unknown",
+  "source_url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "15 Q / 3 errors allowed from a 2008 DMV report; stale risk. Pass % is derived. Handbook lists the tests but states no order, count or pass mark (allow 2-3 h for all). The seed's 'CA GK 50 Q / 10 misses' matches the 2008 report only. 3 attempts per application (handbook).",
+  "confirmed_fields": [
+   "manual_edition",
+   "test_language",
+   "source_url",
+   "question_count(2008 source)",
+   "pass_pct(derived from errors allowed)"
+  ],
+  "unconfirmed_fields": [
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model",
+   "question_count(current)"
+  ],
+  "evidence": {
+   "manual_edition": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Driver Handbook: Commercial California, 2019-2021 edition (copyright line). A newer edition may exist at https://www.dmv.ca.gov/portal/file/california-commercial-driver-handbook-pdf/ (page shows no edition date)."
+   },
+   "test_language": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Section 1.1.1: commercial knowledge tests available in English, Arabic, Chinese, Punjabi, Russian, Spanish. Not re-checked for a 2026 change; skills tests are English-only."
+   },
+   "question_count": {
+    "url": "https://www.dmv.ca.gov/portal/file/statewideevaluationofcommercialdriverslicensewrittenknowledgetests/",
+    "note": "CA DMV Research report RSS-08-225 (Mar 2008), Table 1: 15 questions, 3 errors allowed. 2008 data; current spec not confirmed."
+   }
+  }
+ },
+ {
+  "state": "CA",
+  "section": "HAZMAT",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": 20,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_plus",
+  "languages": [
+   "en",
+   "ar",
+   "zh",
+   "pa",
+   "ru",
+   "es"
+  ],
+  "manual_edition": "Driver Handbook: Commercial California, 2019-2021 (check for newer)",
+  "manual_model": "unknown",
+  "source_url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "20 Q / 4 errors allowed from a 2008 DMV report; stale risk. Pass % is derived. Handbook lists the tests but states no order, count or pass mark (allow 2-3 h for all). The seed's 'CA GK 50 Q / 10 misses' matches the 2008 report only. 3 attempts per application (handbook).",
+  "confirmed_fields": [
+   "manual_edition",
+   "test_language",
+   "source_url",
+   "question_count(2008 source)",
+   "pass_pct(derived from errors allowed)"
+  ],
+  "unconfirmed_fields": [
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model",
+   "question_count(current)"
+  ],
+  "evidence": {
+   "manual_edition": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Driver Handbook: Commercial California, 2019-2021 edition (copyright line). A newer edition may exist at https://www.dmv.ca.gov/portal/file/california-commercial-driver-handbook-pdf/ (page shows no edition date)."
+   },
+   "test_language": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Section 1.1.1: commercial knowledge tests available in English, Arabic, Chinese, Punjabi, Russian, Spanish. Not re-checked for a 2026 change; skills tests are English-only."
+   },
+   "question_count": {
+    "url": "https://www.dmv.ca.gov/portal/file/statewideevaluationofcommercialdriverslicensewrittenknowledgetests/",
+    "note": "CA DMV Research report RSS-08-225 (Mar 2008), Table 1: 20 questions, 4 errors allowed. 2008 data; current spec not confirmed."
+   }
+  }
+ },
+ {
+  "state": "CA",
+  "section": "TANKER",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": 15,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_plus",
+  "languages": [
+   "en",
+   "ar",
+   "zh",
+   "pa",
+   "ru",
+   "es"
+  ],
+  "manual_edition": "Driver Handbook: Commercial California, 2019-2021 (check for newer)",
+  "manual_model": "unknown",
+  "source_url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "15 Q / 3 errors allowed from a 2008 DMV report; stale risk. Pass % is derived. Handbook lists the tests but states no order, count or pass mark (allow 2-3 h for all). The seed's 'CA GK 50 Q / 10 misses' matches the 2008 report only. 3 attempts per application (handbook).",
+  "confirmed_fields": [
+   "manual_edition",
+   "test_language",
+   "source_url",
+   "question_count(2008 source)",
+   "pass_pct(derived from errors allowed)"
+  ],
+  "unconfirmed_fields": [
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model",
+   "question_count(current)"
+  ],
+  "evidence": {
+   "manual_edition": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Driver Handbook: Commercial California, 2019-2021 edition (copyright line). A newer edition may exist at https://www.dmv.ca.gov/portal/file/california-commercial-driver-handbook-pdf/ (page shows no edition date)."
+   },
+   "test_language": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Section 1.1.1: commercial knowledge tests available in English, Arabic, Chinese, Punjabi, Russian, Spanish. Not re-checked for a 2026 change; skills tests are English-only."
+   },
+   "question_count": {
+    "url": "https://www.dmv.ca.gov/portal/file/statewideevaluationofcommercialdriverslicensewrittenknowledgetests/",
+    "note": "CA DMV Research report RSS-08-225 (Mar 2008), Table 1: 15 questions, 3 errors allowed. 2008 data; current spec not confirmed."
+   }
+  }
+ },
+ {
+  "state": "CA",
+  "section": "DOUBLES_TRIPLES",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": 15,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_plus",
+  "languages": [
+   "en",
+   "ar",
+   "zh",
+   "pa",
+   "ru",
+   "es"
+  ],
+  "manual_edition": "Driver Handbook: Commercial California, 2019-2021 (check for newer)",
+  "manual_model": "unknown",
+  "source_url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "15 Q / 3 errors allowed from a 2008 DMV report; stale risk. Pass % is derived. Handbook lists the tests but states no order, count or pass mark (allow 2-3 h for all). The seed's 'CA GK 50 Q / 10 misses' matches the 2008 report only. 3 attempts per application (handbook).",
+  "confirmed_fields": [
+   "manual_edition",
+   "test_language",
+   "source_url",
+   "question_count(2008 source)",
+   "pass_pct(derived from errors allowed)"
+  ],
+  "unconfirmed_fields": [
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model",
+   "question_count(current)"
+  ],
+  "evidence": {
+   "manual_edition": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Driver Handbook: Commercial California, 2019-2021 edition (copyright line). A newer edition may exist at https://www.dmv.ca.gov/portal/file/california-commercial-driver-handbook-pdf/ (page shows no edition date)."
+   },
+   "test_language": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Section 1.1.1: commercial knowledge tests available in English, Arabic, Chinese, Punjabi, Russian, Spanish. Not re-checked for a 2026 change; skills tests are English-only."
+   },
+   "question_count": {
+    "url": "https://www.dmv.ca.gov/portal/file/statewideevaluationofcommercialdriverslicensewrittenknowledgetests/",
+    "note": "CA DMV Research report RSS-08-225 (Mar 2008), Table 1: 15 questions, 3 errors allowed. 2008 data; current spec not confirmed."
+   }
+  }
+ },
+ {
+  "state": "CA",
+  "section": "PASSENGER",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": 20,
+  "pass_pct": 80,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_plus",
+  "languages": [
+   "en",
+   "ar",
+   "zh",
+   "pa",
+   "ru",
+   "es"
+  ],
+  "manual_edition": "Driver Handbook: Commercial California, 2019-2021 (check for newer)",
+  "manual_model": "unknown",
+  "source_url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "20 Q / 4 errors allowed from a 2008 DMV report; stale risk. Pass % is derived. Handbook lists the tests but states no order, count or pass mark (allow 2-3 h for all). The seed's 'CA GK 50 Q / 10 misses' matches the 2008 report only. 3 attempts per application (handbook).",
+  "confirmed_fields": [
+   "manual_edition",
+   "test_language",
+   "source_url",
+   "question_count(2008 source)",
+   "pass_pct(derived from errors allowed)"
+  ],
+  "unconfirmed_fields": [
+   "options_per_q",
+   "time_limit_min",
+   "order",
+   "manual_model",
+   "question_count(current)"
+  ],
+  "evidence": {
+   "manual_edition": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Driver Handbook: Commercial California, 2019-2021 edition (copyright line). A newer edition may exist at https://www.dmv.ca.gov/portal/file/california-commercial-driver-handbook-pdf/ (page shows no edition date)."
+   },
+   "test_language": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Section 1.1.1: commercial knowledge tests available in English, Arabic, Chinese, Punjabi, Russian, Spanish. Not re-checked for a 2026 change; skills tests are English-only."
+   },
+   "question_count": {
+    "url": "https://www.dmv.ca.gov/portal/file/statewideevaluationofcommercialdriverslicensewrittenknowledgetests/",
+    "note": "CA DMV Research report RSS-08-225 (Mar 2008), Table 1: 20 questions, 4 errors allowed. 2008 data; current spec not confirmed."
+   }
+  }
+ },
+ {
+  "state": "CA",
+  "section": "SCHOOL_BUS",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": null,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_plus",
+  "languages": [
+   "en",
+   "ar",
+   "zh",
+   "pa",
+   "ru",
+   "es"
+  ],
+  "manual_edition": "Driver Handbook: Commercial California, 2019-2021 (check for newer)",
+  "manual_model": "unknown",
+  "source_url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "School Bus test is listed in the handbook (1.1.1) but absent from the 2008 report; no count or pass mark found. Handbook lists the tests but states no order, count or pass mark (allow 2-3 h for all). The seed's 'CA GK 50 Q / 10 misses' matches the 2008 report only. 3 attempts per application (handbook).",
+  "confirmed_fields": [
+   "manual_edition",
+   "test_language",
+   "source_url"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "pass_pct",
+   "order",
+   "manual_model"
+  ],
+  "evidence": {
+   "manual_edition": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Driver Handbook: Commercial California, 2019-2021 edition (copyright line). A newer edition may exist at https://www.dmv.ca.gov/portal/file/california-commercial-driver-handbook-pdf/ (page shows no edition date)."
+   },
+   "test_language": {
+    "url": "https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf",
+    "note": "Section 1.1.1: commercial knowledge tests available in English, Arabic, Chinese, Punjabi, Russian, Spanish. Not re-checked for a 2026 change; skills tests are English-only."
+   }
+  }
+ },
+ {
+  "state": "FL",
+  "section": "GK",
+  "required_for": [
+   "A",
+   "B",
+   "C"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": null,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Florida CDL Handbook (FLHSMV), July 2022 edition seen in Spanish PDF; confirm current English edition",
+  "manual_model": "legacy",
+  "source_url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "English-only from 2026-02-06 per county tax-collector reposts of FLHSMV release (government, but not flhsmv.gov itself). Handbook carries 'COPYRIGHT 2005 AAMVA' so it is the legacy AAMVA manual as of the 2022 edition. No counts or pass marks found on any reachable FLHSMV page; flhsmv.gov CDL pages blocked.",
+  "confirmed_fields": [
+   "test_language",
+   "manual_edition(2022 Spanish copy)",
+   "manual_model(as of 2022)"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "pass_pct",
+   "order",
+   "manual_edition(current)"
+  ],
+  "evidence": {
+   "test_language": {
+    "url": "https://taxcollector.jacksonville.gov/news/flhsmv-announces-driver-license-exams-to-be-administered-in-english-only",
+    "note": "County tax collector reposting FLHSMV news: all knowledge and skills exams English-only effective Feb 6, 2026, CDL/CLP included; translation services ended. Volusia tax collector page (https://volusiatax.gov/join-the-line/cdl-exams.html) says same, ASL still allowed. Original flhsmv.gov release not fetched (site blocked)."
+   },
+   "manual_edition": {
+    "url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+    "note": "Spanish edition cover July 2022, AAMVA 2005 copyright, lists 8 knowledge tests (GK, passenger, air brakes, combination, hazmat, tank, doubles/triples, school bus), no counts. English edition URL not opened."
+   }
+  }
+ },
+ {
+  "state": "FL",
+  "section": "AIR_BRAKES",
+  "required_for": [
+   "A",
+   "B",
+   "C"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": null,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Florida CDL Handbook (FLHSMV), July 2022 edition seen in Spanish PDF; confirm current English edition",
+  "manual_model": "legacy",
+  "source_url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "English-only from 2026-02-06 per county tax-collector reposts of FLHSMV release (government, but not flhsmv.gov itself). Handbook carries 'COPYRIGHT 2005 AAMVA' so it is the legacy AAMVA manual as of the 2022 edition. No counts or pass marks found on any reachable FLHSMV page; flhsmv.gov CDL pages blocked.",
+  "confirmed_fields": [
+   "test_language",
+   "manual_edition(2022 Spanish copy)",
+   "manual_model(as of 2022)"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "pass_pct",
+   "order",
+   "manual_edition(current)"
+  ],
+  "evidence": {
+   "test_language": {
+    "url": "https://taxcollector.jacksonville.gov/news/flhsmv-announces-driver-license-exams-to-be-administered-in-english-only",
+    "note": "County tax collector reposting FLHSMV news: all knowledge and skills exams English-only effective Feb 6, 2026, CDL/CLP included; translation services ended. Volusia tax collector page (https://volusiatax.gov/join-the-line/cdl-exams.html) says same, ASL still allowed. Original flhsmv.gov release not fetched (site blocked)."
+   },
+   "manual_edition": {
+    "url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+    "note": "Spanish edition cover July 2022, AAMVA 2005 copyright, lists 8 knowledge tests (GK, passenger, air brakes, combination, hazmat, tank, doubles/triples, school bus), no counts. English edition URL not opened."
+   }
+  }
+ },
+ {
+  "state": "FL",
+  "section": "COMBINATION",
+  "required_for": [
+   "A"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": null,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Florida CDL Handbook (FLHSMV), July 2022 edition seen in Spanish PDF; confirm current English edition",
+  "manual_model": "legacy",
+  "source_url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "English-only from 2026-02-06 per county tax-collector reposts of FLHSMV release (government, but not flhsmv.gov itself). Handbook carries 'COPYRIGHT 2005 AAMVA' so it is the legacy AAMVA manual as of the 2022 edition. No counts or pass marks found on any reachable FLHSMV page; flhsmv.gov CDL pages blocked.",
+  "confirmed_fields": [
+   "test_language",
+   "manual_edition(2022 Spanish copy)",
+   "manual_model(as of 2022)"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "pass_pct",
+   "order",
+   "manual_edition(current)"
+  ],
+  "evidence": {
+   "test_language": {
+    "url": "https://taxcollector.jacksonville.gov/news/flhsmv-announces-driver-license-exams-to-be-administered-in-english-only",
+    "note": "County tax collector reposting FLHSMV news: all knowledge and skills exams English-only effective Feb 6, 2026, CDL/CLP included; translation services ended. Volusia tax collector page (https://volusiatax.gov/join-the-line/cdl-exams.html) says same, ASL still allowed. Original flhsmv.gov release not fetched (site blocked)."
+   },
+   "manual_edition": {
+    "url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+    "note": "Spanish edition cover July 2022, AAMVA 2005 copyright, lists 8 knowledge tests (GK, passenger, air brakes, combination, hazmat, tank, doubles/triples, school bus), no counts. English edition URL not opened."
+   }
+  }
+ },
+ {
+  "state": "FL",
+  "section": "HAZMAT",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": null,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Florida CDL Handbook (FLHSMV), July 2022 edition seen in Spanish PDF; confirm current English edition",
+  "manual_model": "legacy",
+  "source_url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "English-only from 2026-02-06 per county tax-collector reposts of FLHSMV release (government, but not flhsmv.gov itself). Handbook carries 'COPYRIGHT 2005 AAMVA' so it is the legacy AAMVA manual as of the 2022 edition. No counts or pass marks found on any reachable FLHSMV page; flhsmv.gov CDL pages blocked.",
+  "confirmed_fields": [
+   "test_language",
+   "manual_edition(2022 Spanish copy)",
+   "manual_model(as of 2022)"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "pass_pct",
+   "order",
+   "manual_edition(current)"
+  ],
+  "evidence": {
+   "test_language": {
+    "url": "https://taxcollector.jacksonville.gov/news/flhsmv-announces-driver-license-exams-to-be-administered-in-english-only",
+    "note": "County tax collector reposting FLHSMV news: all knowledge and skills exams English-only effective Feb 6, 2026, CDL/CLP included; translation services ended. Volusia tax collector page (https://volusiatax.gov/join-the-line/cdl-exams.html) says same, ASL still allowed. Original flhsmv.gov release not fetched (site blocked)."
+   },
+   "manual_edition": {
+    "url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+    "note": "Spanish edition cover July 2022, AAMVA 2005 copyright, lists 8 knowledge tests (GK, passenger, air brakes, combination, hazmat, tank, doubles/triples, school bus), no counts. English edition URL not opened."
+   }
+  }
+ },
+ {
+  "state": "FL",
+  "section": "TANKER",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": null,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Florida CDL Handbook (FLHSMV), July 2022 edition seen in Spanish PDF; confirm current English edition",
+  "manual_model": "legacy",
+  "source_url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "English-only from 2026-02-06 per county tax-collector reposts of FLHSMV release (government, but not flhsmv.gov itself). Handbook carries 'COPYRIGHT 2005 AAMVA' so it is the legacy AAMVA manual as of the 2022 edition. No counts or pass marks found on any reachable FLHSMV page; flhsmv.gov CDL pages blocked.",
+  "confirmed_fields": [
+   "test_language",
+   "manual_edition(2022 Spanish copy)",
+   "manual_model(as of 2022)"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "pass_pct",
+   "order",
+   "manual_edition(current)"
+  ],
+  "evidence": {
+   "test_language": {
+    "url": "https://taxcollector.jacksonville.gov/news/flhsmv-announces-driver-license-exams-to-be-administered-in-english-only",
+    "note": "County tax collector reposting FLHSMV news: all knowledge and skills exams English-only effective Feb 6, 2026, CDL/CLP included; translation services ended. Volusia tax collector page (https://volusiatax.gov/join-the-line/cdl-exams.html) says same, ASL still allowed. Original flhsmv.gov release not fetched (site blocked)."
+   },
+   "manual_edition": {
+    "url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+    "note": "Spanish edition cover July 2022, AAMVA 2005 copyright, lists 8 knowledge tests (GK, passenger, air brakes, combination, hazmat, tank, doubles/triples, school bus), no counts. English edition URL not opened."
+   }
+  }
+ },
+ {
+  "state": "FL",
+  "section": "DOUBLES_TRIPLES",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": null,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Florida CDL Handbook (FLHSMV), July 2022 edition seen in Spanish PDF; confirm current English edition",
+  "manual_model": "legacy",
+  "source_url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "English-only from 2026-02-06 per county tax-collector reposts of FLHSMV release (government, but not flhsmv.gov itself). Handbook carries 'COPYRIGHT 2005 AAMVA' so it is the legacy AAMVA manual as of the 2022 edition. No counts or pass marks found on any reachable FLHSMV page; flhsmv.gov CDL pages blocked.",
+  "confirmed_fields": [
+   "test_language",
+   "manual_edition(2022 Spanish copy)",
+   "manual_model(as of 2022)"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "pass_pct",
+   "order",
+   "manual_edition(current)"
+  ],
+  "evidence": {
+   "test_language": {
+    "url": "https://taxcollector.jacksonville.gov/news/flhsmv-announces-driver-license-exams-to-be-administered-in-english-only",
+    "note": "County tax collector reposting FLHSMV news: all knowledge and skills exams English-only effective Feb 6, 2026, CDL/CLP included; translation services ended. Volusia tax collector page (https://volusiatax.gov/join-the-line/cdl-exams.html) says same, ASL still allowed. Original flhsmv.gov release not fetched (site blocked)."
+   },
+   "manual_edition": {
+    "url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+    "note": "Spanish edition cover July 2022, AAMVA 2005 copyright, lists 8 knowledge tests (GK, passenger, air brakes, combination, hazmat, tank, doubles/triples, school bus), no counts. English edition URL not opened."
+   }
+  }
+ },
+ {
+  "state": "FL",
+  "section": "PASSENGER",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": null,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Florida CDL Handbook (FLHSMV), July 2022 edition seen in Spanish PDF; confirm current English edition",
+  "manual_model": "legacy",
+  "source_url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "English-only from 2026-02-06 per county tax-collector reposts of FLHSMV release (government, but not flhsmv.gov itself). Handbook carries 'COPYRIGHT 2005 AAMVA' so it is the legacy AAMVA manual as of the 2022 edition. No counts or pass marks found on any reachable FLHSMV page; flhsmv.gov CDL pages blocked.",
+  "confirmed_fields": [
+   "test_language",
+   "manual_edition(2022 Spanish copy)",
+   "manual_model(as of 2022)"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "pass_pct",
+   "order",
+   "manual_edition(current)"
+  ],
+  "evidence": {
+   "test_language": {
+    "url": "https://taxcollector.jacksonville.gov/news/flhsmv-announces-driver-license-exams-to-be-administered-in-english-only",
+    "note": "County tax collector reposting FLHSMV news: all knowledge and skills exams English-only effective Feb 6, 2026, CDL/CLP included; translation services ended. Volusia tax collector page (https://volusiatax.gov/join-the-line/cdl-exams.html) says same, ASL still allowed. Original flhsmv.gov release not fetched (site blocked)."
+   },
+   "manual_edition": {
+    "url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+    "note": "Spanish edition cover July 2022, AAMVA 2005 copyright, lists 8 knowledge tests (GK, passenger, air brakes, combination, hazmat, tank, doubles/triples, school bus), no counts. English edition URL not opened."
+   }
+  }
+ },
+ {
+  "state": "FL",
+  "section": "SCHOOL_BUS",
+  "required_for": [
+   "ENDO"
+  ],
+  "order": null,
+  "question_count": null,
+  "pass_pct": null,
+  "options_per_q": null,
+  "time_limit_min": null,
+  "test_language": "en_only",
+  "languages": [
+   "en"
+  ],
+  "manual_edition": "Florida CDL Handbook (FLHSMV), July 2022 edition seen in Spanish PDF; confirm current English edition",
+  "manual_model": "legacy",
+  "source_url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+  "last_checked": "2026-10-28",
+  "verified_by": "agent_draft_unverified (Claude); needs Sean",
+  "notes": "English-only from 2026-02-06 per county tax-collector reposts of FLHSMV release (government, but not flhsmv.gov itself). Handbook carries 'COPYRIGHT 2005 AAMVA' so it is the legacy AAMVA manual as of the 2022 edition. No counts or pass marks found on any reachable FLHSMV page; flhsmv.gov CDL pages blocked.",
+  "confirmed_fields": [
+   "test_language",
+   "manual_edition(2022 Spanish copy)",
+   "manual_model(as of 2022)"
+  ],
+  "unconfirmed_fields": [
+   "question_count",
+   "options_per_q",
+   "time_limit_min",
+   "pass_pct",
+   "order",
+   "manual_edition(current)"
+  ],
+  "evidence": {
+   "test_language": {
+    "url": "https://taxcollector.jacksonville.gov/news/flhsmv-announces-driver-license-exams-to-be-administered-in-english-only",
+    "note": "County tax collector reposting FLHSMV news: all knowledge and skills exams English-only effective Feb 6, 2026, CDL/CLP included; translation services ended. Volusia tax collector page (https://volusiatax.gov/join-the-line/cdl-exams.html) says same, ASL still allowed. Original flhsmv.gov release not fetched (site blocked)."
+   },
+   "manual_edition": {
+    "url": "https://www.flhsmv.gov/pdf/handbooks/spanishcdlhandbook.pdf",
+    "note": "Spanish edition cover July 2022, AAMVA 2005 copyright, lists 8 knowledge tests (GK, passenger, air brakes, combination, hazmat, tank, doubles/triples, school bus), no counts. English edition URL not opened."
+   }
+  }
+ }
+]

@@ -1,0 +1,657 @@
+{
+ "n": 356,
+ "complaints": 343,
+ "codes": [
+  [
+   "NT",
+   "Not on the real test / outdated / not in manual",
+   67,
+   19.5
+  ],
+  [
+   "CR",
+   "Crashes, freezes, won't load, scoring bugs",
+   52,
+   15.2
+  ],
+  [
+   "BL",
+   "Can't cancel / charged after cancel / refund refused",
+   41,
+   12.0
+  ],
+  [
+   "WR",
+   "Wrong answer keys",
+   34,
+   9.9
+  ],
+  [
+   "PL",
+   "Paid but still locked / purchase or lifetime lost / ads after paying",
+   29,
+   8.5
+  ],
+  [
+   "ADX",
+   "Ads break the flow (mid-question, can't close, block results, crash)",
+   28,
+   8.2
+  ],
+  [
+   "PR",
+   "Price too high / should be free",
+   27,
+   7.9
+  ],
+  [
+   "WD",
+   "Confusing wording / grammar / reads like bad translation",
+   24,
+   7.0
+  ],
+  [
+   "AD",
+   "Too many ads",
+   24,
+   7.0
+  ],
+  [
+   "PW",
+   "Paywall too early / free tier unusable",
+   23,
+   6.7
+  ],
+  [
+   "ST",
+   "Wrong or missing state; other states' questions",
+   20,
+   5.8
+  ],
+  [
+   "TR",
+   "\"Free\"/trial bait; charged immediately; card required",
+   18,
+   5.2
+  ],
+  [
+   "EN",
+   "Missing test/endorsement (TX Commercial Rules, Class B, hazmat depth)",
+   17,
+   5.0
+  ],
+  [
+   "SU",
+   "No support / no response",
+   16,
+   4.7
+  ],
+  [
+   "RP",
+   "Repeated questions within a test / small bank",
+   13,
+   3.8
+  ],
+  [
+   "RV",
+   "Can't review wrong answers / no instant feedback / misses not re-asked",
+   9,
+   2.6
+  ],
+  [
+   "NV",
+   "Confusing navigation / mis-taps / layout",
+   8,
+   2.3
+  ],
+  [
+   "ON",
+   "Onboarding broken (state-picker loop)",
+   7,
+   2.0
+  ],
+  [
+   "LG",
+   "Wants Spanish / other language",
+   6,
+   1.7
+  ],
+  [
+   "TX",
+   "Text cut off / unreadable",
+   6,
+   1.7
+  ],
+  [
+   "MS",
+   "Doesn't teach; no study material/context",
+   5,
+   1.5
+  ],
+  [
+   "LP",
+   "Lost or reset progress",
+   5,
+   1.5
+  ],
+  [
+   "MX",
+   "Sections mixed up (bus Qs in combination etc.)",
+   5,
+   1.5
+  ],
+  [
+   "CE",
+   "Forced ELDT/certificate upsell",
+   4,
+   1.2
+  ],
+  [
+   "EX",
+   "Explanations missing or contradict answer",
+   4,
+   1.2
+  ],
+  [
+   "AI",
+   "Feels AI-generated / untested",
+   3,
+   0.9
+  ],
+  [
+   "SL",
+   "Slow / laggy",
+   3,
+   0.9
+  ],
+  [
+   "AC",
+   "Account / cross-device sync problems",
+   3,
+   0.9
+  ],
+  [
+   "RT",
+   "Rating prompts / review-for-reward",
+   2,
+   0.6
+  ],
+  [
+   "IMG",
+   "References images that aren't shown",
+   2,
+   0.6
+  ],
+  [
+   "PWM",
+   "Paywall interrupts mid-test",
+   1,
+   0.3
+  ],
+  [
+   "NO",
+   "Unwanted notifications",
+   1,
+   0.3
+  ],
+  [
+   "PV",
+   "Privacy / data sharing",
+   1,
+   0.3
+  ],
+  [
+   "AU",
+   "Audio/TTS mispronounces",
+   1,
+   0.3
+  ]
+ ],
+ "groups": {
+  "Monetization & billing": 122,
+  "Ads": 51,
+  "Content accuracy & fit": 126,
+  "Learning design (explanations, review, teaching, wording)": 45,
+  "UX / interaction & reliability": 72,
+  "Support & trust": 20
+ },
+ "per_app": {
+  "Khai Vuong": {
+   "n": 30,
+   "top": [
+    [
+     "BL",
+     12
+    ],
+    [
+     "TR",
+     6
+    ],
+    [
+     "RP",
+     6
+    ],
+    [
+     "PL",
+     5
+    ],
+    [
+     "PW",
+     4
+    ]
+   ]
+  },
+  "Best Fun Games": {
+   "n": 45,
+   "top": [
+    [
+     "BL",
+     11
+    ],
+    [
+     "CR",
+     8
+    ],
+    [
+     "PW",
+     7
+    ],
+    [
+     "WR",
+     7
+    ],
+    [
+     "PR",
+     7
+    ]
+   ]
+  },
+  "DMV Genie": {
+   "n": 39,
+   "top": [
+    [
+     "PL",
+     9
+    ],
+    [
+     "PR",
+     9
+    ],
+    [
+     "BL",
+     6
+    ],
+    [
+     "CE",
+     4
+    ],
+    [
+     "NT",
+     4
+    ]
+   ]
+  },
+  "Jeffrey Diaz CDL Prep": {
+   "n": 44,
+   "top": [
+    [
+     "ADX",
+     14
+    ],
+    [
+     "NT",
+     11
+    ],
+    [
+     "AD",
+     10
+    ],
+    [
+     "EN",
+     8
+    ],
+    [
+     "WR",
+     6
+    ]
+   ]
+  },
+  "HLT Official CDL": {
+   "n": 10,
+   "top": [
+    [
+     "NT",
+     4
+    ],
+    [
+     "CR",
+     2
+    ],
+    [
+     "NV",
+     2
+    ],
+    [
+     "RP",
+     2
+    ],
+    [
+     "PR",
+     2
+    ]
+   ]
+  },
+  "Solvely PassFast": {
+   "n": 8,
+   "top": [
+    [
+     "BL",
+     3
+    ],
+    [
+     "NT",
+     3
+    ],
+    [
+     "TR",
+     1
+    ],
+    [
+     "PR",
+     1
+    ],
+    [
+     "RP",
+     1
+    ]
+   ]
+  },
+  "BrainSoft/Genioworks": {
+   "n": 7,
+   "top": [
+    [
+     "BL",
+     2
+    ],
+    [
+     "PW",
+     2
+    ],
+    [
+     "TR",
+     2
+    ],
+    [
+     "RV",
+     1
+    ],
+    [
+     "ADX",
+     1
+    ]
+   ]
+  },
+  "Iteration Mobile": {
+   "n": 17,
+   "top": [
+    [
+     "EN",
+     4
+    ],
+    [
+     "NT",
+     4
+    ],
+    [
+     "CR",
+     3
+    ],
+    [
+     "ST",
+     3
+    ],
+    [
+     "WD",
+     2
+    ]
+   ]
+  },
+  "Hanh Le": {
+   "n": 35,
+   "top": [
+    [
+     "PL",
+     8
+    ],
+    [
+     "AD",
+     8
+    ],
+    [
+     "CR",
+     7
+    ],
+    [
+     "WR",
+     6
+    ],
+    [
+     "NT",
+     4
+    ]
+   ]
+  },
+  "Easy Pass": {
+   "n": 23,
+   "top": [
+    [
+     "NT",
+     5
+    ],
+    [
+     "CR",
+     4
+    ],
+    [
+     "PL",
+     3
+    ],
+    [
+     "ADX",
+     3
+    ],
+    [
+     "PW",
+     3
+    ]
+   ]
+  },
+  "Mapola": {
+   "n": 29,
+   "top": [
+    [
+     "CR",
+     7
+    ],
+    [
+     "NT",
+     7
+    ],
+    [
+     "BL",
+     6
+    ],
+    [
+     "SU",
+     4
+    ],
+    [
+     "WD",
+     3
+    ]
+   ]
+  },
+  "Wei Zhang": {
+   "n": 14,
+   "top": [
+    [
+     "NT",
+     7
+    ],
+    [
+     "WR",
+     4
+    ],
+    [
+     "WD",
+     4
+    ],
+    [
+     "ST",
+     2
+    ],
+    [
+     "MS",
+     1
+    ]
+   ]
+  },
+  "PATG": {
+   "n": 15,
+   "top": [
+    [
+     "CR",
+     5
+    ],
+    [
+     "NT",
+     4
+    ],
+    [
+     "SU",
+     3
+    ],
+    [
+     "WR",
+     3
+    ],
+    [
+     "WD",
+     3
+    ]
+   ]
+  },
+  "Wei Zhang/VZ": {
+   "n": 4,
+   "top": [
+    [
+     "NV",
+     1
+    ],
+    [
+     "ADX",
+     1
+    ],
+    [
+     "LP",
+     1
+    ],
+    [
+     "TR",
+     1
+    ],
+    [
+     "CR",
+     1
+    ]
+   ]
+  },
+  "CristCDL": {
+   "n": 6,
+   "top": [
+    [
+     "CR",
+     3
+    ],
+    [
+     "NT",
+     1
+    ],
+    [
+     "WD",
+     1
+    ],
+    [
+     "ST",
+     1
+    ],
+    [
+     "AU",
+     1
+    ]
+   ]
+  },
+  "DMV Written Test": {
+   "n": 17,
+   "top": [
+    [
+     "ON",
+     7
+    ],
+    [
+     "CR",
+     7
+    ],
+    [
+     "NT",
+     5
+    ],
+    [
+     "ST",
+     2
+    ],
+    [
+     "AD",
+     2
+    ]
+   ]
+  }
+ },
+ "legend": {
+  "PW": "Paywall too early / free tier unusable",
+  "PWM": "Paywall interrupts mid-test",
+  "PR": "Price too high / should be free",
+  "BL": "Can't cancel / charged after cancel / refund refused",
+  "TR": "\"Free\"/trial bait; charged immediately; card required",
+  "PL": "Paid but still locked / purchase or lifetime lost / ads after paying",
+  "AD": "Too many ads",
+  "ADX": "Ads break the flow (mid-question, can't close, block results, crash)",
+  "WR": "Wrong answer keys",
+  "NT": "Not on the real test / outdated / not in manual",
+  "RP": "Repeated questions within a test / small bank",
+  "EX": "Explanations missing or contradict answer",
+  "WD": "Confusing wording / grammar / reads like bad translation",
+  "RV": "Can't review wrong answers / no instant feedback / misses not re-asked",
+  "NV": "Confusing navigation / mis-taps / layout",
+  "LP": "Lost or reset progress",
+  "CR": "Crashes, freezes, won't load, scoring bugs",
+  "SL": "Slow / laggy",
+  "ST": "Wrong or missing state; other states' questions",
+  "EN": "Missing test/endorsement (TX Commercial Rules, Class B, hazmat depth)",
+  "MX": "Sections mixed up (bus Qs in combination etc.)",
+  "IMG": "References images that aren't shown",
+  "TX": "Text cut off / unreadable",
+  "AU": "Audio/TTS mispronounces",
+  "AC": "Account / cross-device sync problems",
+  "NO": "Unwanted notifications",
+  "RT": "Rating prompts / review-for-reward",
+  "SU": "No support / no response",
+  "LG": "Wants Spanish / other language",
+  "MS": "Doesn't teach; no study material/context",
+  "CE": "Forced ELDT/certificate upsell",
+  "AI": "Feels AI-generated / untested",
+  "ON": "Onboarding broken (state-picker loop)",
+  "PV": "Privacy / data sharing",
+  "NONE": "Not a complaint (off-topic or praise)"
+ }
+}

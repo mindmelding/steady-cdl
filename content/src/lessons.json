@@ -1,0 +1,38 @@
+[
+  {
+    "id": "AB-L01",
+    "unit_id": "NAT-AIR_BRAKES",
+    "order": 1,
+    "title": "Low air warnings",
+    "minutes": 4,
+    "why": "Your truck warns you when air pressure in the service tank gets low. Knowing the warning point tells you when to act.",
+    "key_facts": [
+      {
+        "label": "Warning comes on",
+        "text": "Before service reservoir pressure falls below 60 psi, or half the governor cut-out pressure if that is lower",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.51",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.51"
+        }
+      },
+      {
+        "label": "Which number applies",
+        "text": "The lower of the two",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.51",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.51"
+        }
+      }
+    ],
+    "step_ids": [
+      "AB-LOWAIR-001",
+      "AB-LOWAIR-002",
+      "AB-LOWAIR-003",
+      "AB-LOWAIR-004",
+      "AB-LOWAIR-005"
+    ],
+    "free": true
+  }
+]
