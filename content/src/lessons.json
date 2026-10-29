@@ -34,5 +34,1092 @@
       "AB-LOWAIR-005"
     ],
     "free": true
+  },
+  {
+    "id": "AB-L02",
+    "unit_id": "NAT-AIR_BRAKES",
+    "order": 2,
+    "title": "Brake system basics",
+    "minutes": 4,
+    "why": "Every commercial vehicle needs brakes that can stop it and hold it. The rules say how the brake systems must be set up.",
+    "key_facts": [
+      {
+        "label": "Overall rule",
+        "text": "Brakes must be able to stop and hold the vehicle or combination",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.40",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.40"
+        }
+      },
+      {
+        "label": "Where brakes go",
+        "text": "Brakes must act on all wheels, with a few listed exceptions",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.42",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.42"
+        }
+      },
+      {
+        "label": "One valve",
+        "text": "One application valve operates all service brakes on a power-braked vehicle",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.49",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.49"
+        }
+      },
+      {
+        "label": "Emergency brake",
+        "text": "The driver must be able to apply it from the normal seat while belted",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.40",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.40"
+        }
+      }
+    ],
+    "step_ids": [
+      "AB-BASIC-001",
+      "AB-BASIC-002",
+      "AB-BASIC-003",
+      "AB-BASIC-004",
+      "AB-BASIC-005"
+    ],
+    "free": false
+  },
+  {
+    "id": "AB-L03",
+    "unit_id": "NAT-AIR_BRAKES",
+    "order": 3,
+    "title": "Towing and emergency braking",
+    "minutes": 4,
+    "why": "If a trailer comes loose or air leaks, the truck must keep its air and the trailer must stop. Special valves and controls make that happen.",
+    "key_facts": [
+      {
+        "label": "Tractor protection valve",
+        "text": "Closes by itself when towing-unit air falls to between 20 and 45 psi",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.43",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.43"
+        }
+      },
+      {
+        "label": "Two controls",
+        "text": "One automatic and one manual control the seated driver can reach",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.43",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.43"
+        }
+      },
+      {
+        "label": "If trailer breaks away",
+        "text": "The towing vehicle's service brakes must still stop it",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.43",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.43"
+        }
+      },
+      {
+        "label": "Relay valves",
+        "text": "Trailers use no-bleed-back relay emergency valves",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.43",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.43"
+        }
+      }
+    ],
+    "step_ids": [
+      "AB-TOW-001",
+      "AB-TOW-002",
+      "AB-TOW-003",
+      "AB-TOW-004",
+      "AB-TOW-005"
+    ],
+    "free": false
+  },
+  {
+    "id": "AB-L04",
+    "unit_id": "NAT-AIR_BRAKES",
+    "order": 4,
+    "title": "Air tanks and brake lines",
+    "minutes": 4,
+    "why": "Air tanks and brake lines must stay in good shape. A leak or kink in the wrong place can cost you your brakes.",
+    "key_facts": [
+      {
+        "label": "Drain valve",
+        "text": "Each air reservoir needs a drain valve you can open by hand",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.50",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.50"
+        }
+      },
+      {
+        "label": "Check valves",
+        "text": "They protect against pressure loss from a leak between the tank and its source",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.50",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.50"
+        }
+      },
+      {
+        "label": "Tubing and hoses",
+        "text": "Secured against chafing and kinking, and kept away from the exhaust and other heat",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.45",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.45"
+        }
+      },
+      {
+        "label": "Coiled tubing",
+        "text": "Only between a towing vehicle and a towed vehicle (or an adjustable axle subframe)",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.45",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.45"
+        }
+      }
+    ],
+    "step_ids": [
+      "AB-LINE-001",
+      "AB-LINE-002",
+      "AB-LINE-003",
+      "AB-LINE-004",
+      "AB-LINE-005"
+    ],
+    "free": false
+  },
+  {
+    "id": "AB-L05",
+    "unit_id": "NAT-AIR_BRAKES",
+    "order": 5,
+    "title": "Gauges and brake adjusters",
+    "minutes": 4,
+    "why": "Your gauge and warning signal tell you what the air system is doing. Automatic adjusters and indicators help keep your brakes in adjustment.",
+    "key_facts": [
+      {
+        "label": "Gauge and warning",
+        "text": "Air-braked vehicles must have a pressure gauge and a warning signal",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.51",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.51"
+        }
+      },
+      {
+        "label": "What the gauge shows",
+        "text": "The air pressure available for braking",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.51",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.51"
+        }
+      },
+      {
+        "label": "Automatic adjusters",
+        "text": "Required on air-braked CMVs made on or after October 20, 1994",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.53",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.53"
+        }
+      },
+      {
+        "label": "Adjustment indicator",
+        "text": "Shows when the service brakes are under-adjusted",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.53",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.53"
+        }
+      }
+    ],
+    "step_ids": [
+      "AB-ADJ-001",
+      "AB-ADJ-002",
+      "AB-ADJ-003",
+      "AB-ADJ-004",
+      "AB-ADJ-005"
+    ],
+    "free": false
+  },
+  {
+    "id": "GK-L01",
+    "unit_id": "NAT-GK",
+    "order": 1,
+    "title": "Commercial learner's permit",
+    "minutes": 4,
+    "why": "A commercial learner's permit (CLP) lets you practice driving a commercial vehicle on public roads. You must have a CDL holder beside you the whole time.",
+    "key_facts": [
+      {
+        "label": "How long it lasts",
+        "text": "No more than one year from the first issue date, unless you retake the knowledge tests",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "383.25",
+          "url": "https://www.ecfr.gov/current/title-49/section-383.25"
+        }
+      },
+      {
+        "label": "Wait for the skills test",
+        "text": "You may not take the CDL skills test in the first 14 days",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "383.25",
+          "url": "https://www.ecfr.gov/current/title-49/section-383.25"
+        }
+      },
+      {
+        "label": "Who rides with you",
+        "text": "A CDL holder with the right group and endorsements, seated next to you in a truck",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "383.25",
+          "url": "https://www.ecfr.gov/current/title-49/section-383.25"
+        }
+      },
+      {
+        "label": "No hazmat",
+        "text": "A CLP holder may not drive a vehicle that carries hazardous materials",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "383.25",
+          "url": "https://www.ecfr.gov/current/title-49/section-383.25"
+        }
+      }
+    ],
+    "step_ids": [
+      "GK-CLP-001",
+      "GK-CLP-002",
+      "GK-CLP-003",
+      "GK-CLP-004",
+      "GK-CLP-005"
+    ],
+    "free": true
+  },
+  {
+    "id": "GK-L02",
+    "unit_id": "NAT-GK",
+    "order": 2,
+    "title": "Disqualifications",
+    "minutes": 5,
+    "why": "Some offenses take away your right to drive a commercial vehicle. Knowing how long each one lasts helps you protect your license.",
+    "key_facts": [
+      {
+        "label": "First major offense",
+        "text": "1 year, or 3 years if you were hauling hazardous materials",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "383.51",
+          "url": "https://www.ecfr.gov/current/title-49/section-383.51"
+        }
+      },
+      {
+        "label": "Second major offense",
+        "text": "Disqualified for life, from a separate incident",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "383.51",
+          "url": "https://www.ecfr.gov/current/title-49/section-383.51"
+        }
+      },
+      {
+        "label": "Serious traffic violations",
+        "text": "60 days for a second in 3 years, 120 days for a third",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "383.51",
+          "url": "https://www.ecfr.gov/current/title-49/section-383.51"
+        }
+      },
+      {
+        "label": "Speeding",
+        "text": "Serious when 15 mph or more over the limit",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "383.51",
+          "url": "https://www.ecfr.gov/current/title-49/section-383.51"
+        }
+      }
+    ],
+    "step_ids": [
+      "GK-DQ-001",
+      "GK-DQ-002",
+      "GK-DQ-003",
+      "GK-DQ-004",
+      "GK-DQ-005",
+      "GK-DQ-006"
+    ],
+    "free": false
+  },
+  {
+    "id": "GK-L03",
+    "unit_id": "NAT-GK",
+    "order": 3,
+    "title": "Alcohol and fatigue",
+    "minutes": 4,
+    "why": "Alcohol and tiredness both slow your reaction time. The federal rules set clear limits for both.",
+    "key_facts": [
+      {
+        "label": "Before duty",
+        "text": "No alcohol within 4 hours before going on duty or driving",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.5",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.5"
+        }
+      },
+      {
+        "label": "On duty",
+        "text": "No measured alcohol while on duty or in control of a CMV",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.5",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.5"
+        }
+      },
+      {
+        "label": "After a violation",
+        "text": "Placed out of service for 24 hours",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.5",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.5"
+        }
+      },
+      {
+        "label": "Tired or ill",
+        "text": "Do not drive if fatigue or illness makes driving unsafe",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.3",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.3"
+        }
+      }
+    ],
+    "step_ids": [
+      "GK-ALC-001",
+      "GK-ALC-002",
+      "GK-ALC-003",
+      "GK-ALC-004",
+      "GK-ALC-005"
+    ],
+    "free": false
+  },
+  {
+    "id": "GK-L04",
+    "unit_id": "NAT-GK",
+    "order": 4,
+    "title": "Phones and seat belts",
+    "minutes": 4,
+    "why": "Phones take your eyes and hands off the job. Federal rules limit phone use in a CMV and require seat belts.",
+    "key_facts": [
+      {
+        "label": "Texting",
+        "text": "Not allowed while driving, and driving includes stops in traffic with the engine running",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.80",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.80"
+        }
+      },
+      {
+        "label": "Hand-held phone",
+        "text": "Not allowed while driving, except to reach police or emergency services",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.82",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.82"
+        }
+      },
+      {
+        "label": "Safe stop",
+        "text": "Not driving once safely parked where the vehicle can remain stopped",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.80",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.80"
+        }
+      },
+      {
+        "label": "Seat belt",
+        "text": "Wear the installed belt whenever you drive a CMV",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.16",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.16"
+        }
+      }
+    ],
+    "step_ids": [
+      "GK-PHN-001",
+      "GK-PHN-002",
+      "GK-PHN-003",
+      "GK-PHN-004",
+      "GK-PHN-005"
+    ],
+    "free": false
+  },
+  {
+    "id": "GK-L05",
+    "unit_id": "NAT-GK",
+    "order": 5,
+    "title": "Hours of service",
+    "minutes": 5,
+    "why": "Tired drivers cause crashes. Hours-of-service rules limit how long a property-carrying driver can drive and work.",
+    "key_facts": [
+      {
+        "label": "Before you drive",
+        "text": "10 consecutive hours off duty",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "395.3",
+          "url": "https://www.ecfr.gov/current/title-49/section-395.3"
+        }
+      },
+      {
+        "label": "Driving limits",
+        "text": "11 hours of driving inside a 14-hour window",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "395.3",
+          "url": "https://www.ecfr.gov/current/title-49/section-395.3"
+        }
+      },
+      {
+        "label": "Break",
+        "text": "A 30-minute break once you pass 8 hours of driving",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "395.3",
+          "url": "https://www.ecfr.gov/current/title-49/section-395.3"
+        }
+      },
+      {
+        "label": "Weekly limits",
+        "text": "60 hours in 7 days, or 70 hours in 8 days; a 34-hour off-duty period restarts the count",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "395.3",
+          "url": "https://www.ecfr.gov/current/title-49/section-395.3"
+        }
+      }
+    ],
+    "step_ids": [
+      "GK-HOS-001",
+      "GK-HOS-002",
+      "GK-HOS-003",
+      "GK-HOS-004",
+      "GK-HOS-005",
+      "GK-HOS-006"
+    ],
+    "free": false
+  },
+  {
+    "id": "GK-L06",
+    "unit_id": "NAT-GK",
+    "order": 6,
+    "title": "Inspections and reports",
+    "minutes": 5,
+    "why": "You are responsible for knowing your vehicle is safe. Federal rules cover what you check, what you write down and how often the vehicle is inspected.",
+    "key_facts": [
+      {
+        "label": "Before driving",
+        "text": "Be satisfied that key parts work, including brakes, steering, lights, tires and coupling devices",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.7",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.7"
+        }
+      },
+      {
+        "label": "End of day",
+        "text": "Write a vehicle inspection report for each vehicle you drove",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "396.11",
+          "url": "https://www.ecfr.gov/current/title-49/section-396.11"
+        }
+      },
+      {
+        "label": "Records",
+        "text": "The carrier keeps the report and repair certification for 3 months",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "396.11",
+          "url": "https://www.ecfr.gov/current/title-49/section-396.11"
+        }
+      },
+      {
+        "label": "Periodic inspection",
+        "text": "Every CMV must pass an inspection at least once in 12 months",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "396.17",
+          "url": "https://www.ecfr.gov/current/title-49/section-396.17"
+        }
+      }
+    ],
+    "step_ids": [
+      "GK-INS-001",
+      "GK-INS-002",
+      "GK-INS-003",
+      "GK-INS-004",
+      "GK-INS-005",
+      "GK-INS-006"
+    ],
+    "free": false
+  },
+  {
+    "id": "GK-L07",
+    "unit_id": "NAT-GK",
+    "order": 7,
+    "title": "Cargo and tire checks",
+    "minutes": 5,
+    "why": "Loose cargo and worn tires cause many roadside problems. The rules say when to check cargo and how much tread tires need.",
+    "key_facts": [
+      {
+        "label": "First cargo check",
+        "text": "Within the first 50 miles of a trip",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.9",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.9"
+        }
+      },
+      {
+        "label": "Re-check cargo",
+        "text": "After a duty status change, 3 hours or 150 miles, whichever comes first",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.9",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.9"
+        }
+      },
+      {
+        "label": "Steering tires",
+        "text": "At least 4/32 inch of tread",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.75",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.75"
+        }
+      },
+      {
+        "label": "Other tires",
+        "text": "At least 2/32 inch of tread",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.75",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.75"
+        }
+      }
+    ],
+    "step_ids": [
+      "GK-CTR-001",
+      "GK-CTR-002",
+      "GK-CTR-003",
+      "GK-CTR-004",
+      "GK-CTR-005",
+      "GK-CTR-006"
+    ],
+    "free": false
+  },
+  {
+    "id": "GK-L08",
+    "unit_id": "NAT-GK",
+    "order": 8,
+    "title": "Stopped vehicles and emergency gear",
+    "minutes": 5,
+    "why": "A stopped truck is a hazard to other drivers. You need to warn traffic fast and carry the right emergency equipment.",
+    "key_facts": [
+      {
+        "label": "First step",
+        "text": "Turn on the hazard flashers when you stop on the road or shoulder",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.22",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.22"
+        }
+      },
+      {
+        "label": "Warning devices",
+        "text": "Place them as soon as possible, within 10 minutes",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.22",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.22"
+        }
+      },
+      {
+        "label": "Where to place",
+        "text": "About 10 feet, 100 feet ahead and 100 feet behind; on divided roads 200 feet, 100 feet and within 10 feet of the rear",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "392.22",
+          "url": "https://www.ecfr.gov/current/title-49/section-392.22"
+        }
+      },
+      {
+        "label": "Fire extinguisher",
+        "text": "One rated 10 B:C if you carry placarded hazmat",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.95",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.95"
+        }
+      }
+    ],
+    "step_ids": [
+      "GK-STP-001",
+      "GK-STP-002",
+      "GK-STP-003",
+      "GK-STP-004",
+      "GK-STP-005",
+      "GK-STP-006"
+    ],
+    "free": false
+  },
+  {
+    "id": "CB-L01",
+    "unit_id": "NAT-COMBINATION",
+    "order": 1,
+    "title": "Coupling devices",
+    "minutes": 4,
+    "why": "A tractor and trailer are held together by a coupling device. The rules say how it must lock and what backup is needed.",
+    "key_facts": [
+      {
+        "label": "Fifth wheel lock",
+        "text": "Must stop the halves from separating unless a positive manual release is used",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.70",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.70"
+        }
+      },
+      {
+        "label": "Tracking",
+        "text": "The trailer may deviate no more than 3 inches to either side of the towing vehicle's path",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.70",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.70"
+        }
+      },
+      {
+        "label": "Safety devices",
+        "text": "Chains, cables or a bridle connect a full trailer to the towing vehicle's frame",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.70",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.70"
+        }
+      },
+      {
+        "label": "Safety device strength",
+        "text": "At least the gross weight of the vehicle being towed",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.70",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.70"
+        }
+      }
+    ],
+    "step_ids": [
+      "CB-CPL-001",
+      "CB-CPL-002",
+      "CB-CPL-003",
+      "CB-CPL-004",
+      "CB-CPL-005"
+    ],
+    "free": true
+  },
+  {
+    "id": "CB-L02",
+    "unit_id": "NAT-COMBINATION",
+    "order": 2,
+    "title": "Trailer lights and guards",
+    "minutes": 4,
+    "why": "Other drivers need to see your trailer and stay clear of its rear. Required lights, reflective tape and rear guards help with that.",
+    "key_facts": [
+      {
+        "label": "Lamp colors",
+        "text": "Stop lamps and tail lamps must be red; amber stop or tail lamps are not allowed",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.11",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.11"
+        }
+      },
+      {
+        "label": "Conspicuity",
+        "text": "Trailers 80 inches or wider, over 10,000 pounds GVWR, made on or after December 1, 1993 need it",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.11",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.11"
+        }
+      },
+      {
+        "label": "Rear impact guard",
+        "text": "Trailers made on or after January 26, 1998 with 10,000 pounds GVWR or more generally need one",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.86",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.86"
+        }
+      },
+      {
+        "label": "Guard height",
+        "text": "Bottom edge no more than 22 inches off the ground",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.86",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.86"
+        }
+      }
+    ],
+    "step_ids": [
+      "CB-LGT-001",
+      "CB-LGT-002",
+      "CB-LGT-003",
+      "CB-LGT-004",
+      "CB-LGT-005"
+    ],
+    "free": false
+  },
+  {
+    "id": "CB-L03",
+    "unit_id": "NAT-COMBINATION",
+    "order": 3,
+    "title": "Trailer brakes and ABS",
+    "minutes": 4,
+    "why": "Trailer brakes must work even if the trailer comes loose. Newer rigs also have ABS lamps that warn you of a problem.",
+    "key_facts": [
+      {
+        "label": "Breakaway",
+        "text": "A trailer's required brakes must apply automatically and immediately",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.43",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.43"
+        }
+      },
+      {
+        "label": "Hold time",
+        "text": "On trailers with fewer than three axles, they stay applied at least 15 minutes",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.43",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.43"
+        }
+      },
+      {
+        "label": "Surge brakes",
+        "text": "Allowed on a trailer up to 12,000 pounds GVWR if no more than 1.75 times the towing vehicle's GVWR",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.48",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.48"
+        }
+      },
+      {
+        "label": "ABS",
+        "text": "Air-braked trailers made on or after March 1, 1998 need an exterior ABS lamp",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "393.55",
+          "url": "https://www.ecfr.gov/current/title-49/section-393.55"
+        }
+      }
+    ],
+    "step_ids": [
+      "CB-BRK-001",
+      "CB-BRK-002",
+      "CB-BRK-003",
+      "CB-BRK-004",
+      "CB-BRK-005"
+    ],
+    "free": false
+  },
+  {
+    "id": "HM-L01",
+    "unit_id": "NAT-HAZMAT",
+    "order": 1,
+    "title": "Shipping papers",
+    "minutes": 5,
+    "why": "Shipping papers tell you and first responders what is in your load. They must be written correctly and kept where they can be found fast.",
+    "key_facts": [
+      {
+        "label": "Description order",
+        "text": "ID number, proper shipping name, hazard class, packing group",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "172.202",
+          "url": "https://www.ecfr.gov/current/title-49/section-172.202"
+        }
+      },
+      {
+        "label": "Quantity",
+        "text": "Total quantity with a unit of measure",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "172.202",
+          "url": "https://www.ecfr.gov/current/title-49/section-172.202"
+        }
+      },
+      {
+        "label": "While driving",
+        "text": "Within reach when belted in, and visible or in the driver's door holder",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "177.817",
+          "url": "https://www.ecfr.gov/current/title-49/section-177.817"
+        }
+      },
+      {
+        "label": "Out of the cab",
+        "text": "In the driver's door holder or on the driver's seat",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "177.817",
+          "url": "https://www.ecfr.gov/current/title-49/section-177.817"
+        }
+      }
+    ],
+    "step_ids": [
+      "HM-PAP-001",
+      "HM-PAP-002",
+      "HM-PAP-003",
+      "HM-PAP-004",
+      "HM-PAP-005",
+      "HM-PAP-006"
+    ],
+    "free": true
+  },
+  {
+    "id": "HM-L02",
+    "unit_id": "NAT-HAZMAT",
+    "order": 2,
+    "title": "Placards",
+    "minutes": 5,
+    "why": "Placards warn other people about your load. Whether you need one depends on the hazard class and how much you carry.",
+    "key_facts": [
+      {
+        "label": "Any amount",
+        "text": "Explosives 1.1 to 1.3, poison gas, dangerous when wet, poison inhalation hazard, and Radioactive Yellow III",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "172.504",
+          "url": "https://www.ecfr.gov/current/title-49/section-172.504"
+        }
+      },
+      {
+        "label": "Other classes",
+        "text": "Placards are needed at 1,001 pounds total gross weight or more",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "172.504",
+          "url": "https://www.ecfr.gov/current/title-49/section-172.504"
+        }
+      },
+      {
+        "label": "Bulk packaging",
+        "text": "Placard any amount on each side and each end",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "172.504",
+          "url": "https://www.ecfr.gov/current/title-49/section-172.504"
+        }
+      },
+      {
+        "label": "DANGEROUS placard",
+        "text": "May replace separate placards for non-bulk loads of two or more categories",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "172.504",
+          "url": "https://www.ecfr.gov/current/title-49/section-172.504"
+        }
+      }
+    ],
+    "step_ids": [
+      "HM-PLC-001",
+      "HM-PLC-002",
+      "HM-PLC-003",
+      "HM-PLC-004",
+      "HM-PLC-005"
+    ],
+    "free": false
+  },
+  {
+    "id": "HM-L03",
+    "unit_id": "NAT-HAZMAT",
+    "order": 3,
+    "title": "Emergency response information",
+    "minutes": 4,
+    "why": "If there is a spill or fire, responders need to know what to do. Emergency response information must go with every shipment and be easy to reach.",
+    "key_facts": [
+      {
+        "label": "What it includes",
+        "text": "Hazards, fire and explosion risks, spill steps and first aid",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "172.602",
+          "url": "https://www.ecfr.gov/current/title-49/section-172.602"
+        }
+      },
+      {
+        "label": "Language",
+        "text": "Printed legibly in English",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "172.602",
+          "url": "https://www.ecfr.gov/current/title-49/section-172.602"
+        }
+      },
+      {
+        "label": "Where it can be",
+        "text": "On a shipping paper, in another document, or in a separate document tied to the shipping paper entry",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "172.602",
+          "url": "https://www.ecfr.gov/current/title-49/section-172.602"
+        }
+      },
+      {
+        "label": "Access",
+        "text": "Immediately accessible to drivers for use in incidents",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "172.602",
+          "url": "https://www.ecfr.gov/current/title-49/section-172.602"
+        }
+      }
+    ],
+    "step_ids": [
+      "HM-ERI-001",
+      "HM-ERI-002",
+      "HM-ERI-003",
+      "HM-ERI-004",
+      "HM-ERI-005"
+    ],
+    "free": false
+  },
+  {
+    "id": "HM-L04",
+    "unit_id": "NAT-HAZMAT",
+    "order": 4,
+    "title": "Loading and mixing",
+    "minutes": 5,
+    "why": "Some hazardous materials can react if they ride together. The segregation table shows which ones must stay apart.",
+    "key_facts": [
+      {
+        "label": "X on the table",
+        "text": "Materials may not be loaded, carried or stored together in the same vehicle",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "177.848",
+          "url": "https://www.ecfr.gov/current/title-49/section-177.848"
+        }
+      },
+      {
+        "label": "O on the table",
+        "text": "Not stored together unless separated so a leak would not mix them",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "177.848",
+          "url": "https://www.ecfr.gov/current/title-49/section-177.848"
+        }
+      },
+      {
+        "label": "Cyanides and acids",
+        "text": "Not carried together if hydrogen cyanide could form",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "177.848",
+          "url": "https://www.ecfr.gov/current/title-49/section-177.848"
+        }
+      },
+      {
+        "label": "Class 8 liquids",
+        "text": "Not loaded above or next to Class 4 or Class 5 materials",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "177.848",
+          "url": "https://www.ecfr.gov/current/title-49/section-177.848"
+        }
+      }
+    ],
+    "step_ids": [
+      "HM-SEG-001",
+      "HM-SEG-002",
+      "HM-SEG-003",
+      "HM-SEG-004",
+      "HM-SEG-005"
+    ],
+    "free": false
+  },
+  {
+    "id": "HM-L05",
+    "unit_id": "NAT-HAZMAT",
+    "order": 5,
+    "title": "Parking, fuel and tires",
+    "minutes": 5,
+    "why": "Part 397 sets driver rules for hazmat loads: who watches the vehicle, where to park, no smoking, safe fueling and tire checks.",
+    "key_facts": [
+      {
+        "label": "Attended",
+        "text": "Person in charge is on the vehicle awake, or within 100 feet with it in clear view",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "397.5",
+          "url": "https://www.ecfr.gov/current/title-49/section-397.5"
+        }
+      },
+      {
+        "label": "Parking",
+        "text": "Not on or within 5 feet of the traveled part of a public road",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "397.7",
+          "url": "https://www.ecfr.gov/current/title-49/section-397.7"
+        }
+      },
+      {
+        "label": "Smoking",
+        "text": "No lit cigarettes, cigars or pipes on or within 25 feet of certain loads",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "397.13",
+          "url": "https://www.ecfr.gov/current/title-49/section-397.13"
+        }
+      },
+      {
+        "label": "Tires",
+        "text": "Check every tire at the start of each trip and each time the vehicle is parked",
+        "citation": {
+          "doc": "49 CFR",
+          "locator": "397.17",
+          "url": "https://www.ecfr.gov/current/title-49/section-397.17"
+        }
+      }
+    ],
+    "step_ids": [
+      "HM-OPS-001",
+      "HM-OPS-002",
+      "HM-OPS-003",
+      "HM-OPS-004",
+      "HM-OPS-005",
+      "HM-OPS-006"
+    ],
+    "free": false
   }
 ]
