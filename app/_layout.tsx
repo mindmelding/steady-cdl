@@ -8,6 +8,7 @@ import { ThemeProvider } from '../src/theme/theme';
 import { getDevFontScale } from '../src/theme/devFontScale';
 import { initDatabases } from '../src/db/init';
 import { useSettingsStore } from '../src/state/settingsStore';
+import { usePurchasesStore } from '../src/state/purchasesStore';
 import { useReviewStore } from '../src/state/reviewStore';
 
 void SplashScreen.preventAutoHideAsync();
@@ -20,12 +21,14 @@ export default function RootLayout() {
   const [ready, setReady] = useState(false);
   const [dbError, setDbError] = useState<string | null>(null);
   const sun = useSettingsStore((s) => s.settings.sunMode);
+  const textSize = useSettingsStore((s) => s.settings.textSize);
 
   useEffect(() => {
     (async () => {
       try {
         await initDatabases();
         await useSettingsStore.getState().load();
+        await usePurchasesStore.getState().load();
         await useReviewStore.getState().refresh();
         setReady(true);
       } catch (e) {
@@ -44,7 +47,7 @@ export default function RootLayout() {
 
   return (
     <SafeAreaProvider>
-      <ThemeProvider sun={sun} devFontScale={DEV_FONT_SCALE}>
+      <ThemeProvider sun={sun} devFontScale={DEV_FONT_SCALE * textSize}>
         <Stack
           screenOptions={{ headerShown: false, contentStyle: { backgroundColor: '#FFFFFF' } }}
         />
