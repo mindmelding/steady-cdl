@@ -25,7 +25,10 @@ export interface ResolvedType {
 
 export interface Theme {
   sun: boolean;
-  /** Extra multiplier applied on top of the OS font scale. Always 1 on device; dev-only on web. */
+  /**
+   * Extra multiplier applied on top of the OS font scale: the in-app Text size setting (1, 1.15,
+   * 1.3) times the dev-only `?fontScale` on web.
+   */
   devFontScale: number;
   color: typeof color & { sub: string; line: string; track: string };
   border: { thin: number; strong: number };
