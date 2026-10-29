@@ -87,11 +87,11 @@ async function pick(page, q, how) {
         await page.waitForTimeout(250);
       }
     };
-    const click = (name, opts = {}) =>
+    const click = (name, { timeout = 30000, ...opts } = {}) =>
       page
         .getByRole('button', { name, ...opts })
         .first()
-        .click();
+        .click({ timeout });
     const tab = (name) => page.getByRole('tab', { name }).first().click();
 
     // 1. Onboarding
@@ -108,7 +108,19 @@ async function pick(page, q, how) {
     let q = await currentQuestion(page);
     await pick(page, q, 'wrong');
     await shot('03-placement-question');
-    await click(/Finish check|Next/);
+    // Answer the rest of the check (up to 10), wrong on purpose, until it finishes.
+    for (let i = 0; i < 12; i++) {
+      await click(/^(Finish check|Next)$/);
+      const done = page.getByText('Check done');
+      const next = page.getByLabel(/^Option A:/).first();
+      await Promise.race([
+        done.waitFor({ timeout: 30000 }),
+        gone(page, q).then(() => next.waitFor({ timeout: 30000 })),
+      ]).catch(() => {});
+      if (await done.isVisible().catch(() => false)) break;
+      q = await currentQuestion(page);
+      await pick(page, q, 'wrong');
+    }
     await page.getByText('Check done').waitFor();
     await shot('04-placement-done');
     await click('Continue');
@@ -163,7 +175,16 @@ async function pick(page, q, how) {
       .waitFor();
     await shot('12-lesson-complete');
     await click('Continue');
-    await page.getByRole('button', { name: 'Settings' }).waitFor();
+    // The next lesson is locked, so finishing the free lesson reaches the unit boundary and the
+    // paywall may open here (allowed: not mid-lesson). Shoot it and close it.
+    const settingsBtn = page.getByRole('button', { name: 'Settings' });
+    const payOnce = page.getByText('Pay once.').first();
+    await Promise.race([settingsBtn.waitFor(), payOnce.waitFor()]);
+    if (await payOnce.isVisible().catch(() => false)) {
+      await shot('12b-paywall-after-free-lesson');
+      await page.getByRole('button', { name: 'Close', exact: true }).first().click();
+    }
+    await settingsBtn.waitFor();
 
     // 4. Home after the free lesson, Review with items
     await page.waitForTimeout(600);
@@ -178,13 +199,17 @@ async function pick(page, q, how) {
       .getByText(/Practice test/)
       .first()
       .click();
-    for (let i = 0; i < 5; i++) {
-      q = await currentQuestion(page);
-      if (i === 0) await pick(page, q, 'wrong');
-      else await pick(page, q, i === 1 ? 'wrong' : 'right');
+    // Answer every question until Results; the length comes from the "1 of N" counter.
+    q = await currentQuestion(page);
+    const counter = (await page.locator('body').innerText()).match(/1 of (\d+)/);
+    const total = counter ? Number(counter[1]) : 5;
+    for (let i = 0; i < total; i++) {
+      if (i > 0) q = await currentQuestion(page);
+      await pick(page, q, i < 2 ? 'wrong' : 'right');
       if (i === 0) await shot('15-practice-question');
-      await click(i === 4 ? 'Finish test' : 'Next');
-      if (i < 4) await gone(page, q);
+      const last = i === total - 1;
+      await click(last ? 'Finish test' : 'Next', { timeout: 20000, exact: true });
+      if (!last) await gone(page, q);
     }
     await page.getByRole('button', { name: /Replay \d+ mistakes?/ }).waitFor();
     await shot('16-results');
