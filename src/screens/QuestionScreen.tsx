@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
+import { goHome } from '../nav';
 import { AccessibilityInfo, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { AppText } from '../components/AppText';
@@ -6,10 +7,13 @@ import { copy, stateName } from '../copy';
 import type { Lesson, Question } from '../db/content/types';
 import { lightTap } from '../haptics';
 import { speak, stopSpeaking } from '../speech';
+import { useActivityScope } from '../state/activity';
+import { queueReport } from '../state/reports';
 import { getContentRepo } from '../state/runtime';
 import { useLessonStore } from '../state/lessonStore';
 import { useSettingsStore } from '../state/settingsStore';
 import { useTheme } from '../theme/theme';
+import { proofInfoFor, readAloudText } from './proofInfo';
 import { QuestionView } from './QuestionView';
 
 type Loaded = { lesson: Lesson; questions: Question[] } | 'missing' | null;
@@ -24,6 +28,7 @@ export function badgeFor(q: Question): string {
 export function QuestionScreen({ lessonId, step }: { lessonId: string; step: number }) {
   const router = useRouter();
   const theme = useTheme();
+  useActivityScope('lesson');
   const settings = useSettingsStore((s) => s.settings);
   const progress = useLessonStore((s) => s.progress);
   const [data, setData] = useState<Loaded>(null);
@@ -56,7 +61,7 @@ export function QuestionScreen({ lessonId, step }: { lessonId: string; step: num
   const close = useCallback(() => {
     stopSpeaking();
     if (router.canGoBack()) router.back();
-    else router.replace('/learn');
+    else goHome(router);
   }, [router]);
 
   if (data === 'missing') {
@@ -100,6 +105,8 @@ export function QuestionScreen({ lessonId, step }: { lessonId: string; step: num
       isLast={stepIndex === questions.length - 1}
       flagged={flagged}
       speaking={speaking}
+      proof={proofInfoFor(q)}
+      onReport={(reason, note) => queueReport(q.id, reason, note)}
       onSelect={(i) => {
         void lightTap(settings.haptics);
         void store.select(i);
@@ -127,9 +134,8 @@ export function QuestionScreen({ lessonId, step }: { lessonId: string; step: num
           setSpeaking(false);
           return;
         }
-        const opts = q.options.map((o, i) => `${String.fromCharCode(65 + i)}. ${o}.`).join(' ');
         setSpeaking(true);
-        speak(`${q.question} ${opts}`, {
+        speak(readAloudText(q, progress.checked), {
           rate: settings.speed,
           voice: settings.voice,
           onDone: () => setSpeaking(false),

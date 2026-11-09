@@ -464,3 +464,6 @@ Approved by Sean on Wed Oct 28, 2026 (PT). These are requirements now, not quest
 - Never invent regulatory facts. Content you draft is `review_status: 'draft'` until verified; mark unknowns [VERIFY].
 - Keep all user-facing strings in one `copy.ts` so the "never say" list can be linted. Fail CI on: "guarantee", "pass first", "real test questions", "actual test", "streak", "pass rate". "Official"/"DMV"/"DPS"/"FMCSA" may appear only in source lines (e.g. "official manual", "Source: TX DPS"), never in the app name, title, headlines or claims.
 - Ask before adding any dependency that phones home. Ask before any purchase or external account action.
+
+## Learnings
+- In Playwright scripts, match button names with `exact: true` (e.g. 'Next', 'Check'), because `getByRole` name matching is a substring match and an answer option like "next to the CLP holder" will be clicked instead.

@@ -221,6 +221,14 @@ describe('copy lint', () => {
     expect(run("export const copy = { streak_free: 'ok' };")).toEqual([]);
   });
 
+  it('allows only the negated disclaimer "not a guarantee"', () => {
+    expect(run("export const copy = { a: 'A study guide, not a guarantee.' };")).toEqual([]);
+    expect(run("export const copy = { a: 'This is a guarantee, not a guarantee.' }")).toHaveLength(
+      1,
+    );
+    expect(run("export const copy = { a: 'A pass guarantee' };")).toHaveLength(1);
+  });
+
   it('reports the key path of the offending string', () => {
     const v = lintCopySource("export const copy = { paywall: { title: 'A guarantee' } };");
     expect(v[0].key).toBe('copy.paywall.title'.replace('copy.', ''));

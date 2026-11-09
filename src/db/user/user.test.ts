@@ -26,6 +26,8 @@ describe('user DB migrations', () => {
       'pending_reports',
       'test_date',
       'settings',
+      'lesson_done',
+      'test_runs',
     ]) {
       expect(tables).toContain(t);
     }
@@ -36,14 +38,15 @@ describe('user DB migrations', () => {
 
   it('is idempotent and applies later migrations only once', async () => {
     const db = memoryDriver();
-    expect(await migrate(db, USER_MIGRATIONS)).toBe(1);
-    expect(await migrate(db, USER_MIGRATIONS)).toBe(1);
+    const last = USER_MIGRATIONS.at(-1)!.version;
+    expect(await migrate(db, USER_MIGRATIONS)).toBe(last);
+    expect(await migrate(db, USER_MIGRATIONS)).toBe(last);
     const extra = [
       ...USER_MIGRATIONS,
-      { version: 2, sql: 'ALTER TABLE settings ADD COLUMN extra INTEGER' },
+      { version: last + 1, sql: 'ALTER TABLE settings ADD COLUMN extra INTEGER' },
     ];
-    expect(await migrate(db, extra)).toBe(2);
-    expect(await migrate(db, extra)).toBe(2);
+    expect(await migrate(db, extra)).toBe(last + 1);
+    expect(await migrate(db, extra)).toBe(last + 1);
   });
 
   it('rolls back a failing migration and keeps the old version', async () => {
@@ -52,10 +55,15 @@ describe('user DB migrations', () => {
     await expect(
       migrate(db, [
         ...USER_MIGRATIONS,
-        { version: 2, sql: 'CREATE TABLE ok (a); CREATE TABLE ok (a);' },
+        {
+          version: USER_MIGRATIONS.at(-1)!.version + 1,
+          sql: 'CREATE TABLE ok (a); CREATE TABLE ok (a);',
+        },
       ]),
     ).rejects.toThrow();
-    expect((await db.get<{ user_version: number }>('PRAGMA user_version'))!.user_version).toBe(1);
+    expect((await db.get<{ user_version: number }>('PRAGMA user_version'))!.user_version).toBe(
+      USER_MIGRATIONS.at(-1)!.version,
+    );
   });
 });
 
@@ -69,6 +77,9 @@ describe('UserRepo', () => {
       voice: null,
       speed: 1,
       dailyMinutesGoal: null,
+      trackState: null,
+      goal: null,
+      onboarded: false,
     });
     await repo.saveSettings({
       textSize: 1.2,
@@ -77,6 +88,9 @@ describe('UserRepo', () => {
       voice: 'x',
       speed: 1.5,
       dailyMinutesGoal: 15,
+      trackState: 'TX',
+      goal: 'permit',
+      onboarded: true,
     });
     expect((await repo.getSettings()).sunMode).toBe(true);
   });
@@ -167,5 +181,44 @@ describe('UserRepo', () => {
     expect(await repo.getTestDate()).toBeNull();
     await repo.setTestDate('2026-11-18');
     expect(await repo.getTestDate()).toBe('2026-11-18');
+  });
+
+  it('lesson_done: a replay never downgrades a completion; tested out is remembered', async () => {
+    const { repo } = await fresh();
+    await repo.markLessonDone('A', 'tested_out', 1);
+    await repo.markLessonDone('B', 'completed', 2);
+    await repo.markLessonDone('B', 'tested_out', 3);
+    await repo.markLessonDone('A', 'completed', 4);
+    expect([...(await repo.listDoneLessons())]).toEqual([
+      ['A', 'completed'],
+      ['B', 'completed'],
+    ]);
+  });
+
+  it('test runs: create, autosave answers, resume the active run, finish', async () => {
+    const { repo } = await fresh();
+    const id = await repo.createRun('unit_check', 'U1', ['q1', 'q2', 'q3'], 80, 10);
+    expect(await repo.getRun(id)).toMatchObject({
+      kind: 'unit_check',
+      unitId: 'U1',
+      answers: [null, null, null],
+      step: 0,
+      finished: false,
+      passPct: 80,
+    });
+    await repo.saveRunAnswer(id, 0, 2, 1);
+    expect(await repo.getActiveRun('unit_check', 'U1')).toMatchObject({
+      id,
+      answers: [2, null, null],
+      step: 1,
+    });
+    expect(await repo.getActiveRun('unit_check', 'U2')).toBeNull();
+    expect(await repo.getActiveRun('practice', 'U1')).toBeNull();
+    await repo.finishRun(id, 20);
+    expect(await repo.getActiveRun('unit_check', 'U1')).toBeNull();
+    await repo.saveRunAnswer(id, 1, 1, 2); // ignored once finished
+    expect((await repo.getRun(id))!.answers).toEqual([2, null, null]);
+    const p = await repo.createRun('placement', null, ['q'], null, 30);
+    expect(await repo.getActiveRun('placement', null)).toMatchObject({ id: p, passPct: null });
   });
 });

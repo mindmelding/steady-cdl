@@ -4,9 +4,64 @@
     "section": "AIR_BRAKES",
     "state": "NAT",
     "title": "Air Brakes",
-    "order": 1,
-    "lesson_ids": ["AB-L01"],
+    "order": 2,
+    "lesson_ids": [
+      "AB-L01",
+      "AB-L02",
+      "AB-L03",
+      "AB-L04",
+      "AB-L05"
+    ],
     "unit_check_count": 25,
     "entitlement": "permit"
+  },
+  {
+    "id": "NAT-GK",
+    "section": "GK",
+    "state": "NAT",
+    "title": "General Knowledge",
+    "order": 1,
+    "lesson_ids": [
+      "GK-L01",
+      "GK-L02",
+      "GK-L03",
+      "GK-L04",
+      "GK-L05",
+      "GK-L06",
+      "GK-L07",
+      "GK-L08"
+    ],
+    "unit_check_count": 50,
+    "entitlement": "permit"
+  },
+  {
+    "id": "NAT-COMBINATION",
+    "section": "COMBINATION",
+    "state": "NAT",
+    "title": "Combination Vehicles",
+    "order": 3,
+    "lesson_ids": [
+      "CB-L01",
+      "CB-L02",
+      "CB-L03"
+    ],
+    "unit_check_count": 20,
+    "entitlement": "permit"
+  },
+  {
+    "id": "NAT-HAZMAT",
+    "section": "HAZMAT",
+    "state": "NAT",
+    "title": "Hazardous Materials",
+    "order": 4,
+    "lesson_ids": [
+      "HM-L01",
+      "HM-L02",
+      "HM-L03",
+      "HM-L04",
+      "HM-L05"
+    ],
+    "unit_check_count": 30,
+    "entitlement": "hazmat"
   }
 ]

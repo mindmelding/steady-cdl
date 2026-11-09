@@ -76,4 +76,34 @@ CREATE TABLE settings (
 INSERT INTO settings (id) VALUES (1);
 `,
   },
+  {
+    // M2: the saved track (state + goal), lessons done or tested out, and in-flight / finished
+    // test runs (unit checks, practice tests, the placement check).
+    version: 2,
+    sql: `
+ALTER TABLE settings ADD COLUMN track_state TEXT;
+ALTER TABLE settings ADD COLUMN goal TEXT;
+ALTER TABLE settings ADD COLUMN onboarded INTEGER NOT NULL DEFAULT 0;
+-- how = 'completed' (finished the lesson) or 'tested_out' (placement check). Never cleared by a replay.
+CREATE TABLE lesson_done (
+  lesson_id TEXT PRIMARY KEY,
+  how TEXT NOT NULL,
+  ts INTEGER NOT NULL
+);
+-- kind = 'unit_check' | 'practice' | 'placement'. answers is a JSON array of chosen indexes
+-- (null = not answered yet). pass_pct is set only when the format was verified at start.
+CREATE TABLE test_runs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  kind TEXT NOT NULL,
+  unit_id TEXT,
+  question_ids TEXT NOT NULL,
+  answers TEXT NOT NULL,
+  step INTEGER NOT NULL DEFAULT 0,
+  finished INTEGER NOT NULL DEFAULT 0,
+  pass_pct REAL,
+  started_ts INTEGER NOT NULL,
+  finished_ts INTEGER
+);
+`,
+  },
 ];

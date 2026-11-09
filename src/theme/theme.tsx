@@ -25,7 +25,10 @@ export interface ResolvedType {
 
 export interface Theme {
   sun: boolean;
-  /** Extra multiplier applied on top of the OS font scale. Always 1 on device; dev-only on web. */
+  /**
+   * Extra multiplier applied on top of the OS font scale: the in-app Text size setting (1, 1.15,
+   * 1.3) times the dev-only `?fontScale` on web.
+   */
   devFontScale: number;
   color: typeof color & { sub: string; line: string; track: string };
   border: { thin: number; strong: number };
@@ -35,6 +38,9 @@ export interface Theme {
   text: Record<TypeVariant, ResolvedType>;
 }
 
+/** Largest growth for tab bar labels (UI chrome, not reading text). */
+export const TAB_MAX_SCALE = 1.5;
+
 export function resolveType(
   t: TypeStyle,
   sun: boolean,
@@ -42,6 +48,9 @@ export function resolveType(
   variant: string,
 ): ResolvedType {
   const bump = sun && variant !== 'tab' ? SUN_TYPE_STEPS * TYPE_STEP_PT : 0;
+  // Tab labels are system chrome: like iOS tab bars they stop growing at TAB_MAX_SCALE so the
+  // four labels never collide. Every reading variant scales without limit.
+  if (variant === 'tab') scale = Math.min(scale, TAB_MAX_SCALE);
   const fontSize = (t.size + bump) * scale;
   const out: ResolvedType = { fontFamily: font[t.f], fontSize };
   if (t.lh !== undefined) out.lineHeight = (t.lh + bump) * scale;

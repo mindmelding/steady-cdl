@@ -154,3 +154,45 @@ export function CalendarIcon(p: IconProps) {
     </Svg>
   );
 }
+
+/** Chevron pointing right (or left with `dir="left"`). */
+export function ChevronIcon({ dir = 'right', ...p }: IconProps & { dir?: 'left' | 'right' }) {
+  const { size, color, strokeWidth } = useIcon({ strokeWidth: 2.5, ...p });
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24" {...a11y}>
+      <Polyline
+        points={dir === 'right' ? '9,5 16,12 9,19' : '15,5 8,12 15,19'}
+        stroke={color}
+        strokeWidth={strokeWidth}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        fill="none"
+      />
+    </Svg>
+  );
+}
+
+export function LockIcon(p: IconProps) {
+  const { size, color, strokeWidth } = useIcon({ strokeWidth: 2.2, ...p });
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24" {...a11y}>
+      <Rect
+        x="5"
+        y="10.5"
+        width="14"
+        height="10"
+        rx="2.5"
+        stroke={color}
+        strokeWidth={strokeWidth}
+        fill="none"
+      />
+      <Path
+        d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"
+        stroke={color}
+        strokeWidth={strokeWidth}
+        strokeLinecap="round"
+        fill="none"
+      />
+    </Svg>
+  );
+}

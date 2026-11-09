@@ -39,7 +39,7 @@ describe('content DB', () => {
   it('seed questions only use real 49 CFR locators or the literal [VERIFY]', () => {
     for (const q of bundle.questions) {
       for (const c of [q.manual_citation, q.source_a, q.source_b]) {
-        if (c.doc === '49 CFR') expect(c.locator).toBe('393.51');
+        if (c.doc === '49 CFR') expect(c.locator).toMatch(/^\d{3}\.\d+[a-z]?$/);
         else expect(c.locator).toBe('[VERIFY]');
       }
     }

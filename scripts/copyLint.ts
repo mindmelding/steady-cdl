@@ -37,7 +37,9 @@ export function lintCopySource(source: string): CopyViolation[] {
   const check = (node: ts.Node, text: string) => {
     const keys = keyChain(node);
     const key = keys.join('.') || '(top level)';
-    const lower = text.toLowerCase();
+    // "not a guarantee" is the required readiness disclaimer (CLAUDE.md section 4.4), so only the
+    // negated phrase is exempt; any other use of the word still fails.
+    const lower = text.toLowerCase().replace(/\bnot a guarantee\b/g, '');
     for (const f of FORBIDDEN) {
       if (lower.includes(f)) out.push({ key, text, reason: `contains forbidden phrase "${f}"` });
     }

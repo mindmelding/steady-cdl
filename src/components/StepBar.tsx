@@ -3,13 +3,22 @@ import { useTheme } from '../theme/theme';
 import { copy } from '../copy';
 
 /** Segmented progress: segments up to and including the current step are filled. */
-export function StepBar({ total, current }: { total: number; current: number }) {
+export function StepBar({
+  total,
+  current,
+  label,
+}: {
+  total: number;
+  current: number;
+  /** Screen-reader label; defaults to the question wording. */
+  label?: string;
+}) {
   const theme = useTheme();
   return (
     <View
       accessible
       accessibilityRole="progressbar"
-      accessibilityLabel={copy.question.stepLabel(current + 1, total)}
+      accessibilityLabel={label ?? copy.question.stepLabel(current + 1, total)}
       accessibilityValue={{ min: 1, max: total, now: current + 1 }}
       style={{ flex: 1, minWidth: 80, flexDirection: 'row', gap: 4, alignItems: 'center' }}
     >

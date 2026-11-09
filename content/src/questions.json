@@ -36,7 +36,7 @@
     "glossary_terms": ["service reservoir", "governor cut-out pressure"],
     "free_tier": true,
     "version": 1,
-    "change_note": "[VERIFY eCFR] eCFR could not be fetched when this was written; wording follows the build brief. Confirm psi values and paragraph against 49 CFR 393.51."
+    "change_note": "[VERIFY] 393.51(c) may give 55 psi (or half governor cut-out) for vehicles not under FMVSS 121; 60 psi appears to come from FMVSS 121 (49 CFR 571.121). Confirm before publishing."
   },
   {
     "id": "AB-LOWAIR-002",
@@ -75,7 +75,7 @@
     "glossary_terms": ["service reservoir", "governor cut-out pressure"],
     "free_tier": true,
     "version": 1,
-    "change_note": "[VERIFY eCFR] eCFR could not be fetched when this was written; wording follows the build brief. Confirm psi values and paragraph against 49 CFR 393.51."
+    "change_note": "[VERIFY] 393.51(c) may give 55 psi (or half governor cut-out) for vehicles not under FMVSS 121; 60 psi appears to come from FMVSS 121 (49 CFR 571.121). Confirm before publishing."
   },
   {
     "id": "AB-LOWAIR-003",
@@ -114,7 +114,7 @@
     "glossary_terms": ["governor cut-out pressure"],
     "free_tier": true,
     "version": 1,
-    "change_note": "[VERIFY eCFR] eCFR could not be fetched when this was written; wording follows the build brief. Confirm psi values and paragraph against 49 CFR 393.51."
+    "change_note": "[VERIFY] 393.51(c) may give 55 psi (or half governor cut-out) for vehicles not under FMVSS 121; 60 psi appears to come from FMVSS 121 (49 CFR 571.121). Confirm before publishing."
   },
   {
     "id": "AB-LOWAIR-004",
@@ -153,7 +153,7 @@
     "glossary_terms": ["service reservoir", "governor cut-out pressure"],
     "free_tier": true,
     "version": 1,
-    "change_note": "[VERIFY eCFR] eCFR could not be fetched when this was written; wording follows the build brief. Confirm psi values and paragraph against 49 CFR 393.51."
+    "change_note": "[VERIFY] 393.51(c) may give 55 psi (or half governor cut-out) for vehicles not under FMVSS 121; 60 psi appears to come from FMVSS 121 (49 CFR 571.121). Confirm before publishing."
   },
   {
     "id": "AB-LOWAIR-005",
@@ -192,6 +192,4534 @@
     "glossary_terms": ["service reservoir", "governor cut-out pressure"],
     "free_tier": true,
     "version": 1,
-    "change_note": "[VERIFY eCFR] eCFR could not be fetched when this was written; wording follows the build brief. Confirm psi values and paragraph against 49 CFR 393.51."
+    "change_note": "[VERIFY] 393.51(c) may give 55 psi (or half governor cut-out) for vehicles not under FMVSS 121; 60 psi appears to come from FMVSS 121 (49 CFR 571.121). Confirm before publishing."
+  },
+  {
+    "id": "AB-BASIC-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L02",
+    "topic": "Brake adequacy",
+    "question": "Federal rules require the brakes on a CMV to be:",
+    "options": [
+      "Used only on the rear wheels",
+      "Checked by a mechanic once a year only",
+      "Separate on each axle",
+      "Adequate to stop and hold the vehicle or combination"
+    ],
+    "answer_index": 3,
+    "explanation": "The brakes must be able to stop the vehicle and hold it still.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.40",
+    "cfr_sections": ["49/393/40"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.40",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.40"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: each CMV must have brakes adequate to stop and hold the vehicle or combination of vehicles.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.40",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["service brakes"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-BASIC-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L02",
+    "topic": "Brakes on all wheels",
+    "question": "As a general rule, a CMV must have brakes acting on:",
+    "options": [
+      "All wheels",
+      "The drive wheels only",
+      "The front wheels only",
+      "The rear axle only"
+    ],
+    "answer_index": 0,
+    "explanation": "There are a few narrow exceptions, such as some older heavy trucks and very light trailers.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.42",
+    "cfr_sections": ["49/393/42"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.42",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.42"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: every commercial motor vehicle must be equipped with brakes acting on all wheels, with a short list of exceptions.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.42",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["service brakes"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-BASIC-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L02",
+    "topic": "Single application valve",
+    "question": "On a power-braked vehicle, one application valve must operate:",
+    "options": [
+      "Only the front brakes",
+      "Only the trailer brakes",
+      "All of the service brakes on the vehicle or combination",
+      "Only the parking brakes"
+    ],
+    "answer_index": 2,
+    "explanation": "A single valve, the foot valve, applies every service brake. A second valve for trailer brakes is also allowed.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.49",
+    "cfr_sections": ["49/393/49"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.49",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.49"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: on power-braked vehicles, one application valve must operate all service brakes on the vehicle or combination; a separate trailer brake valve is also allowed.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.49",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["service brakes"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-BASIC-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L02",
+    "topic": "Emergency brake control",
+    "question": "The driver must be able to apply the emergency brake from:",
+    "options": [
+      "Outside the cab",
+      "Only after unbuckling the seat belt",
+      "The normal seating position while wearing any seat belt",
+      "The sleeper berth"
+    ],
+    "answer_index": 2,
+    "explanation": "You can reach the control from your seat without taking off your belt.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.40",
+    "cfr_sections": ["49/393/40"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.40",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.40"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the driver must be able to apply the emergency brake from the normal seating position while wearing any installed seat belts.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.40",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["emergency brake"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-BASIC-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L02",
+    "topic": "Parking brake",
+    "question": "Besides service brakes, every CMV must have:",
+    "options": [
+      "A parking brake system",
+      "An engine retarder only",
+      "An exhaust brake only",
+      "A driveline lock"
+    ],
+    "answer_index": 0,
+    "explanation": "Each CMV needs a parking brake system as well as service and emergency brake systems.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.40",
+    "cfr_sections": ["49/393/40"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.40",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.40"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: each commercial motor vehicle must have a parking brake system in addition to its service brakes.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.40",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["parking brake"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-TOW-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L03",
+    "topic": "Protection valve range",
+    "question": "On an air-braked towing unit, the tractor protection valve must work automatically when the unit's air pressure falls to between:",
+    "options": ["5 and 10 psi", "45 and 60 psi", "100 and 125 psi", "20 and 45 psi"],
+    "answer_index": 3,
+    "explanation": "The valve shuts when air drops into the 20 to 45 psi range. That keeps the truck's air from leaking away through a broken trailer line.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.43",
+    "cfr_sections": ["49/393/43"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.43",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.43"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: on air-braked towing units, the tractor protection valve must operate automatically when towing-unit air pressure falls to between 20 and 45 psi.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.43",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["tractor protection valve"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-TOW-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L03",
+    "topic": "Manual emergency control",
+    "question": "A tractor that tows air-braked trailers needs two ways to apply trailer emergency brakes. One is automatic. The other is:",
+    "options": [
+      "A lever outside the cab",
+      "A manual control the seated driver can readily reach",
+      "A switch only the shipper can use",
+      "A valve under the trailer"
+    ],
+    "answer_index": 1,
+    "explanation": "The second way is a manual control the driver can work from the driver's seat. Its emergency position must be clearly marked.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.43",
+    "cfr_sections": ["49/393/43"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.43",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.43"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a truck or tractor towing air-braked vehicles needs an automatic means and a manual control that the driver in the driving seat can readily operate.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.43",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-TOW-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L03",
+    "topic": "Breakaway and towing brakes",
+    "question": "If a trailer breaks away, the towing vehicle's service brakes must still be able to:",
+    "options": [
+      "Release on their own",
+      "Stop the towing vehicle",
+      "Lock on for 15 minutes",
+      "Work only on the front axle"
+    ],
+    "answer_index": 1,
+    "explanation": "A towing vehicle must have a means so its own service brakes can still stop it after a trailer breakaway.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.43",
+    "cfr_sections": ["49/393/43"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.43",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.43"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a vehicle that tows a braked trailer must have a means that lets its service brakes stop it if the trailer breaks away.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.43",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-TOW-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L03",
+    "topic": "No-bleed-back valves",
+    "question": "No-bleed-back relay emergency valves protect:",
+    "options": [
+      "The tires from losing air pressure",
+      "The compressor from overheating",
+      "The governor from freezing",
+      "The towed vehicle's supply reservoir from air flowing back toward the towing vehicle"
+    ],
+    "answer_index": 3,
+    "explanation": "These valves keep air from draining out of the trailer's supply tank back toward the truck when truck pressure drops.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.43",
+    "cfr_sections": ["49/393/43"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.43",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.43"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: air brake systems on towed vehicles must use no-bleed-back relay emergency valves or equivalent devices.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.43",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["supply reservoir"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-TOW-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L03",
+    "topic": "Protection device",
+    "question": "Which device keeps a towing vehicle from losing its air if an air-braked trailer breaks away?",
+    "options": [
+      "A tractor protection valve",
+      "A spring brake chamber",
+      "An air dryer",
+      "A slack adjuster"
+    ],
+    "answer_index": 0,
+    "explanation": "The tractor protection valve, or a similar device, closes automatically so the truck keeps its air supply.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.43",
+    "cfr_sections": ["49/393/43"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.43",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.43"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: air-braked towing units must have a tractor protection valve or similar device that operates automatically when air pressure falls in the set range.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.43",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["tractor protection valve"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-LINE-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L04",
+    "topic": "Manual drain valve",
+    "question": "Each air brake reservoir must have a condensate drain valve that can be operated:",
+    "options": [
+      "Only by a mechanic",
+      "Only by the compressor",
+      "By hand",
+      "Only when the engine is off"
+    ],
+    "answer_index": 2,
+    "explanation": "Automatic drain valves are allowed, but a manual way to drain must remain.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.50",
+    "cfr_sections": ["49/393/50"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.50",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.50"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: each reservoir on an air-braked vehicle must have a condensate drain valve that can be operated manually.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.50",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["reservoir"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-LINE-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L04",
+    "topic": "Check valve purpose",
+    "question": "Check valves in a service reservoir system protect against:",
+    "options": [
+      "Overfilling the tank",
+      "Brake fade on hills",
+      "Loss of pressure from a leak between the tank and its source",
+      "Rust on the brake drums"
+    ],
+    "answer_index": 2,
+    "explanation": "If a line leaks upstream of the tank, the check valve helps keep the air in the tank.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.50",
+    "cfr_sections": ["49/393/50"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.50",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.50"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: each service reservoir system must be protected against loss of pressure from a failure or leak between the reservoir and its source.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.50",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["service reservoir"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-LINE-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L04",
+    "topic": "Secured tubing",
+    "question": "Brake tubing and hoses must be secured against:",
+    "options": [
+      "Chafing, kinking, or other mechanical damage",
+      "Cold weather and snow",
+      "Tire spray only",
+      "Vibration from the engine only"
+    ],
+    "answer_index": 0,
+    "explanation": "Lines must be held in place so they do not rub through, kink or get damaged.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.45",
+    "cfr_sections": ["49/393/45"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.45",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.45"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: brake tubing and hoses must be secured against chafing, kinking or other mechanical damage.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.45",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-LINE-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L04",
+    "topic": "Heat and tubing",
+    "question": "Brake tubing and hoses must be installed so they do not touch:",
+    "options": [
+      "The headlight wiring",
+      "The spare tire",
+      "The mud flaps",
+      "The exhaust system or another high-heat source"
+    ],
+    "answer_index": 3,
+    "explanation": "Heat can melt or weaken a hose, so lines must stay away from the exhaust.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.45",
+    "cfr_sections": ["49/393/45"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.45",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.45"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: brake tubing and hoses must be installed so they do not contact the exhaust system or any other source of high temperature.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.45",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-LINE-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L04",
+    "topic": "Coiled tubing use",
+    "question": "Coiled nonmetallic brake tubing may be used for connections between:",
+    "options": [
+      "The air compressor and the governor",
+      "A towed vehicle and the vehicle towing it",
+      "The treadle valve and the brake pedal",
+      "A reservoir and a drain valve"
+    ],
+    "answer_index": 1,
+    "explanation": "Coiled tubing is meant for the flexible link between a tractor and trailer. It is not for fixed lines on the truck.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.45",
+    "cfr_sections": ["49/393/45"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.45",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.45"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: coiled nonmetallic tubing may be used only for connections between towed and towing vehicles or between a trailer frame and an adjustable axle subframe.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.45",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-ADJ-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L05",
+    "topic": "Gauge and signal",
+    "question": "A CMV with air-activated service brakes must have a pressure gauge and:",
+    "options": ["A speed limiter", "A warning signal", "A backup camera", "An engine brake switch"],
+    "answer_index": 1,
+    "explanation": "The gauge shows pressure and the warning signal alerts you if pressure gets low.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.51",
+    "cfr_sections": ["49/393/51"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.51",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.51"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a CMV with air-activated service brakes, or one towing such a vehicle, must have a pressure gauge and a warning signal.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.51",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-ADJ-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L05",
+    "topic": "What the gauge shows",
+    "question": "The air brake pressure gauge shows:",
+    "options": [
+      "Engine oil pressure",
+      "Tire pressure",
+      "The fuel level",
+      "The air pressure available for braking"
+    ],
+    "answer_index": 3,
+    "explanation": "The gauge reads the air pressure that is ready to apply the brakes.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.51",
+    "cfr_sections": ["49/393/51"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.51",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.51"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the required gauge must show the air pressure available for braking.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.51",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-ADJ-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L05",
+    "topic": "Automatic adjusters",
+    "question": "CMVs with air brakes made on or after October 20, 1994 must have:",
+    "options": [
+      "Automatic brake adjusters",
+      "Manual adjusters only",
+      "Spring brakes on the steering axle only",
+      "A second air compressor"
+    ],
+    "answer_index": 0,
+    "explanation": "Automatic adjusters keep the brakes adjusted without hand work.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.53",
+    "cfr_sections": ["49/393/53"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.53",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.53"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: air-braked CMVs made on or after October 20, 1994 must meet the automatic brake adjuster requirements of FMVSS 121.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.53",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["automatic brake adjuster"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-ADJ-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L05",
+    "topic": "Adjustment indicator",
+    "question": "A brake adjustment indicator shows when:",
+    "options": [
+      "The compressor is running",
+      "The air tank is full",
+      "The service brakes are under-adjusted",
+      "The parking brake is set"
+    ],
+    "answer_index": 2,
+    "explanation": "The indicator warns that the brakes need attention.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.53",
+    "cfr_sections": ["49/393/53"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.53",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.53"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the brake adjustment indicator must show when the service brakes are under-adjusted.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.53",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["automatic brake adjuster"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "AB-ADJ-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "AIR_BRAKES",
+    "unit_id": "NAT-AIR_BRAKES",
+    "lesson_id": "AB-L05",
+    "topic": "Indicator requirement",
+    "question": "A CMV with air brakes made on or after October 20, 1994 needs an indicator if it has an outside automatic adjuster and:",
+    "options": [
+      "Disc brakes only",
+      "A trailer-mounted compressor",
+      "An exposed pushrod",
+      "A manual drain valve"
+    ],
+    "answer_index": 2,
+    "explanation": "The indicator is required when a vehicle has an outside automatic adjuster and an exposed pushrod.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.53",
+    "cfr_sections": ["49/393/53"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.53",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.53"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: an indicator is required on air-braked CMVs made on or after October 20, 1994 that have both an external automatic adjuster and an exposed pushrod.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.53",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["pushrod"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-CLP-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L01",
+    "topic": "CLP validity",
+    "question": "Without retaking the knowledge tests, a commercial learner's permit is valid for no more than:",
+    "options": [
+      "Six months from the day it was first issued",
+      "Two years from the day it was first issued",
+      "One year from the day it was first issued",
+      "Three years from the day it was first issued"
+    ],
+    "answer_index": 2,
+    "explanation": "A CLP can last up to one year from its first issue date. You can get a longer period only by retaking the knowledge tests.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 383.25",
+    "cfr_sections": ["49/383/25"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "383.25",
+      "url": "https://www.ecfr.gov/current/title-49/section-383.25"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a CLP is valid for no more than one year from its first issue date unless the holder retakes the general and endorsement knowledge tests.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-383.25",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["commercial learner's permit (CLP)"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-CLP-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L01",
+    "topic": "Skills test wait",
+    "question": "You may not take the CDL skills test until how long after your CLP is first issued?",
+    "options": ["14 days", "7 days", "30 days", "60 days"],
+    "answer_index": 0,
+    "explanation": "The first 14 days after your CLP is issued must pass before you can take the skills test.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 383.25",
+    "cfr_sections": ["49/383/25"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "383.25",
+      "url": "https://www.ecfr.gov/current/title-49/section-383.25"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a CLP holder may not take the CDL skills test during the first 14 days after the CLP is first issued.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-383.25",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["commercial learner's permit (CLP)"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-CLP-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L01",
+    "topic": "Accompanying driver",
+    "question": "A truck driver with a CLP is on a public road. Where must the CDL holder who supervises sit?",
+    "options": [
+      "In the sleeper berth, resting",
+      "In a following vehicle",
+      "Anywhere in the cab",
+      "In the front seat next to the CLP holder"
+    ],
+    "answer_index": 3,
+    "explanation": "In a commercial vehicle the CDL holder sits in the front seat beside the CLP holder and watches over the driving at all times.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 383.25",
+    "cfr_sections": ["49/383/25"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "383.25",
+      "url": "https://www.ecfr.gov/current/title-49/section-383.25"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: in a commercial vehicle, the supervising CDL holder must sit in the front seat next to the CLP holder and keep the CLP holder under direct observation.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-383.25",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["commercial learner's permit (CLP)"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-CLP-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L01",
+    "topic": "CLP and hazmat",
+    "question": "A CLP holder may not drive a commercial vehicle that is carrying:",
+    "options": [
+      "Cargo heavier than 26,000 pounds",
+      "Hazardous materials",
+      "Freight for a paying customer",
+      "Cargo in a trailer"
+    ],
+    "answer_index": 1,
+    "explanation": "A CLP is not valid for training in a vehicle that carries hazardous materials.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 383.25",
+    "cfr_sections": ["49/383/25"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "383.25",
+      "url": "https://www.ecfr.gov/current/title-49/section-383.25"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a CLP holder may not operate a commercial motor vehicle that is transporting hazardous materials.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-383.25",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["hazardous materials"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-CLP-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L01",
+    "topic": "Supervising driver",
+    "question": "Under the federal rule, the CDL holder who supervises a CLP holder must:",
+    "options": [
+      "Hold any valid driver's license",
+      "Hold a valid CDL with the right group and endorsements",
+      "Be a licensed driving instructor",
+      "Be an employee of the state"
+    ],
+    "answer_index": 1,
+    "explanation": "The supervising driver needs a valid CDL with the right group and any endorsements for that vehicle, and must be allowed to drive it on that trip.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 383.25",
+    "cfr_sections": ["49/383/25"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "383.25",
+      "url": "https://www.ecfr.gov/current/title-49/section-383.25"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the supervising driver must hold a valid CDL with the proper group and endorsements and be authorized to operate the vehicle on that trip.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-383.25",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["endorsement"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-DQ-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L02",
+    "topic": "First major offense",
+    "question": "A driver is convicted of a first major offense, such as leaving the scene of an accident, while driving a CMV with no hazmat. The disqualification is at least:",
+    "options": ["6 months", "3 years", "60 days", "1 year"],
+    "answer_index": 3,
+    "explanation": "A first major offense in a CMV costs you your commercial driving rights for one year.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 383.51",
+    "cfr_sections": ["49/383/51"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "383.51",
+      "url": "https://www.ecfr.gov/current/title-49/section-383.51"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a first conviction for a major offense while driving a CMV disqualifies the driver for 1 year.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-383.51",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["disqualification", "major offense"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-DQ-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L02",
+    "topic": "Major offense with hazmat",
+    "question": "A driver has a first major offense while hauling hazardous materials. The disqualification is at least:",
+    "options": ["3 years", "1 year", "18 months", "5 years"],
+    "answer_index": 0,
+    "explanation": "Hauling hazmat raises a first major offense from one year to three years.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 383.51",
+    "cfr_sections": ["49/383/51"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "383.51",
+      "url": "https://www.ecfr.gov/current/title-49/section-383.51"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a first major-offense conviction while operating a CMV that carries hazardous materials means a 3-year disqualification.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-383.51",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["disqualification", "hazardous materials"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-DQ-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L02",
+    "topic": "Second major offense",
+    "question": "A driver is convicted of a second major offense in a separate incident. The federal penalty is:",
+    "options": ["3 years", "5 years", "For life", "One year longer than the first"],
+    "answer_index": 2,
+    "explanation": "A second major offense in a separate incident means a lifetime disqualification under the federal table.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 383.51",
+    "cfr_sections": ["49/383/51"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "383.51",
+      "url": "https://www.ecfr.gov/current/title-49/section-383.51"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a second conviction for a major offense from a separate incident carries a lifetime disqualification.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-383.51",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["disqualification", "major offense"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-DQ-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L02",
+    "topic": "Major offense list",
+    "question": "Which of these is a major offense under the federal disqualification rules?",
+    "options": [
+      "Parking in a no-parking zone",
+      "Driving with a burned-out tail lamp",
+      "Leaving the scene of an accident",
+      "Failing to pay a toll"
+    ],
+    "answer_index": 2,
+    "explanation": "Leaving the scene of an accident is on the list of major offenses. The other choices are not.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 383.51",
+    "cfr_sections": ["49/383/51"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "383.51",
+      "url": "https://www.ecfr.gov/current/title-49/section-383.51"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: leaving the scene of an accident is a major offense that disqualifies a CLP or CDL holder.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-383.51",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["major offense"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-DQ-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L02",
+    "topic": "Second serious violation",
+    "question": "A driver is convicted of a second serious traffic violation in a CMV within 3 years. The disqualification is:",
+    "options": ["60 days", "30 days", "120 days", "1 year"],
+    "answer_index": 0,
+    "explanation": "A second serious violation in 3 years means 60 days. A third means 120 days.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 383.51",
+    "cfr_sections": ["49/383/51"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "383.51",
+      "url": "https://www.ecfr.gov/current/title-49/section-383.51"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a second serious traffic violation conviction within 3 years means a 60-day disqualification; a third means 120 days.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-383.51",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["serious traffic violation"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-DQ-006",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L02",
+    "topic": "Speeding threshold",
+    "question": "Speeding is a serious traffic violation when it is at least how many miles per hour over the limit?",
+    "options": ["5 mph", "10 mph", "25 mph", "15 mph"],
+    "answer_index": 3,
+    "explanation": "Speeding 15 mph or more over the limit counts as a serious traffic violation.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 383.51",
+    "cfr_sections": ["49/383/51"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "383.51",
+      "url": "https://www.ecfr.gov/current/title-49/section-383.51"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: speeding 15 mph or more over the posted limit is a serious traffic violation.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-383.51",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["serious traffic violation"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-ALC-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L03",
+    "topic": "Four-hour rule",
+    "question": "A driver may not use alcohol within how many hours before going on duty or driving a CMV?",
+    "options": ["2 hours", "4 hours", "8 hours", "12 hours"],
+    "answer_index": 1,
+    "explanation": "The federal rule is 4 hours before duty.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.5",
+    "cfr_sections": ["49/392/5"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.5",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.5"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a driver may not use alcohol or be under its influence within 4 hours before going on duty or operating a commercial motor vehicle.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.5",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["on duty"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-ALC-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L03",
+    "topic": "Out of service",
+    "question": "A driver breaks the federal on-duty alcohol rule. The driver must be put out of service for:",
+    "options": ["4 hours", "24 hours", "12 hours", "72 hours"],
+    "answer_index": 1,
+    "explanation": "A driver who breaks the alcohol rule is placed out of service right away for 24 hours.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.5",
+    "cfr_sections": ["49/392/5"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.5",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.5"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a driver who violates the alcohol rule must be placed out of service immediately for 24 hours.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.5",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["out of service"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-ALC-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L03",
+    "topic": "Alcohol possession",
+    "question": "Which is an exception to the ban on having alcohol while on duty in a CMV?",
+    "options": [
+      "A small bottle kept in the cab for later",
+      "Alcohol kept in the sleeper berth",
+      "Unopened alcohol the driver plans to drink off duty",
+      "Alcohol that is listed and carried as part of a shipment"
+    ],
+    "answer_index": 3,
+    "explanation": "The only exceptions are alcohol that is part of a manifested shipment and alcohol carried by bus passengers.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.5",
+    "cfr_sections": ["49/392/5"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.5",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.5"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: drivers may not possess alcohol on duty, except alcohol that is manifested as part of a shipment or carried by bus passengers.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.5",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["on duty"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-ALC-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L03",
+    "topic": "Unsafe to drive",
+    "question": "A driver is so tired that driving is unsafe. What does the federal rule say?",
+    "options": [
+      "The driver may not drive the CMV",
+      "The driver may drive if stopping every hour",
+      "The driver may drive until the next planned stop",
+      "The driver may drive if the carrier approves"
+    ],
+    "answer_index": 0,
+    "explanation": "A driver may not drive when fatigue or illness makes driving unsafe. The only exception is an emergency, and then only to the nearest safe place.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.3",
+    "cfr_sections": ["49/392/3"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.3",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.3"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a driver may not drive a CMV when fatigue, illness or another cause makes driving unsafe, except in an emergency, and then only to the nearest safe place.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.3",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["fatigue"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-ALC-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L03",
+    "topic": "Carrier duty",
+    "question": "Under the federal rule on tired or ill drivers, who may not require or allow an impaired driver to drive?",
+    "options": [
+      "Only the shipper",
+      "Only the state licensing agency",
+      "The motor carrier",
+      "No one; it is the driver's choice"
+    ],
+    "answer_index": 2,
+    "explanation": "The rule also covers carriers. A carrier may not make or let a driver drive while too tired or ill.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.3",
+    "cfr_sections": ["49/392/3"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.3",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.3"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a motor carrier may not require or permit a driver to operate a CMV while impaired by fatigue, illness or another cause.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.3",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["motor carrier"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-PHN-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L04",
+    "topic": "Stopped in traffic",
+    "question": "Your CMV is stopped at a red light with the engine running. May you text?",
+    "options": [
+      "Yes, the truck is stopped",
+      "Yes, if the light is long",
+      "No, you are still driving",
+      "Yes, if you are in the left lane"
+    ],
+    "answer_index": 2,
+    "explanation": "Short stops caused by traffic or signals still count as driving when the engine is running.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.80",
+    "cfr_sections": ["49/392/80"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.80",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.80"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: driving includes brief stops caused by traffic or signals with the engine running, so texting is not allowed then.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.80",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["texting"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-PHN-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L04",
+    "topic": "When texting is allowed",
+    "question": "For the texting rule, when is a driver not considered to be driving?",
+    "options": [
+      "After pulling off the road to a spot where the vehicle can safely stay stopped",
+      "While stopped in traffic with the engine running",
+      "While rolling slowly in a traffic jam",
+      "While stopped at a traffic light"
+    ],
+    "answer_index": 0,
+    "explanation": "You are not driving once you safely move off the road and the vehicle can stay stopped.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.80",
+    "cfr_sections": ["49/392/80"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.80",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.80"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a driver who moves the vehicle off the road to a place where it can safely remain stationary is not considered to be driving.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.80",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["texting"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-PHN-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L04",
+    "topic": "Emergency calls",
+    "question": "A driver may use a hand-held phone while driving only to:",
+    "options": [
+      "Call dispatch about a delay",
+      "Check directions",
+      "Call the shipper",
+      "Contact police or emergency services"
+    ],
+    "answer_index": 3,
+    "explanation": "The one exception is an emergency call to police or other emergency services.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.82",
+    "cfr_sections": ["49/392/82"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.82",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.82"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a driver may use a hand-held mobile phone while driving only when needed to reach law enforcement or emergency services.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.82",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["hand-held phone"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-PHN-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L04",
+    "topic": "Seat belts",
+    "question": "A CMV driver whose seat has a seat belt must:",
+    "options": [
+      "Wear it only on highways",
+      "Be properly restrained by it",
+      "Wear it only when the truck is loaded",
+      "Wear it only on trips over 50 miles"
+    ],
+    "answer_index": 1,
+    "explanation": "The rule applies whenever you drive. It is not limited to certain roads or loads.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.16",
+    "cfr_sections": ["49/392/16"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.16",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.16"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a driver of a CMV with a seat belt at the driver's seat must be properly restrained by the belt whenever driving.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.16",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-PHN-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L04",
+    "topic": "Carrier duty on texting",
+    "question": "Under the federal texting rule, a motor carrier may not:",
+    "options": [
+      "Give drivers a phone to use",
+      "Allow or require its drivers to text while driving",
+      "Ask for a report when the driver is parked",
+      "Let drivers use a phone after safely pulling off the road"
+    ],
+    "answer_index": 1,
+    "explanation": "The rule binds carriers too. A carrier may not make or let a driver text while driving.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.80",
+    "cfr_sections": ["49/392/80"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.80",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.80"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: motor carriers may not allow or require their drivers to engage in texting while driving.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.80",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["texting", "motor carrier"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-HOS-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L05",
+    "topic": "Driving limit",
+    "question": "A property-carrying driver may drive up to how many hours inside the 14-hour window?",
+    "options": ["10 hours", "12 hours", "14 hours", "11 hours"],
+    "answer_index": 3,
+    "explanation": "The driving limit is 11 hours. It must all fit inside the 14-hour window.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 395.3",
+    "cfr_sections": ["49/395/3"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "395.3",
+      "url": "https://www.ecfr.gov/current/title-49/section-395.3"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a property-carrying driver may drive a total of 11 hours within the 14-hour period after coming on duty.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-395.3",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["hours of service"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-HOS-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L05",
+    "topic": "14-hour window",
+    "question": "After 10 consecutive hours off duty, driving is not allowed after how many consecutive hours from coming on duty?",
+    "options": ["14 hours", "10 hours", "12 hours", "16 hours"],
+    "answer_index": 0,
+    "explanation": "The 14-hour window keeps running, even during breaks, until the driver has another 10 hours off duty.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 395.3",
+    "cfr_sections": ["49/395/3"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "395.3",
+      "url": "https://www.ecfr.gov/current/title-49/section-395.3"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a driver may not drive after the 14th consecutive hour from coming on duty following 10 consecutive hours off duty.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-395.3",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["hours of service"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-HOS-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L05",
+    "topic": "Off-duty time",
+    "question": "Before a property-carrying driver starts driving, the driver needs how many consecutive hours off duty?",
+    "options": ["6 hours", "8 hours", "10 hours", "12 hours"],
+    "answer_index": 2,
+    "explanation": "A driver starts each driving period after 10 consecutive hours off duty.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 395.3",
+    "cfr_sections": ["49/395/3"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "395.3",
+      "url": "https://www.ecfr.gov/current/title-49/section-395.3"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a driver may not drive without first having 10 consecutive hours off duty.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-395.3",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["hours of service"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-HOS-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L05",
+    "topic": "30-minute break",
+    "question": "A driver may not drive once how many hours of driving have passed without a break of at least 30 minutes?",
+    "options": ["6 hours", "10 hours", "8 hours", "11 hours"],
+    "answer_index": 2,
+    "explanation": "The break can be off duty, sleeper berth or on duty but not driving. It must last at least 30 consecutive minutes.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 395.3",
+    "cfr_sections": ["49/395/3"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "395.3",
+      "url": "https://www.ecfr.gov/current/title-49/section-395.3"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: driving is not allowed after more than 8 hours of driving time without an interruption of at least 30 consecutive minutes.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-395.3",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["hours of service"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-HOS-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L05",
+    "topic": "70-hour rule",
+    "question": "A driver for a carrier that operates every day of the week may not drive after 70 hours on duty in:",
+    "options": [
+      "8 consecutive days",
+      "5 consecutive days",
+      "7 consecutive days",
+      "10 consecutive days"
+    ],
+    "answer_index": 0,
+    "explanation": "Carriers that run every day use the 70-hour, 8-day limit. Others use 60 hours in 7 days.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 395.3",
+    "cfr_sections": ["49/395/3"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "395.3",
+      "url": "https://www.ecfr.gov/current/title-49/section-395.3"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: if the carrier operates every day, a driver may not drive after 70 hours on duty in 8 consecutive days; otherwise the limit is 60 hours in 7 days.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-395.3",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["hours of service"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-HOS-006",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L05",
+    "topic": "34-hour restart",
+    "question": "A 7-day or 8-day period may end when a driver has an off-duty period of at least:",
+    "options": [
+      "24 consecutive hours",
+      "36 consecutive hours",
+      "48 consecutive hours",
+      "34 consecutive hours"
+    ],
+    "answer_index": 3,
+    "explanation": "A 34-hour off-duty period lets the weekly count start over.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 395.3",
+    "cfr_sections": ["49/395/3"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "395.3",
+      "url": "https://www.ecfr.gov/current/title-49/section-395.3"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a 7-day or 8-day period may end when the driver has 34 or more consecutive hours off duty.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-395.3",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["hours of service"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-INS-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L06",
+    "topic": "Parts to check",
+    "question": "Before driving, a driver must be satisfied that which of these is in good working order?",
+    "options": [
+      "The cab radio",
+      "The service brakes, including trailer brake connections",
+      "The sleeper curtains",
+      "The dashboard clock"
+    ],
+    "answer_index": 1,
+    "explanation": "The list includes the brakes, parking brake, steering, lights and reflectors, tires, horn, wipers, mirrors, coupling devices, wheels and rims, and emergency equipment.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.7",
+    "cfr_sections": ["49/392/7"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.7",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.7"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: before driving, the driver must be satisfied that parts such as service brakes, steering, tires, lights and coupling devices are in good working order.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.7",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["coupling device"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-INS-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L06",
+    "topic": "Vehicle inspection report",
+    "question": "When must a driver write a vehicle inspection report?",
+    "options": [
+      "Before each trip",
+      "At the end of each day's work on each vehicle driven",
+      "Once a week",
+      "Once a month"
+    ],
+    "answer_index": 1,
+    "explanation": "The driver writes the report at the end of the day's work. If no defect was found or reported, no report is required.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 396.11",
+    "cfr_sections": ["49/396/11"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "396.11",
+      "url": "https://www.ecfr.gov/current/title-49/section-396.11"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the driver must prepare a written report at the completion of each day's work on each vehicle operated, unless no defect was found or reported.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-396.11",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["vehicle inspection report"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-INS-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L06",
+    "topic": "Report retention",
+    "question": "How long must the motor carrier keep the inspection report and repair certification?",
+    "options": ["30 days", "6 months", "1 year", "3 months from the date of the report"],
+    "answer_index": 3,
+    "explanation": "The carrier keeps the report and the record of repairs for three months.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 396.11",
+    "cfr_sections": ["49/396/11"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "396.11",
+      "url": "https://www.ecfr.gov/current/title-49/section-396.11"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the carrier must keep the report, the repair certification and the driver review certification for three months from the report date.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-396.11",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["vehicle inspection report", "motor carrier"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-INS-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L06",
+    "topic": "Safe operating condition",
+    "question": "Before driving, what must a driver be satisfied about?",
+    "options": [
+      "That the vehicle is in safe operating condition",
+      "That the trip will end before dark",
+      "That the cargo is insured",
+      "That the fuel tanks are full"
+    ],
+    "answer_index": 0,
+    "explanation": "The driver must also review the last inspection report and sign it when the rule requires.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 396.13",
+    "cfr_sections": ["49/396/13"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "396.13",
+      "url": "https://www.ecfr.gov/current/title-49/section-396.13"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: before driving, a driver must be satisfied that the motor vehicle is in safe operating condition.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-396.13",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["vehicle inspection report"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-INS-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L06",
+    "topic": "Periodic inspection",
+    "question": "A CMV must pass a periodic inspection at least once every:",
+    "options": ["3 months", "6 months", "12 months", "24 months"],
+    "answer_index": 2,
+    "explanation": "The periodic inspection is a yearly check of the parts on the federal list.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 396.17",
+    "cfr_sections": ["49/396/17"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "396.17",
+      "url": "https://www.ecfr.gov/current/title-49/section-396.17"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: each CMV must pass an inspection of the required components at least once during the preceding 12 months.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-396.17",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["periodic inspection"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-INS-006",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L06",
+    "topic": "Proof of inspection",
+    "question": "Which can serve as proof of a passed periodic inspection kept on the vehicle?",
+    "options": [
+      "A receipt from a fuel stop",
+      "A page from the driver's log",
+      "A sticker or decal that shows the date and carrier details",
+      "A spoken statement from the driver"
+    ],
+    "answer_index": 2,
+    "explanation": "The proof must be on the vehicle. It can be the report or a sticker or decal with the date, carrier details and a pass statement.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 396.17",
+    "cfr_sections": ["49/396/17"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "396.17",
+      "url": "https://www.ecfr.gov/current/title-49/section-396.17"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: proof of a passed periodic inspection must be on the vehicle, such as the report or a sticker or decal showing the date, carrier details and that it passed.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-396.17",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["periodic inspection"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-CTR-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L07",
+    "topic": "First cargo check",
+    "question": "After a truck driver starts a trip, cargo and its securement devices must be inspected within the first:",
+    "options": ["50 miles", "25 miles", "100 miles", "150 miles"],
+    "answer_index": 0,
+    "explanation": "The first check comes within 50 miles. After that, re-check on the schedule.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.9",
+    "cfr_sections": ["49/392/9"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.9",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.9"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a truck driver must inspect the cargo and its securement devices within the first 50 miles after beginning a trip and make needed adjustments.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.9",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["securement"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-CTR-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L07",
+    "topic": "Re-check schedule",
+    "question": "During a trip, the driver must re-examine cargo when the duty status changes, or after how much driving, whichever comes first?",
+    "options": [
+      "2 hours or 100 miles",
+      "4 hours or 200 miles",
+      "5 hours or 250 miles",
+      "3 hours or 150 miles"
+    ],
+    "answer_index": 3,
+    "explanation": "Check again after a duty status change, 3 hours of driving or 150 miles, whichever comes first.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.9",
+    "cfr_sections": ["49/392/9"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.9",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.9"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the driver must re-examine cargo and securement when changing duty status, or after the vehicle has been driven 3 hours or 150 miles, whichever occurs first.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.9",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["securement"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-CTR-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L07",
+    "topic": "Sealed load",
+    "question": "Which driver is excused from the en-route cargo inspection rule?",
+    "options": [
+      "A driver who is running late",
+      "A driver of a sealed vehicle who was ordered not to open it",
+      "A driver carrying a light load",
+      "A driver on an interstate highway"
+    ],
+    "answer_index": 1,
+    "explanation": "A sealed vehicle that the driver was ordered not to open is exempt. So is a load that makes inspection impracticable.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.9",
+    "cfr_sections": ["49/392/9"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.9",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.9"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the cargo inspection rules do not apply to a driver of a sealed vehicle ordered not to open it, or one loaded so inspection is impracticable.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.9",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["securement"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-CTR-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L07",
+    "topic": "Steering tire tread",
+    "question": "The minimum tread depth for steering axle tires on a truck or tractor is:",
+    "options": ["2/32 inch", "4/32 inch", "3/32 inch", "6/32 inch"],
+    "answer_index": 1,
+    "explanation": "Steering tires need more tread than the others. The depth is measured in a major tread groove.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.75",
+    "cfr_sections": ["49/393/75"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.75",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.75"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: tires on the steering axle of a bus, truck or truck tractor must have at least 4/32 inch of tread in a major groove.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.75",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["steering axle"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-CTR-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L07",
+    "topic": "Other tire tread",
+    "question": "The minimum tread depth for tires that are not on the steering axle is:",
+    "options": ["1/32 inch", "3/32 inch", "4/32 inch", "2/32 inch"],
+    "answer_index": 3,
+    "explanation": "All tires other than steering axle tires need at least 2/32 inch in a major groove.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.75",
+    "cfr_sections": ["49/393/75"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.75",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.75"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: all tires other than those on the steering axle must have at least 2/32 inch of tread in a major tread groove.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.75",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["steering axle"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-CTR-006",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L07",
+    "topic": "Damaged tire",
+    "question": "A tire must not be used on a CMV if:",
+    "options": [
+      "Body ply or belt material shows through the tread or sidewall",
+      "It is a different brand than the others",
+      "It has been retreaded on a rear axle",
+      "It has more than 50,000 miles on it"
+    ],
+    "answer_index": 0,
+    "explanation": "Exposed ply or belt material means the tire is unsafe. Brand and retreading on rear axles are not the issue.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.75",
+    "cfr_sections": ["49/393/75"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.75",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.75"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a CMV may not run on a tire that has body ply or belt material exposed through the tread or sidewall.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.75",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["ply"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-STP-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L08",
+    "topic": "Hazard flashers",
+    "question": "A CMV stops on the shoulder for a reason other than a traffic stop. What must the driver do first?",
+    "options": [
+      "Call dispatch",
+      "Place triangles 500 feet back",
+      "Turn on the hazard warning flashers",
+      "Turn off all lights"
+    ],
+    "answer_index": 2,
+    "explanation": "Turn on the flashers right away and keep them on until the warning devices are out.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.22",
+    "cfr_sections": ["49/392/22"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.22",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.22"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: when a CMV stops on the traveled part of the road or shoulder, the driver must immediately activate the hazard flashers and keep them on until warning devices are placed.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.22",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["hazard flashers"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-STP-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L08",
+    "topic": "Placement time",
+    "question": "Warning devices must be placed as soon as possible and within:",
+    "options": ["2 minutes", "30 minutes", "10 minutes", "1 hour"],
+    "answer_index": 2,
+    "explanation": "The rule gives you at most 10 minutes to put out the devices.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.22",
+    "cfr_sections": ["49/392/22"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.22",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.22"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: warning devices must be placed as soon as possible and in any event within 10 minutes of stopping.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.22",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["warning devices"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-STP-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L08",
+    "topic": "Two-lane road placement",
+    "question": "On an undivided road, how far from the stopped CMV is the farthest warning device placed, toward oncoming traffic?",
+    "options": ["About 100 feet", "About 50 feet", "About 200 feet", "About 500 feet"],
+    "answer_index": 0,
+    "explanation": "Place one near the truck, about 10 feet away, one about 100 feet toward oncoming traffic and one about 100 feet behind the truck.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.22",
+    "cfr_sections": ["49/392/22"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.22",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.22"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the general rule places one device about 10 feet toward traffic and one about 100 feet away on each side, ahead and behind.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.22",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["warning devices"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-STP-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L08",
+    "topic": "Divided highway placement",
+    "question": "On a divided or one-way road, where are the warning devices placed?",
+    "options": [
+      "At 100, 200 and 500 feet toward traffic",
+      "At 10, 50 and 100 feet toward traffic",
+      "At 300, 200 and 100 feet toward traffic",
+      "At 200 feet and 100 feet toward traffic, and within 10 feet of the rear"
+    ],
+    "answer_index": 3,
+    "explanation": "On divided or one-way roads, put one at 200 feet and one at 100 feet toward traffic, and one within 10 feet of the rear.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 392.22",
+    "cfr_sections": ["49/392/22"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "392.22",
+      "url": "https://www.ecfr.gov/current/title-49/section-392.22"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: on a divided or one-way road, place one device 200 feet and one 100 feet toward approaching traffic, plus one within 10 feet of the rear.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-392.22",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["warning devices"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-STP-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L08",
+    "topic": "Triangles",
+    "question": "Which set of warning devices meets the federal carrying rule?",
+    "options": [
+      "One reflective triangle",
+      "Three two-way reflective triangles",
+      "Two flares and one cone",
+      "Four traffic cones"
+    ],
+    "answer_index": 1,
+    "explanation": "A CMV must carry three reflective triangles, or at least six fusees, that meet the standards.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.95",
+    "cfr_sections": ["49/393/95"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.95",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.95"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a CMV must carry either three two-way reflective triangles that meet FMVSS 125 or at least six fusees.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.95",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["warning devices"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "GK-STP-006",
+    "type": "mc",
+    "state": "NAT",
+    "section": "GK",
+    "unit_id": "NAT-GK",
+    "lesson_id": "GK-L08",
+    "topic": "Fire extinguisher rating",
+    "question": "A power unit that carries placarded hazardous materials must have a fire extinguisher rated at least:",
+    "options": ["2 B:C", "10 B:C", "5 B:C", "20 B:C"],
+    "answer_index": 1,
+    "explanation": "Placarded hazmat units need a 10 B:C extinguisher. Other power units can use one 5 B:C or two 4 B:C.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.95",
+    "cfr_sections": ["49/393/95"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.95",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.95"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a power unit hauling placarded hazmat needs one extinguisher rated 10 B:C or higher; other units need one 5 B:C or two 4 B:C.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.95",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["fire extinguisher rating"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-CPL-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L01",
+    "topic": "Fifth wheel release",
+    "question": "A fifth wheel locking mechanism must prevent the upper and lower halves from separating unless:",
+    "options": [
+      "A positive manual release is used",
+      "The brakes are released",
+      "The trailer is empty",
+      "The engine is shut off"
+    ],
+    "answer_index": 0,
+    "explanation": "The lock must hold until someone uses a deliberate manual release.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.70",
+    "cfr_sections": ["49/393/70"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.70",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.70"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a fifth wheel must have a locking mechanism that prevents separation unless a positive manual release is activated.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.70",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["fifth wheel"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-CPL-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L01",
+    "topic": "Automatic lock",
+    "question": "Readily separable fifth wheel units must lock:",
+    "options": [
+      "Only after a pin is added by hand",
+      "When the trailer brakes release",
+      "After the driver sets the parking brake",
+      "Automatically when coupled"
+    ],
+    "answer_index": 3,
+    "explanation": "Units that can be separated easily must lock on their own when you couple.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.70",
+    "cfr_sections": ["49/393/70"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.70",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.70"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: readily separable fifth wheel units must lock automatically on coupling.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.70",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["fifth wheel"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-CPL-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L01",
+    "topic": "Tracking",
+    "question": "On a straight, level, smooth, paved surface, the towed unit may deviate from the towing unit's path by no more than:",
+    "options": [
+      "1 inch to either side",
+      "3 inches to either side",
+      "6 inches to either side",
+      "12 inches to either side"
+    ],
+    "answer_index": 1,
+    "explanation": "The trailer must follow within 3 inches of the path of the towing vehicle.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.70",
+    "cfr_sections": ["49/393/70"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.70",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.70"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: on a straight, level, smooth, paved surface the towed vehicle's path may not differ from the towing vehicle's path by more than 3 inches either way.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.70",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": [],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-CPL-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L01",
+    "topic": "Safety chains",
+    "question": "Safety chains or cables for a full trailer connect the towed unit to:",
+    "options": [
+      "The pintle hook",
+      "The frame of the towing vehicle",
+      "The tow-bar eye",
+      "The trailer's tail lamps"
+    ],
+    "answer_index": 1,
+    "explanation": "Safety devices back up the tow-bar. They tie to the towing vehicle's frame, not to the pintle hook or tow-bar attachment.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.70",
+    "cfr_sections": ["49/393/70"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.70",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.70"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a full trailer or dolly must be connected to the towing vehicle's frame by safety devices that are not attached to the pintle hook or tow-bar attachment.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.70",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["pintle hook"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-CPL-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L01",
+    "topic": "Safety device strength",
+    "question": "The ultimate strength of a trailer safety device must be at least:",
+    "options": [
+      "Half the gross weight being towed",
+      "The weight of the tow-bar",
+      "Twice the weight of the towing vehicle",
+      "The gross weight of the vehicles being towed"
+    ],
+    "answer_index": 3,
+    "explanation": "The safety device must be strong enough to hold the full weight if the main coupling fails.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.70",
+    "cfr_sections": ["49/393/70"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.70",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.70"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the ultimate strength of safety devices must be at least the gross weight of the vehicle or vehicles being towed.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.70",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": [],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-LGT-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L02",
+    "topic": "Stop lamp color",
+    "question": "What color must the stop lamps and tail lamps on a trailer be?",
+    "options": ["Red", "Amber", "White", "Green"],
+    "answer_index": 0,
+    "explanation": "Stop and tail lamps must be red. Amber stop and tail lamps are not allowed.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.11",
+    "cfr_sections": ["49/393/11"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.11",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.11"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: trailers need red stop and tail lamps, and amber stop lamps and amber tail lamps are prohibited.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.11",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-LGT-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L02",
+    "topic": "Identification lamps",
+    "question": "A semitrailer 80 inches or wider needs how many red identification lamps on the rear?",
+    "options": ["One", "Two", "Three", "Four"],
+    "answer_index": 2,
+    "explanation": "Wide trailers carry three red identification lamps grouped near the top at the rear.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.11",
+    "cfr_sections": ["49/393/11"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.11",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.11"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the lamp table calls for three red identification lamps on the rear of semitrailers and full trailers 80 inches or wider.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.11",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-LGT-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L02",
+    "topic": "Conspicuity date",
+    "question": "A conspicuity system is required on trailers at least 80 inches wide with a GVWR over 10,000 pounds made on or after:",
+    "options": ["January 1, 1980", "January 26, 1998", "December 1, 1993", "January 1, 2005"],
+    "answer_index": 2,
+    "explanation": "The system can be reflective tape, reflectors or both. Pole trailers and living or office trailers are exempt.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.11",
+    "cfr_sections": ["49/393/11"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.11",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.11"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: trailers at least 80 inches wide with a GVWR over 10,000 pounds made on or after December 1, 1993 need a conspicuity system, with some exceptions.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.11",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["conspicuity"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-LGT-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L02",
+    "topic": "Rear impact guard",
+    "question": "Trailers made on or after January 26, 1998 with a GVWR of 10,000 pounds or more generally need:",
+    "options": ["A rear impact guard", "A roof light bar", "Side skirts", "A rear camera"],
+    "answer_index": 0,
+    "explanation": "A rear impact guard helps keep a car from sliding under the back of the trailer.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.86",
+    "cfr_sections": ["49/393/86"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.86",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.86"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: trailers and semitrailers made on or after January 26, 1998 with a GVWR of 10,000 pounds or more generally must have a rear impact guard.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.86",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["rear impact guard", "GVWR"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-LGT-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L02",
+    "topic": "Guard height",
+    "question": "For a trailer that needs a rear impact guard, the guard's bottom edge may be no more than how far above the ground?",
+    "options": ["12 inches", "30 inches", "36 inches", "22 inches"],
+    "answer_index": 3,
+    "explanation": "The guard has to be low enough to stop a car from going under the trailer.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.86",
+    "cfr_sections": ["49/393/86"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.86",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.86"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: on trailers and semitrailers that need one, the bottom edge of the guard's horizontal member may be no more than 22 inches above the ground.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.86",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["rear impact guard"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-BRK-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L03",
+    "topic": "Breakaway brakes",
+    "question": "If a trailer that must have brakes breaks away, its brakes must apply:",
+    "options": [
+      "Only when the driver presses the brake pedal",
+      "Automatically and immediately",
+      "After a 15-minute delay",
+      "Only on the rear axle"
+    ],
+    "answer_index": 1,
+    "explanation": "No driver action is needed. The brakes apply on their own as soon as the trailer separates.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.43",
+    "cfr_sections": ["49/393/43"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.43",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.43"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a trailer required to have brakes must apply them automatically and immediately upon breakaway.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.43",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["breakaway"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-BRK-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L03",
+    "topic": "Brake hold time",
+    "question": "A two-axle trailer breaks away from the towing vehicle. Its brakes must stay applied for at least:",
+    "options": ["1 minute", "15 minutes", "5 minutes", "60 minutes"],
+    "answer_index": 1,
+    "explanation": "The brakes must hold for at least 15 minutes. Trailers with three or more axles are treated differently.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.43",
+    "cfr_sections": ["49/393/43"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.43",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.43"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: on trailers with fewer than three axles, the brakes applied on breakaway must stay applied for at least 15 minutes.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.43",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["breakaway"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-BRK-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L03",
+    "topic": "Surge brake limit",
+    "question": "A trailer with a GVWR of 12,000 pounds or less may use surge brakes if its GVWR is no more than how many times the towing vehicle's GVWR?",
+    "options": ["1.0 times", "1.25 times", "2.5 times", "1.75 times"],
+    "answer_index": 3,
+    "explanation": "Heavier trailers face a tighter limit. The 1.75 ratio is for trailers of 12,000 pounds or less.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.48",
+    "cfr_sections": ["49/393/48"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.48",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.48"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: surge brakes are allowed on trailers up to 12,000 pounds GVWR when the trailer's GVWR is no more than 1.75 times the towing vehicle's GVWR.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.48",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["surge brakes", "GVWR"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-BRK-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L03",
+    "topic": "Trailer ABS lamp",
+    "question": "An air-braked trailer made on or after March 1, 1998 must have what on the outside of the trailer?",
+    "options": [
+      "An ABS malfunction indicator lamp",
+      "A tire pressure gauge",
+      "An air pressure gauge",
+      "A brake temperature light"
+    ],
+    "answer_index": 0,
+    "explanation": "The lamp lets others, such as inspectors, see an ABS fault from outside the trailer.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.55",
+    "cfr_sections": ["49/393/55"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.55",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.55"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: trailers and converter dollies made on or after March 1, 1998 must have an exterior ABS malfunction indicator lamp.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.55",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["ABS"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "CB-BRK-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "COMBINATION",
+    "unit_id": "NAT-COMBINATION",
+    "lesson_id": "CB-L03",
+    "topic": "Tractor ABS",
+    "question": "An air-braked truck tractor made on or after March 1, 1997 must have:",
+    "options": [
+      "Disc brakes on all axles",
+      "A backup alarm",
+      "An antilock brake system (ABS)",
+      "A lane-departure warning"
+    ],
+    "answer_index": 2,
+    "explanation": "Tractors made on or after March 1, 1997 need ABS. Other air-braked vehicles follow a March 1, 1998 date.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 393.55",
+    "cfr_sections": ["49/393/55"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "393.55",
+      "url": "https://www.ecfr.gov/current/title-49/section-393.55"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: air-braked truck tractors made on or after March 1, 1997 must have an antilock brake system.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-393.55",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["ABS"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-PAP-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L01",
+    "topic": "Description order",
+    "question": "Which is the correct order for the basic description on a shipping paper?",
+    "options": [
+      "Proper shipping name, ID number, packing group, hazard class",
+      "Hazard class, ID number, packing group, proper shipping name",
+      "ID number, proper shipping name, hazard class, packing group",
+      "Packing group, hazard class, proper shipping name, ID number"
+    ],
+    "answer_index": 2,
+    "explanation": "The basic description goes in this order: ID number, proper shipping name, hazard class, packing group.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 172.202",
+    "cfr_sections": ["49/172/202"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "172.202",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.202"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the basic description lists the ID number, proper shipping name, hazard class or division, and packing group, in that order.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-172.202",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["proper shipping name", "packing group"],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-PAP-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L01",
+    "topic": "No extra information",
+    "question": "The basic description on a shipping paper must be written:",
+    "options": [
+      "In sequence, with no extra information mixed in",
+      "In any order that fits the page",
+      "With the quantity in the middle",
+      "Only as a code"
+    ],
+    "answer_index": 0,
+    "explanation": "Extra details may go before or after the description, but not in the middle of it.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 172.202",
+    "cfr_sections": ["49/172/202"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "172.202",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.202"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the basic description must appear in sequence with no additional information interspersed.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-172.202",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": [],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-PAP-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L01",
+    "topic": "Total quantity",
+    "question": "The total quantity on a shipping paper must include:",
+    "options": [
+      "A color code",
+      "The driver's initials",
+      "The carrier's phone number",
+      "A unit of measurement, such as kg or L"
+    ],
+    "answer_index": 3,
+    "explanation": "A number alone is not enough. It needs a unit like kg or L.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 172.202",
+    "cfr_sections": ["49/172/202"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "172.202",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.202"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the total quantity must be shown with a unit of measurement, such as kilograms or liters.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-172.202",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": [],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-PAP-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L01",
+    "topic": "Paper while driving",
+    "question": "While you are driving and belted in, the shipping paper must be:",
+    "options": [
+      "In the trailer's cargo area",
+      "Within reach and visible, or in the driver's door holder",
+      "In the glove box with the registration",
+      "With the dispatcher"
+    ],
+    "answer_index": 1,
+    "explanation": "Keep it where you can reach it while belted, and where someone entering the cab can see it, or in the door holder.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 177.817",
+    "cfr_sections": ["49/177/817"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "177.817",
+      "url": "https://www.ecfr.gov/current/title-49/section-177.817"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: with the driver at the controls, the shipping paper must be within immediate reach when belted and visible, or in a holder mounted in the driver's door.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-177.817",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": [],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-PAP-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L01",
+    "topic": "Paper out of the cab",
+    "question": "When the driver is not at the controls, the shipping paper must be:",
+    "options": [
+      "Locked in the trailer",
+      "In the driver's door holder or on the driver's seat",
+      "Left with the shipper",
+      "Hidden under the bunk"
+    ],
+    "answer_index": 1,
+    "explanation": "Responders must be able to find the paper fast, so it stays in the door holder or on the driver's seat.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 177.817",
+    "cfr_sections": ["49/177/817"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "177.817",
+      "url": "https://www.ecfr.gov/current/title-49/section-177.817"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: when the driver is not at the controls, the shipping paper must be in the driver's door holder or on the driver's seat.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-177.817",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": [],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-PAP-006",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L01",
+    "topic": "Hazmat papers among others",
+    "question": "If hazmat shipping papers are carried with other papers, they must be:",
+    "options": [
+      "Placed last",
+      "Folded inside the logbook",
+      "Stapled to the inspection report",
+      "Tabbed or placed first"
+    ],
+    "answer_index": 3,
+    "explanation": "That makes the hazmat papers easy to spot in an inspection or a crash.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 177.817",
+    "cfr_sections": ["49/177/817"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "177.817",
+      "url": "https://www.ecfr.gov/current/title-49/section-177.817"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: when carried with other papers, the hazmat shipping paper must be tabbed or placed first.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-177.817",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": [],
+    "free_tier": true,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-PLC-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L02",
+    "topic": "Any-quantity placard",
+    "question": "Which of these needs a placard in any amount?",
+    "options": [
+      "Division 2.3 poison gas",
+      "Class 8 corrosive",
+      "Class 3 flammable liquid",
+      "Division 2.2 non-flammable gas"
+    ],
+    "answer_index": 0,
+    "explanation": "Division 2.3 is on the list that needs placards in any amount. The others are only placarded at 1,001 pounds or more.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 172.504",
+    "cfr_sections": ["49/172/504"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "172.504",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.504"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: Division 2.3 poison gas is in the table of materials that require a placard regardless of quantity.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-172.504",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["placard"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-PLC-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L02",
+    "topic": "1,001 pound rule",
+    "question": "Materials in the second placard table need a placard when the total gross weight is at least:",
+    "options": ["501 pounds", "2,205 pounds", "1,001 pounds", "10,001 pounds"],
+    "answer_index": 2,
+    "explanation": "Under 1,001 pounds of these materials, no placard is needed unless the packaging is bulk.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 172.504",
+    "cfr_sections": ["49/172/504"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "172.504",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.504"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: for highway transport of the second table's materials, no placard is needed below 1,001 pounds aggregate gross weight, except bulk packagings.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-172.504",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["placard"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-PLC-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L02",
+    "topic": "Bulk placards",
+    "question": "A bulk packaging that holds any amount of a hazardous material must be placarded:",
+    "options": [
+      "On the rear only",
+      "On the front and rear only",
+      "On each side and each end",
+      "Only when over 1,001 pounds"
+    ],
+    "answer_index": 2,
+    "explanation": "Bulk tanks are placarded on all four sides no matter how little is inside.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 172.504",
+    "cfr_sections": ["49/172/504"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "172.504",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.504"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: bulk packagings and transport vehicles with any quantity of hazmat must be placarded on each side and each end.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-172.504",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["bulk packaging"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-PLC-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L02",
+    "topic": "DANGEROUS placard use",
+    "question": "A DANGEROUS placard may replace separate placards when a vehicle carries non-bulk packages of:",
+    "options": [
+      "Two or more categories needing different placards",
+      "Only one category",
+      "Any first-table material",
+      "Bulk tanks of any category"
+    ],
+    "answer_index": 0,
+    "explanation": "It is a shortcut for mixed loads in small packages.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 172.504",
+    "cfr_sections": ["49/172/504"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "172.504",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.504"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a DANGEROUS placard may replace separate second-table placards for non-bulk packages of two or more categories that need different placards.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-172.504",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["placard", "non-bulk"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-PLC-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L02",
+    "topic": "DANGEROUS placard limit",
+    "question": "A DANGEROUS placard cannot replace a category's own placard once you load at one facility at least:",
+    "options": [
+      "500 pounds of that category",
+      "1,001 pounds of that category",
+      "10,000 pounds of that category",
+      "2,205 pounds of that category"
+    ],
+    "answer_index": 3,
+    "explanation": "At 1,000 kg (2,205 pounds) or more of one category loaded at one place, that category's own placard is required.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 172.504",
+    "cfr_sections": ["49/172/504"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "172.504",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.504"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the DANGEROUS placard may not be used once 1,000 kg (2,205 pounds) or more of one category is loaded at one facility; the category placard is then required.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-172.504",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["placard"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-ERI-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L03",
+    "topic": "Required content",
+    "question": "Which item must be in the emergency response information?",
+    "options": [
+      "Which fuel stops to use",
+      "Initial methods for handling spills or leaks",
+      "How to reduce delivery time",
+      "The driver's hours of service"
+    ],
+    "answer_index": 1,
+    "explanation": "The required items include hazards to health, fire and explosion risks, precautions, fire and spill steps, and first aid.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 172.602",
+    "cfr_sections": ["49/172/602"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "172.602",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.602"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: emergency response information must include immediate health hazards, fire and explosion risks, precautions, and methods for fires, spills and first aid.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-172.602",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["emergency response information"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-ERI-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L03",
+    "topic": "Language",
+    "question": "In which language must emergency response information be printed?",
+    "options": [
+      "Spanish",
+      "English",
+      "The driver's home state language",
+      "Any language the shipper picks"
+    ],
+    "answer_index": 1,
+    "explanation": "It must be printed legibly in English.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 172.602",
+    "cfr_sections": ["49/172/602"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "172.602",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.602"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: emergency response information must be printed legibly in English.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-172.602",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["emergency response information"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-ERI-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L03",
+    "topic": "Presentation",
+    "question": "Emergency response information may be on a shipping paper or in:",
+    "options": [
+      "Only the driver's memory",
+      "A text message from dispatch",
+      "Only the package label",
+      "A separate document cross-referenced to the shipping paper entry"
+    ],
+    "answer_index": 3,
+    "explanation": "A separate guide is fine if it is tied to the shipping paper entry.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 172.602",
+    "cfr_sections": ["49/172/602"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "172.602",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.602"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: emergency response information may be on a shipping paper, in another document with the basic description, or in a separate document cross-referenced to the shipping paper entry.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-172.602",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["emergency response information"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-ERI-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L03",
+    "topic": "Carrier handling",
+    "question": "Carriers must keep emergency response information the same way they keep:",
+    "options": ["Shipping papers", "Fuel receipts", "Driver logbooks", "Tire records"],
+    "answer_index": 0,
+    "explanation": "The rule ties the two together so both are kept and found the same way.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 172.602",
+    "cfr_sections": ["49/172/602"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "172.602",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.602"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: carriers must maintain emergency response information in the same way they maintain shipping papers.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-172.602",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["emergency response information"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-ERI-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L03",
+    "topic": "Access for drivers",
+    "question": "Emergency response information must be kept so that it is:",
+    "options": [
+      "Mailed to the driver later",
+      "Available within a day",
+      "Immediately accessible to the driver",
+      "Available at the next terminal"
+    ],
+    "answer_index": 2,
+    "explanation": "In an incident there is no time to look for it, so the driver must be able to get to it right away.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 172.602",
+    "cfr_sections": ["49/172/602"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "172.602",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.602"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: emergency response information must be immediately accessible to drivers of motor vehicles for use in hazmat incidents.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-172.602",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["emergency response information"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-SEG-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L04",
+    "topic": "Meaning of X",
+    "question": "On the segregation table, an X means the materials:",
+    "options": [
+      "May be loaded together with a placard",
+      "Must be loaded one above the other",
+      "May not be loaded or carried together in the same vehicle",
+      "Need no separation"
+    ],
+    "answer_index": 2,
+    "explanation": "An X is a firm no. Those two kinds of materials may not share a vehicle.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 177.848",
+    "cfr_sections": ["49/177/848"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "177.848",
+      "url": "https://www.ecfr.gov/current/title-49/section-177.848"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: an X on the segregation table means the materials may not be loaded, transported or stored together in the same vehicle or facility.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-177.848",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["segregation"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-SEG-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L04",
+    "topic": "Meaning of O",
+    "question": "On the segregation table, an O means the materials may not be stored together unless:",
+    "options": [
+      "They are separated so a leak would not mix them",
+      "Both placards are removed",
+      "Both loads are under 1,001 pounds",
+      "The driver stays in the cab"
+    ],
+    "answer_index": 0,
+    "explanation": "An O allows the two to ride together only if a leak from one could not reach the other.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 177.848",
+    "cfr_sections": ["49/177/848"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "177.848",
+      "url": "https://www.ecfr.gov/current/title-49/section-177.848"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: an O on the table means the materials may not be stored together unless separated so leakage under normal transport conditions would not cause mixing.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-177.848",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["segregation"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-SEG-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L04",
+    "topic": "Blank on the table",
+    "question": "A blank space on the segregation table means:",
+    "options": [
+      "The materials may never be loaded together",
+      "The load is banned",
+      "The materials need four feet of space",
+      "No segregation restriction applies"
+    ],
+    "answer_index": 3,
+    "explanation": "A blank cell means the table puts no restriction on that pair.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 177.848",
+    "cfr_sections": ["49/177/848"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "177.848",
+      "url": "https://www.ecfr.gov/current/title-49/section-177.848"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a blank cell on the segregation table means no segregation restriction applies to that pair of materials.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-177.848",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": ["segregation"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-SEG-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L04",
+    "topic": "Cyanides and acids",
+    "question": "Cyanides may not be carried with acids if mixing them would make:",
+    "options": ["Carbon monoxide", "Hydrogen cyanide", "Chlorine gas", "Nitrogen"],
+    "answer_index": 1,
+    "explanation": "Mixing cyanides and acids can release hydrogen cyanide, a deadly gas.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 177.848",
+    "cfr_sections": ["49/177/848"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "177.848",
+      "url": "https://www.ecfr.gov/current/title-49/section-177.848"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: cyanides and cyanide solutions may not be loaded or carried with acids if mixing them could generate hydrogen cyanide.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-177.848",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["segregation"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-SEG-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L04",
+    "topic": "Class 8 liquids",
+    "question": "Class 8 corrosive liquids may not be loaded above or next to:",
+    "options": [
+      "Class 7 materials",
+      "Class 4 or Class 5 materials",
+      "Class 9 materials",
+      "Division 2.2 gases"
+    ],
+    "answer_index": 1,
+    "explanation": "Corrosive liquids must stay away from Class 4 and Class 5 materials, though a truckload exception exists when the shipper knows they will not react.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 177.848",
+    "cfr_sections": ["49/177/848"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "177.848",
+      "url": "https://www.ecfr.gov/current/title-49/section-177.848"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: Class 8 liquids may not be loaded above or adjacent to Class 4 or Class 5 materials, with a limited truckload exception.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-177.848",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 3,
+    "glossary_terms": ["segregation"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-OPS-001",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L05",
+    "topic": "Attended distance",
+    "question": "Under Part 397, a hazmat vehicle is attended if the person in charge is on it, or within what distance of it with it in unobstructed view?",
+    "options": ["25 feet", "50 feet", "300 feet", "100 feet"],
+    "answer_index": 3,
+    "explanation": "On the vehicle, the person must be awake and not in the sleeper berth. Off the vehicle, the person must be within 100 feet with a clear view.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 397.5",
+    "cfr_sections": ["49/397/5"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "397.5",
+      "url": "https://www.ecfr.gov/current/title-49/section-397.5"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: attended means the person in charge is on the vehicle awake and not in a sleeper berth, or within 100 feet of it with the vehicle in unobstructed view.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-397.5",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["attended"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-OPS-002",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L05",
+    "topic": "Public street",
+    "question": "Except for Division 1.1 to 1.3 explosives, a hazmat vehicle on a public street or highway shoulder must be attended by:",
+    "options": ["Its driver", "Any passerby", "The shipper, by phone", "No one, if it is locked"],
+    "answer_index": 0,
+    "explanation": "The driver does not need to stay with the vehicle while doing duties needed to run it.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 397.5",
+    "cfr_sections": ["49/397/5"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "397.5",
+      "url": "https://www.ecfr.gov/current/title-49/section-397.5"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a vehicle carrying hazmat other than Division 1.1 to 1.3 must be attended by its driver when on a public street, highway or shoulder.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-397.5",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 2,
+    "glossary_terms": ["attended"],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-OPS-003",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L05",
+    "topic": "Parking distance",
+    "question": "A hazmat vehicle may not park on or within how many feet of the traveled part of a public road?",
+    "options": ["25 feet", "50 feet", "5 feet", "100 feet"],
+    "answer_index": 2,
+    "explanation": "A brief stop is allowed when operating needs require it and no other location is practicable.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 397.7",
+    "cfr_sections": ["49/397/7"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "397.7",
+      "url": "https://www.ecfr.gov/current/title-49/section-397.7"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: a vehicle carrying hazmat may not be parked on or within 5 feet of the traveled part of a public street or highway, with a brief-period exception.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-397.7",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-OPS-004",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L05",
+    "topic": "Smoking distance",
+    "question": "Smoking is banned on or within what distance of a motor vehicle that is carrying flammable liquids?",
+    "options": ["5 feet", "50 feet", "25 feet", "100 feet"],
+    "answer_index": 2,
+    "explanation": "The ban covers Class 1 and Class 5 materials, flammable gases and liquids, and flammable and spontaneously combustible solids.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 397.13",
+    "cfr_sections": ["49/397/13"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "397.13",
+      "url": "https://www.ecfr.gov/current/title-49/section-397.13"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: no one may smoke or carry a lighted cigarette, cigar or pipe on or within 25 feet of a vehicle carrying flammable liquids or certain other hazmat.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-397.13",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-OPS-005",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L05",
+    "topic": "Fueling",
+    "question": "When a vehicle carrying hazmat is being fueled, the engine must be:",
+    "options": [
+      "Off, with a person in control of the fueling",
+      "Idling to keep air pressure up",
+      "Running at a fast idle",
+      "Running with the parking brake off"
+    ],
+    "answer_index": 0,
+    "explanation": "The engine is off and someone controls the fuel flow at the tank opening.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 397.15",
+    "cfr_sections": ["49/397/15"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "397.15",
+      "url": "https://www.ecfr.gov/current/title-49/section-397.15"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: when fueling a vehicle that contains hazardous materials, the engine must not be running and a person must be in control at the filling point.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-397.15",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
+  },
+  {
+    "id": "HM-OPS-006",
+    "type": "mc",
+    "state": "NAT",
+    "section": "HAZMAT",
+    "unit_id": "NAT-HAZMAT",
+    "lesson_id": "HM-L05",
+    "topic": "Tire checks",
+    "question": "A driver of a hazmat load must examine each tire at the start of each trip and:",
+    "options": [
+      "Every 500 miles",
+      "Once a day",
+      "Only when a tire looks low",
+      "Each time the vehicle is parked"
+    ],
+    "answer_index": 3,
+    "explanation": "A flat, leaking or underinflated tire must be fixed before driving on, though you may drive to the nearest safe place for repair.",
+    "manual_citation": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "regulation_ref": "49 CFR 397.17",
+    "cfr_sections": ["49/397/17"],
+    "source_a": {
+      "doc": "49 CFR",
+      "locator": "397.17",
+      "url": "https://www.ecfr.gov/current/title-49/section-397.17"
+    },
+    "source_b": {
+      "doc": "State CDL manual",
+      "locator": "[VERIFY]"
+    },
+    "source_excerpt_paraphrase": "Federal rule: the driver must examine each tire at the beginning of each trip and each time the vehicle is parked.",
+    "official_manual_url": "https://www.ecfr.gov/current/title-49/section-397.17",
+    "last_checked": "2026-10-29",
+    "verified_a_by": "",
+    "verified_b_by": "",
+    "review_status": "draft",
+    "difficulty": 1,
+    "glossary_terms": [],
+    "free_tier": false,
+    "version": 1,
+    "change_note": "[VERIFY eCFR] drafted from LII mirror"
   }
 ]
